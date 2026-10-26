@@ -1210,7 +1210,8 @@
     return (chargeTex = { minus: mk('δ−', '#ff8a80'), plus: mk('δ+', '#dce6ee') });
   }
 
-  /* cfg: {count, layout: 'pair'|'cluster'|'bulk', T, speed (fs per frame), chargeScale 0..1, seed, electrons} */
+  /* cfg: {count, layout: 'pair'|'cluster'|'bulk', T, speed (fs per frame), chargeScale 0..1, seed, electrons,
+          follow: keep the group's centre of mass in view (always on for one or two molecules)} */
   S.molSim = function (tpl, cfg) {
     const n = tpl.n, N = cfg.count, nb = tpl.bonds.length;
     const rnd = A.rng(cfg.seed || 3);
@@ -1558,7 +1559,7 @@
           while (acc >= 1 && guard++ < 40) { step(); acc -= 1; }
         }
         // keep one or two molecules centred as they drift, like the water lab
-        if (N <= 2) { com.set(0, 0, 0); mols.forEach((M) => com.add(M.p)); group.position.lerp(com.divideScalar(N).negate(), 0.05); }
+        if (N <= 2 || cfg.follow) { com.set(0, 0, 0); mols.forEach((M) => com.add(M.p)); group.position.lerp(com.divideScalar(N).negate(), 0.05); }
         draw(t);
         if (dt > 0 && ++frames % 8 === 0) { hist.push(hbCount / N); if (hist.length > 300) hist.shift(); }
       },

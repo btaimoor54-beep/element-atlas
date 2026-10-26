@@ -1,0 +1,29 @@
+<!doctype html>
+<!-- the videos use the site's dark theme, whatever the rendering computer's own setting is -->
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- the atlas code loads its data and photos by relative path, so resolve everything against /atlas/ -->
+<base href="/atlas/">
+<title>Element Atlas · Video studio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+  body { margin: 0; background: #05080c; color: #dce6ee; font: 14px/1.4 system-ui, sans-serif; display: flex; gap: 16px; padding: 12px; }
+  #out { width: 270px; height: 480px; border: 1px solid #213140; border-radius: 8px; background: #080d13; }
+  #status { font: 12px/1.5 Consolas, monospace; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<canvas id="out" width="1080" height="1920"></canvas>
+<div id="status">Loading…</div>
+<script>window.ATLAS_NO_START = true;</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/core.js"></script>
+<script src="js/scenes.js"></script>
+<script src="js/views.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mp4-muxer@5.2.1/build/mp4-muxer.min.js"></script>
+<script src="/video/engine.js"></script>
+<script src="/video/parts.js"></script>
+</body>
+</html>

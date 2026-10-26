@@ -1114,5 +1114,7 @@
     A.route();
     window.addEventListener('hashchange', A.route);
   }
-  start();
+  // building blocks for other pages that reuse the atlas, such as the video studio (video/studio.html)
+  A.build = { COLOR_MODES, LEVELS, SCENES, colorFor, elementalGeometry, elementalBuild, elementState, matterBuild, molecularGeometry, compoundBuild, simInfo, realState, measureGeometry, predict };
+  if (!window.ATLAS_NO_START) start(); // such pages set ATLAS_NO_START and drive the scenes themselves
 })();
