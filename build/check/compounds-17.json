@@ -1,0 +1,531 @@
+[
+    {
+        "id":  "brass",
+        "name":  "Brass",
+        "formula":  "Cu-Zn",
+        "aka":  [
+                    "cartridge brass (70/30)"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Cu",
+                         "Zn"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "fcc",
+                          "a":  369,
+                          "composition":  [
+                                              {
+                                                  "el":  "Cu",
+                                                  "fraction":  0.67
+                                              },
+                                              {
+                                                  "el":  "Zn",
+                                                  "fraction":  0.33
+                                              }
+                                          ],
+                          "note":  "Atoms placed at random in their proportions (alpha brass)."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Zinc atoms substituted for some copper atoms on copper\u0027s lattice.",
+                        "electronSharing":  "Zinc\u0027s two valence electrons join copper\u0027s one-per-atom electron sea; the larger zinc atoms strain the lattice and make brass harder than copper.",
+                        "geometry":  "Face-centered cubic (alpha brass)",
+                        "bondLengths":  "Metal–metal about 261 pm"
+                    },
+        "formation":  "Melting copper and zinc together",
+        "state":  "solid",
+        "meltingPointC":  920,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic, known since Roman times.",
+        "uses":  [
+                     "Musical instruments",
+                     "Plumbing fittings and valves",
+                     "Ammunition casings",
+                     "Locks and decorative hardware"
+                 ],
+        "facts":  [
+                      "Brass doorknobs slowly kill bacteria on their surface."
+                  ],
+        "hazards":  "Safe.",
+        "summary":  "Brass is copper alloyed with zinc, golden and easy to shape."
+    },
+    {
+        "id":  "bronze",
+        "name":  "Bronze",
+        "formula":  "Cu-Sn",
+        "aka":  [
+                    "tin bronze"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Cu",
+                         "Sn"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "fcc",
+                          "a":  368,
+                          "composition":  [
+                                              {
+                                                  "el":  "Cu",
+                                                  "fraction":  0.93
+                                              },
+                                              {
+                                                  "el":  "Sn",
+                                                  "fraction":  0.07
+                                              }
+                                          ],
+                          "note":  "Atoms placed at random in their proportions (about 12% tin by mass)."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Tin atoms dissolved in copper\u0027s lattice.",
+                        "electronSharing":  "Tin contributes four valence electrons to the shared electron sea; its large atoms block slipping planes, so bronze is much harder than either metal.",
+                        "geometry":  "Face-centered cubic",
+                        "bondLengths":  "Metal–metal about 260 pm"
+                    },
+        "formation":  "Smelting copper with tin ore (cassiterite)",
+        "state":  "solid",
+        "meltingPointC":  950,
+        "boilingPointC":  null,
+        "occurrence":  "Made since about 3300 BCE.",
+        "uses":  [
+                     "Bells and statues",
+                     "Ship propellers and bearings",
+                     "Medals"
+                 ],
+        "facts":  [
+                      "Bronze gave its name to the Bronze Age."
+                  ],
+        "hazards":  "Safe.",
+        "summary":  "Bronze, copper hardened with tin, defined an age of human history."
+    },
+    {
+        "id":  "sterling-silver",
+        "name":  "Sterling silver",
+        "formula":  "Ag 92.5% Cu 7.5%",
+        "aka":  [
+                    "925 silver"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Ag",
+                         "Cu"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "fcc",
+                          "a":  407,
+                          "composition":  [
+                                              {
+                                                  "el":  "Ag",
+                                                  "fraction":  0.877
+                                              },
+                                              {
+                                                  "el":  "Cu",
+                                                  "fraction":  0.123
+                                              }
+                                          ],
+                          "note":  "Atom fractions; 7.5% copper by mass is about 12% of atoms."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Copper atoms dissolved in silver\u0027s lattice.",
+                        "electronSharing":  "Copper and silver both give one s electron to the shared sea; smaller copper atoms strain the lattice and harden the soft silver.",
+                        "geometry":  "Face-centered cubic",
+                        "bondLengths":  "Metal–metal about 288 pm"
+                    },
+        "formation":  "Melting 925 parts silver with 75 parts copper",
+        "state":  "solid",
+        "meltingPointC":  893,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Jewelry and tableware",
+                     "Coins (historically)",
+                     "Musical instruments (flutes)"
+                 ],
+        "facts":  [
+                      "Pure silver is too soft for most uses; copper makes it durable."
+                  ],
+        "hazards":  "Safe.",
+        "summary":  "Sterling silver is silver toughened with copper."
+    },
+    {
+        "id":  "gold-18k",
+        "name":  "18-karat gold",
+        "formula":  "Au 75% + Ag/Cu",
+        "aka":  [
+                    "18k yellow gold"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Au",
+                         "Ag",
+                         "Cu"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "fcc",
+                          "a":  400,
+                          "composition":  [
+                                              {
+                                                  "el":  "Au",
+                                                  "fraction":  0.549
+                                              },
+                                              {
+                                                  "el":  "Ag",
+                                                  "fraction":  0.167
+                                              },
+                                              {
+                                                  "el":  "Cu",
+                                                  "fraction":  0.284
+                                              }
+                                          ],
+                          "note":  "Atom fractions for 75% gold, 12.5% silver and 12.5% copper by mass."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Gold with silver and copper atoms mixed on one lattice.",
+                        "electronSharing":  "All three metals give one s electron each to the shared sea; the mix is harder than pure gold and the silver-to-copper ratio sets the color.",
+                        "geometry":  "Face-centered cubic",
+                        "bondLengths":  "Metal–metal about 283 pm"
+                    },
+        "formation":  "Melting gold with silver and copper",
+        "state":  "solid",
+        "meltingPointC":  900,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Fine jewelry",
+                     "Watch cases"
+                 ],
+        "facts":  [
+                      "\u002718 karat\u0027 means 18 parts in 24 are gold by mass."
+                  ],
+        "hazards":  "Safe.",
+        "summary":  "18k gold is three-quarters gold, hardened and tinted by silver and copper."
+    },
+    {
+        "id":  "nitinol",
+        "name":  "Nitinol (shape-memory alloy)",
+        "formula":  "NiTi",
+        "aka":  [
+                    "nickel titanium"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Ni",
+                         "Ti"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "cesium-chloride",
+                          "a":  301.5,
+                          "cation":  "Ni",
+                          "anion":  "Ti",
+                          "note":  "Ordered B2 (austenite) phase; on cooling it shifts to a monoclinic martensite."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "An ordered compound: each Ni at the center of a cube of Ti, and vice versa.",
+                        "electronSharing":  "Nickel and titanium share a metallic electron sea, but their ordered arrangement lets the lattice switch reversibly between two crystal forms.",
+                        "geometry":  "Cesium chloride (B2) structure",
+                        "bondLengths":  "Ni–Ti 261 pm"
+                    },
+        "formation":  "Melting equal numbers of nickel and titanium atoms in vacuum",
+        "state":  "solid",
+        "meltingPointC":  1310,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic, discovered in 1959 at the US Naval Ordnance Laboratory.",
+        "uses":  [
+                     "Self-expanding medical stents",
+                     "Orthodontic wires",
+                     "Eyeglass frames that spring back",
+                     "Actuators"
+                 ],
+        "facts":  [
+                      "Bent nitinol springs back to its remembered shape when warmed."
+                  ],
+        "hazards":  "Safe in medical grades.",
+        "summary":  "Nitinol \u0027remembers\u0027 its shape because its crystal can flip between two forms."
+    },
+    {
+        "id":  "niobium-titanium",
+        "name":  "Niobium-titanium superconductor",
+        "formula":  "NbTi",
+        "aka":  [
+                    "Nb-Ti"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Nb",
+                         "Ti"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "bcc",
+                          "a":  328,
+                          "composition":  [
+                                              {
+                                                  "el":  "Nb",
+                                                  "fraction":  0.37
+                                              },
+                                              {
+                                                  "el":  "Ti",
+                                                  "fraction":  0.63
+                                              }
+                                          ],
+                          "note":  "About 47% titanium by mass."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Niobium and titanium atoms mixed on a body-centered cubic lattice.",
+                        "electronSharing":  "Below about 10 K, electrons in the shared sea pair up (Cooper pairs) and flow with zero resistance.",
+                        "geometry":  "Body-centered cubic",
+                        "bondLengths":  "Metal–metal about 284 pm"
+                    },
+        "formation":  "Melting niobium and titanium, then drawing into fine filaments in a copper matrix",
+        "state":  "solid",
+        "meltingPointC":  2100,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "MRI magnets",
+                     "Particle-accelerator magnets (LHC)",
+                     "Fusion experiments"
+                 ],
+        "facts":  [
+                      "The Large Hadron Collider uses about 1,200 tonnes of NbTi superconducting cable."
+                  ],
+        "hazards":  "Safe.",
+        "summary":  "NbTi wire carries huge currents with zero resistance in MRI and LHC magnets."
+    },
+    {
+        "id":  "neodymium-magnet",
+        "name":  "Neodymium magnet",
+        "formula":  "Nd2Fe14B",
+        "aka":  [
+                    "NdFeB",
+                    "neo magnet"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Nd",
+                         "Fe",
+                         "B"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "bcc",
+                          "a":  287,
+                          "composition":  [
+                                              {
+                                                  "el":  "Nd",
+                                                  "fraction":  0.118
+                                              },
+                                              {
+                                                  "el":  "Fe",
+                                                  "fraction":  0.824
+                                              },
+                                              {
+                                                  "el":  "B",
+                                                  "fraction":  0.058
+                                              }
+                                          ],
+                          "note":  "Schematic: atoms in the right proportions; the real tetragonal cell has 68 atoms."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "An intermetallic compound with a complex tetragonal structure.",
+                        "electronSharing":  "Iron\u0027s unpaired 3d electrons give strong magnetism; neodymium\u0027s 4f electrons lock that magnetism along one crystal direction so it resists being demagnetized.",
+                        "geometry":  "Tetragonal (68-atom cell)",
+                        "bondLengths":  "Fe–Fe about 245–280 pm"
+                    },
+        "formation":  "Melting Nd, Fe and B, then powdering, aligning in a magnetic field and sintering",
+        "state":  "solid",
+        "meltingPointC":  1185,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic, invented in 1982–84.",
+        "uses":  [
+                     "Electric-car and wind-turbine motors",
+                     "Headphones and speakers",
+                     "Hard drives",
+                     "Magnetic clasps"
+                 ],
+        "facts":  [
+                      "They are the strongest permanent magnets commercially available."
+                  ],
+        "hazards":  "Can pinch skin; brittle and may shatter.",
+        "summary":  "Neodymium magnets are the strongest permanent magnets, powering electric motors."
+    },
+    {
+        "id":  "samarium-cobalt",
+        "name":  "Samarium-cobalt magnet",
+        "formula":  "SmCo5",
+        "aka":  [
+                    "SmCo"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Sm",
+                         "Co"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "cacu5",
+                          "a":  500,
+                          "c":  397,
+                          "cation":  "Sm",
+                          "anion":  "Co"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Samarium atoms in hexagonal channels of a cobalt framework (CaCu5 structure).",
+                        "electronSharing":  "Cobalt\u0027s unpaired d electrons provide the magnetism; samarium\u0027s 4f electrons fix its direction along the hexagonal axis.",
+                        "geometry":  "Hexagonal CaCu5 type",
+                        "bondLengths":  "Co–Co about 245–250 pm"
+                    },
+        "formation":  "Reducing Sm2O3 with calcium in the presence of cobalt",
+        "state":  "solid",
+        "meltingPointC":  1350,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic, developed in the 1960s.",
+        "uses":  [
+                     "High-temperature motors and sensors",
+                     "Aerospace and military equipment"
+                 ],
+        "facts":  [
+                      "SmCo magnets keep working above 300 °C, where neodymium magnets fail."
+                  ],
+        "hazards":  "Brittle.",
+        "summary":  "SmCo5 is a heat-resistant permanent magnet."
+    },
+    {
+        "id":  "lanthanum-nickel",
+        "name":  "Lanthanum nickel (hydrogen storage)",
+        "formula":  "LaNi5",
+        "aka":  [
+
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "La",
+                         "Ni"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "cacu5",
+                          "a":  501.7,
+                          "c":  398.7,
+                          "cation":  "La",
+                          "anion":  "Ni"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "La atoms in hexagonal channels of a nickel framework, with gaps that can hold hydrogen.",
+                        "electronSharing":  "Hydrogen molecules split at the surface; the atoms slip into gaps in the lattice and share electrons with the metal, forming LaNi5H6.",
+                        "geometry":  "Hexagonal CaCu5 type",
+                        "bondLengths":  "Ni–Ni about 250 pm"
+                    },
+        "formation":  "Melting lanthanum and nickel together",
+        "state":  "solid",
+        "meltingPointC":  1350,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Nickel-metal hydride battery anodes",
+                     "Hydrogen storage and purification"
+                 ],
+        "facts":  [
+                      "LaNi5 can hold hydrogen at a density higher than liquid hydrogen."
+                  ],
+        "hazards":  "Powder can be flammable.",
+        "summary":  "LaNi5 soaks up hydrogen like a sponge, the key to NiMH batteries."
+    },
+    {
+        "id":  "terfenol-d",
+        "name":  "Terfenol-D",
+        "formula":  "Tb0.3Dy0.7Fe2",
+        "aka":  [
+
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Tb",
+                         "Dy",
+                         "Fe"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "laves-c15",
+                          "a":  733,
+                          "cationMix":  [
+                                            {
+                                                "el":  "Tb",
+                                                "fraction":  0.3
+                                            },
+                                            {
+                                                "el":  "Dy",
+                                                "fraction":  0.7
+                                            }
+                                        ],
+                          "cation":  "Dy",
+                          "anion":  "Fe"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "A cubic Laves phase: Tb and Dy on a diamond-like network, Fe on linked tetrahedra.",
+                        "electronSharing":  "Iron\u0027s d electrons and the rare earths\u0027 4f electrons couple so strongly to the lattice that magnetizing the crystal stretches it.",
+                        "geometry":  "Cubic C15 (MgCu2 type)",
+                        "bondLengths":  "Fe–Fe about 259 pm"
+                    },
+        "formation":  "Melting terbium, dysprosium and iron, then growing oriented crystals",
+        "state":  "solid",
+        "meltingPointC":  1240,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic, developed at the US Naval Ordnance Laboratory in the 1970s.",
+        "uses":  [
+                     "Sonar transducers",
+                     "Precision actuators",
+                     "Turning surfaces into speakers"
+                 ],
+        "facts":  [
+                      "Its name stands for TERbium, FErrum (iron), Naval Ordnance Laboratory, and D for dysprosium."
+                  ],
+        "hazards":  "Brittle.",
+        "summary":  "Terfenol-D changes length in a magnetic field more than any other room-temperature material."
+    }
+]

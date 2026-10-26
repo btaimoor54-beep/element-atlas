@@ -1,0 +1,167 @@
+[
+    {
+        "kind":  "element",
+        "batch":  "elements 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-08.json",
+        "id":  "Ta",
+        "field":  "ionizationEnergy",
+        "current":  "7.89",
+        "corrected":  "7.5496",
+        "reason":  "7.89 eV is the outdated 761 kJ/mol estimate. The measured first ionization energy of tantalum is 7.5496 eV, so the current value is about 4.5% too high.",
+        "source":  "NIST Atomic Spectra Database / CRC Handbook (Ta I ionization energy 7.549571 eV); Wikipedia \u0027Ionization energies of the elements (data page)\u0027, CRC row"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-08.json",
+        "id":  "Os",
+        "field":  "ionizationEnergy",
+        "current":  "8.7",
+        "corrected":  "8.4382",
+        "reason":  "8.7 eV is the old 840 kJ/mol estimate. The measured value is 8.4382 eV, so the current value is about 3% too high. Some infoboxes still show 840 kJ/mol, so confidence is medium.",
+        "source":  "NIST Atomic Spectra Database / CRC Handbook (Os I ionization energy 8.43823 eV); Wikipedia \u0027Ionization energies of the elements (data page)\u0027, CRC row"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-08.json",
+        "id":  "Re",
+        "field":  "electronAffinity",
+        "current":  "0.15",
+        "corrected":  "0.0604",
+        "reason":  "0.15 eV is an old semi-empirical estimate. The measured electron affinity of rhenium is about 0.060 eV, less than half the stored value.",
+        "source":  "Chen \u0026 Ning, laser photodetachment measurement of Re- (J. Chem. Phys., 2016/2017): 0.060396(64) eV; listed in Wikipedia \u0027Electron affinity (data page)\u0027"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-08.json",
+        "id":  "Lu",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.239",
+        "reason":  "Lutetium has a measured, positive electron affinity of about 0.239 eV, so null leaves out a value that has been measured. Medium confidence because the measurement is recent and many periodic tables still leave this blank.",
+        "source":  "Fu et al. 2019, photodetachment of Lu-: 0.2388(7) eV; listed in Wikipedia \u0027Electron affinity (data page)\u0027"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-08.json",
+        "id":  "Hf",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.178",
+        "reason":  "Hafnium has a measured, positive electron affinity of about 0.178 eV, so null leaves out a value that has been measured. Medium confidence because older compilations list it as about 0 or unknown.",
+        "source":  "Tang et al. 2018, photodetachment of Hf-: 0.1780(7) eV; listed in Wikipedia \u0027Electron affinity (data page)\u0027"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-08.json",
+        "id":  "Ta",
+        "field":  "isotopes.radioactive[0].note",
+        "current":  "0.012%: the rarest naturally occurring nuclide and the only natural nuclear isomer.",
+        "corrected":  "\"0.012%: the rarest primordial nuclide and the only primordial nuclear isomer.\"",
+        "reason":  "Ta-180m is the rarest primordial nuclide and the only primordial isomer, but other isomers occur naturally in decay chains (e.g. Pa-234m in the U-238 chain), and trace decay-chain nuclides such as astatine isotopes are far rarer in nature.",
+        "source":  "NUBASE2020; Wikipedia \u0027Tantalum-180m\u0027"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-08.json",
+        "id":  "Hg",
+        "field":  "nameOrigin",
+        "current":  "The planet and Roman god Mercury; symbol Hg from Greek hydrargyrum, water-silver.",
+        "corrected":  "\"The planet and Roman god Mercury; symbol Hg from hydrargyrum, the Latin form of Greek hydrargyros, water-silver.\"",
+        "reason":  "Hydrargyrum is the Latinized word; the Greek original is hydrargyros (hydor water + argyros silver).",
+        "source":  "Oxford English Dictionary; RSC periodic table"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "At",
+        "field":  "electronAffinity",
+        "current":  "2.8",
+        "corrected":  "2.416",
+        "reason":  "The electron affinity of astatine was measured at 2.41578 eV. The old estimate of 2.8 eV is about 16% too high.",
+        "source":  "Leimbach et al., Nature Communications 11, 3824 (2020); Wikipedia Astatine"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "At",
+        "field":  "ionizationEnergy",
+        "current":  "9.5",
+        "corrected":  "9.318",
+        "reason":  "The first ionization energy was measured precisely at 9.31751 eV. The value 9.5 is an outdated estimate.",
+        "source":  "Rothe et al., Nature Communications 4, 1835 (2013); NIST ASD"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "Fr",
+        "field":  "ionizationEnergy",
+        "current":  "3.9",
+        "corrected":  "4.073",
+        "reason":  "Francium\u0027s first ionization energy is measured precisely at 4.0727 eV. The value 3.9 is about 4% low.",
+        "source":  "NIST Atomic Spectra Database (4.0727 eV); CRC Handbook"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "Th",
+        "field":  "ionizationEnergy",
+        "current":  "6.08",
+        "corrected":  "6.307",
+        "reason":  "The spectroscopic first ionization energy of thorium is 6.3067 eV. The value 6.08 (587 kJ/mol) is an outdated figure and is about 3.6% low.",
+        "source":  "NIST Atomic Spectra Database (6.3067 eV); CRC Handbook"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "Ac",
+        "field":  "ionizationEnergy",
+        "current":  "5.17",
+        "corrected":  "5.380",
+        "reason":  "Actinium\u0027s measured first ionization energy is 5.3802 eV. The value 5.17 (499 kJ/mol) is an old estimate and is about 4% low.",
+        "source":  "NIST Atomic Spectra Database (5.380226 eV, resonance ionization measurement)"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "Tl",
+        "field":  "electronAffinity",
+        "current":  "0.2",
+        "corrected":  "0.32",
+        "reason":  "Thallium\u0027s electron affinity was measured precisely at 0.320 eV. The value 0.2 is an old rough estimate and is far outside the tolerance.",
+        "source":  "Walter et al., Phys. Rev. A 82, 032507 (2010); CRC Handbook (0.320053 eV)"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "At",
+        "field":  "statePredicted",
+        "current":  "false",
+        "corrected":  "true",
+        "reason":  "Bulk astatine has never been observed, and the entry itself says no visible amount has been made. Its solid state is therefore a prediction, not a measurement.",
+        "source":  "Wikipedia Astatine; Hermann et al., PRL 111, 116404 (2013)"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-09.json",
+        "id":  "Pb",
+        "field":  "origin",
+        "current":  "[\"dying low-mass stars\"]",
+        "corrected":  "[\"dying low-mass stars\", \"merging neutron stars\"]",
+        "reason":  "Johnson\u0027s chart gives lead a share from merging neutron stars (r-process) alongside the dominant s-process share from low-mass stars. The neighbouring entries Tl and Bi both list it, so leaving it off for Pb is inconsistent.",
+        "source":  "Jennifer Johnson 2019 \u0027Origin of the solar system elements\u0027 chart (SDSS/Science); r-process abundance decompositions (e.g. Arlandini et al. 1999)"
+    }
+]

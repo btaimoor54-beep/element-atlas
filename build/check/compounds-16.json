@@ -1,0 +1,802 @@
+[
+    {
+        "id":  "chromium-hexacarbonyl",
+        "name":  "Chromium hexacarbonyl",
+        "formula":  "Cr(CO)6",
+        "aka":  [
+
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "Cr",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  25589,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Cr",
+                          "shape":  "octahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "C",
+                                              "r":  1.916,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.916,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.916,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.916,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.916,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.916,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Six CO ligands around a chromium atom in its zero oxidation state.",
+                        "electronSharing":  "Each CO donates its carbon lone pair to chromium, while chromium pushes d electrons back into CO\u0027s empty orbitals (back-bonding). Chromium ends up with 18 valence electrons.",
+                        "geometry":  "Octahedral",
+                        "bondLengths":  "Cr–C 191.6 pm, C≡O 114.1 pm"
+                    },
+        "formation":  "CrCl3 + Al + 6 CO -\u003e Cr(CO)6 + AlCl3",
+        "state":  "solid",
+        "meltingPointC":  130,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Catalysts and reagents in organic chemistry"
+                 ],
+        "facts":  [
+                      "It obeys the 18-electron rule, like a transition-metal octet."
+                  ],
+        "hazards":  "Toxic.",
+        "summary":  "Cr(CO)6 is a textbook example of metal–carbonyl bonding."
+    },
+    {
+        "id":  "iron-pentacarbonyl",
+        "name":  "Iron pentacarbonyl",
+        "formula":  "Fe(CO)5",
+        "aka":  [
+
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "Fe",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  26040,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Fe",
+                          "shape":  "trigonal-bipyramidal",
+                          "ligands":  [
+                                          {
+                                              "el":  "C",
+                                              "r":  1.807,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.152,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.807,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.152,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.827,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.152,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.827,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.152,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.827,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.152,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Five CO ligands around iron(0) in a trigonal bipyramid.",
+                        "electronSharing":  "Each CO donates a lone pair to iron; iron back-donates d electrons to CO. Iron reaches 18 valence electrons.",
+                        "geometry":  "Trigonal bipyramidal",
+                        "bondLengths":  "Fe–C 181–183 pm, C≡O 115.2 pm"
+                    },
+        "formation":  "Fe + 5 CO -\u003e Fe(CO)5 (high pressure)",
+        "state":  "liquid",
+        "meltingPointC":  -20,
+        "boilingPointC":  103,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Making ultrapure \u0027carbonyl iron\u0027 powder",
+                     "Catalyst precursor"
+                 ],
+        "facts":  [
+                      "It is a straw-colored liquid metal compound at room temperature."
+                  ],
+        "hazards":  "Highly toxic and flammable.",
+        "summary":  "Fe(CO)5 is a liquid iron compound used to make ultrapure iron powder."
+    },
+    {
+        "id":  "nickel-tetracarbonyl",
+        "name":  "Nickel tetracarbonyl",
+        "formula":  "Ni(CO)4",
+        "aka":  [
+
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "Ni",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  26039,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Ni",
+                          "shape":  "tetrahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "C",
+                                              "r":  1.838,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.838,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.838,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  1.838,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "O",
+                                                              "r":  1.141,
+                                                              "o":  3
+                                                          }
+                                                      ]
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Four CO ligands around nickel(0) in a tetrahedron.",
+                        "electronSharing":  "Each CO donates a carbon lone pair to nickel, which back-donates d electrons; nickel ends with 18 electrons.",
+                        "geometry":  "Tetrahedral",
+                        "bondLengths":  "Ni–C 183.8 pm, C≡O 114.1 pm"
+                    },
+        "formation":  "Ni + 4 CO -\u003e Ni(CO)4 (50 °C); reversed at 230 °C to deposit pure nickel (Mond process)",
+        "state":  "liquid",
+        "meltingPointC":  -17.2,
+        "boilingPointC":  43,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Refining nickel to 99.99% purity (Mond process)"
+                 ],
+        "facts":  [
+                      "Discovered in 1890, it was the first metal carbonyl known."
+                  ],
+        "hazards":  "Extremely toxic.",
+        "summary":  "Ni(CO)4 lets nickel be carried away as a gas and redeposited in pure form."
+    },
+    {
+        "id":  "ferrocene",
+        "name":  "Ferrocene",
+        "formula":  "Fe(C5H5)2",
+        "aka":  [
+                    "bis(cyclopentadienyl)iron"
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "Fe",
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  10219726,
+        "structure":  {
+                          "mode":  "sandwich",
+                          "metal":  "Fe",
+                          "ring":  5,
+                          "d":  1.66,
+                          "cc":  1.44,
+                          "ch":  1.08
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "An iron atom sandwiched between two flat, aromatic five-carbon rings.",
+                        "electronSharing":  "Each C5H5− ring has six π electrons spread over all five carbons. Iron(II) bonds to the whole ring at once rather than to individual carbons, reaching 18 electrons.",
+                        "geometry":  "Sandwich (eclipsed rings in the gas)",
+                        "bondLengths":  "Fe–C 204 pm, C–C 144 pm"
+                    },
+        "formation":  "FeCl2 + 2 NaC5H5 -\u003e Fe(C5H5)2 + 2 NaCl",
+        "state":  "solid",
+        "meltingPointC":  172.5,
+        "boilingPointC":  249,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Fuel additive",
+                     "Reference compound in electrochemistry",
+                     "Building block for catalysts and materials"
+                 ],
+        "facts":  [
+                      "Its 1951 discovery launched modern organometallic chemistry; the 1973 Nobel Prize honored work on its sandwich structure."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Ferrocene\u0027s sandwich structure opened a new field of chemistry."
+    },
+    {
+        "id":  "cisplatin",
+        "name":  "Cisplatin",
+        "formula":  "cis-PtCl2(NH3)2",
+        "aka":  [
+                    "cis-diamminedichloroplatinum(II)"
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "Pt",
+                         "Cl",
+                         "N",
+                         "H"
+                     ],
+        "pubchemCid":  5702198,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Pt",
+                          "shape":  "square-planar",
+                          "ligands":  [
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.33
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.33
+                                          },
+                                          {
+                                              "el":  "N",
+                                              "r":  2.05,
+                                              "hs":  3,
+                                              "hr":  1.01
+                                          },
+                                          {
+                                              "el":  "N",
+                                              "r":  2.05,
+                                              "hs":  3,
+                                              "hr":  1.01
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Platinum(II) at the center of a square with two Cl and two NH3 on the same side.",
+                        "electronSharing":  "Each NH3 donates its nitrogen lone pair to platinum; the chlorides bond more ionically. In cells, the chlorides are replaced by DNA bases.",
+                        "geometry":  "Square planar (cis)",
+                        "bondLengths":  "Pt–Cl 233 pm, Pt–N 205 pm"
+                    },
+        "formation":  "K2PtCl4 + 2 NH3 -\u003e cis-PtCl2(NH3)2 + 2 KCl",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Chemotherapy for testicular, ovarian, lung and other cancers"
+                 ],
+        "facts":  [
+                      "Discovered as an anticancer drug by accident in 1965, when platinum electrodes stopped bacteria from dividing.",
+                      "The trans isomer is not an effective drug."
+                  ],
+        "hazards":  "Toxic to kidneys and nerves.",
+        "summary":  "Cisplatin binds DNA in cancer cells and has cured most cases of testicular cancer."
+    },
+    {
+        "id":  "tetrachloroaurate",
+        "name":  "Chloroauric acid (tetrachloroaurate ion)",
+        "formula":  "HAuCl4",
+        "aka":  [
+                    "gold(III) chloride acid"
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "H",
+                         "Au",
+                         "Cl"
+                     ],
+        "pubchemCid":  122706823,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "H3O+",
+                                            "charge":  1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "O",
+                                                          "shape":  "trigonal-pyramidal",
+                                                          "angle":  112,
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.98
+                                                                          },
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.98
+                                                                          },
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.98
+                                                                          }
+                                                                      ]
+                                                      }
+                                        },
+                                        {
+                                            "label":  "AuCl4-",
+                                            "charge":  -1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "Au",
+                                                          "shape":  "square-planar",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "Cl",
+                                                                              "r":  2.28
+                                                                          },
+                                                                          {
+                                                                              "el":  "Cl",
+                                                                              "r":  2.28
+                                                                          },
+                                                                          {
+                                                                              "el":  "Cl",
+                                                                              "r":  2.28
+                                                                          },
+                                                                          {
+                                                                              "el":  "Cl",
+                                                                              "r":  2.28
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "In solution: H3O+ and square-planar [AuCl4]−."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "Gold(III) surrounded by four chlorides in a square.",
+                        "electronSharing":  "Gold(III) has eight d electrons and, like platinum(II), prefers four bonds in a flat square.",
+                        "geometry":  "Square planar",
+                        "bondLengths":  "Au–Cl 228 pm"
+                    },
+        "formation":  "Au + HNO3 + 4 HCl -\u003e HAuCl4 + NO + 2 H2O (aqua regia)",
+        "state":  "solid",
+        "meltingPointC":  254,
+        "boilingPointC":  null,
+        "occurrence":  "Made by dissolving gold in aqua regia.",
+        "uses":  [
+                     "Making gold nanoparticles",
+                     "Gold refining and plating"
+                 ],
+        "facts":  [
+                      "Reducing it gently makes gold nanoparticles that look ruby red, as in medieval stained glass."
+                  ],
+        "hazards":  "Corrosive.",
+        "summary":  "Chloroauric acid is what gold becomes when it dissolves in aqua regia."
+    },
+    {
+        "id":  "tetraamminecopper",
+        "name":  "Tetraamminecopper(II) ion",
+        "formula":  "[Cu(NH3)4]2+",
+        "aka":  [
+                    "Schweizer\u0027s reagent (as hydroxide)"
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "Cu",
+                         "N",
+                         "H"
+                     ],
+        "pubchemCid":  21715496,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Cu",
+                          "shape":  "square-planar",
+                          "ligands":  [
+                                          {
+                                              "el":  "N",
+                                              "r":  2.03,
+                                              "hs":  3,
+                                              "hr":  1.01
+                                          },
+                                          {
+                                              "el":  "N",
+                                              "r":  2.03,
+                                              "hs":  3,
+                                              "hr":  1.01
+                                          },
+                                          {
+                                              "el":  "N",
+                                              "r":  2.03,
+                                              "hs":  3,
+                                              "hr":  1.01
+                                          },
+                                          {
+                                              "el":  "N",
+                                              "r":  2.03,
+                                              "hs":  3,
+                                              "hr":  1.01
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)"
+                                  ],
+                        "summary":  "Four ammonia molecules donate lone pairs to a Cu2+ ion.",
+                        "electronSharing":  "Each NH3 nitrogen gives its lone pair to empty copper orbitals, forming coordinate bonds; this changes how copper\u0027s d electrons absorb light, giving deep blue-violet.",
+                        "geometry":  "Square planar (two water molecules bind weakly above and below)",
+                        "bondLengths":  "Cu–N 203 pm"
+                    },
+        "formation":  "Cu2+ + 4 NH3 -\u003e [Cu(NH3)4]2+",
+        "state":  "aqueous ion",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Forms when ammonia is added to copper salt solutions.",
+        "uses":  [
+                     "Classic test for copper ions",
+                     "Dissolving cellulose (Schweizer\u0027s reagent) for rayon"
+                 ],
+        "facts":  [
+                      "Adding ammonia turns pale blue copper sulfate solution an intense deep blue."
+                  ],
+        "hazards":  "Irritant.",
+        "summary":  "The deep blue copper–ammonia complex is a classic demonstration of coordinate bonding."
+    },
+    {
+        "id":  "tetraethyllead",
+        "name":  "Tetraethyllead",
+        "formula":  "Pb(C2H5)4",
+        "aka":  [
+                    "TEL"
+                ],
+        "category":  "Metal complexes",
+        "elements":  [
+                         "Pb",
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  6511,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Pb",
+                          "shape":  "tetrahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "C",
+                                              "r":  2.24,
+                                              "hs":  2,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "C",
+                                                              "r":  1.54,
+                                                              "ang":  112,
+                                                              "hs":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  2.24,
+                                              "hs":  2,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "C",
+                                                              "r":  1.54,
+                                                              "ang":  112,
+                                                              "hs":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  2.24,
+                                              "hs":  2,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "C",
+                                                              "r":  1.54,
+                                                              "ang":  112,
+                                                              "hs":  3
+                                                          }
+                                                      ]
+                                          },
+                                          {
+                                              "el":  "C",
+                                              "r":  2.24,
+                                              "hs":  2,
+                                              "ext":  [
+                                                          {
+                                                              "el":  "C",
+                                                              "r":  1.54,
+                                                              "ang":  112,
+                                                              "hs":  3
+                                                          }
+                                                      ]
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Lead bonded tetrahedrally to four ethyl groups.",
+                        "electronSharing":  "Lead shares one pair with each ethyl carbon. The weak Pb–C bonds break easily in hot engines, releasing radicals that stop knocking.",
+                        "geometry":  "Tetrahedral around lead",
+                        "bondLengths":  "Pb–C 224 pm"
+                    },
+        "formation":  "4 NaPb + 4 C2H5Cl -\u003e Pb(C2H5)4 + 3 Pb + 4 NaCl",
+        "state":  "liquid",
+        "meltingPointC":  -136,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic; banned from road fuel worldwide by 2021. It decomposes near 200 °C before boiling.",
+        "uses":  [
+                     "Formerly an anti-knock petrol additive",
+                     "Still used in some aviation gasoline"
+                 ],
+        "facts":  [
+                      "The same chemist, Thomas Midgley, introduced both leaded petrol and CFCs."
+                  ],
+        "hazards":  "Highly toxic neurotoxin.",
+        "summary":  "Tetraethyllead made petrol engines run smoothly but spread lead pollution worldwide."
+    },
+    {
+        "id":  "steel",
+        "name":  "Carbon steel",
+        "formula":  "Fe–C (0.2–1% C)",
+        "aka":  [
+                    "mild steel",
+                    "ferrite"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Fe",
+                         "C"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "bcc",
+                          "a":  286.7,
+                          "composition":  [
+                                              {
+                                                  "el":  "Fe",
+                                                  "fraction":  1
+                                              }
+                                          ],
+                          "interstitial":  {
+                                               "el":  "C",
+                                               "fraction":  0.03
+                                           },
+                          "note":  "Carbon atoms (small, grey) sit in gaps between iron atoms; real steel also contains iron carbide grains."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Iron atoms in a body-centered cubic lattice, with small carbon atoms squeezed into the gaps.",
+                        "electronSharing":  "Iron atoms share a sea of delocalized electrons. Carbon atoms in the gaps share electrons with neighboring iron and pin the planes of atoms so they cannot slip, making steel much harder than pure iron.",
+                        "geometry":  "Body-centered cubic (ferrite) with interstitial carbon",
+                        "bondLengths":  "Fe–Fe 248 pm"
+                    },
+        "formation":  "Fe2O3 + 3 CO -\u003e 2 Fe + 3 CO2 (blast furnace), then oxygen blowing to lower carbon to below 2%",
+        "state":  "solid",
+        "meltingPointC":  1450,
+        "boilingPointC":  null,
+        "occurrence":  "About 1.9 billion tonnes made each year.",
+        "uses":  [
+                     "Buildings, bridges and rebar",
+                     "Cars, ships and machinery",
+                     "Tools and wire"
+                 ],
+        "facts":  [
+                      "Steel is the most recycled material on Earth."
+                  ],
+        "hazards":  "Safe.",
+        "summary":  "Steel is iron hardened by a pinch of carbon: the backbone of modern construction."
+    },
+    {
+        "id":  "stainless-steel",
+        "name":  "Stainless steel (304)",
+        "formula":  "Fe-18Cr-8Ni",
+        "aka":  [
+                    "18/8 stainless",
+                    "austenitic stainless"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Fe",
+                         "Cr",
+                         "Ni",
+                         "Mn"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "fcc",
+                          "a":  359,
+                          "composition":  [
+                                              {
+                                                  "el":  "Fe",
+                                                  "fraction":  0.70
+                                              },
+                                              {
+                                                  "el":  "Cr",
+                                                  "fraction":  0.19
+                                              },
+                                              {
+                                                  "el":  "Ni",
+                                                  "fraction":  0.09
+                                              },
+                                              {
+                                                  "el":  "Mn",
+                                                  "fraction":  0.02
+                                              }
+                                          ],
+                          "note":  "Atoms placed at random in their proportions."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Iron, chromium and nickel mixed on one face-centered cubic lattice.",
+                        "electronSharing":  "All the metal atoms share one sea of electrons. Chromium at the surface reacts with air to form an invisible, self-healing chromium-oxide film that stops rust.",
+                        "geometry":  "Face-centered cubic (austenite)",
+                        "bondLengths":  "Metal–metal about 254 pm"
+                    },
+        "formation":  "Melting iron with chromium and nickel in an electric arc furnace",
+        "state":  "solid",
+        "meltingPointC":  1400,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic, invented around 1913.",
+        "uses":  [
+                     "Kitchen sinks and cutlery",
+                     "Medical instruments",
+                     "Food and chemical plants",
+                     "Architecture"
+                 ],
+        "facts":  [
+                      "Nickel keeps 304 stainless in the face-centered cubic form, which makes it non-magnetic."
+                  ],
+        "hazards":  "Safe; nickel can trigger allergies.",
+        "summary":  "Stainless steel resists rust thanks to a microscopic chromium-oxide skin."
+    }
+]

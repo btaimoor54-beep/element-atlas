@@ -1,0 +1,989 @@
+[
+    {
+        "z":  1,
+        "symbol":  "H",
+        "name":  "Hydrogen",
+        "altName":  null,
+        "atomicMass":  "1.0080",
+        "category":  "nonmetal",
+        "categoryPredicted":  false,
+        "group":  1,
+        "period":  1,
+        "block":  "s",
+        "electronConfiguration":  "1s1",
+        "configPredicted":  false,
+        "electronegativity":  2.2,
+        "ionizationEnergy":  13.598,
+        "electronAffinity":  0.754,
+        "covalentRadius":  31,
+        "vdwRadius":  120,
+        "meltingPoint":  13.99,
+        "boilingPoint":  20.271,
+        "density":  8.988E-05,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1,
+                                -1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1766",
+                          "by":  "Henry Cavendish",
+                          "note":  "Cavendish made it by dropping metals into acid and showed it burns to form water; Lavoisier named it in 1783."
+                      },
+        "nameOrigin":  "Greek hydro (water) + genes (forming): it makes water when it burns.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  1,
+                                            "abundance":  99.9885
+                                        },
+                                        {
+                                            "A":  2,
+                                            "abundance":  0.0115
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  3,
+                                                 "halfLife":  "12.32 years",
+                                                 "note":  "Tritium, used in glowing exit signs and fusion research."
+                                             }
+                                         ],
+                         "displayA":  1
+                     },
+        "elementalForm":  {
+                              "kind":  "diatomic",
+                              "formula":  "H2",
+                              "bondOrder":  1,
+                              "bondLengthPm":  74,
+                              "description":  "Two hydrogen atoms each share their single electron, making one shared pair: a single covalent bond. With that pair both atoms have the helium-like full first shell.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Orthohydrogen and parahydrogen",
+                                                     "note":  "Two forms of H2 that differ only in whether the two nuclear spins are parallel or opposite."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed (solid H2 below 14 K)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  377,
+                     "cPm":  616,
+                     "note":  "Solid hydrogen is a crystal of H2 molecules."
+                 },
+        "origin":  [
+                       "big bang"
+                   ],
+        "originNote":  "Almost all hydrogen formed in the first minutes and hundreds of thousands of years after the Big Bang.",
+        "crustAbundancePpm":  1400,
+        "appearance":  "Colorless, odorless gas; glows pink-violet in an electric discharge.",
+        "summary":  "Hydrogen is the simplest and most common element: one proton and one electron. It makes up about three-quarters of the ordinary matter in the universe and powers the stars by fusing into helium.",
+        "uses":  [
+                     "Making ammonia for fertilizer (Haber process)",
+                     "Refining petroleum",
+                     "Fuel cells and rocket fuel (liquid hydrogen)",
+                     "Hydrogenating vegetable oils"
+                 ],
+        "facts":  [
+                      "About 74% of the ordinary mass in the universe is hydrogen.",
+                      "A hydrogen atom without its electron is just a proton.",
+                      "Every water molecule contains two hydrogen atoms."
+                  ],
+        "biology":  "Essential: part of water, all organic molecules and DNA; about 10% of human body mass.",
+        "hazards":  "Extremely flammable; mixtures with air from 4% to 75% hydrogen can explode.",
+        "color":  "#FFFFFF"
+    },
+    {
+        "z":  2,
+        "symbol":  "He",
+        "name":  "Helium",
+        "altName":  null,
+        "atomicMass":  "4.00260",
+        "category":  "noble gas",
+        "categoryPredicted":  false,
+        "group":  18,
+        "period":  1,
+        "block":  "s",
+        "electronConfiguration":  "1s2",
+        "configPredicted":  false,
+        "electronegativity":  null,
+        "ionizationEnergy":  24.587,
+        "electronAffinity":  null,
+        "covalentRadius":  28,
+        "vdwRadius":  140,
+        "meltingPoint":  null,
+        "boilingPoint":  4.222,
+        "density":  0.0001785,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1868",
+                          "by":  "Pierre Janssen; Norman Lockyer",
+                          "note":  "Seen as an unknown yellow line in the Sun\u0027s spectrum during an eclipse; found on Earth by William Ramsay in 1895."
+                      },
+        "nameOrigin":  "Greek helios, the Sun, where it was first detected.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  4,
+                                            "abundance":  99.999866
+                                        },
+                                        {
+                                            "A":  3,
+                                            "abundance":  0.000134
+                                        }
+                                    ],
+                         "radioactive":  [
+
+                                         ],
+                         "displayA":  4
+                     },
+        "elementalForm":  {
+                              "kind":  "monatomic",
+                              "formula":  "He",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Helium\u0027s two electrons completely fill its only shell, so its atoms have no reason to share or exchange electrons. It forms no stable chemical compounds and exists as single atoms.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed (only under pressure above 25 atm)",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  357,
+                     "cPm":  583,
+                     "note":  "At normal pressure helium stays liquid down to absolute zero."
+                 },
+        "origin":  [
+                       "big bang"
+                   ],
+        "originNote":  "Most helium was made in the Big Bang; stars add more by fusing hydrogen.",
+        "crustAbundancePpm":  0.008,
+        "appearance":  "Colorless gas; glows orange-pink in a discharge tube.",
+        "summary":  "Helium is the second lightest and second most abundant element in the universe. It is so unreactive and so weakly attracted to itself that it never freezes at normal pressure.",
+        "uses":  [
+                     "Cooling superconducting magnets in MRI scanners",
+                     "Lifting gas for balloons and airships",
+                     "Breathing mixes for deep-sea divers",
+                     "Shielding gas for welding"
+                 ],
+        "facts":  [
+                      "Liquid helium below 2.17 K becomes a superfluid that can creep up the walls of its container.",
+                      "Almost all helium on Earth comes from radioactive alpha decay in rocks and is collected from natural gas."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Not toxic, but breathing pure helium displaces oxygen and can cause suffocation.",
+        "color":  "#D9FFFF"
+    },
+    {
+        "z":  3,
+        "symbol":  "Li",
+        "name":  "Lithium",
+        "altName":  null,
+        "atomicMass":  "6.94",
+        "category":  "alkali metal",
+        "categoryPredicted":  false,
+        "group":  1,
+        "period":  2,
+        "block":  "s",
+        "electronConfiguration":  "[He] 2s1",
+        "configPredicted":  false,
+        "electronegativity":  0.98,
+        "ionizationEnergy":  5.392,
+        "electronAffinity":  0.618,
+        "covalentRadius":  128,
+        "vdwRadius":  182,
+        "meltingPoint":  453.65,
+        "boilingPoint":  1615,
+        "density":  0.534,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1817",
+                          "by":  "Johan August Arfwedson",
+                          "note":  "Found in the mineral petalite; first isolated as a metal by electrolysis in 1855."
+                      },
+        "nameOrigin":  "Greek lithos, stone, because it was found in a mineral.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  7,
+                                            "abundance":  92.41
+                                        },
+                                        {
+                                            "A":  6,
+                                            "abundance":  7.59
+                                        }
+                                    ],
+                         "radioactive":  [
+
+                                         ],
+                         "displayA":  7
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Li",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Each lithium atom gives its one outer 2s electron to a shared sea of electrons. The positive Li+ cores are held together by that negative sea: metallic bonding.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  351,
+                     "cPm":  null,
+                     "note":  "At room temperature."
+                 },
+        "origin":  [
+                       "big bang",
+                       "cosmic ray fission",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "A little lithium came from the Big Bang; more came from cosmic rays splitting heavier nuclei and from some aging stars.",
+        "crustAbundancePpm":  20,
+        "appearance":  "Soft, silvery-white metal that tarnishes quickly in air.",
+        "summary":  "Lithium is the lightest metal and the least dense solid element: it floats on water (while reacting with it). It is the key ingredient in rechargeable batteries.",
+        "uses":  [
+                     "Lithium-ion batteries",
+                     "Lithium carbonate as a mood-stabilizing medicine",
+                     "Heat-resistant glass and ceramics",
+                     "Lubricating greases"
+                 ],
+        "facts":  [
+                      "Lithium is so light it would float on oil.",
+                      "It burns with a crimson-red flame."
+                  ],
+        "biology":  "No essential role known; lithium salts treat bipolar disorder.",
+        "hazards":  "Reacts with water to release flammable hydrogen; causes burns.",
+        "color":  "#CC80FF"
+    },
+    {
+        "z":  4,
+        "symbol":  "Be",
+        "name":  "Beryllium",
+        "altName":  null,
+        "atomicMass":  "9.012183",
+        "category":  "alkaline earth metal",
+        "categoryPredicted":  false,
+        "group":  2,
+        "period":  2,
+        "block":  "s",
+        "electronConfiguration":  "[He] 2s2",
+        "configPredicted":  false,
+        "electronegativity":  1.57,
+        "ionizationEnergy":  9.323,
+        "electronAffinity":  null,
+        "covalentRadius":  96,
+        "vdwRadius":  153,
+        "meltingPoint":  1560,
+        "boilingPoint":  2742,
+        "density":  1.85,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1798",
+                          "by":  "Louis-Nicolas Vauquelin",
+                          "note":  "Found as an oxide in beryl and emerald; the metal was isolated in 1828 by Wöhler and Bussy."
+                      },
+        "nameOrigin":  "From beryl, the mineral it was found in.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  9,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  10,
+                                                 "halfLife":  "1.39 million years",
+                                                 "note":  "Made by cosmic rays in the air; used to date ice and sediments."
+                                             },
+                                             {
+                                                 "A":  7,
+                                                 "halfLife":  "53.2 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  9
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Be",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Beryllium atoms pool their two 2s electrons in a shared electron sea. Its bonding has more directional, covalent character than most metals, which makes it stiff and brittle.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  228.6,
+                     "cPm":  358.4,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "cosmic ray fission"
+                   ],
+        "originNote":  "Almost all beryllium was made when cosmic rays smashed into carbon, nitrogen and oxygen nuclei in space.",
+        "crustAbundancePpm":  2.8,
+        "appearance":  "Hard, light, steel-grey metal.",
+        "summary":  "Beryllium is a very light but extremely stiff metal. It is nearly transparent to X-rays, which makes it valuable for windows in X-ray tubes and detectors.",
+        "uses":  [
+                     "X-ray windows",
+                     "Mirrors of the James Webb Space Telescope (gold-coated beryllium)",
+                     "Copper-beryllium spring alloys and non-sparking tools",
+                     "Aerospace structures"
+                 ],
+        "facts":  [
+                      "Emerald and aquamarine are both varieties of the beryllium mineral beryl.",
+                      "Beryllium is about six times stiffer than steel for its weight."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Inhaled beryllium dust can cause chronic beryllium disease, a serious lung illness.",
+        "color":  "#C2FF00"
+    },
+    {
+        "z":  5,
+        "symbol":  "B",
+        "name":  "Boron",
+        "altName":  null,
+        "atomicMass":  "10.81",
+        "category":  "metalloid",
+        "categoryPredicted":  false,
+        "group":  13,
+        "period":  2,
+        "block":  "p",
+        "electronConfiguration":  "[He] 2s2 2p1",
+        "configPredicted":  false,
+        "electronegativity":  2.04,
+        "ionizationEnergy":  8.298,
+        "electronAffinity":  0.277,
+        "covalentRadius":  84,
+        "vdwRadius":  192,
+        "meltingPoint":  2349,
+        "boilingPoint":  4200,
+        "density":  2.34,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1808",
+                          "by":  "Joseph Louis Gay-Lussac; Louis Jacques Thénard; Humphry Davy",
+                          "note":  "Isolated impure from boric acid; pure boron was only made in 1909."
+                      },
+        "nameOrigin":  "From borax, the mineral it was extracted from (Arabic buraq).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  11,
+                                            "abundance":  80.1
+                                        },
+                                        {
+                                            "A":  10,
+                                            "abundance":  19.9
+                                        }
+                                    ],
+                         "radioactive":  [
+
+                                         ],
+                         "displayA":  11
+                     },
+        "elementalForm":  {
+                              "kind":  "network",
+                              "formula":  "B12 icosahedra",
+                              "bondOrder":  null,
+                              "bondLengthPm":  177,
+                              "description":  "Boron has only three valence electrons, too few for ordinary pairs everywhere. Its atoms form B12 icosahedra held together by multi-center bonds, where one electron pair is shared by three atoms.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Beta-rhombohedral boron",
+                                                     "note":  "The most stable form, built from linked B12 icosahedra."
+                                                 },
+                                                 {
+                                                     "name":  "Alpha-rhombohedral boron",
+                                                     "note":  "A simpler packing of single icosahedra."
+                                                 },
+                                                 {
+                                                     "name":  "Amorphous boron",
+                                                     "note":  "A brown powder."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Beta-rhombohedral (B12 icosahedra)",
+                     "lattice":  "rhombohedral",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  1014,
+                     "cPm":  null,
+                     "note":  "A very complex structure; the viewer shows one B12 icosahedron."
+                 },
+        "origin":  [
+                       "cosmic ray fission"
+                   ],
+        "originNote":  "Like lithium and beryllium, boron was made mostly when cosmic rays split larger nuclei.",
+        "crustAbundancePpm":  10,
+        "appearance":  "Black-brown lustrous crystals or brown powder; extremely hard.",
+        "summary":  "Boron is a metalloid with too few electrons to bond in ordinary ways, so it builds icosahedral clusters. Boron compounds make heat-proof glass, hard abrasives and detergents.",
+        "uses":  [
+                     "Borosilicate glass (Pyrex)",
+                     "Boron fibers and boron carbide armor",
+                     "Borax cleaning products",
+                     "Neodymium-iron-boron magnets",
+                     "Control rods in nuclear reactors (boron-10 absorbs neutrons)"
+                 ],
+        "facts":  [
+                      "Boron carbide is one of the hardest known materials.",
+                      "Boron-10 captures neutrons so well it is used in cancer therapy."
+                  ],
+        "biology":  "Essential for plants (cell walls); trace amounts may help human bone health.",
+        "hazards":  "Elemental boron is of low toxicity; some boron compounds such as boranes are highly toxic.",
+        "color":  "#FFB5B5"
+    },
+    {
+        "z":  6,
+        "symbol":  "C",
+        "name":  "Carbon",
+        "altName":  null,
+        "atomicMass":  "12.011",
+        "category":  "nonmetal",
+        "categoryPredicted":  false,
+        "group":  14,
+        "period":  2,
+        "block":  "p",
+        "electronConfiguration":  "[He] 2s2 2p2",
+        "configPredicted":  false,
+        "electronegativity":  2.55,
+        "ionizationEnergy":  11.26,
+        "electronAffinity":  1.263,
+        "covalentRadius":  76,
+        "vdwRadius":  170,
+        "meltingPoint":  null,
+        "boilingPoint":  3915,
+        "density":  2.267,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4,
+                                -4,
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Charcoal and soot have been used since prehistory; Lavoisier showed diamond is carbon in 1772."
+                      },
+        "nameOrigin":  "Latin carbo, charcoal.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  12,
+                                            "abundance":  98.93
+                                        },
+                                        {
+                                            "A":  13,
+                                            "abundance":  1.07
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  14,
+                                                 "halfLife":  "5,700 years",
+                                                 "note":  "Made by cosmic rays in the air; used for radiocarbon dating."
+                                             }
+                                         ],
+                         "displayA":  12
+                     },
+        "elementalForm":  {
+                              "kind":  "network",
+                              "formula":  "C (graphite)",
+                              "bondOrder":  null,
+                              "bondLengthPm":  142,
+                              "description":  "In graphite each carbon shares electron pairs with three neighbors in flat hexagonal sheets, and its fourth electron is delocalized across the sheet, so graphite conducts electricity. In diamond each carbon shares a pair with four neighbors in a rigid 3D network.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Graphite",
+                                                     "note":  "Stacked sheets of hexagons; soft, black and conductive."
+                                                 },
+                                                 {
+                                                     "name":  "Diamond",
+                                                     "note":  "A 3D tetrahedral network; the hardest natural material."
+                                                 },
+                                                 {
+                                                     "name":  "Graphene",
+                                                     "note":  "A single sheet of graphite one atom thick."
+                                                 },
+                                                 {
+                                                     "name":  "Fullerenes (C60)",
+                                                     "note":  "Hollow football-shaped molecules."
+                                                 },
+                                                 {
+                                                     "name":  "Carbon nanotubes",
+                                                     "note":  "Graphene rolled into tubes."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal graphite",
+                     "lattice":  "graphite",
+                     "renderAs":  "graphite",
+                     "latticeConstantPm":  246.1,
+                     "cPm":  670.8,
+                     "note":  "Carbon sublimes at about 3,915 K at normal pressure instead of melting."
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by fusing three helium nuclei in stars, then spread by aging stars and supernovae.",
+        "crustAbundancePpm":  200,
+        "appearance":  "Black, soft graphite or clear, very hard diamond.",
+        "summary":  "Carbon can share electrons with up to four partners, including other carbon atoms, so it forms chains, rings and networks. That makes it the backbone of millions of compounds and of all known life.",
+        "uses":  [
+                     "Steel (iron with a little carbon)",
+                     "Fuels: coal, oil and natural gas are carbon compounds",
+                     "Diamonds for cutting tools and jewelry",
+                     "Graphite in pencils, batteries and lubricants",
+                     "Carbon fiber composites"
+                 ],
+        "facts":  [
+                      "More compounds contain carbon than any other element except hydrogen.",
+                      "Diamond and graphite are the same element, just bonded differently."
+                  ],
+        "biology":  "The basis of all organic molecules; about 18% of human body mass.",
+        "hazards":  "Carbon itself is of low toxicity; fine soot and dust harm the lungs.",
+        "color":  "#909090"
+    },
+    {
+        "z":  7,
+        "symbol":  "N",
+        "name":  "Nitrogen",
+        "altName":  null,
+        "atomicMass":  "14.007",
+        "category":  "nonmetal",
+        "categoryPredicted":  false,
+        "group":  15,
+        "period":  2,
+        "block":  "p",
+        "electronConfiguration":  "[He] 2s2 2p3",
+        "configPredicted":  false,
+        "electronegativity":  3.04,
+        "ionizationEnergy":  14.534,
+        "electronAffinity":  null,
+        "covalentRadius":  71,
+        "vdwRadius":  155,
+        "meltingPoint":  63.15,
+        "boilingPoint":  77.36,
+        "density":  0.0012506,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -3,
+                                5,
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     1,
+                                     2,
+                                     4,
+                                     -1,
+                                     -2
+                                 ],
+        "discovery":  {
+                          "year":  "1772",
+                          "by":  "Daniel Rutherford",
+                          "note":  "Found as the part of air that would not support burning or life after carbon dioxide was removed."
+                      },
+        "nameOrigin":  "Greek nitron + genes: \u0027forming niter\u0027 (saltpeter).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  14,
+                                            "abundance":  99.636
+                                        },
+                                        {
+                                            "A":  15,
+                                            "abundance":  0.364
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  13,
+                                                 "halfLife":  "9.97 minutes",
+                                                 "note":  "Used in PET heart scans."
+                                             }
+                                         ],
+                         "displayA":  14
+                     },
+        "elementalForm":  {
+                              "kind":  "diatomic",
+                              "formula":  "N2",
+                              "bondOrder":  3,
+                              "bondLengthPm":  110,
+                              "description":  "Each nitrogen atom shares three of its five outer electrons, giving three shared pairs: a triple bond. Each atom keeps one lone pair. The triple bond is one of the strongest bonds known, which makes N2 very unreactive.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Cubic (solid alpha-N2 below 35 K)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  566,
+                     "cPm":  null,
+                     "note":  "A crystal of N2 molecules."
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by the carbon-nitrogen-oxygen fusion cycle in stars.",
+        "crustAbundancePpm":  19,
+        "appearance":  "Colorless, odorless gas; a clear liquid below 77 K.",
+        "summary":  "Nitrogen makes up 78% of the air. Its triple bond is hard to break, so living things depend on special bacteria, lightning and the Haber process to turn it into usable compounds.",
+        "uses":  [
+                     "Ammonia and nitrate fertilizers",
+                     "Inert atmosphere for food packaging and electronics",
+                     "Liquid nitrogen for freezing and cryogenics",
+                     "Explosives (nitroglycerin, TNT)"
+                 ],
+        "facts":  [
+                      "About 78% of each breath you take is nitrogen.",
+                      "Liquid nitrogen boils at −196 °C."
+                  ],
+        "biology":  "Essential: in every amino acid, protein and DNA base.",
+        "hazards":  "Not toxic, but can displace oxygen and suffocate; liquid nitrogen causes frostbite.",
+        "color":  "#3050F8"
+    },
+    {
+        "z":  8,
+        "symbol":  "O",
+        "name":  "Oxygen",
+        "altName":  null,
+        "atomicMass":  "15.999",
+        "category":  "nonmetal",
+        "categoryPredicted":  false,
+        "group":  16,
+        "period":  2,
+        "block":  "p",
+        "electronConfiguration":  "[He] 2s2 2p4",
+        "configPredicted":  false,
+        "electronegativity":  3.44,
+        "ionizationEnergy":  13.618,
+        "electronAffinity":  1.461,
+        "covalentRadius":  66,
+        "vdwRadius":  152,
+        "meltingPoint":  54.36,
+        "boilingPoint":  90.19,
+        "density":  0.001429,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -2
+                            ],
+        "otherOxidationStates":  [
+                                     -1,
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1774",
+                          "by":  "Joseph Priestley; Carl Wilhelm Scheele",
+                          "note":  "Scheele made it around 1771–72 but published late; Priestley published in 1774."
+                      },
+        "nameOrigin":  "Greek oxys (sharp, acid) + genes (forming): Lavoisier wrongly thought all acids contain it.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  16,
+                                            "abundance":  99.757
+                                        },
+                                        {
+                                            "A":  17,
+                                            "abundance":  0.038
+                                        },
+                                        {
+                                            "A":  18,
+                                            "abundance":  0.205
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  15,
+                                                 "halfLife":  "122 seconds",
+                                                 "note":  "Used in PET brain scans."
+                                             }
+                                         ],
+                         "displayA":  16
+                     },
+        "elementalForm":  {
+                              "kind":  "diatomic",
+                              "formula":  "O2",
+                              "bondOrder":  2,
+                              "bondLengthPm":  121,
+                              "description":  "Two oxygen atoms share two electron pairs, a double bond, and each keeps two lone pairs. The full picture is subtler: O2 has two unpaired electrons, which makes liquid oxygen magnetic.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Dioxygen (O2)",
+                                                     "note":  "The oxygen we breathe."
+                                                 },
+                                                 {
+                                                     "name":  "Ozone (O3)",
+                                                     "note":  "A bent three-atom molecule that shields Earth from ultraviolet light."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Monoclinic (solid alpha-O2 below 24 K)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  540,
+                     "cPm":  null,
+                     "note":  "A crystal of O2 molecules."
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by helium fusion inside massive stars and scattered by their supernovae.",
+        "crustAbundancePpm":  461000,
+        "appearance":  "Colorless gas; pale blue as a liquid and solid.",
+        "summary":  "Oxygen is the most abundant element in Earth\u0027s crust and the third most abundant in the universe. It pulls electrons strongly, so it combines with almost every element and drives burning and breathing.",
+        "uses":  [
+                     "Steelmaking",
+                     "Medical oxygen",
+                     "Rocket oxidizer (liquid oxygen)",
+                     "Water treatment and welding"
+                 ],
+        "facts":  [
+                      "Liquid oxygen is attracted to magnets.",
+                      "Almost half of the mass of Earth\u0027s crust is oxygen, mostly locked in rocks."
+                  ],
+        "biology":  "Essential: used by cells to release energy; about 65% of human body mass.",
+        "hazards":  "Pure oxygen makes fires burn far more fiercely.",
+        "color":  "#FF0D0D"
+    },
+    {
+        "z":  9,
+        "symbol":  "F",
+        "name":  "Fluorine",
+        "altName":  null,
+        "atomicMass":  "18.99840316",
+        "category":  "halogen",
+        "categoryPredicted":  false,
+        "group":  17,
+        "period":  2,
+        "block":  "p",
+        "electronConfiguration":  "[He] 2s2 2p5",
+        "configPredicted":  false,
+        "electronegativity":  3.98,
+        "ionizationEnergy":  17.423,
+        "electronAffinity":  3.339,
+        "covalentRadius":  57,
+        "vdwRadius":  147,
+        "meltingPoint":  53.53,
+        "boilingPoint":  85.03,
+        "density":  0.001696,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1886",
+                          "by":  "Henri Moissan",
+                          "note":  "Isolated by electrolysis after decades of attempts that injured or killed several chemists; Moissan won the 1906 Nobel Prize."
+                      },
+        "nameOrigin":  "From the mineral fluorite (Latin fluere, to flow), used as a flux.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  19,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  18,
+                                                 "halfLife":  "109.7 minutes",
+                                                 "note":  "Used in FDG for PET cancer scans."
+                                             }
+                                         ],
+                         "displayA":  19
+                     },
+        "elementalForm":  {
+                              "kind":  "diatomic",
+                              "formula":  "F2",
+                              "bondOrder":  1,
+                              "bondLengthPm":  142,
+                              "description":  "Two fluorine atoms share one electron pair, a single bond, and each keeps three lone pairs. The bond is weak because the lone pairs crowd each other, which is one reason fluorine is so reactive.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Monoclinic (solid below 53 K)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  550,
+                     "cPm":  null,
+                     "note":  "A crystal of F2 molecules."
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made in small amounts in massive stars and some aging stars; fluorine is easily destroyed in stellar cores.",
+        "crustAbundancePpm":  585,
+        "appearance":  "Pale yellow gas; yellow liquid below 85 K.",
+        "summary":  "Fluorine is the most electronegative element: it pulls electrons harder than any other. It reacts with nearly everything, even glass and some noble gases.",
+        "uses":  [
+                     "Fluoride in toothpaste and drinking water",
+                     "Teflon (PTFE) and other fluoropolymers",
+                     "Uranium hexafluoride for enriching uranium",
+                     "Refrigerants and anesthetics"
+                 ],
+        "facts":  [
+                      "Fluorine can react with xenon, a \u0027noble\u0027 gas.",
+                      "Water, glass and steel wool can burn in a stream of fluorine."
+                  ],
+        "biology":  "Fluoride strengthens tooth enamel; not known to be essential.",
+        "hazards":  "Extremely toxic and corrosive gas; reacts violently with most substances.",
+        "color":  "#90E050"
+    },
+    {
+        "z":  10,
+        "symbol":  "Ne",
+        "name":  "Neon",
+        "altName":  null,
+        "atomicMass":  "20.180",
+        "category":  "noble gas",
+        "categoryPredicted":  false,
+        "group":  18,
+        "period":  2,
+        "block":  "p",
+        "electronConfiguration":  "[He] 2s2 2p6",
+        "configPredicted":  false,
+        "electronegativity":  null,
+        "ionizationEnergy":  21.565,
+        "electronAffinity":  null,
+        "covalentRadius":  58,
+        "vdwRadius":  154,
+        "meltingPoint":  24.56,
+        "boilingPoint":  27.104,
+        "density":  0.0008999,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1898",
+                          "by":  "William Ramsay; Morris Travers",
+                          "note":  "Found by distilling liquefied air; its bright red glow was the first clue."
+                      },
+        "nameOrigin":  "Greek neos, new.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  20,
+                                            "abundance":  90.48
+                                        },
+                                        {
+                                            "A":  21,
+                                            "abundance":  0.27
+                                        },
+                                        {
+                                            "A":  22,
+                                            "abundance":  9.25
+                                        }
+                                    ],
+                         "radioactive":  [
+
+                                         ],
+                         "displayA":  20
+                     },
+        "elementalForm":  {
+                              "kind":  "monatomic",
+                              "formula":  "Ne",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Neon\u0027s second shell is full (8 electrons), so its atoms neither share nor exchange electrons. No stable neutral neon compound is known.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic (solid below 25 K)",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  446.4,
+                     "cPm":  null,
+                     "note":  "Atoms held only by weak van der Waals forces."
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by carbon fusion in massive stars.",
+        "crustAbundancePpm":  0.005,
+        "appearance":  "Colorless gas; glows red-orange in a discharge tube.",
+        "summary":  "Neon is a noble gas famous for the red-orange glow of neon signs. It is the least reactive of all elements.",
+        "uses":  [
+                     "Neon advertising signs",
+                     "Helium-neon lasers",
+                     "Cryogenic refrigerant",
+                     "High-voltage indicators"
+                 ],
+        "facts":  [
+                      "Only the red-orange signs actually contain neon; other colors use other gases or coatings.",
+                      "Neon is the fifth most abundant element in the universe but rare on Earth."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Harmless except as a suffocation risk in enclosed spaces.",
+        "color":  "#B3E3F5"
+    }
+]

@@ -1,0 +1,1026 @@
+[
+    {
+        "z":  61,
+        "symbol":  "Pm",
+        "name":  "Promethium",
+        "altName":  null,
+        "atomicMass":  "[145]",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f5 6s2",
+        "configPredicted":  false,
+        "electronegativity":  null,
+        "ionizationEnergy":  5.582,
+        "electronAffinity":  null,
+        "covalentRadius":  199,
+        "vdwRadius":  236,
+        "meltingPoint":  1315,
+        "boilingPoint":  3273,
+        "density":  7.26,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1945",
+                          "by":  "Jacob Marinsky; Lawrence Glendenin; Charles Coryell",
+                          "note":  "Identified among uranium fission products at Oak Ridge."
+                      },
+        "nameOrigin":  "Prometheus, who stole fire from the gods.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  145,
+                                                 "halfLife":  "17.7 years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  147,
+                                                 "halfLife":  "2.62 years",
+                                                 "note":  "Used in luminous paint and nuclear batteries."
+                                             }
+                                         ],
+                         "displayA":  145
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Pm",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Promethium metal shares three valence electrons like its lanthanide neighbors.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  365,
+                     "cPm":  582.5,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "No stable isotopes; only about half a kilogram exists in Earth\u0027s crust at any time, from uranium fission. It is made in reactors.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery metal; its salts glow pale blue or green from their own radioactivity.",
+        "summary":  "Promethium is the only lanthanide with no stable isotopes. It was finally found among the fission products of the Manhattan Project.",
+        "uses":  [
+                     "Nuclear batteries for pacemakers and space probes (historically)",
+                     "Thickness gauges",
+                     "Luminous paint (historically)"
+                 ],
+        "facts":  [
+                      "In 2024 chemists at Oak Ridge characterized a promethium complex in solution for the first time, almost 80 years after its discovery."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#A3FFC7"
+    },
+    {
+        "z":  62,
+        "symbol":  "Sm",
+        "name":  "Samarium",
+        "altName":  null,
+        "atomicMass":  "150.36",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f6 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.17,
+        "ionizationEnergy":  5.644,
+        "electronAffinity":  null,
+        "covalentRadius":  198,
+        "vdwRadius":  229,
+        "meltingPoint":  1345,
+        "boilingPoint":  2067,
+        "density":  7.52,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1879",
+                          "by":  "Paul-Émile Lecoq de Boisbaudran",
+                          "note":  "Found in the mineral samarskite."
+                      },
+        "nameOrigin":  "The mineral samarskite, named after Russian mining officer Vasili Samarsky-Bykhovets: the first element named (indirectly) after a person.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  144,
+                                            "abundance":  3.07
+                                        },
+                                        {
+                                            "A":  150,
+                                            "abundance":  7.38
+                                        },
+                                        {
+                                            "A":  152,
+                                            "abundance":  26.75
+                                        },
+                                        {
+                                            "A":  154,
+                                            "abundance":  22.75
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  147,
+                                                 "halfLife":  "1.06×10^11 years",
+                                                 "note":  "14.99% of natural samarium; used in samarium-neodymium dating."
+                                             },
+                                             {
+                                                 "A":  148,
+                                                 "halfLife":  "7×10^15 years",
+                                                 "note":  "11.24% of natural samarium."
+                                             },
+                                             {
+                                                 "A":  149,
+                                                 "halfLife":  "over 10^16 years",
+                                                 "note":  "13.82%; observationally stable, a strong neutron absorber."
+                                             },
+                                             {
+                                                 "A":  153,
+                                                 "halfLife":  "46.3 hours",
+                                                 "note":  "Relieves bone-cancer pain."
+                                             }
+                                         ],
+                         "displayA":  152
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Sm",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Samarium shares three valence electrons in a metallic lattice with an unusual nine-layer stacking.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Rhombohedral (samarium type, 9-layer stacking)",
+                     "lattice":  "rhombohedral",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  362.9,
+                     "cPm":  2620.7,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  7.05,
+        "appearance":  "Silvery metal, fairly stable in air.",
+        "summary":  "Samarium-cobalt magnets keep their strength at high temperatures, making them ideal for aerospace and military motors.",
+        "uses":  [
+                     "Samarium-cobalt magnets",
+                     "Samarium-153 for bone-cancer pain",
+                     "Neutron absorbers in reactors"
+                 ],
+        "facts":  [
+                      "Samarium was the first element named after a person, via the mineral samarskite."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#8FFFC7"
+    },
+    {
+        "z":  63,
+        "symbol":  "Eu",
+        "name":  "Europium",
+        "altName":  null,
+        "atomicMass":  "151.96",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f7 6s2",
+        "configPredicted":  false,
+        "electronegativity":  null,
+        "ionizationEnergy":  5.67,
+        "electronAffinity":  null,
+        "covalentRadius":  198,
+        "vdwRadius":  233,
+        "meltingPoint":  1099,
+        "boilingPoint":  1802,
+        "density":  5.24,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1901",
+                          "by":  "Eugène-Anatole Demarçay",
+                          "note":  "Separated from samarium-gadolinium mixtures."
+                      },
+        "nameOrigin":  "Europe.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  151,
+                                            "abundance":  47.81
+                                        },
+                                        {
+                                            "A":  153,
+                                            "abundance":  52.19
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  152,
+                                                 "halfLife":  "13.5 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  153
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Eu",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Europium keeps a half-filled 4f7 shell and shares only two 6s electrons, so it behaves like barium: soft, low-density and very reactive.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  458.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made almost entirely by rapid neutron capture.",
+        "crustAbundancePpm":  2,
+        "appearance":  "Silvery metal that oxidizes rapidly in air.",
+        "summary":  "Europium is the most reactive lanthanide. Its glowing compounds made the red of color TV screens and are hidden in euro banknotes as an anti-forgery mark.",
+        "uses":  [
+                     "Red and blue phosphors in screens and LED lamps",
+                     "Anti-counterfeiting marks on euro banknotes",
+                     "Neutron absorbers"
+                 ],
+        "facts":  [
+                      "Euro banknotes glow under UV light thanks to europium compounds."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; reactive metal.",
+        "color":  "#61FFC7"
+    },
+    {
+        "z":  64,
+        "symbol":  "Gd",
+        "name":  "Gadolinium",
+        "altName":  null,
+        "atomicMass":  "157.25",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f7 5d1 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.2,
+        "ionizationEnergy":  6.15,
+        "electronAffinity":  null,
+        "covalentRadius":  196,
+        "vdwRadius":  237,
+        "meltingPoint":  1585,
+        "boilingPoint":  3546,
+        "density":  7.9,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1880",
+                          "by":  "Jean Charles Galissard de Marignac",
+                          "note":  "Detected spectroscopically; isolated by Lecoq de Boisbaudran in 1886."
+                      },
+        "nameOrigin":  "The mineral gadolinite, named after Finnish chemist Johan Gadolin.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  154,
+                                            "abundance":  2.18
+                                        },
+                                        {
+                                            "A":  155,
+                                            "abundance":  14.80
+                                        },
+                                        {
+                                            "A":  156,
+                                            "abundance":  20.47
+                                        },
+                                        {
+                                            "A":  157,
+                                            "abundance":  15.65
+                                        },
+                                        {
+                                            "A":  158,
+                                            "abundance":  24.84
+                                        },
+                                        {
+                                            "A":  160,
+                                            "abundance":  21.86
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  152,
+                                                 "halfLife":  "1.08×10^14 years",
+                                                 "note":  "0.20% of natural gadolinium."
+                                             }
+                                         ],
+                         "displayA":  158
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Gd",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Gadolinium (4f7 5d1 6s2) shares three valence electrons; its seven unpaired 4f electrons make it ferromagnetic just below room temperature.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  363.4,
+                     "cPm":  578.1,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  6.2,
+        "appearance":  "Silvery-white metal.",
+        "summary":  "Gadolinium has seven unpaired electrons, which makes its compounds excellent MRI contrast agents. It is ferromagnetic only below 20 °C.",
+        "uses":  [
+                     "MRI contrast agents",
+                     "Neutron shielding and reactor control",
+                     "Magnetic refrigeration research",
+                     "Phosphors and X-ray screens"
+                 ],
+        "facts":  [
+                      "Gadolinium-157 absorbs neutrons better than any other stable isotope."
+                  ],
+        "biology":  "None; free gadolinium ions are toxic, so MRI agents lock them in cages.",
+        "hazards":  "Free ions are toxic; metal is low hazard.",
+        "color":  "#45FFC7"
+    },
+    {
+        "z":  65,
+        "symbol":  "Tb",
+        "name":  "Terbium",
+        "altName":  null,
+        "atomicMass":  "158.92535",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f9 6s2",
+        "configPredicted":  false,
+        "electronegativity":  null,
+        "ionizationEnergy":  5.864,
+        "electronAffinity":  null,
+        "covalentRadius":  194,
+        "vdwRadius":  221,
+        "meltingPoint":  1629,
+        "boilingPoint":  3396,
+        "density":  8.23,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     4
+                                 ],
+        "discovery":  {
+                          "year":  "1843",
+                          "by":  "Carl Gustaf Mosander",
+                          "note":  "Separated from yttria."
+                      },
+        "nameOrigin":  "Ytterby, Sweden.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  159,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  157,
+                                                 "halfLife":  "71 years",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  161,
+                                                 "halfLife":  "6.9 days",
+                                                 "note":  "Studied for targeted cancer therapy."
+                                             }
+                                         ],
+                         "displayA":  159
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Tb",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Terbium shares three valence electrons; its 4f electrons give strong magnetism.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  360.6,
+                     "cPm":  569.7,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  1.2,
+        "appearance":  "Silvery-grey, soft metal.",
+        "summary":  "Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than any other material.",
+        "uses":  [
+                     "Green phosphors in lamps and screens",
+                     "Terfenol-D actuators and sonar",
+                     "Magnets for high-temperature motors"
+                 ],
+        "facts":  [
+                      "Terfenol-D stretches noticeably when magnetized, turning magnetic signals into sound."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#30FFC7"
+    },
+    {
+        "z":  66,
+        "symbol":  "Dy",
+        "name":  "Dysprosium",
+        "altName":  null,
+        "atomicMass":  "162.500",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f10 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.22,
+        "ionizationEnergy":  5.939,
+        "electronAffinity":  null,
+        "covalentRadius":  192,
+        "vdwRadius":  229,
+        "meltingPoint":  1680,
+        "boilingPoint":  2840,
+        "density":  8.55,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1886",
+                          "by":  "Paul-Émile Lecoq de Boisbaudran",
+                          "note":  "Took over 30 attempts to separate from holmium oxide."
+                      },
+        "nameOrigin":  "Greek dysprositos, hard to get.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  156,
+                                            "abundance":  0.056
+                                        },
+                                        {
+                                            "A":  158,
+                                            "abundance":  0.095
+                                        },
+                                        {
+                                            "A":  160,
+                                            "abundance":  2.329
+                                        },
+                                        {
+                                            "A":  161,
+                                            "abundance":  18.889
+                                        },
+                                        {
+                                            "A":  162,
+                                            "abundance":  25.475
+                                        },
+                                        {
+                                            "A":  163,
+                                            "abundance":  24.896
+                                        },
+                                        {
+                                            "A":  164,
+                                            "abundance":  28.260
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  159,
+                                                 "halfLife":  "144 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  164
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Dy",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Dysprosium shares three valence electrons; its many unpaired 4f electrons give one of the largest magnetic moments of any element.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  359.3,
+                     "cPm":  565.4,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  5.2,
+        "appearance":  "Bright silvery metal.",
+        "summary":  "A few percent of dysprosium keeps neodymium magnets working at the high temperatures in electric-car motors and wind turbines.",
+        "uses":  [
+                     "High-temperature neodymium magnets",
+                     "Terfenol-D",
+                     "Nuclear reactor control",
+                     "Halide lamps"
+                 ],
+        "facts":  [
+                      "Its name means \u0027hard to get\u0027 because separating it was so difficult."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#1FFFC7"
+    },
+    {
+        "z":  67,
+        "symbol":  "Ho",
+        "name":  "Holmium",
+        "altName":  null,
+        "atomicMass":  "164.93033",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f11 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.23,
+        "ionizationEnergy":  6.022,
+        "electronAffinity":  null,
+        "covalentRadius":  192,
+        "vdwRadius":  216,
+        "meltingPoint":  1734,
+        "boilingPoint":  2873,
+        "density":  8.8,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1878",
+                          "by":  "Marc Delafontaine; Jacques-Louis Soret; Per Teodor Cleve",
+                          "note":  "Seen spectroscopically and separated from erbia."
+                      },
+        "nameOrigin":  "Latin Holmia, Stockholm.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  165,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  "166m",
+                                                 "halfLife":  "1,200 years",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  166,
+                                                 "halfLife":  "26.8 hours",
+                                                 "note":  "Used in cancer therapy."
+                                             }
+                                         ],
+                         "displayA":  165
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ho",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Holmium shares three valence electrons; it has the highest magnetic moment of any natural element.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  357.8,
+                     "cPm":  561.8,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  1.3,
+        "appearance":  "Silvery metal.",
+        "summary":  "Holmium has the strongest magnetic moment of any element and is used to concentrate fields in the most powerful magnets.",
+        "uses":  [
+                     "Pole pieces for very strong magnets",
+                     "Holmium lasers in surgery",
+                     "Wavelength standards for spectrometers"
+                 ],
+        "facts":  [
+                      "Holmium oxide glass is a standard for checking spectrometers."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#00FF9C"
+    },
+    {
+        "z":  68,
+        "symbol":  "Er",
+        "name":  "Erbium",
+        "altName":  null,
+        "atomicMass":  "167.26",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f12 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.24,
+        "ionizationEnergy":  6.108,
+        "electronAffinity":  null,
+        "covalentRadius":  189,
+        "vdwRadius":  235,
+        "meltingPoint":  1802,
+        "boilingPoint":  3141,
+        "density":  9.07,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1843",
+                          "by":  "Carl Gustaf Mosander",
+                          "note":  "Separated from yttria along with terbium."
+                      },
+        "nameOrigin":  "Ytterby, Sweden.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  162,
+                                            "abundance":  0.139
+                                        },
+                                        {
+                                            "A":  164,
+                                            "abundance":  1.601
+                                        },
+                                        {
+                                            "A":  166,
+                                            "abundance":  33.503
+                                        },
+                                        {
+                                            "A":  167,
+                                            "abundance":  22.869
+                                        },
+                                        {
+                                            "A":  168,
+                                            "abundance":  26.978
+                                        },
+                                        {
+                                            "A":  170,
+                                            "abundance":  14.910
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  169,
+                                                 "halfLife":  "9.4 days",
+                                                 "note":  "Used for joint treatments."
+                                             }
+                                         ],
+                         "displayA":  166
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Er",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Erbium shares three valence electrons in a hexagonal metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  355.9,
+                     "cPm":  558.5,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  3.5,
+        "appearance":  "Silvery metal; its salts are pink.",
+        "summary":  "Erbium ions amplify light at 1,550 nm, the wavelength that carries internet signals through optical fibers across oceans.",
+        "uses":  [
+                     "Erbium-doped fiber amplifiers for the internet",
+                     "Pink glass and gemstone colors",
+                     "Dermatology lasers"
+                 ],
+        "facts":  [
+                      "Without erbium amplifiers, transoceanic fiber-optic internet would need far more repeater stations."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#00E675"
+    },
+    {
+        "z":  69,
+        "symbol":  "Tm",
+        "name":  "Thulium",
+        "altName":  null,
+        "atomicMass":  "168.93422",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f13 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.25,
+        "ionizationEnergy":  6.184,
+        "electronAffinity":  null,
+        "covalentRadius":  190,
+        "vdwRadius":  227,
+        "meltingPoint":  1818,
+        "boilingPoint":  2223,
+        "density":  9.32,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1879",
+                          "by":  "Per Teodor Cleve",
+                          "note":  "Found in erbia."
+                      },
+        "nameOrigin":  "Thule, an ancient name for the far north.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  169,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  171,
+                                                 "halfLife":  "1.92 years",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  170,
+                                                 "halfLife":  "128.6 days",
+                                                 "note":  "Portable X-ray source."
+                                             }
+                                         ],
+                         "displayA":  169
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Tm",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Thulium shares three valence electrons in a hexagonal metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  353.8,
+                     "cPm":  555.4,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by rapid neutron capture.",
+        "crustAbundancePpm":  0.52,
+        "appearance":  "Silvery-grey, soft metal.",
+        "summary":  "Thulium is the second rarest lanthanide. Thulium-170 makes compact X-ray sources and its lasers are used in surgery.",
+        "uses":  [
+                     "Portable X-ray sources (Tm-170)",
+                     "Surgical lasers",
+                     "Euro banknote anti-forgery phosphors"
+                 ],
+        "facts":  [
+                      "Thulium is rarer in the crust than silver or iodine."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#00D452"
+    },
+    {
+        "z":  70,
+        "symbol":  "Yb",
+        "name":  "Ytterbium",
+        "altName":  null,
+        "atomicMass":  "173.05",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f14 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.1,
+        "ionizationEnergy":  6.254,
+        "electronAffinity":  null,
+        "covalentRadius":  187,
+        "vdwRadius":  242,
+        "meltingPoint":  1097,
+        "boilingPoint":  1469,
+        "density":  6.9,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1878",
+                          "by":  "Jean Charles Galissard de Marignac",
+                          "note":  "Separated from erbia."
+                      },
+        "nameOrigin":  "Ytterby, Sweden.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  168,
+                                            "abundance":  0.123
+                                        },
+                                        {
+                                            "A":  170,
+                                            "abundance":  2.982
+                                        },
+                                        {
+                                            "A":  171,
+                                            "abundance":  14.09
+                                        },
+                                        {
+                                            "A":  172,
+                                            "abundance":  21.68
+                                        },
+                                        {
+                                            "A":  173,
+                                            "abundance":  16.103
+                                        },
+                                        {
+                                            "A":  174,
+                                            "abundance":  32.026
+                                        },
+                                        {
+                                            "A":  176,
+                                            "abundance":  12.996
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  169,
+                                                 "halfLife":  "32 days",
+                                                 "note":  "Portable gamma source."
+                                             }
+                                         ],
+                         "displayA":  174
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Yb",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Ytterbium keeps a full 4f14 shell and shares only two 6s electrons, so its metal is soft and less dense than its neighbors.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  548.5,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  3.2,
+        "appearance":  "Soft, silvery metal.",
+        "summary":  "Ytterbium atoms power some of the most accurate optical atomic clocks. Ytterbium-doped fiber lasers cut and weld metal in industry.",
+        "uses":  [
+                     "Fiber lasers for cutting and welding",
+                     "Optical lattice clocks",
+                     "Stress gauges",
+                     "Doping stainless steel"
+                 ],
+        "facts":  [
+                      "Ytterbium lattice clocks keep time to better than one part in 10^18."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#00BF38"
+    }
+]

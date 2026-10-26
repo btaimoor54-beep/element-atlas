@@ -1,0 +1,459 @@
+[
+    {
+        "id":  "ascorbic-acid",
+        "name":  "Ascorbic acid (vitamin C)",
+        "formula":  "C6H8O6",
+        "aka":  [
+                    "vitamin C"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  54670067,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 54670067)",
+                          "atomCount":  20,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A five-membered lactone ring with an enediol group.",
+                        "electronSharing":  "The enediol group gives up electrons easily, which makes vitamin C an antioxidant.",
+                        "geometry":  "Planar ring with a side chain",
+                        "bondLengths":  "C=C 134 pm"
+                    },
+        "formation":  "Made from glucose in most animals, but not in humans",
+        "state":  "solid",
+        "meltingPointC":  191,
+        "boilingPointC":  null,
+        "occurrence":  "Citrus fruit, peppers, kiwi.",
+        "uses":  [
+                     "Vitamin",
+                     "Antioxidant food additive (E300)"
+                 ],
+        "facts":  [
+                      "Scurvy killed more sailors than battles until citrus was added to rations."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Vitamin C is an antioxidant humans must get from food."
+    },
+    {
+        "id":  "retinol",
+        "name":  "Retinol (vitamin A)",
+        "formula":  "C20H30O",
+        "aka":  [
+                    "vitamin A"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  445354,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 445354)",
+                          "atomCount":  51,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A ring and a chain of alternating single and double bonds.",
+                        "electronSharing":  "Five conjugated C=C bonds share π electrons along the chain. In the eye, light flips one double bond from cis to trans, triggering vision.",
+                        "geometry":  "Long conjugated chain",
+                        "bondLengths":  "C=C 134–137 pm"
+                    },
+        "formation":  "Beta-carotene -\u003e 2 retinal -\u003e retinol (in the gut)",
+        "state":  "solid",
+        "meltingPointC":  63,
+        "boilingPointC":  null,
+        "occurrence":  "Liver, eggs, dairy; made from beta-carotene.",
+        "uses":  [
+                     "Vision",
+                     "Skin and immune health",
+                     "Cosmetic creams"
+                 ],
+        "facts":  [
+                      "Vision starts when one photon straightens a single bond in retinal."
+                  ],
+        "hazards":  "Toxic in very high doses.",
+        "summary":  "Vitamin A\u0027s conjugated chain is the light switch of vision."
+    },
+    {
+        "id":  "beta-carotene",
+        "name":  "Beta-carotene",
+        "formula":  "C40H56",
+        "aka":  [
+                    "provitamin A"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  5280489,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5280489)",
+                          "atomCount":  96,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A long chain of eleven conjugated double bonds between two rings.",
+                        "electronSharing":  "π electrons spread along the whole chain absorb blue light, so carrots look orange.",
+                        "geometry":  "Long, nearly straight conjugated chain",
+                        "bondLengths":  "C=C 134–137 pm"
+                    },
+        "formation":  "Made in plants from isoprene units",
+        "state":  "solid",
+        "meltingPointC":  183,
+        "boilingPointC":  null,
+        "occurrence":  "Carrots, sweet potatoes, leaves.",
+        "uses":  [
+                     "Provitamin A",
+                     "Orange food coloring (E160a)"
+                 ],
+        "facts":  [
+                      "Eating huge amounts of carrots can turn your skin orange (carotenemia)."
+                  ],
+        "hazards":  "Harmless in food.",
+        "summary":  "Beta-carotene\u0027s long chain of shared electrons makes carrots orange."
+    },
+    {
+        "id":  "lactic-acid",
+        "name":  "Lactic acid",
+        "formula":  "C3H6O3",
+        "aka":  [
+                    "2-hydroxypropanoic acid"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  612,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 612)",
+                          "atomCount":  12,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A three-carbon acid with an OH next to the acid group.",
+                        "electronSharing":  "The COOH releases H+; the OH and acid group hydrogen-bond.",
+                        "geometry":  "Tetrahedral chiral center",
+                        "bondLengths":  "C=O 121 pm"
+                    },
+        "formation":  "Pyruvate + NADH -\u003e lactate (fermentation in muscles and bacteria)",
+        "state":  "solid",
+        "meltingPointC":  53,
+        "boilingPointC":  122,
+        "occurrence":  "Sour milk, yogurt, working muscles.",
+        "uses":  [
+                     "Food acidulant",
+                     "Making PLA bioplastic"
+                 ],
+        "facts":  [
+                      "Lactic acid is not what makes muscles sore the next day; it is cleared within an hour."
+                  ],
+        "hazards":  "Irritant when concentrated.",
+        "summary":  "Lactic acid makes yogurt tangy and is turned into compostable plastic."
+    },
+    {
+        "id":  "citric-acid",
+        "name":  "Citric acid",
+        "formula":  "C6H8O7",
+        "aka":  [
+
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  311,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 311)",
+                          "atomCount":  21,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Three carboxylic acid groups and one OH on a five-carbon frame.",
+                        "electronSharing":  "Three acid groups release H+ in steps; together they grab metal ions (chelation).",
+                        "geometry":  "Branched",
+                        "bondLengths":  "C=O 121 pm"
+                    },
+        "formation":  "Made by Aspergillus niger mold from sugar",
+        "state":  "solid",
+        "meltingPointC":  153,
+        "boilingPointC":  null,
+        "occurrence":  "Citrus fruit; every cell\u0027s citric acid cycle.",
+        "uses":  [
+                     "Food and drink acidulant",
+                     "Descaling and cleaning",
+                     "Preservative"
+                 ],
+        "facts":  [
+                      "Its role in metabolism, the citric acid (Krebs) cycle, earned Hans Krebs the 1953 Nobel Prize."
+                  ],
+        "hazards":  "Irritant to eyes.",
+        "summary":  "Citric acid gives lemons their sourness and sits at the hub of metabolism."
+    },
+    {
+        "id":  "dopamine",
+        "name":  "Dopamine",
+        "formula":  "C8H11NO2",
+        "aka":  [
+
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  681,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 681)",
+                          "atomCount":  22,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A benzene ring with two OH groups and an aminoethyl tail.",
+                        "electronSharing":  "The catechol (two OH) ring and the amine let it fit receptor proteins in the brain.",
+                        "geometry":  "Planar ring with flexible chain",
+                        "bondLengths":  "C–N 147 pm"
+                    },
+        "formation":  "Tyrosine -\u003e L-DOPA -\u003e dopamine",
+        "state":  "solid",
+        "meltingPointC":  128,
+        "boilingPointC":  null,
+        "occurrence":  "Brain and adrenal glands.",
+        "uses":  [
+                     "Neurotransmitter for movement, motivation and reward",
+                     "Medicine for low blood pressure"
+                 ],
+        "facts":  [
+                      "Parkinson\u0027s disease involves the loss of dopamine-making neurons; L-DOPA helps replace it."
+                  ],
+        "hazards":  "Used only medically.",
+        "summary":  "Dopamine is a brain messenger for movement and reward."
+    },
+    {
+        "id":  "serotonin",
+        "name":  "Serotonin",
+        "formula":  "C10H12N2O",
+        "aka":  [
+                    "5-hydroxytryptamine",
+                    "5-HT"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  5202,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5202)",
+                          "atomCount":  25,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "An indole ring with an OH group and an aminoethyl chain.",
+                        "electronSharing":  "Shared pairs and a delocalized indole ring; the amine is positively charged in the body.",
+                        "geometry":  "Planar indole",
+                        "bondLengths":  "C–N 147 pm"
+                    },
+        "formation":  "Tryptophan -\u003e 5-hydroxytryptophan -\u003e serotonin",
+        "state":  "solid",
+        "meltingPointC":  167,
+        "boilingPointC":  null,
+        "occurrence":  "Gut (about 90%), blood platelets and brain.",
+        "uses":  [
+                     "Neurotransmitter for mood, sleep and digestion"
+                 ],
+        "facts":  [
+                      "Most of your serotonin is in your gut, not your brain."
+                  ],
+        "hazards":  "Not used directly.",
+        "summary":  "Serotonin regulates mood, sleep and digestion."
+    },
+    {
+        "id":  "adrenaline",
+        "name":  "Adrenaline (epinephrine)",
+        "formula":  "C9H13NO3",
+        "aka":  [
+                    "epinephrine"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  5816,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5816)",
+                          "atomCount":  26,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "Like dopamine with an extra OH and a methyl on the nitrogen.",
+                        "electronSharing":  "Shared pairs; the catechol ring and amine bind adrenergic receptors.",
+                        "geometry":  "Planar ring, chiral side chain",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "Noradrenaline -\u003e adrenaline (adding a methyl in the adrenal gland)",
+        "state":  "solid",
+        "meltingPointC":  211,
+        "boilingPointC":  null,
+        "occurrence":  "Adrenal glands.",
+        "uses":  [
+                     "Fight-or-flight hormone",
+                     "EpiPens for severe allergic reactions",
+                     "Cardiac arrest treatment"
+                 ],
+        "facts":  [
+                      "It was the first hormone isolated and synthesized, around 1900–1904."
+                  ],
+        "hazards":  "Powerful drug; only medical use.",
+        "summary":  "Adrenaline powers the fight-or-flight response."
+    },
+    {
+        "id":  "caffeine",
+        "name":  "Caffeine",
+        "formula":  "C8H10N4O2",
+        "aka":  [
+                    "1,3,7-trimethylxanthine"
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  2519,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 2519)",
+                          "atomCount":  24,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A purine double ring with three methyl groups and two C=O.",
+                        "electronSharing":  "π electrons are shared over the rings; its shape mimics adenosine, so it blocks adenosine receptors that signal tiredness.",
+                        "geometry":  "Planar purine",
+                        "bondLengths":  "C=O 123 pm"
+                    },
+        "formation":  "Made in coffee and tea plants from xanthosine",
+        "state":  "solid",
+        "meltingPointC":  235,
+        "boilingPointC":  null,
+        "occurrence":  "Coffee, tea, cocoa, energy drinks.",
+        "uses":  [
+                     "Stimulant",
+                     "Medicine for apnea in premature babies",
+                     "Pain-reliever additive"
+                 ],
+        "facts":  [
+                      "Plants make caffeine partly as a natural insecticide."
+                  ],
+        "hazards":  "High doses cause jitters and heart rhythm problems.",
+        "summary":  "Caffeine keeps you alert by blocking the brain\u0027s \u0027tired\u0027 signal."
+    },
+    {
+        "id":  "nicotine",
+        "name":  "Nicotine",
+        "formula":  "C10H14N2",
+        "aka":  [
+
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N"
+                     ],
+        "pubchemCid":  89594,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 89594)",
+                          "atomCount":  26,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A pyridine ring linked to a pyrrolidine ring.",
+                        "electronSharing":  "Nitrogen lone pairs let nicotine bind acetylcholine receptors in nerves and muscle.",
+                        "geometry":  "Two rings, twisted",
+                        "bondLengths":  "C–N 134–147 pm"
+                    },
+        "formation":  "Made in tobacco roots",
+        "state":  "liquid",
+        "meltingPointC":  -79,
+        "boilingPointC":  247,
+        "occurrence":  "Tobacco and other nightshade plants.",
+        "uses":  [
+                     "Smoking-cessation patches and gum",
+                     "Insecticide (historically)"
+                 ],
+        "facts":  [
+                      "It is one of the most addictive substances known."
+                  ],
+        "hazards":  "Highly toxic and addictive.",
+        "summary":  "Nicotine mimics a natural nerve signal, which makes tobacco so addictive."
+    }
+]

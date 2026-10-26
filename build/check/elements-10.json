@@ -1,0 +1,929 @@
+[
+    {
+        "z":  91,
+        "symbol":  "Pa",
+        "name":  "Protactinium",
+        "altName":  null,
+        "atomicMass":  "231.04",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f2 6d1 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.5,
+        "ionizationEnergy":  5.89,
+        "electronAffinity":  null,
+        "covalentRadius":  200,
+        "vdwRadius":  243,
+        "meltingPoint":  1841,
+        "boilingPoint":  null,
+        "density":  15.37,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                5,
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1913",
+                          "by":  "Kasimir Fajans; Oswald Göhring",
+                          "note":  "Found as short-lived Pa-234m; Lise Meitner and Otto Hahn found the long-lived Pa-231 in 1918."
+                      },
+        "nameOrigin":  "Greek protos (first) + actinium: it decays into actinium.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  231,
+                                                 "halfLife":  "32,760 years",
+                                                 "note":  "Natural, from the uranium-235 chain."
+                                             },
+                                             {
+                                                 "A":  233,
+                                                 "halfLife":  "27 days",
+                                                 "note":  "Forms in thorium reactors."
+                                             }
+                                         ],
+                         "displayA":  231
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Pa",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Protactinium shares five valence electrons, partly from 5f orbitals, in a body-centered tetragonal metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered tetragonal",
+                     "lattice":  "tetragonal",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  392.5,
+                     "cPm":  323.8,
+                     "note":  "Drawn as a simplified body-centered cubic lattice."
+                 },
+        "origin":  [
+
+                   ],
+        "originNote":  "Made in uranium ores by the decay of uranium-235.",
+        "crustAbundancePpm":  1.4E-06,
+        "appearance":  "Bright, silvery metal.",
+        "summary":  "Protactinium is one of the rarest and most expensive naturally occurring elements, extracted only in tiny amounts.",
+        "uses":  [
+                     "Research only; Pa-231 is used to date ocean sediments"
+                 ],
+        "facts":  [
+                      "The largest amount ever purified was about 125 g, extracted from 60 tonnes of waste in the UK in 1961."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Highly toxic and radioactive.",
+        "color":  "#00A1FF"
+    },
+    {
+        "z":  92,
+        "symbol":  "U",
+        "name":  "Uranium",
+        "altName":  null,
+        "atomicMass":  "238.03",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f3 6d1 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.38,
+        "ionizationEnergy":  6.194,
+        "electronAffinity":  null,
+        "covalentRadius":  196,
+        "vdwRadius":  240,
+        "meltingPoint":  1405.3,
+        "boilingPoint":  4404,
+        "density":  19.1,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                6,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     3,
+                                     5
+                                 ],
+        "discovery":  {
+                          "year":  "1789",
+                          "by":  "Martin Heinrich Klaproth",
+                          "note":  "Found as an oxide in pitchblende; Eugène-Melchior Péligot isolated the metal in 1841."
+                      },
+        "nameOrigin":  "The planet Uranus, discovered in 1781.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  238,
+                                                 "halfLife":  "4.47 billion years",
+                                                 "note":  "99.27% of natural uranium; about the age of Earth."
+                                             },
+                                             {
+                                                 "A":  235,
+                                                 "halfLife":  "704 million years",
+                                                 "note":  "0.72% of natural uranium; fissile, the fuel of reactors."
+                                             },
+                                             {
+                                                 "A":  234,
+                                                 "halfLife":  "245,500 years",
+                                                 "note":  "0.0054%, from U-238 decay."
+                                             }
+                                         ],
+                         "displayA":  238
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "U",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Uranium\u0027s 5f electrons partly join the bonding, giving it an unusual low-symmetry orthorhombic metal structure.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Alpha uranium",
+                                                     "note":  "Orthorhombic, below 668 °C."
+                                                 },
+                                                 {
+                                                     "name":  "Beta uranium",
+                                                     "note":  "Tetragonal."
+                                                 },
+                                                 {
+                                                     "name":  "Gamma uranium",
+                                                     "note":  "Body-centered cubic, above 776 °C."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Orthorhombic (alpha-U)",
+                     "lattice":  "orthorhombic",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  285.4,
+                     "cPm":  495.5,
+                     "note":  "Drawn as the high-temperature body-centered cubic form."
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by rapid neutron capture before the Solar System formed.",
+        "crustAbundancePpm":  2.7,
+        "appearance":  "Silvery-grey, very dense metal that tarnishes black.",
+        "summary":  "Uranium is the heaviest element found in large amounts in nature. Splitting uranium-235 nuclei releases enormous energy in nuclear reactors.",
+        "uses":  [
+                     "Nuclear power fuel",
+                     "Depleted uranium for armor and counterweights",
+                     "Uranium-lead dating of rocks"
+                 ],
+        "facts":  [
+                      "About 2 billion years ago, natural nuclear reactors ran in uranium deposits at Oklo, Gabon."
+                  ],
+        "biology":  "None; toxic to kidneys.",
+        "hazards":  "Chemically toxic and weakly radioactive; enriched uranium is fissile.",
+        "color":  "#008FFF"
+    },
+    {
+        "z":  93,
+        "symbol":  "Np",
+        "name":  "Neptunium",
+        "altName":  null,
+        "atomicMass":  "[237]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f4 6d1 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.36,
+        "ionizationEnergy":  6.266,
+        "electronAffinity":  null,
+        "covalentRadius":  190,
+        "vdwRadius":  221,
+        "meltingPoint":  912,
+        "boilingPoint":  4447,
+        "density":  20.45,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                5,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     3,
+                                     6,
+                                     7
+                                 ],
+        "discovery":  {
+                          "year":  "1940",
+                          "by":  "Edwin McMillan; Philip Abelson",
+                          "note":  "Made at Berkeley by bombarding uranium with neutrons: the first transuranium element."
+                      },
+        "nameOrigin":  "The planet Neptune, next after Uranus.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  237,
+                                                 "halfLife":  "2.14 million years",
+                                                 "note":  "The longest-lived isotope; a nuclear-waste product."
+                                             },
+                                             {
+                                                 "A":  239,
+                                                 "halfLife":  "2.36 days",
+                                                 "note":  "Decays to plutonium-239."
+                                             }
+                                         ],
+                         "displayA":  237
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Np",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Neptunium\u0027s 5f electrons take part in bonding, giving a low-symmetry orthorhombic metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Orthorhombic (alpha-Np)",
+                     "lattice":  "orthorhombic",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  472,
+                     "cPm":  489,
+                     "note":  "Drawn as a simplified body-centered cubic lattice."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in reactors; tiny traces form naturally in uranium ores.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery metal that tarnishes in air.",
+        "summary":  "Neptunium was the first element made beyond uranium. Neptunium-237 is used to make plutonium-238 for spacecraft power sources.",
+        "uses":  [
+                     "Making plutonium-238 for radioisotope generators",
+                     "Neutron detectors"
+                 ],
+        "facts":  [
+                      "Neptunium has one of the largest liquid ranges of any element: it melts at 639 °C and boils near 4,170 °C."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive and toxic.",
+        "color":  "#0080FF"
+    },
+    {
+        "z":  94,
+        "symbol":  "Pu",
+        "name":  "Plutonium",
+        "altName":  null,
+        "atomicMass":  "[244]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f6 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.28,
+        "ionizationEnergy":  6.06,
+        "electronAffinity":  null,
+        "covalentRadius":  187,
+        "vdwRadius":  243,
+        "meltingPoint":  912.5,
+        "boilingPoint":  3505,
+        "density":  19.85,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     3,
+                                     5,
+                                     6,
+                                     7
+                                 ],
+        "discovery":  {
+                          "year":  "1940",
+                          "by":  "Glenn Seaborg; Edwin McMillan; Joseph Kennedy; Arthur Wahl",
+                          "note":  "Made at Berkeley by bombarding uranium with deuterons."
+                      },
+        "nameOrigin":  "The dwarf planet Pluto.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  244,
+                                                 "halfLife":  "80 million years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  239,
+                                                 "halfLife":  "24,110 years",
+                                                 "note":  "Fissile; used in reactors and weapons."
+                                             },
+                                             {
+                                                 "A":  238,
+                                                 "halfLife":  "87.7 years",
+                                                 "note":  "Powers spacecraft such as Voyager and Perseverance."
+                                             }
+                                         ],
+                         "displayA":  244
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Pu",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Plutonium\u0027s 5f electrons sit on the edge between bonding and staying put, which gives it six solid phases, more than any other element.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Alpha plutonium",
+                                                     "note":  "Monoclinic, brittle; stable at room temperature."
+                                                 },
+                                                 {
+                                                     "name":  "Delta plutonium",
+                                                     "note":  "Face-centered cubic; stabilized with gallium for metalworking."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Monoclinic (alpha-Pu)",
+                     "lattice":  "monoclinic",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  463.7,
+                     "cPm":  null,
+                     "note":  "Drawn as the face-centered cubic delta phase."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in reactors; traces form naturally in uranium ores.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery metal that tarnishes yellow-olive; warm to the touch.",
+        "summary":  "Plutonium is a strange metal with six different solid phases. Plutonium-238 has powered spacecraft for decades, and plutonium-239 is a nuclear fuel.",
+        "uses":  [
+                     "Nuclear reactor fuel (mixed oxide)",
+                     "Radioisotope thermoelectric generators",
+                     "Nuclear weapons"
+                 ],
+        "facts":  [
+                      "A piece of plutonium-239 feels warm because of its own radioactive decay."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Highly radiotoxic if inhaled; fissile.",
+        "color":  "#006BFF"
+    },
+    {
+        "z":  95,
+        "symbol":  "Am",
+        "name":  "Americium",
+        "altName":  null,
+        "atomicMass":  "[243]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f7 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  5.993,
+        "electronAffinity":  null,
+        "covalentRadius":  180,
+        "vdwRadius":  244,
+        "meltingPoint":  1449,
+        "boilingPoint":  2880,
+        "density":  12,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     2,
+                                     4,
+                                     5,
+                                     6
+                                 ],
+        "discovery":  {
+                          "year":  "1944",
+                          "by":  "Glenn Seaborg; Ralph James; Leon Morgan; Albert Ghiorso",
+                          "note":  "Made in a reactor at Chicago by bombarding plutonium with neutrons."
+                      },
+        "nameOrigin":  "The Americas, by analogy with europium.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  243,
+                                                 "halfLife":  "7,370 years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  241,
+                                                 "halfLife":  "432.2 years",
+                                                 "note":  "In household smoke detectors."
+                                             }
+                                         ],
+                         "displayA":  243
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Am",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "In americium the 5f electrons stay on each atom, so it bonds with three valence electrons like a lanthanide.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  346.8,
+                     "cPm":  562,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in nuclear reactors.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery-white, soft metal.",
+        "summary":  "Americium-241 is in most household smoke detectors, where its alpha particles ionize the air in a tiny chamber.",
+        "uses":  [
+                     "Smoke detectors",
+                     "Neutron sources (with beryllium)",
+                     "Thickness gauges"
+                 ],
+        "facts":  [
+                      "A typical smoke detector contains about 0.3 micrograms of americium-241."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive; dangerous if swallowed or inhaled.",
+        "color":  "#545CF2"
+    },
+    {
+        "z":  96,
+        "symbol":  "Cm",
+        "name":  "Curium",
+        "altName":  null,
+        "atomicMass":  "[247]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f7 6d1 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.02,
+        "electronAffinity":  null,
+        "covalentRadius":  169,
+        "vdwRadius":  245,
+        "meltingPoint":  1613,
+        "boilingPoint":  3383,
+        "density":  13.51,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     4
+                                 ],
+        "discovery":  {
+                          "year":  "1944",
+                          "by":  "Glenn Seaborg; Ralph James; Albert Ghiorso",
+                          "note":  "Made by bombarding plutonium-239 with alpha particles."
+                      },
+        "nameOrigin":  "Marie and Pierre Curie.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  247,
+                                                 "halfLife":  "15.6 million years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  244,
+                                                 "halfLife":  "18.1 years",
+                                                 "note":  "Alpha source in Mars rover X-ray spectrometers."
+                                             }
+                                         ],
+                         "displayA":  247
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Cm",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Curium has a half-filled 5f7 shell and bonds with three valence electrons, like gadolinium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  349.6,
+                     "cPm":  566.6,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in nuclear reactors.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery metal; its compounds glow from their radioactivity.",
+        "summary":  "Curium is intensely radioactive and glows in the dark. Curium-244 sources helped Mars rovers analyze rocks.",
+        "uses":  [
+                     "Alpha sources for spectrometers on Mars rovers",
+                     "Making heavier elements"
+                 ],
+        "facts":  [
+                      "Its discovery was first announced on a children\u0027s radio quiz show in 1945."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Highly radioactive.",
+        "color":  "#785CE3"
+    },
+    {
+        "z":  97,
+        "symbol":  "Bk",
+        "name":  "Berkelium",
+        "altName":  null,
+        "atomicMass":  "[247]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f9 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.23,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  244,
+        "meltingPoint":  1259,
+        "boilingPoint":  2900,
+        "density":  14.78,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1949",
+                          "by":  "Stanley Thompson; Albert Ghiorso; Glenn Seaborg",
+                          "note":  "Made at Berkeley by bombarding americium-241 with alpha particles."
+                      },
+        "nameOrigin":  "Berkeley, California.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  247,
+                                                 "halfLife":  "1,380 years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  249,
+                                                 "halfLife":  "330 days",
+                                                 "note":  "Used to make heavier elements, including tennessine."
+                                             }
+                                         ],
+                         "displayA":  247
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Bk",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Berkelium bonds with three valence electrons in a double hexagonal close-packed metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  341.6,
+                     "cPm":  553.5,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in high-flux reactors.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery metal; only microgram amounts have been made.",
+        "summary":  "Berkelium is made only in microgram amounts in special reactors. Berkelium-249 was the target used to create tennessine.",
+        "uses":  [
+                     "Target for making heavier elements"
+                 ],
+        "facts":  [
+                      "The 22 mg of berkelium used to make tennessine took months to produce at Oak Ridge."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#8A4FE3"
+    },
+    {
+        "z":  98,
+        "symbol":  "Cf",
+        "name":  "Californium",
+        "altName":  null,
+        "atomicMass":  "[251]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f10 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.3,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  245,
+        "meltingPoint":  1173,
+        "boilingPoint":  1743,
+        "density":  15.1,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     2,
+                                     4
+                                 ],
+        "discovery":  {
+                          "year":  "1950",
+                          "by":  "Stanley Thompson; Kenneth Street Jr.; Albert Ghiorso; Glenn Seaborg",
+                          "note":  "Made by bombarding curium-242 with alpha particles."
+                      },
+        "nameOrigin":  "California and the University of California.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  251,
+                                                 "halfLife":  "898 years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  252,
+                                                 "halfLife":  "2.645 years",
+                                                 "note":  "A strong neutron source: a microgram emits about 2.3 million neutrons per second."
+                                             }
+                                         ],
+                         "displayA":  251
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Cf",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Californium bonds with three valence electrons; it is the heaviest element made in amounts large enough to weigh easily.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  339,
+                     "cPm":  550.8,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in high-flux reactors.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery metal.",
+        "summary":  "Californium-252 is a powerful neutron source used to start nuclear reactors and to find gold, silver and oil underground.",
+        "uses":  [
+                     "Starting up nuclear reactors",
+                     "Neutron moisture gauges and oil-well logging",
+                     "Cancer therapy research"
+                 ],
+        "facts":  [
+                      "Californium-252 has been priced at tens of millions of US dollars per gram, making it one of the most expensive substances."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Intensely radioactive neutron emitter.",
+        "color":  "#A136D4"
+    },
+    {
+        "z":  99,
+        "symbol":  "Es",
+        "name":  "Einsteinium",
+        "altName":  null,
+        "atomicMass":  "[252]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f11 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.42,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  245,
+        "meltingPoint":  1133,
+        "boilingPoint":  1269,
+        "density":  8.84,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1952",
+                          "by":  "Albert Ghiorso and team",
+                          "note":  "Found in debris of the first hydrogen-bomb test, \u0027Ivy Mike\u0027; kept secret until 1955."
+                      },
+        "nameOrigin":  "Albert Einstein.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  252,
+                                                 "halfLife":  "471.7 days",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  253,
+                                                 "halfLife":  "20.5 days",
+                                                 "note":  "The isotope most often made and studied."
+                                             }
+                                         ],
+                         "displayA":  252
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Es",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Einsteinium appears to be divalent in the metal, sharing only two electrons, like europium and ytterbium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  575,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in high-flux reactors and first found in nuclear test debris.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery metal that glows from its own radiation.",
+        "summary":  "Einsteinium is the heaviest element ever seen as a visible amount. It destroys its own crystal structure with radiation, losing about 3% of its mass each day.",
+        "uses":  [
+                     "Research only, such as making mendelevium"
+                 ],
+        "facts":  [
+                      "Its radioactivity is so intense that it glows and damages its own crystal lattice."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Intensely radioactive.",
+        "color":  "#B31FD4"
+    },
+    {
+        "z":  100,
+        "symbol":  "Fm",
+        "name":  "Fermium",
+        "altName":  null,
+        "atomicMass":  "[257]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f12 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.5,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  1800,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1952",
+                          "by":  "Albert Ghiorso and team",
+                          "note":  "Found with einsteinium in the \u0027Ivy Mike\u0027 hydrogen-bomb debris."
+                      },
+        "nameOrigin":  "Enrico Fermi.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  257,
+                                                 "halfLife":  "100.5 days",
+                                                 "note":  "The longest-lived isotope."
+                                             }
+                                         ],
+                         "displayA":  257
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Fm",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Only tiny amounts have been made, so the metal has never been studied in bulk. It is predicted to be a divalent metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted face-centered cubic)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in reactors and by nuclear explosions.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Fermium is the heaviest element that can be made by bombarding lighter elements with neutrons; beyond it, particle accelerators are needed.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Fermium is the last element that can be built up by neutron capture in a reactor."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#B31FBA"
+    }
+]

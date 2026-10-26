@@ -1,0 +1,152 @@
+[
+    {
+        "kind":  "element",
+        "batch":  "elements 02",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-02.json",
+        "id":  "Ca",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.02455",
+        "why":  "Ca- is a bound anion with a measured electron affinity of 0.02455(10) eV (2.37 kJ/mol). The Wikipedia electron-affinity data page, the CRC-based LibreTexts table A7, Knowledgedoor and WebElements all list it, so null leaves out a well-established value. This is unlike Mg, whose anion is unbound."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 02",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-02.json",
+        "id":  "S",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "2448",
+        "why":  "The convention says cPm is c of the real structure, and the dataset fills cPm for other orthorhombic elements (Ga, U, Np). alpha-S8 is orthorhombic Fddd with c = 2448.1 pm at 20 °C (Arblaster 2018, in the Wikipedia infobox, which also gives a = 1046.0 pm, the stored value) or 2448.6 pm (Rettig and Trotter 1987). Null leaves out a well-known value. I give 2448 so it matches the stored a; 2448.6 is also fine."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 02",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-02.json",
+        "id":  "Cl",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "826",
+        "why":  "Solid Cl2 is orthorhombic (Cmca/Cmce), so c is a well-known parameter and null leaves it out. 826 pm comes from Collin 1952, the same dataset as the stored a = 624 pm. Other sources give 817.85 pm (WebElements, citing Powell, Heal and Torrie 1984) and 815.49 pm at the triple point (Wikipedia). 826 is within about 1.3% of both. I could not open Collin\u0027s paper, but the value is within tolerance either way."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 02",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-02.json",
+        "id":  "Al",
+        "field":  "isotopes.radioactive[0].note",
+        "current":  "\"Made by cosmic rays; its gamma rays are seen across the Milky Way.\"",
+        "corrected":  "\"Made in massive stars and supernovae; its gamma rays are seen across the Milky Way. Cosmic rays also make small amounts in rocks and meteorites.\"",
+        "why":  "The current sentence implies that cosmic-ray-made Al-26 produces the Galaxy-wide 1.809 MeV gamma-ray glow. Wikipedia \u0027Aluminium-26\u0027 says galactic Al-26 is mainly produced in supernovae, and the COMPTEL/INTEGRAL literature attributes it to massive stars (Wolf-Rayet winds and core-collapse supernovae). Cosmic-ray spallation makes only small amounts, in rocks and meteorites. The idea is right, but I refined the wording to remove the ambiguity and keep the cosmogenic fact. I gave the same text for the duplicate proposal so the two do not conflict."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 02",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-02.json",
+        "id":  "S",
+        "field":  "biology",
+        "current":  "Essential: in the amino acids cysteine and methionine and in many vitamins.",
+        "corrected":  "\"Essential: in the amino acids cysteine and methionine and in the vitamins thiamine and biotin.\"",
+        "why":  "Of the 13 human vitamins, only thiamine (B1, thiazole ring) and biotin (B7, thiophane ring) contain sulfur. A, C, D, E, K, B2, B3, B5, B6, B9 and B12 do not. \u0027Many vitamins\u0027 is therefore false, and the proposed text is accurate."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-03.json",
+        "id":  "Cu",
+        "field":  "facts[1]",
+        "current":  "\"Copper is one of only two metals that are not grey or silvery; gold is the other.\"",
+        "corrected":  "\"Copper is one of only a few metals that are not grey or silvery; others include gold and caesium.\"",
+        "why":  "\u0027Only two\u0027 is false. Wikipedia\u0027s Caesium article describes the metal as \u0027silvery-golden\u0027 with a \u0027pale gold\u0027 infobox colour and explains why it looks golden. Wikipedia\u0027s Copper article says only that copper is \u0027one of a few metallic elements with a natural color other than gray or silver\u0027. Some sources also count osmium (bluish), so I used \u0027others include\u0027 rather than \u0027the others\u0027, which would claim the list is exactly three."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-03.json",
+        "id":  "Fe",
+        "field":  "discovery.note",
+        "current":  "\"Iron from meteorites was used before 3000 BCE; smelting began around 1200 BCE (the Iron Age).\"",
+        "corrected":  "\"Iron from meteorites was used before 3000 BCE; smelting began in the Bronze Age, by about 2000 BCE, and became widespread around 1200 BCE (the Iron Age).\"",
+        "why":  "Wikipedia (Ferrous metallurgy) says the evidence for the earliest smelting \u0027seems to point to the Middle East area, during the Bronze Age in the 3rd millennium BC\u0027. Smelted iron objects appear in Mesopotamia, Anatolia and Egypt by about 1500 BC. The Iron Age (around 1200 BCE) is defined by iron\u0027s widespread replacement of bronze, not by the start of smelting. The current note is therefore false. The meteoric-iron date is correct: Egyptian artifacts date from the 4th millennium BC."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-03.json",
+        "id":  "Cu",
+        "field":  "origin",
+        "current":  "[\"exploding massive stars\"]",
+        "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]",
+        "why":  "I fetched the Wikimedia Commons Nucleosynthesis_periodic_table.svg, drawn from Jennifer Johnson\u0027s data. Its Cu tooltip reads \u002742% Exploding massive stars, 58% Exploding white dwarfs\u0027. The dataset\u0027s own pattern fits these figures with a cutoff near 20%. V (25% massive) and Cr (23% massive) list both sources, while Sc (18% white dwarfs) and Mn (16% massive) list one. Leaving out the majority source for Cu is therefore inconsistent with the chart convention. Caveat: I could not open the 2019 Science figure (paywalled). In a July 2019 blog comment Johnson spoke of a revision she had not yet made, which suggests the 2019 figure carries the same data."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-03.json",
+        "id":  "Zn",
+        "field":  "origin",
+        "current":  "[\"exploding massive stars\"]",
+        "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]",
+        "why":  "The Wikimedia Commons Nucleosynthesis_periodic_table.svg (Johnson\u0027s data) gives the Zn tooltip as \u002746% Exploding massive stars, 54% Exploding white dwarfs\u0027. The dataset lists both sources for V and Cr, where the minor share is only 23–25%. Leaving out the majority source for Zn breaks the stated chart convention. The same caveat applies as for Cu: I checked the Johnson-data rendition, not the paywalled 2019 Science figure, which most likely reuses the same data."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-03.json",
+        "id":  "Fe",
+        "field":  "elementalForm.allotropes[0].note",
+        "current":  "Body-centered cubic, magnetic, stable below 912 °C.",
+        "corrected":  "\"Body-centered cubic, stable below 912 °C; magnetic below 770 °C.\"",
+        "why":  "Alpha iron is ferromagnetic only below its Curie point of 770 °C (1043 K). Between 770 and 912 °C it is bcc but paramagnetic, the region historically called \u0027beta iron\u0027 (Wikipedia, Allotropes of iron). The current wording implies iron is magnetic across the whole range up to 912 °C, which is misleading. The correction is accurate."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-03.json",
+        "id":  "Co",
+        "field":  "elementalForm.allotropes",
+        "current":  "[]",
+        "corrected":  "[{\"name\": \"Hexagonal cobalt\", \"note\": \"Hexagonal close-packed, stable at room temperature.\"}, {\"name\": \"Cubic cobalt\", \"note\": \"Face-centered cubic, stable above about 420–450 °C.\"}]",
+        "why":  "Wikipedia (Cobalt) says metallic cobalt \u0027occurs as two crystallographic structures\u0027, hcp and fcc, with an ideal transition at 450 °C. Metallurgical sources such as ASM give 417–422 °C. An empty list tells students cobalt has no allotropes, which is false, and it is inconsistent with Ti and Fe, which list their high-temperature forms. I widened the transition temperature to 420–450 °C to cover how sources disagree. The descriptive names avoid the conflicting alpha/beta/epsilon labels used in different sources."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-03.json",
+        "id":  "Mn",
+        "field":  "elementalForm.allotropes",
+        "current":  "[{\"name\": \"Alpha manganese\", \"note\": \"Complex cubic cell with 58 atoms, stable at room temperature.\"}]",
+        "corrected":  "[{\"name\": \"Alpha manganese\", \"note\": \"Complex cubic cell with 58 atoms, stable at room temperature.\"}, {\"name\": \"Beta manganese\", \"note\": \"Complex cubic cell with 20 atoms, 727–1095 °C.\"}, {\"name\": \"Gamma manganese\", \"note\": \"Face-centered cubic, 1095–1133 °C.\"}, {\"name\": \"Delta manganese\", \"note\": \"Body-centered cubic, 1133 °C up to melting at 1246 °C.\"}]",
+        "why":  "Wikipedia (Manganese): \u0027Four allotropes ... of solid manganese are known, labeled α, β, γ and δ\u0027. β-Mn is primitive cubic with 20 atoms per cell and forms above about 700 °C (ASM gives 727 °C). γ-Mn is fcc and forms above 1370 K, about 1095–1100 °C. δ-Mn is bcc, forms above 1406 K (1133 °C) and lasts to the melting point of 1519 K (1246 °C), which matches the dataset\u0027s meltingPoint. Listing only alpha implies manganese has a single form. The proposed temperatures are within normal disagreement between sources."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Ge",
+        "field":  "electronAffinity",
+        "current":  "1.35",
+        "corrected":  "1.233",
+        "why":  "Wikipedia\u0027s electron affinity data page gives Ge as 1.2326764(13) eV (Bresteau et al. 2015; earlier Scheer et al. 1998). The current 1.35 matches PubChem\u0027s outdated figure and is about 9.5% too high, well outside the 2% tolerance. 1.233 is correct."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Rb",
+        "field":  "electronAffinity",
+        "current":  "0.468",
+        "corrected":  "0.486",
+        "why":  "Wikipedia\u0027s electron affinity data page gives Rb as 0.485916(21) eV (Frey et al. 1978). The current 0.468 matches PubChem\u0027s value, which looks like a transposition, and is 3.7% low. That is beyond the 2% tolerance for a constant measured this precisely. 0.486 is correct."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Sr",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.052",
+        "why":  "Wikipedia\u0027s electron affinity data page gives Sr as 0.05206(6) eV (Andersen et al. 1997), and Ca and Ba likewise have measured bound anions. A well-measured value is stored as null, so this is an error. 0.052 is correct."
+    }
+]

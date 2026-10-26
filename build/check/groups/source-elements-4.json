@@ -1,0 +1,62 @@
+[
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Pm",
+        "field":  "bulk.cPm",
+        "current":  "582.5",
+        "corrected":  "1165",
+        "why":  "Promethium metal is double hexagonal close-packed (hP4). WebElements/CRC give a = 365 pm and c = 1165 pm, and the Wikipedia infobox gives a = 363.93 pm and c = 1173.9 pm at 20 °C. The entry\u0027s own a is 365, which matches the 1165 pm c. The value 582.5 is exactly half the real dhcp c, the c of the simplified hcp drawing model. The convention says cPm is c of the real structure, and the dataset does this for Sm (2620.7 pm, the full 9R c). La, Pr and Nd in elements-06 have the same halving (608.6, 591.7, 590.0)."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Pm",
+        "field":  "uses[0]",
+        "current":  "Nuclear batteries for pacemakers and space probes (historically)",
+        "corrected":  "\"Nuclear batteries for heart pacemakers (historically)\"",
+        "why":  "Wikipedia \u0027Promethium\u0027 and the RSC/LANL element pages describe space-probe and satellite power only as a possible use (\u0027possible future uses ... as auxiliary heat or power sources for space probes and satellites\u0027). They add that Pu-238 became standard for space missions. The documented historical use is the Pm-147 Betacel pacemaker battery (Wikipedia \u0027Betacel\u0027, more than 100 patients in the 1970s). I found no record of a Pm-147 power source flying on a space probe, so listing space probes as a historical use is misleading."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Er",
+        "field":  "facts[0]",
+        "current":  "Without erbium amplifiers, transoceanic fiber-optic internet would need far more repeater stations.",
+        "corrected":  "\"Erbium amplifiers boost light directly, so one undersea fiber can carry many signal colors without converting them to electricity.\"",
+        "why":  "Pre-EDFA cables already had repeaters about as far apart: TAT-8 (1988) regenerated the signal in housings about 40 km apart (Wikipedia \u0027TAT-8\u0027), while EDFA-era submarine systems typically place repeaters every 40–100 km. EDFAs did not cut the number of repeater stations. They replaced optical-electrical-optical regeneration and amplify many WDM wavelengths at once, so \u0027far more repeater stations\u0027 is misleading. The replacement sentence is accurate."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Tb",
+        "field":  "summary",
+        "current":  "Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than any other material.",
+        "corrected":  "\"Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than almost any other material.\"",
+        "why":  "The unqualified claim is false. Wikipedia \u0027Terfenol-D\u0027 says only that it \u0027has the highest magnetostriction of any alloy\u0027 (about 0.2%). Pure Tb, Dy and Tb-Dy alloys show larger magnetostriction at cryogenic temperatures. The proposed fix \u0027at room temperature\u0027 is still false: Ni-Mn-Ga magnetic shape-memory alloys show field-induced strains of several percent (up to about 10%) at room temperature, and even 0.43% bidirectional strain, about three times Terfenol-D\u0027s saturation magnetostriction, has been reported in rods. \u0027Almost any other material\u0027 is true and suits students."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Gd",
+        "field":  "discovery.note",
+        "current":  "Detected spectroscopically; isolated by Lecoq de Boisbaudran in 1886.",
+        "corrected":  "\"Detected spectroscopically; Lecoq de Boisbaudran purified its oxide in 1886, but the metal was not isolated until 1935.\"",
+        "why":  "Wikipedia \u0027Gadolinium\u0027 lists first isolation as Félix Trombe in 1935 (\u0027Pure gadolinium metal was isolated for the first time in 1935\u0027) and says Lecoq de Boisbaudran named the element in 1886. Britannica says that in 1886 he produced a fairly pure sample of the earth (the oxide). Saying he \u0027isolated\u0027 gadolinium in 1886 leads students to think the element itself was obtained then. My wording is close to the proposal\u0027s and adds the 1935 date for the metal."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Er",
+        "field":  "origin",
+        "current":  "[\"merging neutron stars\"]",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+        "why":  "The Wikimedia Commons SVG \u0027Nucleosynthesis periodic table\u0027 (Cmglee, based on Jennifer Johnson\u0027s data) gives tooltips of Er 16% dying low-mass stars / 84% merging neutron stars, and Gd 15% / 85%. This file lists \u0027dying low-mass stars\u0027 for Gd (15%) but omits it for Er (16%). Erbium\u0027s s-process share of about 16–17% is also well established (Arlandini 1999, Bisterzo 2014). No consistent threshold can include Gd and exclude Er, so the Er list is incomplete."
+    }
+]

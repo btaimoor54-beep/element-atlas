@@ -1,0 +1,1013 @@
+[
+    {
+        "z":  11,
+        "symbol":  "Na",
+        "name":  "Sodium",
+        "altName":  null,
+        "atomicMass":  "22.9897693",
+        "category":  "alkali metal",
+        "categoryPredicted":  false,
+        "group":  1,
+        "period":  3,
+        "block":  "s",
+        "electronConfiguration":  "[Ne] 3s1",
+        "configPredicted":  false,
+        "electronegativity":  0.93,
+        "ionizationEnergy":  5.139,
+        "electronAffinity":  0.548,
+        "covalentRadius":  166,
+        "vdwRadius":  227,
+        "meltingPoint":  370.95,
+        "boilingPoint":  1156,
+        "density":  0.968,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1807",
+                          "by":  "Humphry Davy",
+                          "note":  "Isolated by passing electricity through molten sodium hydroxide."
+                      },
+        "nameOrigin":  "From soda; the symbol Na is from Latin natrium.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  23,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  22,
+                                                 "halfLife":  "2.60 years",
+                                                 "note":  "A positron emitter used in research."
+                                             },
+                                             {
+                                                 "A":  24,
+                                                 "halfLife":  "15.0 hours",
+                                                 "note":  "Used as a medical and industrial tracer."
+                                             }
+                                         ],
+                         "displayA":  23
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Na",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Each sodium atom releases its single 3s electron into a shared electron sea that binds the Na+ cores. With only one electron per atom the bonding is weak, so sodium is soft and melts at 98 °C.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  429.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by carbon fusion in massive stars.",
+        "crustAbundancePpm":  23600,
+        "appearance":  "Soft, silvery metal, easily cut with a knife; tarnishes at once in air.",
+        "summary":  "Sodium is a soft, very reactive metal. It gives up its outer electron so readily that it is never found free in nature, but its ion Na+ is everywhere, from sea salt to nerve signals.",
+        "uses":  [
+                     "Table salt and many sodium compounds",
+                     "Sodium-vapor street lamps",
+                     "Coolant in some nuclear reactors",
+                     "Making titanium and other metals"
+                 ],
+        "facts":  [
+                      "Sodium reacts with water so vigorously that the hydrogen released can catch fire.",
+                      "Sodium gives fireworks and street lamps their yellow-orange color."
+                  ],
+        "biology":  "Essential: Na+ carries nerve impulses and controls body fluid balance.",
+        "hazards":  "Reacts violently with water; causes burns.",
+        "color":  "#AB5CF2"
+    },
+    {
+        "z":  12,
+        "symbol":  "Mg",
+        "name":  "Magnesium",
+        "altName":  null,
+        "atomicMass":  "24.305",
+        "category":  "alkaline earth metal",
+        "categoryPredicted":  false,
+        "group":  2,
+        "period":  3,
+        "block":  "s",
+        "electronConfiguration":  "[Ne] 3s2",
+        "configPredicted":  false,
+        "electronegativity":  1.31,
+        "ionizationEnergy":  7.646,
+        "electronAffinity":  null,
+        "covalentRadius":  141,
+        "vdwRadius":  173,
+        "meltingPoint":  923,
+        "boilingPoint":  1363,
+        "density":  1.74,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1755",
+                          "by":  "Joseph Black (recognized); Humphry Davy (isolated 1808)",
+                          "note":  "Black recognized magnesia as a new element\u0027s oxide; Davy isolated the metal by electrolysis in 1808."
+                      },
+        "nameOrigin":  "From Magnesia, a district in Greece known for magnesium minerals.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  24,
+                                            "abundance":  78.99
+                                        },
+                                        {
+                                            "A":  25,
+                                            "abundance":  10.0
+                                        },
+                                        {
+                                            "A":  26,
+                                            "abundance":  11.01
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  28,
+                                                 "halfLife":  "20.9 hours",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  24
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Mg",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Magnesium atoms each release two 3s electrons into a shared electron sea around Mg2+ cores.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  320.9,
+                     "cPm":  521.0,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by carbon and neon fusion in massive stars.",
+        "crustAbundancePpm":  23300,
+        "appearance":  "Shiny, light, silvery-white metal.",
+        "summary":  "Magnesium is a light, strong metal that burns with a dazzling white flame. It sits at the heart of every chlorophyll molecule.",
+        "uses":  [
+                     "Lightweight alloys for cars, aircraft and laptops",
+                     "Flares and fireworks",
+                     "Refractory linings (magnesium oxide)",
+                     "Antacids and laxatives (magnesium hydroxide and sulfate)"
+                 ],
+        "facts":  [
+                      "Burning magnesium cannot be put out with water: it keeps burning and releases hydrogen.",
+                      "Each chlorophyll molecule holds one magnesium ion at its center."
+                  ],
+        "biology":  "Essential: needed by hundreds of enzymes and by ATP; central to chlorophyll.",
+        "hazards":  "Powder or ribbon is flammable; burning magnesium is very hard to extinguish.",
+        "color":  "#8AFF00"
+    },
+    {
+        "z":  13,
+        "symbol":  "Al",
+        "name":  "Aluminium",
+        "altName":  "Aluminum",
+        "atomicMass":  "26.982",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  13,
+        "period":  3,
+        "block":  "p",
+        "electronConfiguration":  "[Ne] 3s2 3p1",
+        "configPredicted":  false,
+        "electronegativity":  1.61,
+        "ionizationEnergy":  5.986,
+        "electronAffinity":  0.441,
+        "covalentRadius":  121,
+        "vdwRadius":  184,
+        "meltingPoint":  933.437,
+        "boilingPoint":  2792,
+        "density":  2.7,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1825",
+                          "by":  "Hans Christian Ørsted",
+                          "note":  "Ørsted made impure aluminium in 1825; Friedrich Wöhler made purer metal in 1827."
+                      },
+        "nameOrigin":  "From alum (Latin alumen), a salt of aluminium.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  27,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  26,
+                                                 "halfLife":  "717,000 years",
+                                                 "note":  "Made by cosmic rays; its gamma rays are seen across the Milky Way."
+                                             }
+                                         ],
+                         "displayA":  27
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Al",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Each aluminium atom contributes three valence electrons to the shared electron sea that binds the Al3+ cores.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  404.95,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by carbon and neon burning in massive stars.",
+        "crustAbundancePpm":  82300,
+        "appearance":  "Light, silvery-white, soft metal.",
+        "summary":  "Aluminium is the most abundant metal in Earth\u0027s crust. It is light and resists corrosion because a thin oxide skin seals its surface.",
+        "uses":  [
+                     "Drink cans and foil",
+                     "Aircraft, car and building alloys",
+                     "Overhead power lines",
+                     "Window frames and cookware"
+                 ],
+        "facts":  [
+                      "In the 1850s aluminium was more precious than gold; the tip of the Washington Monument is aluminium.",
+                      "Recycling aluminium saves about 95% of the energy needed to make it from ore."
+                  ],
+        "biology":  "No known role.",
+        "hazards":  "Low toxicity; fine powder is flammable.",
+        "color":  "#BFA6A6"
+    },
+    {
+        "z":  14,
+        "symbol":  "Si",
+        "name":  "Silicon",
+        "altName":  null,
+        "atomicMass":  "28.085",
+        "category":  "metalloid",
+        "categoryPredicted":  false,
+        "group":  14,
+        "period":  3,
+        "block":  "p",
+        "electronConfiguration":  "[Ne] 3s2 3p2",
+        "configPredicted":  false,
+        "electronegativity":  1.9,
+        "ionizationEnergy":  8.152,
+        "electronAffinity":  1.385,
+        "covalentRadius":  111,
+        "vdwRadius":  210,
+        "meltingPoint":  1687,
+        "boilingPoint":  3538,
+        "density":  2.3296,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4,
+                                -4
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1824",
+                          "by":  "Jöns Jacob Berzelius",
+                          "note":  "Made by heating potassium fluorosilicate with potassium."
+                      },
+        "nameOrigin":  "Latin silex, flint.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  28,
+                                            "abundance":  92.223
+                                        },
+                                        {
+                                            "A":  29,
+                                            "abundance":  4.685
+                                        },
+                                        {
+                                            "A":  30,
+                                            "abundance":  3.092
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  32,
+                                                 "halfLife":  "about 150 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  28
+                     },
+        "elementalForm":  {
+                              "kind":  "network",
+                              "formula":  "Si (diamond structure)",
+                              "bondOrder":  1,
+                              "bondLengthPm":  235,
+                              "description":  "Like carbon in diamond, each silicon atom shares one electron pair with each of four neighbors, building a 3D tetrahedral network.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Diamond cubic",
+                     "lattice":  "diamond",
+                     "renderAs":  "diamond",
+                     "latticeConstantPm":  543.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "exploding white dwarfs"
+                   ],
+        "originNote":  "Made by oxygen fusion in massive stars and in white-dwarf explosions.",
+        "crustAbundancePpm":  282000,
+        "appearance":  "Hard, brittle, blue-grey crystals with a metallic shine.",
+        "summary":  "Silicon is a semiconductor and the second most abundant element in the crust, mostly as silica and silicates. Purified silicon crystals are the foundation of computer chips and solar cells.",
+        "uses":  [
+                     "Computer chips and transistors",
+                     "Solar cells",
+                     "Glass, cement and ceramics (as silica)",
+                     "Silicones",
+                     "Aluminium-silicon alloys"
+                 ],
+        "facts":  [
+                      "Sand is mostly silicon dioxide.",
+                      "Chip-grade silicon is purified to better than 99.9999999%."
+                  ],
+        "biology":  "Used by diatoms and some plants to build skeletons; trace role in humans uncertain.",
+        "hazards":  "Low toxicity; breathing crystalline silica dust causes silicosis.",
+        "color":  "#F0C8A0"
+    },
+    {
+        "z":  15,
+        "symbol":  "P",
+        "name":  "Phosphorus",
+        "altName":  null,
+        "atomicMass":  "30.974",
+        "category":  "nonmetal",
+        "categoryPredicted":  false,
+        "group":  15,
+        "period":  3,
+        "block":  "p",
+        "electronConfiguration":  "[Ne] 3s2 3p3",
+        "configPredicted":  false,
+        "electronegativity":  2.19,
+        "ionizationEnergy":  10.487,
+        "electronAffinity":  0.746,
+        "covalentRadius":  107,
+        "vdwRadius":  180,
+        "meltingPoint":  317.3,
+        "boilingPoint":  553.65,
+        "density":  1.82,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -3,
+                                5,
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1669",
+                          "by":  "Hennig Brand",
+                          "note":  "Brand boiled down large amounts of urine while searching for the philosopher\u0027s stone and got a glowing substance."
+                      },
+        "nameOrigin":  "Greek phosphoros, light-bearer, because white phosphorus glows in air.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  31,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  32,
+                                                 "halfLife":  "14.3 days",
+                                                 "note":  "Used in biology research and medicine."
+                                             },
+                                             {
+                                                 "A":  33,
+                                                 "halfLife":  "25.3 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  31
+                     },
+        "elementalForm":  {
+                              "kind":  "polyatomic",
+                              "formula":  "P4",
+                              "bondOrder":  1,
+                              "bondLengthPm":  221,
+                              "description":  "White phosphorus is made of P4 tetrahedra: each atom shares one pair with each of the other three and keeps one lone pair. The 60° bond angles are strained, which makes white phosphorus very reactive.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "White phosphorus (P4)",
+                                                     "note":  "Waxy, glows in air and ignites by itself near 30 °C."
+                                                 },
+                                                 {
+                                                     "name":  "Red phosphorus",
+                                                     "note":  "Chains of linked P4 units; used on match boxes."
+                                                 },
+                                                 {
+                                                     "name":  "Black phosphorus",
+                                                     "note":  "Layered like graphite; the most stable form."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Cubic (white phosphorus, P4 molecules)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  1851,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by neon and oxygen burning in massive stars.",
+        "crustAbundancePpm":  1050,
+        "appearance":  "White phosphorus is a waxy, pale solid; red phosphorus is a dark red powder.",
+        "summary":  "Phosphorus is essential to life: it forms the backbone of DNA and the energy carrier ATP. Its pure forms range from dangerously reactive white phosphorus to stable red and black phosphorus.",
+        "uses":  [
+                     "Phosphate fertilizers",
+                     "Safety matches (red phosphorus)",
+                     "Detergents and food additives",
+                     "Steel and bronze alloys"
+                 ],
+        "facts":  [
+                      "Phosphorus was the first element discovered by a known person.",
+                      "Your bones and teeth are mostly calcium phosphate."
+                  ],
+        "biology":  "Essential: DNA, RNA, ATP, cell membranes and bones.",
+        "hazards":  "White phosphorus is very toxic and ignites spontaneously in air.",
+        "color":  "#FF8000"
+    },
+    {
+        "z":  16,
+        "symbol":  "S",
+        "name":  "Sulfur",
+        "altName":  "Sulphur",
+        "atomicMass":  "32.06",
+        "category":  "nonmetal",
+        "categoryPredicted":  false,
+        "group":  16,
+        "period":  3,
+        "block":  "p",
+        "electronConfiguration":  "[Ne] 3s2 3p4",
+        "configPredicted":  false,
+        "electronegativity":  2.58,
+        "ionizationEnergy":  10.36,
+        "electronAffinity":  2.077,
+        "covalentRadius":  105,
+        "vdwRadius":  180,
+        "meltingPoint":  388.36,
+        "boilingPoint":  717.8,
+        "density":  2.067,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -2,
+                                6,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Known since ancient times as brimstone; Lavoisier recognized it as an element in 1777."
+                      },
+        "nameOrigin":  "Latin sulfur (or sulphur), the ancient name.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  32,
+                                            "abundance":  94.99
+                                        },
+                                        {
+                                            "A":  33,
+                                            "abundance":  0.75
+                                        },
+                                        {
+                                            "A":  34,
+                                            "abundance":  4.25
+                                        },
+                                        {
+                                            "A":  36,
+                                            "abundance":  0.01
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  35,
+                                                 "halfLife":  "87.4 days",
+                                                 "note":  "Made by cosmic rays; a tracer in biology."
+                                             }
+                                         ],
+                         "displayA":  32
+                     },
+        "elementalForm":  {
+                              "kind":  "polyatomic",
+                              "formula":  "S8",
+                              "bondOrder":  1,
+                              "bondLengthPm":  205.5,
+                              "description":  "Sulfur atoms form crown-shaped rings of eight. Each atom shares one pair with each of its two neighbors in the ring and keeps two lone pairs.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Rhombic sulfur (alpha-S8)",
+                                                     "note":  "The stable yellow crystals at room temperature."
+                                                 },
+                                                 {
+                                                     "name":  "Monoclinic sulfur (beta-S8)",
+                                                     "note":  "Needle crystals stable above 96 °C."
+                                                 },
+                                                 {
+                                                     "name":  "Plastic sulfur",
+                                                     "note":  "Rubbery long chains made by pouring hot sulfur into water."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Orthorhombic (alpha-S8 rings)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  1046,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "exploding white dwarfs"
+                   ],
+        "originNote":  "Made by oxygen fusion in massive stars and in white-dwarf explosions.",
+        "crustAbundancePpm":  350,
+        "appearance":  "Bright yellow, brittle crystals.",
+        "summary":  "Sulfur is a yellow nonmetal found near volcanoes. Its compounds give rotten eggs and skunks their smell, and sulfuric acid is the world\u0027s most-produced industrial chemical.",
+        "uses":  [
+                     "Sulfuric acid",
+                     "Vulcanizing rubber",
+                     "Fertilizers",
+                     "Gunpowder and matches",
+                     "Fungicides"
+                 ],
+        "facts":  [
+                      "Jupiter\u0027s moon Io is coated in sulfur from its volcanoes.",
+                      "Molten sulfur turns blood red and thick as it is heated."
+                  ],
+        "biology":  "Essential: in the amino acids cysteine and methionine and in many vitamins.",
+        "hazards":  "Elemental sulfur has low toxicity; burning it forms toxic sulfur dioxide.",
+        "color":  "#FFFF30"
+    },
+    {
+        "z":  17,
+        "symbol":  "Cl",
+        "name":  "Chlorine",
+        "altName":  null,
+        "atomicMass":  "35.45",
+        "category":  "halogen",
+        "categoryPredicted":  false,
+        "group":  17,
+        "period":  3,
+        "block":  "p",
+        "electronConfiguration":  "[Ne] 3s2 3p5",
+        "configPredicted":  false,
+        "electronegativity":  3.16,
+        "ionizationEnergy":  12.968,
+        "electronAffinity":  3.617,
+        "covalentRadius":  102,
+        "vdwRadius":  175,
+        "meltingPoint":  171.65,
+        "boilingPoint":  239.11,
+        "density":  0.003214,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -1,
+                                7,
+                                5,
+                                1
+                            ],
+        "otherOxidationStates":  [
+                                     3
+                                 ],
+        "discovery":  {
+                          "year":  "1774",
+                          "by":  "Carl Wilhelm Scheele",
+                          "note":  "Scheele made it but thought it contained oxygen; Humphry Davy showed it was an element in 1810."
+                      },
+        "nameOrigin":  "Greek chloros, pale green-yellow.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  35,
+                                            "abundance":  75.76
+                                        },
+                                        {
+                                            "A":  37,
+                                            "abundance":  24.24
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  36,
+                                                 "halfLife":  "301,000 years",
+                                                 "note":  "Used to date groundwater."
+                                             }
+                                         ],
+                         "displayA":  35
+                     },
+        "elementalForm":  {
+                              "kind":  "diatomic",
+                              "formula":  "Cl2",
+                              "bondOrder":  1,
+                              "bondLengthPm":  199,
+                              "description":  "Two chlorine atoms share one electron pair (a single bond); each keeps three lone pairs, completing an octet of eight electrons.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Orthorhombic (solid below 172 K)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  624,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by oxygen burning in massive stars.",
+        "crustAbundancePpm":  145,
+        "appearance":  "Yellow-green, choking gas.",
+        "summary":  "Chlorine is a reactive halogen that grabs one electron to become the chloride ion in table salt. It kills microbes, which made chlorinated drinking water one of the great public-health advances.",
+        "uses":  [
+                     "Disinfecting drinking water and pools",
+                     "PVC plastic",
+                     "Bleach (sodium hypochlorite)",
+                     "Hydrochloric acid and many chemicals"
+                 ],
+        "facts":  [
+                      "Your stomach makes hydrochloric acid to digest food.",
+                      "Chlorine was used as a weapon in World War I."
+                  ],
+        "biology":  "Essential as chloride ion: stomach acid and body-fluid balance.",
+        "hazards":  "Toxic, corrosive gas that damages the lungs.",
+        "color":  "#1FF01F"
+    },
+    {
+        "z":  18,
+        "symbol":  "Ar",
+        "name":  "Argon",
+        "altName":  null,
+        "atomicMass":  "39.95",
+        "category":  "noble gas",
+        "categoryPredicted":  false,
+        "group":  18,
+        "period":  3,
+        "block":  "p",
+        "electronConfiguration":  "[Ne] 3s2 3p6",
+        "configPredicted":  false,
+        "electronegativity":  null,
+        "ionizationEnergy":  15.76,
+        "electronAffinity":  null,
+        "covalentRadius":  106,
+        "vdwRadius":  188,
+        "meltingPoint":  83.81,
+        "boilingPoint":  87.302,
+        "density":  0.0017837,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1894",
+                          "by":  "Lord Rayleigh; William Ramsay",
+                          "note":  "Found because nitrogen taken from air was slightly heavier than nitrogen made from chemicals."
+                      },
+        "nameOrigin":  "Greek argos, lazy or inactive.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  40,
+                                            "abundance":  99.6035
+                                        },
+                                        {
+                                            "A":  36,
+                                            "abundance":  0.3336
+                                        },
+                                        {
+                                            "A":  38,
+                                            "abundance":  0.0629
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  39,
+                                                 "halfLife":  "269 years",
+                                                 "note":  "Used to date groundwater and ice."
+                                             }
+                                         ],
+                         "displayA":  40
+                     },
+        "elementalForm":  {
+                              "kind":  "monatomic",
+                              "formula":  "Ar",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Argon\u0027s outer shell holds a full octet, so its atoms stay single. Only one neutral argon compound, HArF, has been made, and only below −246 °C.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic (solid below 84 K)",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  525.6,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "exploding white dwarfs"
+                   ],
+        "originNote":  "Argon-36 and -38 come from stars; the argon-40 in our air comes from radioactive potassium-40 decaying in rocks.",
+        "crustAbundancePpm":  3.5,
+        "appearance":  "Colorless gas; glows lilac in a discharge tube.",
+        "summary":  "Argon is the third most common gas in air (about 0.93%). Being inert, it protects hot metals and filaments from oxygen.",
+        "uses":  [
+                     "Shielding gas for welding",
+                     "Filling incandescent light bulbs",
+                     "Insulating double-glazed windows",
+                     "Preserving wine and documents"
+                 ],
+        "facts":  [
+                      "Almost all of Earth\u0027s argon came from radioactive potassium.",
+                      "There is more argon in a room than carbon dioxide."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Can displace oxygen in enclosed spaces.",
+        "color":  "#80D1E3"
+    },
+    {
+        "z":  19,
+        "symbol":  "K",
+        "name":  "Potassium",
+        "altName":  null,
+        "atomicMass":  "39.0983",
+        "category":  "alkali metal",
+        "categoryPredicted":  false,
+        "group":  1,
+        "period":  4,
+        "block":  "s",
+        "electronConfiguration":  "[Ar] 4s1",
+        "configPredicted":  false,
+        "electronegativity":  0.82,
+        "ionizationEnergy":  4.341,
+        "electronAffinity":  0.501,
+        "covalentRadius":  203,
+        "vdwRadius":  275,
+        "meltingPoint":  336.53,
+        "boilingPoint":  1032,
+        "density":  0.862,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1807",
+                          "by":  "Humphry Davy",
+                          "note":  "The first metal isolated by electrolysis, from molten potash (potassium hydroxide)."
+                      },
+        "nameOrigin":  "From potash; the symbol K is from Latin kalium (Arabic qali, plant ashes).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  39,
+                                            "abundance":  93.2581
+                                        },
+                                        {
+                                            "A":  41,
+                                            "abundance":  6.7302
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  40,
+                                                 "halfLife":  "1.25 billion years",
+                                                 "note":  "0.0117% of natural potassium; the largest source of natural radioactivity in your body; used for potassium-argon dating."
+                                             }
+                                         ],
+                         "displayA":  39
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "K",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Each potassium atom gives its lone 4s electron to the shared electron sea. One loosely held electron per atom makes the metal very soft and very reactive.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  532.8,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by oxygen burning in massive stars.",
+        "crustAbundancePpm":  20900,
+        "appearance":  "Soft, silvery metal that tarnishes within seconds in air.",
+        "summary":  "Potassium is a soft alkali metal more reactive than sodium. As the K+ ion it is vital for every living cell, and it is a main nutrient in fertilizers.",
+        "uses":  [
+                     "Potash fertilizers",
+                     "Potassium nitrate in gunpowder and food curing",
+                     "Potassium hydroxide for soft soaps and batteries",
+                     "Salt substitutes (potassium chloride)"
+                 ],
+        "facts":  [
+                      "Bananas are rich in potassium, so they are very slightly radioactive.",
+                      "Potassium reacts with water fast enough to ignite the hydrogen with a lilac flame."
+                  ],
+        "biology":  "Essential: K+ sets the electrical voltage of nerve and muscle cells.",
+        "hazards":  "Reacts violently with water; can form explosive peroxides in storage.",
+        "color":  "#8F40D4"
+    },
+    {
+        "z":  20,
+        "symbol":  "Ca",
+        "name":  "Calcium",
+        "altName":  null,
+        "atomicMass":  "40.078",
+        "category":  "alkaline earth metal",
+        "categoryPredicted":  false,
+        "group":  2,
+        "period":  4,
+        "block":  "s",
+        "electronConfiguration":  "[Ar] 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1,
+        "ionizationEnergy":  6.113,
+        "electronAffinity":  null,
+        "covalentRadius":  176,
+        "vdwRadius":  231,
+        "meltingPoint":  1115,
+        "boilingPoint":  1757,
+        "density":  1.55,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1808",
+                          "by":  "Humphry Davy",
+                          "note":  "Isolated by electrolysis of lime and mercury oxide; lime itself was used since antiquity."
+                      },
+        "nameOrigin":  "Latin calx, lime.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  40,
+                                            "abundance":  96.941
+                                        },
+                                        {
+                                            "A":  42,
+                                            "abundance":  0.647
+                                        },
+                                        {
+                                            "A":  43,
+                                            "abundance":  0.135
+                                        },
+                                        {
+                                            "A":  44,
+                                            "abundance":  2.086
+                                        },
+                                        {
+                                            "A":  46,
+                                            "abundance":  0.004
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  48,
+                                                 "halfLife":  "about 6×10^19 years",
+                                                 "note":  "0.187% of natural calcium; decays so slowly it is almost stable."
+                                             },
+                                             {
+                                                 "A":  41,
+                                                 "halfLife":  "99,400 years",
+                                                 "note":  "Made by cosmic rays."
+                                             }
+                                         ],
+                         "displayA":  40
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ca",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Calcium atoms each contribute two 4s electrons to the shared electron sea around Ca2+ cores.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  558.8,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "exploding white dwarfs"
+                   ],
+        "originNote":  "Made by oxygen and silicon burning in massive stars and in white-dwarf explosions.",
+        "crustAbundancePpm":  41500,
+        "appearance":  "Silvery, fairly soft metal that turns grey in air.",
+        "summary":  "Calcium is the fifth most abundant element in the crust and the most abundant metal in the human body. Chalk, limestone, marble, bones and shells are all built from calcium compounds.",
+        "uses":  [
+                     "Cement, mortar and plaster",
+                     "Steelmaking (removes impurities)",
+                     "Calcium carbonate in chalk, antacids and paper",
+                     "Alloys and getters in vacuum tubes"
+                 ],
+        "facts":  [
+                      "About 99% of your body\u0027s calcium is in your bones and teeth.",
+                      "The White Cliffs of Dover are chalk made from the calcium carbonate skeletons of tiny algae."
+                  ],
+        "biology":  "Essential: bones and teeth, muscle contraction, nerve signals and blood clotting.",
+        "hazards":  "Metal reacts with water to release hydrogen; low toxicity.",
+        "color":  "#3DFF00"
+    }
+]

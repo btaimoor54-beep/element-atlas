@@ -1,0 +1,552 @@
+[
+    {
+        "id":  "sulfuric-acid",
+        "name":  "Sulfuric acid",
+        "formula":  "H2SO4",
+        "aka":  [
+                    "oil of vitriol"
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "H",
+                         "S",
+                         "O"
+                     ],
+        "pubchemCid":  1118,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1118)",
+                          "atomCount":  7,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Sulfur at the center of a tetrahedron of four oxygens, two carrying hydrogens.",
+                        "electronSharing":  "Sulfur shares electrons with four oxygens; the two O–H groups give up H+ easily because the electron-hungry SO2 group pulls electrons away from them.",
+                        "geometry":  "Tetrahedral around sulfur",
+                        "bondLengths":  "S=O 142 pm, S–OH 157 pm"
+                    },
+        "formation":  "SO3 + H2O -\u003e H2SO4 (contact process)",
+        "state":  "liquid",
+        "meltingPointC":  10.3,
+        "boilingPointC":  337,
+        "occurrence":  "Made in larger amounts than any other chemical; also in Venus\u0027s clouds.",
+        "uses":  [
+                     "Phosphate fertilizers",
+                     "Car batteries",
+                     "Refining metals and oil",
+                     "Making other chemicals"
+                 ],
+        "facts":  [
+                      "Industrial output of sulfuric acid was once used as a measure of a country\u0027s industrial strength."
+                  ],
+        "hazards":  "Severely corrosive; dehydrates tissue and releases great heat with water.",
+        "summary":  "Sulfuric acid is the world\u0027s most-produced industrial chemical."
+    },
+    {
+        "id":  "nitric-acid",
+        "name":  "Nitric acid",
+        "formula":  "HNO3",
+        "aka":  [
+                    "aqua fortis"
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  944,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 944)",
+                          "atomCount":  5,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A flat molecule: N bonded to three oxygens, one carrying the hydrogen.",
+                        "electronSharing":  "The two terminal N–O bonds share a delocalized π pair (resonance). Nitrogen carries a formal positive charge and one oxygen a negative one.",
+                        "geometry":  "Trigonal planar around nitrogen",
+                        "bondLengths":  "N–O 120–141 pm"
+                    },
+        "formation":  "3 NO2 + H2O -\u003e 2 HNO3 + NO (Ostwald process)",
+        "state":  "liquid",
+        "meltingPointC":  -42,
+        "boilingPointC":  83,
+        "occurrence":  "Synthetic; traces form from lightning in rain.",
+        "uses":  [
+                     "Ammonium nitrate fertilizer",
+                     "Explosives",
+                     "Etching and metal refining"
+                 ],
+        "facts":  [
+                      "Mixed with hydrochloric acid it makes aqua regia, which dissolves gold."
+                  ],
+        "hazards":  "Strongly corrosive oxidizer.",
+        "summary":  "Nitric acid is a strong oxidizing acid used mainly to make fertilizers and explosives."
+    },
+    {
+        "id":  "phosphoric-acid",
+        "name":  "Phosphoric acid",
+        "formula":  "H3PO4",
+        "aka":  [
+                    "orthophosphoric acid"
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "H",
+                         "P",
+                         "O"
+                     ],
+        "pubchemCid":  1004,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1004)",
+                          "atomCount":  8,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Phosphorus in a tetrahedron of oxygens, three bearing hydrogens.",
+                        "electronSharing":  "The P=O group pulls electrons away from the three O–H groups so they can release H+ one at a time.",
+                        "geometry":  "Tetrahedral around phosphorus",
+                        "bondLengths":  "P=O 152 pm, P–OH 157 pm"
+                    },
+        "formation":  "Ca5(PO4)3F + 5 H2SO4 -\u003e 3 H3PO4 + 5 CaSO4 + HF (wet process)",
+        "state":  "solid",
+        "meltingPointC":  42.4,
+        "boilingPointC":  null,
+        "occurrence":  "Made from phosphate rock.",
+        "uses":  [
+                     "Fertilizers",
+                     "Cola drinks (tartness)",
+                     "Rust removal"
+                 ],
+        "facts":  [
+                      "The tang in cola drinks comes from phosphoric acid."
+                  ],
+        "hazards":  "Corrosive when concentrated.",
+        "summary":  "Phosphoric acid is a mild acid in food and a major route to fertilizers."
+    },
+    {
+        "id":  "carbonic-acid",
+        "name":  "Carbonic acid",
+        "formula":  "H2CO3",
+        "aka":  [
+
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "H",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  767,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 767)",
+                          "atomCount":  6,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A carbon bonded to one C=O and two O–H groups, all flat.",
+                        "electronSharing":  "The C=O double bond pulls electrons and helps the O–H groups release H+. In water it falls apart into CO2 and H2O almost as fast as it forms.",
+                        "geometry":  "Trigonal planar around carbon",
+                        "bondLengths":  "C=O 121 pm, C–OH 134 pm"
+                    },
+        "formation":  "CO2 + H2O \u003c-\u003e H2CO3",
+        "state":  "aqueous ion",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "In fizzy drinks, rain and blood, always in tiny amounts.",
+        "uses":  [
+                     "Carbonation",
+                     "Blood pH buffering (with bicarbonate)"
+                 ],
+        "facts":  [
+                      "Pure carbonic acid was only isolated as a solid in 1993 and as a gas in 2011."
+                  ],
+        "hazards":  "Harmless in drinks.",
+        "summary":  "Carbonic acid forms when CO2 dissolves in water; it makes soda tangy and buffers your blood."
+    },
+    {
+        "id":  "ammonia",
+        "name":  "Ammonia",
+        "formula":  "NH3",
+        "aka":  [
+                    "azane"
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "N",
+                         "H"
+                     ],
+        "pubchemCid":  222,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "N",
+                          "shape":  "trigonal-pyramidal",
+                          "angle":  106.7,
+                          "ligands":  [
+                                          {
+                                              "el":  "H",
+                                              "r":  1.012,
+                                              "o":  1
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.012,
+                                              "o":  1
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.012,
+                                              "o":  1
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Three N–H bonds and one lone pair, forming a low pyramid.",
+                        "electronSharing":  "Nitrogen shares one pair with each hydrogen and pulls them closer. Its lone pair sits on top and can grab an H+, which is why ammonia is a base.",
+                        "geometry":  "Trigonal pyramidal, H–N–H 106.7°",
+                        "bondLengths":  "N–H 101.2 pm"
+                    },
+        "formation":  "N2 + 3 H2 -\u003e 2 NH3 (Haber–Bosch, iron catalyst, about 450 °C and 200 atm)",
+        "state":  "gas",
+        "meltingPointC":  -77.7,
+        "boilingPointC":  -33.3,
+        "occurrence":  "Made in huge amounts; also from decaying organic matter.",
+        "uses":  [
+                     "Fertilizers",
+                     "Household cleaners",
+                     "Refrigeration",
+                     "Making nitric acid and explosives"
+                 ],
+        "facts":  [
+                      "Fertilizer from the Haber–Bosch process feeds roughly half of the world\u0027s population."
+                  ],
+        "hazards":  "Toxic and corrosive gas.",
+        "summary":  "Ammonia is the base of modern agriculture: most nitrogen in your body passed through a Haber–Bosch plant."
+    },
+    {
+        "id":  "sodium-hydroxide",
+        "name":  "Sodium hydroxide (lye)",
+        "formula":  "NaOH",
+        "aka":  [
+                    "caustic soda",
+                    "lye"
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "Na",
+                         "O",
+                         "H"
+                     ],
+        "pubchemCid":  14798,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Na+",
+                                            "charge":  1,
+                                            "count":  1,
+                                            "el":  "Na"
+                                        },
+                                        {
+                                            "label":  "OH-",
+                                            "charge":  -1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "O",
+                                                          "shape":  "linear",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.97,
+                                                                              "o":  1
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Na+ ions and OH− ions held by ionic attraction; the O–H inside the ion is covalent.",
+                        "electronSharing":  "Sodium gives its 3s electron away entirely. The hydroxide ion keeps that extra electron, shared between O and H.",
+                        "geometry":  "Ionic crystal (orthorhombic)",
+                        "bondLengths":  "O–H 97 pm"
+                    },
+        "formation":  "2 NaCl + 2 H2O -\u003e 2 NaOH + H2 + Cl2 (chlor-alkali process)",
+        "state":  "solid",
+        "meltingPointC":  323,
+        "boilingPointC":  1388,
+        "occurrence":  "Made by electrolysis of brine.",
+        "uses":  [
+                     "Soap making",
+                     "Paper pulping",
+                     "Drain cleaners",
+                     "Aluminium production"
+                 ],
+        "facts":  [
+                      "Dissolving NaOH in water releases enough heat to make the water boil."
+                  ],
+        "hazards":  "Severely caustic to skin and eyes.",
+        "summary":  "Lye is a strong base made from salt water, used to make soap and paper."
+    },
+    {
+        "id":  "calcium-hydroxide",
+        "name":  "Calcium hydroxide (slaked lime)",
+        "formula":  "Ca(OH)2",
+        "aka":  [
+                    "slaked lime",
+                    "hydrated lime"
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "Ca",
+                         "O",
+                         "H"
+                     ],
+        "pubchemCid":  6093208,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Ca2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Ca"
+                                        },
+                                        {
+                                            "label":  "OH-",
+                                            "charge":  -1,
+                                            "count":  2,
+                                            "vsepr":  {
+                                                          "center":  "O",
+                                                          "shape":  "linear",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.97,
+                                                                              "o":  1
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ca2+ ions and two OH− ions per formula unit.",
+                        "electronSharing":  "Calcium gives two electrons away; each hydroxide holds one extra electron.",
+                        "geometry":  "Layered hexagonal crystal",
+                        "bondLengths":  "O–H 97 pm"
+                    },
+        "formation":  "CaO + H2O -\u003e Ca(OH)2",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Made by adding water to quicklime.",
+        "uses":  [
+                     "Mortar and plaster",
+                     "Water treatment",
+                     "Sugar refining",
+                     "Soil liming"
+                 ],
+        "facts":  [
+                      "Lime mortar hardens by slowly absorbing CO2 from the air and turning back into limestone."
+                  ],
+        "hazards":  "Caustic.",
+        "summary":  "Slaked lime has been used in building mortar for thousands of years; it decomposes at 580 °C instead of melting."
+    },
+    {
+        "id":  "boric-acid",
+        "name":  "Boric acid",
+        "formula":  "H3BO3",
+        "aka":  [
+                    "boracic acid"
+                ],
+        "category":  "Water, acids \u0026 bases",
+        "elements":  [
+                         "H",
+                         "B",
+                         "O"
+                     ],
+        "pubchemCid":  7628,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "B",
+                          "shape":  "trigonal-planar",
+                          "ligands":  [
+                                          {
+                                              "el":  "O",
+                                              "r":  1.361,
+                                              "o":  1,
+                                              "hs":  1,
+                                              "hr":  0.97
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.361,
+                                              "o":  1,
+                                              "hs":  1,
+                                              "hr":  0.97
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.361,
+                                              "o":  1,
+                                              "hs":  1,
+                                              "hr":  0.97
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Boron bonded to three OH groups in a flat triangle.",
+                        "electronSharing":  "Boron has only three valence electrons, all used in B–O bonds, leaving an empty orbital. It acts as an acid by accepting OH− from water rather than giving away H+.",
+                        "geometry":  "Trigonal planar",
+                        "bondLengths":  "B–O 136 pm"
+                    },
+        "formation":  "Na2B4O7·10H2O + 2 HCl -\u003e 4 H3BO3 + 2 NaCl + 5 H2O",
+        "state":  "solid",
+        "meltingPointC":  170.9,
+        "boilingPointC":  null,
+        "occurrence":  "Volcanic regions and borate minerals.",
+        "uses":  [
+                     "Antiseptic eyewash",
+                     "Insecticide for cockroaches",
+                     "Flame retardants",
+                     "Nuclear reactor control"
+                 ],
+        "facts":  [
+                      "Its flat molecules stack in layers held by hydrogen bonds, making the crystals slippery."
+                  ],
+        "hazards":  "Mildly toxic if swallowed in quantity.",
+        "summary":  "Boric acid is a weak acid that works by accepting hydroxide ions instead of releasing protons."
+    },
+    {
+        "id":  "sodium-chloride",
+        "name":  "Sodium chloride (table salt)",
+        "formula":  "NaCl",
+        "aka":  [
+                    "salt",
+                    "halite",
+                    "rock salt"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Na",
+                         "Cl"
+                     ],
+        "pubchemCid":  5234,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  564.0,
+                          "cation":  "Na",
+                          "anion":  "Cl"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "A cubic lattice of Na+ and Cl− ions, each surrounded by six of the other.",
+                        "electronSharing":  "Sodium gives its single outer electron to chlorine (Δχ 2.23). Na+ now has neon\u0027s electron arrangement and Cl− has argon\u0027s. The ions share nothing; they simply attract.",
+                        "geometry":  "Rock-salt (face-centered cubic), 6:6 coordination",
+                        "bondLengths":  "Na–Cl 282 pm"
+                    },
+        "formation":  "2 Na + Cl2 -\u003e 2 NaCl",
+        "state":  "solid",
+        "meltingPointC":  801,
+        "boilingPointC":  1465,
+        "occurrence":  "Seawater (about 2.7% NaCl) and rock-salt deposits.",
+        "uses":  [
+                     "Food seasoning and preservation",
+                     "Chlor-alkali industry",
+                     "De-icing roads"
+                 ],
+        "facts":  [
+                      "Salt crystals are cubes because the ions stack in a cubic pattern.",
+                      "A violent reaction between a soft metal and a poisonous gas gives harmless table salt."
+                  ],
+        "hazards":  "Harmless in normal amounts.",
+        "summary":  "Table salt is the classic ionic compound: sodium hands an electron to chlorine and the ions lock into a cube."
+    },
+    {
+        "id":  "potassium-chloride",
+        "name":  "Potassium chloride",
+        "formula":  "KCl",
+        "aka":  [
+                    "sylvite",
+                    "muriate of potash"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "K",
+                         "Cl"
+                     ],
+        "pubchemCid":  4873,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  629.2,
+                          "cation":  "K",
+                          "anion":  "Cl"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "K+ and Cl− ions in the rock-salt arrangement.",
+                        "electronSharing":  "Potassium gives its 4s electron to chlorine; both ions end up with argon\u0027s electron arrangement.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "K–Cl 315 pm"
+                    },
+        "formation":  "2 K + Cl2 -\u003e 2 KCl",
+        "state":  "solid",
+        "meltingPointC":  770,
+        "boilingPointC":  1420,
+        "occurrence":  "Mined from sylvite and potash deposits.",
+        "uses":  [
+                     "Potash fertilizer",
+                     "Salt substitute",
+                     "Treating low blood potassium"
+                 ],
+        "facts":  [
+                      "About 95% of potash is used as fertilizer."
+                  ],
+        "hazards":  "Safe in food amounts; dangerous if injected.",
+        "summary":  "KCl is the main potassium fertilizer and a low-sodium salt substitute."
+    }
+]

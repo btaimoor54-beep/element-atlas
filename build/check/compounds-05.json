@@ -1,0 +1,455 @@
+[
+    {
+        "id":  "lithium-fluoride",
+        "name":  "Lithium fluoride",
+        "formula":  "LiF",
+        "aka":  [
+
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Li",
+                         "F"
+                     ],
+        "pubchemCid":  224478,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  402.7,
+                          "cation":  "Li",
+                          "anion":  "F"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Small Li+ and F− ions packed tightly in the rock-salt structure.",
+                        "electronSharing":  "Lithium gives its 2s electron to fluorine (Δχ 3.0), one of the most ionic bonds possible.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "Li–F 201 pm"
+                    },
+        "formation":  "LiOH + HF -\u003e LiF + H2O",
+        "state":  "solid",
+        "meltingPointC":  845,
+        "boilingPointC":  1676,
+        "occurrence":  "Rare mineral griceite; made synthetically.",
+        "uses":  [
+                     "Radiation dosimeters",
+                     "Ultraviolet optics",
+                     "Molten-salt nuclear reactors (FLiBe)"
+                 ],
+        "facts":  [
+                      "LiF transmits ultraviolet light down to about 105 nm, further than any other common crystal."
+                  ],
+        "hazards":  "Toxic if swallowed.",
+        "summary":  "LiF is one of the most ionic compounds, valued for UV optics and radiation detectors."
+    },
+    {
+        "id":  "potassium-bromide",
+        "name":  "Potassium bromide",
+        "formula":  "KBr",
+        "aka":  [
+
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "K",
+                         "Br"
+                     ],
+        "pubchemCid":  253877,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  660.0,
+                          "cation":  "K",
+                          "anion":  "Br"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "K+ and Br− ions in the rock-salt arrangement.",
+                        "electronSharing":  "Potassium transfers one electron to bromine.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "K–Br 330 pm"
+                    },
+        "formation":  "KOH + HBr -\u003e KBr + H2O",
+        "state":  "solid",
+        "meltingPointC":  734,
+        "boilingPointC":  1435,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Pellets and windows for infrared spectroscopy",
+                     "Veterinary anticonvulsant",
+                     "Photography"
+                 ],
+        "facts":  [
+                      "In the 1800s KBr was a common sedative, the origin of the phrase \u0027take a bromide\u0027."
+                  ],
+        "hazards":  "Toxic in large doses.",
+        "summary":  "KBr is transparent to infrared light, so chemists press it into pellets to analyze samples."
+    },
+    {
+        "id":  "rubidium-chloride",
+        "name":  "Rubidium chloride",
+        "formula":  "RbCl",
+        "aka":  [
+
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Rb",
+                         "Cl"
+                     ],
+        "pubchemCid":  62683,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  658.1,
+                          "cation":  "Rb",
+                          "anion":  "Cl"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Rb+ and Cl− ions in the rock-salt structure.",
+                        "electronSharing":  "Rubidium gives up its single 5s electron to chlorine.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "Rb–Cl 329 pm"
+                    },
+        "formation":  "RbOH + HCl -\u003e RbCl + H2O",
+        "state":  "solid",
+        "meltingPointC":  718,
+        "boilingPointC":  1390,
+        "occurrence":  "Synthetic, from lepidolite ore.",
+        "uses":  [
+                     "Rubidium-82 chloride for heart PET scans",
+                     "Making competent bacteria in molecular biology"
+                 ],
+        "facts":  [
+                      "Under pressure RbCl switches to the cesium chloride structure."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "RbCl is a simple salt; its radioactive form Rb-82 chloride images blood flow in the heart."
+    },
+    {
+        "id":  "silver-chloride",
+        "name":  "Silver chloride",
+        "formula":  "AgCl",
+        "aka":  [
+                    "chlorargyrite"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Ag",
+                         "Cl"
+                     ],
+        "pubchemCid":  24561,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  554.9,
+                          "cation":  "Ag",
+                          "anion":  "Cl"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Rock-salt lattice with partly covalent bonds, which makes it insoluble in water.",
+                        "electronSharing":  "Silver gives one electron to chlorine, but Ag+ distorts the chloride\u0027s electron cloud, so some sharing remains.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "Ag–Cl 277 pm"
+                    },
+        "formation":  "AgNO3 + NaCl -\u003e AgCl + NaNO3 (white precipitate)",
+        "state":  "solid",
+        "meltingPointC":  455,
+        "boilingPointC":  1547,
+        "occurrence":  "The mineral chlorargyrite; formed in tests for chloride.",
+        "uses":  [
+                     "Reference electrodes (Ag/AgCl)",
+                     "Photochromic sunglasses",
+                     "Antimicrobial dressings"
+                 ],
+        "facts":  [
+                      "Photochromic lenses darken in sunlight because AgCl crystals release silver atoms."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "AgCl darkens in light, the property behind early photography and self-tinting glasses."
+    },
+    {
+        "id":  "silver-bromide",
+        "name":  "Silver bromide",
+        "formula":  "AgBr",
+        "aka":  [
+
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Ag",
+                         "Br"
+                     ],
+        "pubchemCid":  66199,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  577.4,
+                          "cation":  "Ag",
+                          "anion":  "Br"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Rock-salt lattice with partial covalent character.",
+                        "electronSharing":  "Silver gives one electron to bromine. Light can push an electron back from Br− to Ag+, forming silver atoms: the basis of photography.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "Ag–Br 289 pm"
+                    },
+        "formation":  "AgNO3 + KBr -\u003e AgBr + KNO3",
+        "state":  "solid",
+        "meltingPointC":  432,
+        "boilingPointC":  1502,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Black-and-white photographic film and paper"
+                 ],
+        "facts":  [
+                      "A few silver atoms formed by light make a \u0027latent image\u0027 that developer turns into a visible picture."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "AgBr is the light-sensitive heart of photographic film."
+    },
+    {
+        "id":  "magnesium-oxide",
+        "name":  "Magnesium oxide",
+        "formula":  "MgO",
+        "aka":  [
+                    "magnesia",
+                    "periclase"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Mg",
+                         "O"
+                     ],
+        "pubchemCid":  14792,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  421.2,
+                          "cation":  "Mg",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Doubly charged Mg2+ and O2− ions in the rock-salt structure.",
+                        "electronSharing":  "Magnesium gives two electrons to oxygen. The double charges make the attraction very strong, so MgO melts at 2,852 °C.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "Mg–O 211 pm"
+                    },
+        "formation":  "2 Mg + O2 -\u003e 2 MgO (the white ash of burning magnesium)",
+        "state":  "solid",
+        "meltingPointC":  2852,
+        "boilingPointC":  3600,
+        "occurrence":  "The mineral periclase; made from magnesite or seawater.",
+        "uses":  [
+                     "Furnace linings",
+                     "Antacid and laxative",
+                     "Electrical insulation in heating elements"
+                 ],
+        "facts":  [
+                      "With doubly charged ions, MgO\u0027s lattice energy (about 3,800 kJ/mol) is nearly five times NaCl\u0027s."
+                  ],
+        "hazards":  "Low toxicity; fumes irritate.",
+        "summary":  "MgO is a very high-melting ionic solid that lines furnaces."
+    },
+    {
+        "id":  "calcium-oxide",
+        "name":  "Calcium oxide (quicklime)",
+        "formula":  "CaO",
+        "aka":  [
+                    "quicklime",
+                    "burnt lime"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Ca",
+                         "O"
+                     ],
+        "pubchemCid":  14778,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  481.1,
+                          "cation":  "Ca",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Ca2+ and O2− ions in the rock-salt structure.",
+                        "electronSharing":  "Calcium gives two electrons to oxygen.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "Ca–O 241 pm"
+                    },
+        "formation":  "CaCO3 -\u003e CaO + CO2 (heating limestone above 825 °C)",
+        "state":  "solid",
+        "meltingPointC":  2613,
+        "boilingPointC":  2850,
+        "occurrence":  "Made in lime kilns from limestone.",
+        "uses":  [
+                     "Cement and steelmaking",
+                     "Water treatment",
+                     "Soil treatment"
+                 ],
+        "facts":  [
+                      "Heated quicklime glows brightly: the \u0027limelight\u0027 that lit 19th-century theaters."
+                  ],
+        "hazards":  "Caustic; reacts with water releasing heat.",
+        "summary":  "Quicklime is made by baking limestone and is the starting point of cement."
+    },
+    {
+        "id":  "galena",
+        "name":  "Lead(II) sulfide (galena)",
+        "formula":  "PbS",
+        "aka":  [
+                    "galena"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Pb",
+                         "S"
+                     ],
+        "pubchemCid":  14819,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rocksalt",
+                          "a":  593.6,
+                          "cation":  "Pb",
+                          "anion":  "S"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "Rock-salt structure, but with substantial covalent sharing; it is a semiconductor.",
+                        "electronSharing":  "Lead and sulfur have similar electronegativities (Δχ 0.25), so electrons are shared rather than fully transferred, leaving a small band gap.",
+                        "geometry":  "Rock-salt, 6:6",
+                        "bondLengths":  "Pb–S 297 pm"
+                    },
+        "formation":  "Natural mineral; Pb2+ + H2S -\u003e PbS + 2 H+",
+        "state":  "solid",
+        "meltingPointC":  1118,
+        "boilingPointC":  1281,
+        "occurrence":  "The most important lead ore.",
+        "uses":  [
+                     "Source of lead",
+                     "Infrared detectors",
+                     "Early \u0027cat\u0027s whisker\u0027 radio detectors"
+                 ],
+        "facts":  [
+                      "Galena crystals were the first semiconductor devices, used in crystal radios around 1906."
+                  ],
+        "hazards":  "Toxic lead compound.",
+        "summary":  "Galena is the shiny grey cubic ore of lead and an early semiconductor."
+    },
+    {
+        "id":  "cesium-chloride",
+        "name":  "Cesium chloride",
+        "formula":  "CsCl",
+        "aka":  [
+                    "caesium chloride"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Cs",
+                         "Cl"
+                     ],
+        "pubchemCid":  24293,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "cesium-chloride",
+                          "a":  412.3,
+                          "cation":  "Cs",
+                          "anion":  "Cl"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Each large Cs+ ion sits at the center of a cube of eight Cl− ions.",
+                        "electronSharing":  "Cesium gives its 6s electron to chlorine. Because Cs+ is large it can fit eight neighbors instead of six.",
+                        "geometry":  "Cesium chloride structure, 8:8",
+                        "bondLengths":  "Cs–Cl 357 pm"
+                    },
+        "formation":  "Cs2CO3 + 2 HCl -\u003e 2 CsCl + H2O + CO2",
+        "state":  "solid",
+        "meltingPointC":  646,
+        "boilingPointC":  1297,
+        "occurrence":  "Synthetic, from pollucite ore.",
+        "uses":  [
+                     "Density gradients for separating DNA",
+                     "Optical glass",
+                     "Drilling fluids"
+                 ],
+        "facts":  [
+                      "The Meselson–Stahl experiment of 1958 used a CsCl gradient to prove how DNA copies itself."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "CsCl gives its name to a crystal structure in which each ion has eight neighbors."
+    },
+    {
+        "id":  "fluorite",
+        "name":  "Calcium fluoride (fluorite)",
+        "formula":  "CaF2",
+        "aka":  [
+                    "fluorite",
+                    "fluorspar"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Ca",
+                         "F"
+                     ],
+        "pubchemCid":  84512,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  546.3,
+                          "cation":  "Ca",
+                          "anion":  "F"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Ca2+ ions on a face-centered cubic lattice with F− ions filling all the tetrahedral holes.",
+                        "electronSharing":  "Each calcium gives one electron to each of two fluorines.",
+                        "geometry":  "Fluorite structure, Ca 8-coordinate, F 4-coordinate",
+                        "bondLengths":  "Ca–F 237 pm"
+                    },
+        "formation":  "Natural mineral; Ca2+ + 2 F- -\u003e CaF2",
+        "state":  "solid",
+        "meltingPointC":  1418,
+        "boilingPointC":  2533,
+        "occurrence":  "The mineral fluorite, in many colors.",
+        "uses":  [
+                     "Source of fluorine and HF",
+                     "Lenses for UV, infrared and high-end cameras",
+                     "Flux in steelmaking"
+                 ],
+        "facts":  [
+                      "The word \u0027fluorescence\u0027 comes from fluorite, which glows under UV light."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Fluorite gives its name to both a crystal structure and to fluorescence."
+    }
+]

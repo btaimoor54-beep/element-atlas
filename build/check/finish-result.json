@@ -1,0 +1,1195 @@
+{
+    "confirmed":  [
+                      {
+                          "kind":  "element",
+                          "id":  "Ca",
+                          "field":  "electronAffinity",
+                          "current":  "null",
+                          "corrected":  "0.02455",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Ca- is a bound anion. Its electron affinity was measured at 0.02455(10) eV (Petrunin et al., PRL 76, 744, 1996), as listed on Wikipedia\u0027s Electron affinity (data page). The convention allows null only when no value has been measured or the anion is unbound, so null is wrong here."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "S",
+                          "field":  "bulk.cPm",
+                          "current":  "null",
+                          "corrected":  "2448",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "The stored structure is orthorhombic alpha-S8 with a = 1046 pm. Wikipedia\u0027s Sulfur infobox gives a = 1046.0, b = 1286.1 and c = 2448.1 pm at 20 °C. Rettig and Trotter give 2448.6 pm. The dataset fills cPm for other orthorhombic elements (Ga, U, Np), so null leaves out a well-known c. 2448 is correct."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Cl",
+                          "field":  "bulk.cPm",
+                          "current":  "null",
+                          "corrected":  "826",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Solid Cl2 is orthorhombic (Cmca), and the stored a = 624 pm matches Collin\u0027s 1952 cell (a 624, b 448, c 826 pm). WebElements (Powell, Heal and Torrie 1984) gives c = 817.85 pm. Wikipedia gives 815.49 pm at the triple point. 826 is within about 1.3% of both, which is inside the tolerance. Null leaves out a defined parameter of the real structure."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Al",
+                          "field":  "isotopes.radioactive[0].note",
+                          "current":  "\"Made by cosmic rays; its gamma rays are seen across the Milky Way.\"",
+                          "corrected":  "\"Made in massive stars and supernovae; its gamma rays are seen across the Milky Way. Cosmic rays also make small amounts in rocks and meteorites.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Aluminium-26 article says galactic 26Al \u0027is mainly produced in supernovae\u0027 and that only \u0027a small amount\u0027 comes from cosmic-ray collisions, including spallation in meteorites. The current sentence implies that cosmic rays make the Al-26 behind the Milky Way\u0027s 1.809 MeV gamma-ray glow, which is misleading. The corrected text is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "S",
+                          "field":  "biology",
+                          "current":  "Essential: in the amino acids cysteine and methionine and in many vitamins.",
+                          "corrected":  "\"Essential: in the amino acids cysteine and methionine and in the vitamins thiamine and biotin.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Sulfur article says sulfur is part of two vitamins, biotin (B7) and thiamine (B1). No other human vitamin contains sulfur, so \u0027many vitamins\u0027 is false. The correction is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Cu",
+                          "field":  "facts[1]",
+                          "current":  "\"Copper is one of only two metals that are not grey or silvery; gold is the other.\"",
+                          "corrected":  "\"Copper is one of only a few metals that are not grey or silvery; others include gold and caesium.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Copper article says copper is \u0027one of a few metallic elements with a natural color other than gray or silver\u0027. Wikipedia\u0027s Caesium article describes caesium as golden, with a pale gold infobox colour. \u0027Only two\u0027 is therefore false, and the corrected wording is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Fe",
+                          "field":  "discovery.note",
+                          "current":  "\"Iron from meteorites was used before 3000 BCE; smelting began around 1200 BCE (the Iron Age).\"",
+                          "corrected":  "\"Iron from meteorites was used before 3000 BCE; smelting began in the Bronze Age, by about 2000 BCE, and became widespread around 1200 BCE (the Iron Age).\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Ferrous metallurgy article puts the earliest smelting evidence in the Middle East in the 3rd millennium BC, during the Bronze Age. It says smelted iron objects became more common around 1500 BC. It defines the Iron Age by the widespread replacement of bronze, not by the start of smelting. Saying smelting began around 1200 BCE is false, and the corrected note fits the source."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Cu",
+                          "field":  "origin",
+                          "current":  "[\"exploding massive stars\"]",
+                          "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "I measured the pixels of Jennifer Johnson\u0027s own chart image (blog.sdss.org, periodic_table.png). The Cu cell is about 51% exploding-white-dwarf blue and 40% exploding-massive-star green, with similar shares in the Fe to Ni cells. The Wikimedia Commons Nucleosynthesis_periodic_table.svg, drawn from Johnson\u0027s data, gives Cu as 42% massive stars and 58% white dwarfs in its tooltip. The chart shows a large white-dwarf share, so it must be listed."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Zn",
+                          "field":  "origin",
+                          "current":  "[\"exploding massive stars\"]",
+                          "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "In Johnson\u0027s chart image (blog.sdss.org periodic_table.png, pixel analysis), the Zn cell is about 50% exploding-white-dwarf blue and 41% massive-star green. The Commons SVG built from Johnson\u0027s data gives Zn as 46% massive stars and 54% white dwarfs in its tooltip. The visible white-dwarf share is missing from the current value."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Fe",
+                          "field":  "elementalForm.allotropes[0].note",
+                          "current":  "Body-centered cubic, magnetic, stable below 912 °C.",
+                          "corrected":  "\"Body-centered cubic, stable below 912 °C; magnetic below 770 °C.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Alpha iron is ferromagnetic only below its Curie point of 770 °C. Between 770 and 912 °C it is bcc but paramagnetic, the historical \u0027beta iron\u0027 (standard metallurgy; Wikipedia, Allotropes of iron). The current wording implies it is magnetic across its whole stability range, which is misleading. The correction is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Co",
+                          "field":  "elementalForm.allotropes",
+                          "current":  "[]",
+                          "corrected":  "[{\"name\": \"Hexagonal cobalt\", \"note\": \"Hexagonal close-packed, stable at room temperature.\"}, {\"name\": \"Cubic cobalt\", \"note\": \"Face-centered cubic, stable above about 420–450 °C.\"}]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Cobalt article says the metal occurs as hcp and fcc, with an ideal transition at 450 °C. Metallurgical sources give about 417–422 °C. An empty list implies cobalt has no allotropes, which is false and inconsistent with Ti, Fe and Mn in the same file. The proposed entries are accurate and match the {name, note} schema."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Mn",
+                          "field":  "elementalForm.allotropes",
+                          "current":  "[{\"name\": \"Alpha manganese\", \"note\": \"Complex cubic cell with 58 atoms, stable at room temperature.\"}]",
+                          "corrected":  "[{\"name\": \"Alpha manganese\", \"note\": \"Complex cubic cell with 58 atoms, stable at room temperature.\"}, {\"name\": \"Beta manganese\", \"note\": \"Complex cubic cell with 20 atoms, 727–1095 °C.\"}, {\"name\": \"Gamma manganese\", \"note\": \"Face-centered cubic, 1095–1133 °C.\"}, {\"name\": \"Delta manganese\", \"note\": \"Body-centered cubic, 1133 °C up to melting at 1246 °C.\"}]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Manganese article lists four allotropes. Beta is primitive cubic with 20 atoms and forms above about 700 °C. Gamma is fcc and forms above about 1100 °C (1370 K). Delta is bcc and lasts from about 1130 °C (1406 K) to melting at 1519 K (1246 °C). The ASM phase diagram gives 727, about 1100 and about 1138 °C. The proposed temperatures are within normal disagreement between sources. Listing only alpha wrongly implies a single form."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ge",
+                          "field":  "electronAffinity",
+                          "current":  "1.35",
+                          "corrected":  "1.233",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Electron affinity (data page) gives Ge as 1.2326764(13) eV (Bresteau et al., J. Phys. B 48, 125001, 2015). 1.35 is about 9.5% high, well outside the tolerance."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Rb",
+                          "field":  "electronAffinity",
+                          "current":  "0.468",
+                          "corrected":  "0.486",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Electron affinity (data page) gives Rb as 0.485916(21) eV (Frey, Breyer and Hotop). 0.468 is about 3.7% low, apparently with transposed digits. This is a precisely measured constant that no reputable source gives as 0.468."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Sr",
+                          "field":  "electronAffinity",
+                          "current":  "null",
+                          "corrected":  "0.052",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Electron affinity (data page) gives Sr as 0.05206(6) eV (Andersen et al., Phys. Rev. A 55, 3247, 1997). Sr- is bound and its value has been measured, so null is wrong under the convention."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Zr",
+                          "field":  "atomicMass",
+                          "current":  "\"91.224\"",
+                          "corrected":  "\"91.222\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "The CIAAW zirconium page gives Ar(Zr) = 91.222 ± 0.003 \u0027since 2024\u0027. The CIAAW abridged table also lists Zr as 91.222 ± 0.003 and notes that Gd, Lu and Zr were revised in 2024. 91.224 is the superseded value, and the field is defined as the CIAAW abridged weight."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Y",
+                          "field":  "vdwRadius",
+                          "current":  "219",
+                          "corrected":  "275",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Alvarez 2013 (Dalton Trans. 42, 8617), Table 1, read from the paper\u0027s PDF: Y has no Bondi value, Batsanov 2.4 Å and Alvarez 2.75 Å. WebElements, which cites Alvarez, also gives 275 pm. 219 is about 20% below the Alvarez value, beyond the 10% threshold."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Zr",
+                          "field":  "vdwRadius",
+                          "current":  "186",
+                          "corrected":  "252",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Alvarez 2013 (Dalton Trans. 42, 8617), Table 1, read from the paper\u0027s PDF: Zr has no Bondi value, Batsanov 2.3 Å and Alvarez 2.52 Å. WebElements gives 252 pm. 186 is about 26% below the Alvarez value, so it is an error."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Kr",
+                          "field":  "isotopes.stable",
+                          "current":  "[{\"A\":78,\"abundance\":0.355},{\"A\":80,\"abundance\":2.286},{\"A\":82,\"abundance\":11.593},{\"A\":83,\"abundance\":11.500},{\"A\":84,\"abundance\":56.987},{\"A\":86,\"abundance\":17.279}]",
+                          "corrected":  "[{\"A\":80,\"abundance\":2.286},{\"A\":82,\"abundance\":11.593},{\"A\":83,\"abundance\":11.500},{\"A\":84,\"abundance\":56.987},{\"A\":86,\"abundance\":17.279}]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Isotopes of krypton (NUBASE-based) marks 78Kr as a primordial radionuclide with half-life about 9.2×10^21 y by double electron capture to 78Se. It says natural Kr has five stable isotopes plus slightly radioactive 78Kr. By the field convention, and as the dataset already does for Xe-124 (also double EC, 1.8×10^22 y), Ge-76 and Ba-130, 78Kr belongs under radioactive."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Kr",
+                          "field":  "isotopes.radioactive",
+                          "current":  "[{\"A\":85,\"halfLife\":\"10.7 years\",\"note\":\"Released by nuclear fuel reprocessing.\"},{\"A\":81,\"halfLife\":\"229,000 years\",\"note\":\"Used to date old groundwater and ice.\"}]",
+                          "corrected":  "[{\"A\":78,\"halfLife\":\"9.2×10^21 years\",\"note\":\"0.355% of natural krypton; decays by rare double electron capture.\"},{\"A\":85,\"halfLife\":\"10.7 years\",\"note\":\"Released by nuclear fuel reprocessing.\"},{\"A\":81,\"halfLife\":\"229,000 years\",\"note\":\"Used to date old groundwater and ice.\"}]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "This is the companion to the stable-list fix. Wikipedia\u0027s Isotopes of krypton gives 78Kr a half-life of 9.2×10^21 y (double EC to 78Se) and a mole fraction of 0.00355(3), which matches the 0.355% note. The format matches the dataset\u0027s Ge-76 entry (\u00271.8×10^21 years\u0027, with an abundance note)."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "In",
+                          "field":  "electronAffinity",
+                          "current":  "0.3",
+                          "corrected":  "0.384",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s electron affinity data page gives In = 0.38392(6) eV, from Walter et al., Phys. Rev. A 82, 032507 (2010), measured by infrared photodetachment threshold spectroscopy. 0.3 is about 22% low."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Sn",
+                          "field":  "electronAffinity",
+                          "current":  "1.2",
+                          "corrected":  "1.112",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s electron affinity data page gives Sn = 1.112070(2) eV, from Vandevraye, Drag and Blondel, J. Phys. B (2013), measured by photodetachment microscopy. 1.2 is about 8% high, beyond tolerance."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Rh",
+                          "field":  "isotopes.radioactive[0].halfLife",
+                          "current":  "\"3.3 years\"",
+                          "corrected":  "\"4.07 years\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Shugart, Browne and Norman (arXiv:1712.03628; Appl. Radiat. Isot. 136, 2018) measured the 101Rh half-life as 4.07 ± 0.05 y. Wikipedia\u0027s Isotopes of rhodium table, which follows NUBASE2020, lists 101Rh at 4.07 y. The old 3.3(3) y value is about 19% low and is superseded by this precise measurement."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Tc",
+                          "field":  "ionizationEnergy",
+                          "current":  "7.28",
+                          "corrected":  "7.119",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "NIST ASD gives Tc I ionization energy = 7.11938(3) eV (ref. L15237, the Mattolat et al. 2010 resonance ionization measurement), checked directly. 7.28 is the old value and is 2.3% high. It is a precisely measured constant now superseded."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ag",
+                          "field":  "summary",
+                          "current":  "\"Silver conducts electricity and heat better than any other element and reflects visible light best of all metals. Silver ions kill bacteria.\"",
+                          "corrected":  "\"Silver conducts electricity better than any other element and heat better than any other metal, and it reflects visible light best of all metals. Silver ions kill bacteria.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Silver\u0027s thermal conductivity (about 429 W/m·K, CRC) is the highest among metals. Diamond, a form of the element carbon, conducts heat at about 2000-2200 W/m·K, so \u0027heat better than any other element\u0027 is false. Silver does have the highest room-temperature electrical conductivity of any element and the highest visible reflectance of any metal, so the revised sentence is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "In",
+                          "field":  "discovery.by",
+                          "current":  "Ferdinand Reich; Hieronymous Theodor Richter",
+                          "corrected":  "\"Ferdinand Reich; Hieronymus Theodor Richter\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "English Wikipedia\u0027s article is titled \u0027Hieronymus Theodor Richter (21 November 1824 – 25 September 1898)\u0027, and \u0027Hieronymous\u0027 only redirects there. German Wikipedia gives \u0027Hieronymus Theodor Richter (* 21. November 1824 in Dresden...)\u0027. \u0027Hieronymous\u0027 misspells his name; this is not a style choice."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "In",
+                          "field":  "facts[0]",
+                          "current":  "Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals slip.",
+                          "corrected":  "\"Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals suddenly twin.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Indium article says the cry is \u0027a crackling sound due to crystal twinning\u0027. Wikipedia\u0027s Tin cry article says the effect is \u0027caused by the crystal twinning in the metal\u0027 and that indium shows it too. \u0027Slip\u0027 is the technical name for a different, quiet deformation mechanism (dislocation glide), so the current sentence gives the wrong cause."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ba",
+                          "field":  "electronAffinity",
+                          "current":  "null",
+                          "corrected":  "0.145",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s electron affinity data page gives Ba = 0.14462(6) eV, from Petrunin et al., Phys. Rev. Lett. (1995), \u0027Resonant Ionization Spectroscopy of Ba−: Metastable and Stable Ions\u0027. Ba− is bound and its electron affinity has been measured, so null breaks the convention that null is used only when no measured value exists or the anion is unbound."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Sb",
+                          "field":  "bulk.cPm",
+                          "current":  "null",
+                          "corrected":  "1127.4",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "The Wikipedia Antimony infobox gives rhombohedral a = 450.66 pm (α = 57.112°) and hexagonal-setting a_h = 430.84 pm, c_h = 1127.36 pm at 20 °C. The dataset\u0027s latticeConstantPm = 431 is the hexagonal a, unlike As (413) and Bi (475), which use the rhombohedral a with no c. So the matching c of the real structure, 1127.4 pm, is missing, and null is wrong for this setting."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "La",
+                          "field":  "electronAffinity",
+                          "current":  "0.5",
+                          "corrected":  "0.558",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Electron affinity (data page) gives La as 0.557546(20) eV, citing Blondel 2020, Phys. Rev. A 101, 016501. The older value was 0.47 eV. No reputable source gives 0.5, which is about 10% below the precise modern value."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ce",
+                          "field":  "electronAffinity",
+                          "current":  "0.5",
+                          "corrected":  "0.6",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Electron affinity (data page) gives Ce as 0.600160(27) eV, citing Fu et al. 2020, Chin. Phys. B 29, 073201. Earlier measurements were 0.628-0.65 eV and 0.955 eV. 0.5 is about 17% low and does not match any measurement."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Nd",
+                          "field":  "elementalForm.description",
+                          "current":  "\"Neodymium shares three valence electrons; its four unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\"",
+                          "corrected":  "\"Neodymium shares three valence electrons; its three remaining unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "The neutral Nd atom is [Xe]4f4 6s2, with 6 electrons outside the Xe core. Trivalent Nd metal and Nd3+ compounds such as Nd2Fe14B are 4f3, a standard textbook fact. Sharing 3 electrons and keeping 4 unpaired 4f electrons would need 7, so the current sentence contradicts itself. The corrected sentence is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Xe",
+                          "field":  "isotopes.radioactive[0].halfLife",
+                          "current":  "\"1.8×10^22 years\"",
+                          "corrected":  "\"1.1×10^22 years\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "The 2019 XENON1T result of 1.8×10^22 y counted only K-shell captures. The 2022 XENON1T/XENONnT paper (Aprile et al., Phys. Rev. C 106, 024328; arXiv 2205.04158) includes K to N shell captures and gives a total 2vECEC half-life of (1.1 ± 0.2 stat ± 0.1 sys)×10^22 y at 7σ. Wikipedia\u0027s Isotopes of xenon now lists 1.1(2)×10^22 y for Xe-124, the isotope in this entry (A=124)."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Pr",
+                          "field":  "facts[0]",
+                          "current":  "Praseodymium-doped glass slows light dramatically in research experiments.",
+                          "corrected":  "\"Praseodymium-doped crystals have slowed light to about 45 meters per second in research experiments.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Turukhin et al. 2002 (Phys. Rev. Lett. 88, 023602) slowed light to 45 m/s and briefly stopped it in a 3 mm Pr-doped Y2SiO5 crystal, not a glass. Physics World and Physics Today coverage also calls it a crystalline solid. \u0027Glass\u0027 is factually wrong, and the corrected sentence matches the paper."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "La",
+                          "field":  "biology",
+                          "current":  "None known.",
+                          "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Lanthanum article says La has no known role in humans but is a cofactor for the methanol dehydrogenase of Methylacidiphilum fumariolicum SolV, and that Ce, Pr or Nd can substitute. Pol et al. 2014 is titled \u0027Rare earth metals are essential for methanotrophic life in volcanic mudpots\u0027. \u0027None known\u0027 is outdated."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ce",
+                          "field":  "biology",
+                          "current":  "None known.",
+                          "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "In Pol et al. 2014 (Environ. Microbiol.; \u0027Rare earth metals are essential for methanotrophic life in volcanic mudpots\u0027), M. fumariolicum SolV grew with La, Ce, Pr or Nd as the XoxF methanol dehydrogenase cofactor, and the enzyme was crystallized with Ce. Wikipedia\u0027s Lanthanum article confirms Ce can stand in for La. \u0027None known\u0027 is false."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Pr",
+                          "field":  "biology",
+                          "current":  "None known.",
+                          "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Lanthanum article says Pr can replace La as the methanol dehydrogenase cofactor of the volcanic-mudpot methanotroph M. fumariolicum SolV without ill effects (Pol et al. 2014). \u0027None known\u0027 is out of date."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Nd",
+                          "field":  "biology",
+                          "current":  "None known.",
+                          "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Lanthanum article says Nd, like Ce and Pr, can replace La in the methanol dehydrogenase of M. fumariolicum SolV without ill effects (Pol et al. 2014, volcanic mudpot methanotroph). Nd therefore has a known bacterial role, so \u0027None known\u0027 is false."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Te",
+                          "field":  "origin",
+                          "current":  "[\"merging neutron stars\"]",
+                          "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikimedia Commons Nucleosynthesis_periodic_table.svg (CMG Lee, based on Jennifer Johnson\u0027s chart) codes Te as \u0027oy\u0027, meaning merging neutron stars plus dying low-mass stars, with a large visible yellow (dying low-mass star) share. Astrophysics sources put about 17-20% of solar Te in the s-process (Sneden et al. 2008; Bisterzo et al. 2011). Under the dataset\u0027s visible-share convention, dying low-mass stars should be listed."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Te",
+                          "field":  "originNote",
+                          "current":  "Made almost entirely by rapid neutron capture.",
+                          "corrected":  "\"Made mostly by rapid neutron capture, with some slow capture in aging stars.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "About 17-20% of solar-system Te comes from the s-process, as cited in the Hubble metal-poor-star Te study (arXiv 1202.2378, from Sneden et al. 2008 and Bisterzo et al. 2011). The s-only isotopes 122, 123 and 124Te are part of that share, and Johnson\u0027s chart shows an even larger low-mass-star share. \u0027Almost entirely\u0027 overstates the r-process share. \u0027Mostly rapid, with some slow capture\u0027 is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Tm",
+                          "field":  "facts[0]",
+                          "current":  "\"Thulium is rarer in the crust than silver or iodine.\"",
+                          "corrected":  "\"Thulium is rare, yet it is more common in the crust than silver.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Abundances of the elements (data page) gives crustal Tm as 0.24-0.52 ppm and Ag as 0.05-0.08 ppm across CRC, Kaye \u0026 Laby, Greenwood and Ahrens. Tm is 3-7 times more abundant than silver, so the current sentence is false. Iodine is more common than Tm in some sources (an Ahrens-type compilation gives I as 1.54 ppm) and less common in others (CRC 0.45, Greenwood 0.46). Because sources disagree on iodine, the corrected sentence names only silver."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Sm",
+                          "field":  "isotopes.radioactive[2].halfLife",
+                          "current":  "\"over 10^16 years\"",
+                          "corrected":  "\"over 2×10^15 years (never observed to decay)\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "This entry is Sm-149. Wikipedia\u0027s Isotopes of samarium lists it as observationally stable, with a footnote that alpha decay to Nd-145 is expected at a half-life over 2×10^15 years. The KAERI/NuDat nuclide page also gives \u003e2E+15 y (alpha). I found no source with an experimental limit as high as 10^16 y, so the current value overstates the known bound."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Eu",
+                          "field":  "isotopes.stable",
+                          "current":  "[{\"A\":151,\"abundance\":47.81},{\"A\":153,\"abundance\":52.19}]",
+                          "corrected":  "[{\"A\":153,\"abundance\":52.19}]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Isotopes of europium lists Eu-151 as a primordial radionuclide that alpha decays to Pm-147 with a half-life of 4.6(12)×10^18 y (Belli et al. 2007, Nucl. Phys. A 789, 15; Casali et al. 2014, J. Phys. G 41, 075101). Eu-153 is observationally stable. The dataset convention puts long-lived naturally occurring radioactive isotopes under radioactive, so Eu-151 leaves the stable list."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Eu",
+                          "field":  "isotopes.radioactive",
+                          "current":  "[{\"A\":152,\"halfLife\":\"13.5 years\",\"note\":\"\"}]",
+                          "corrected":  "[{\"A\":151,\"halfLife\":\"4.6×10^18 years\",\"note\":\"47.81% of natural europium; its extremely slow alpha decay was first reported in 2007 and confirmed in 2014.\"},{\"A\":152,\"halfLife\":\"13.5 years\",\"note\":\"\"}]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia\u0027s Isotopes of europium gives Eu-151 a half-life of 4.6(12)×10^18 y (alpha) and an abundance of 0.4781. It says Eu-151 was found unstable in 2007 (Belli et al.), and Casali et al. 2014 is titled \u0027Discovery of the 151Eu α decay\u0027. The note is accurate, and the entry follows the dataset\u0027s format (A, halfLife, note with abundance), as in the Sm-147 and Gd-152 entries."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Pm",
+                          "field":  "bulk.cPm",
+                          "current":  "582.5",
+                          "corrected":  "1165",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Promethium metal is double hexagonal close-packed. The Wikipedia \u0027Promethium\u0027 structure table gives a = 365 pm and c = 1165 pm, and the infobox gives a = 363.93 pm and c = 1173.9 pm at 20 °C. 582.5 pm is half the dhcp c, the c of the simplified hcp drawing. The convention asks for c of the real structure, and the entry\u0027s own structure field says dhcp, so 1165 is correct."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Er",
+                          "field":  "facts[0]",
+                          "current":  "Without erbium amplifiers, transoceanic fiber-optic internet would need far more repeater stations.",
+                          "corrected":  "\"Erbium amplifiers boost light directly, so one undersea fiber can carry many signal colors without converting them to electricity.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Pre-EDFA cables already had repeaters about as close together as EDFA-era cables. Wikipedia \u0027TAT-8\u0027 says its signal was regenerated in housings about 40 km apart, and EDFA-era and modern systems place repeaters about every 40–100 km (TeleGeography figures say 60–80 km). EDFAs replaced optical-electrical-optical regenerators and amplify all WDM wavelengths at once. They did not cut the number of repeater stations, so the counterfactual is misleading. The replacement sentence is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Tb",
+                          "field":  "summary",
+                          "current":  "Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than any other material.",
+                          "corrected":  "\"Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than almost any other material.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia \u0027Terfenol-D\u0027 claims only \u0027the highest magnetostriction of any alloy\u0027 (about 0.2% at saturation). Ni-Mn-Ga magnetic shape-memory alloys show larger field-induced shape changes: twin-reorientation strains of several percent, up to about 6–10% in single crystals, and 0.43% bidirectional strain in rods, about three times Terfenol-D\u0027s saturation value (Malla et al., SPIE 2003). So \u0027more than any other material\u0027 is false, and \u0027almost any\u0027 is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Gd",
+                          "field":  "discovery.note",
+                          "current":  "Detected spectroscopically; isolated by Lecoq de Boisbaudran in 1886.",
+                          "corrected":  "\"Detected spectroscopically; Lecoq de Boisbaudran purified its oxide in 1886, but the metal was not isolated until 1935.\"",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "Wikipedia \u0027Gadolinium\u0027 says \u0027Pure gadolinium metal was isolated for the first time in 1935 by Félix Trombe\u0027 and credits Lecoq de Boisbaudran only with naming it in 1886. Britannica says Lecoq de Boisbaudran \u0027obtained (1886) a fairly pure sample of the same earth\u0027 (the oxide). An unqualified \u0027isolated\u0027 in 1886 tells students the element itself was obtained then, which is wrong. The corrected text matches these sources."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Er",
+                          "field":  "origin",
+                          "current":  "[\"merging neutron stars\"]",
+                          "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+                          "firstReferee":  "see group file",
+                          "sourceCheck":  "The Wikimedia Commons \u0027Nucleosynthesis periodic table.svg\u0027 (Cmglee, from Jennifer Johnson\u0027s chart data) gives Er tooltips of \u002716% Dying low-mass stars, 84% Merging neutron stars\u0027. Gd is 15% / 85%, and the dataset already lists \u0027dying low-mass stars\u0027 for Gd. A 16% share is clearly visible on the chart, so Er should list it too."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ta",
+                          "field":  "ionizationEnergy",
+                          "current":  "7.89",
+                          "corrected":  "7.5496",
+                          "firstReferee":  "NIST ASD lists Ta I ionization energy 7.549571(25) eV (ref L13153); CRC also uses 7.5496. The stored 7.89 eV (old 761 kJ/mol figure) is about 4.5% high, which is beyond tolerance for a precisely measured spectroscopic constant.",
+                          "sourceCheck":  "NIST ASD lists the Ta I ionization energy as 7.549571(25) eV. The current 7.89 eV (the old 761 kJ/mol value) is about 4.5% too high, which is beyond tolerance."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Os",
+                          "field":  "ionizationEnergy",
+                          "current":  "8.7",
+                          "corrected":  "8.4382",
+                          "firstReferee":  "NIST ASD gives Os I 8.43823(20) eV (ref L8105), and CRC agrees. The stored 8.7 eV (old 840 kJ/mol) is about 3.1% high. Some infoboxes still carry the old number, but it is an outdated value, not a reasonable disagreement with a precise spectroscopic measurement.",
+                          "sourceCheck":  "NIST ASD lists the Os I ionization energy as 8.43823(20) eV. The current 8.7 eV (the old 840 kJ/mol value) is about 3.1% too high, and the modern measured value is precise."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Re",
+                          "field":  "electronAffinity",
+                          "current":  "0.15",
+                          "corrected":  "0.0604",
+                          "firstReferee":  "Wikipedia\u0027s Electron affinity data page lists Re 0.060396(64) eV, from Chen \u0026 Ning, J. Phys. Chem. Lett. 8, 2735 (2017). The stored 0.15 eV is an old estimate, more than twice the measured value.",
+                          "sourceCheck":  "Wikipedia\u0027s \u0027Electron affinity (data page)\u0027 gives Re 0.060396(64) eV, citing Chen \u0026 Ning, J. Phys. Chem. Lett. 8, 2735 (2017). The current 0.15 eV is more than double the measured value."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Lu",
+                          "field":  "electronAffinity",
+                          "current":  "null",
+                          "corrected":  "0.239",
+                          "firstReferee":  "Fu, Tang, Lu \u0026 Ning (2019, Chin. J. Chem. Phys.) measured Lu\u0027s electron affinity at 0.2388(7) eV with cryo-SEVI, and the Wikipedia EA data page lists it. The dataset uses null only when no measured value exists, so null is wrong here.",
+                          "sourceCheck":  "Wikipedia\u0027s \u0027Electron affinity (data page)\u0027 gives Lu 0.2388(7) eV, citing Fu, Tang, Lu \u0026 Ning, Chin. J. Chem. Phys. 32, 187 (2019). A measured, bound value exists, so null is wrong under the convention."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Hf",
+                          "field":  "electronAffinity",
+                          "current":  "null",
+                          "corrected":  "0.178",
+                          "firstReferee":  "Tang et al., Phys. Rev. A 98, 020501(R) (2018) measured Hf\u0027s electron affinity at 0.1780(7) eV, and the Wikipedia EA data page lists it. A measured bound value exists, so null breaks the dataset\u0027s convention.",
+                          "sourceCheck":  "Wikipedia\u0027s \u0027Electron affinity (data page)\u0027 gives Hf 0.1780(7) eV, citing Tang et al., Phys. Rev. A 98, 020501(R) (2018). A measured, bound value exists, so null is wrong under the convention."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ta",
+                          "field":  "isotopes.radioactive[0].note",
+                          "current":  "0.012%: the rarest naturally occurring nuclide and the only natural nuclear isomer.",
+                          "corrected":  "\"0.012%: the rarest primordial nuclide and the only primordial nuclear isomer.\"",
+                          "firstReferee":  "Wikipedia\u0027s Tantalum-180m article calls it the rarest primordial nuclide and the only naturally occurring nuclear isomer only \u0027excluding short-lived radiogenic and cosmogenic nuclides\u0027. Decay-chain nuclides such as astatine and francium isotopes are far rarer, and Pa-234m occurs naturally in the U-238 chain, so the unqualified sentence is false. Restricting both claims to primordial nuclides makes it accurate.",
+                          "sourceCheck":  "Wikipedia \u0027Tantalum-180m\u0027 calls it the rarest primordial nuclide and the only naturally occurring isomer, but only \u0027excluding short-lived radiogenic and cosmogenic nuclides\u0027. Without those qualifiers the current sentence is false: decay-chain nuclides such as At isotopes are far rarer, and Pa-234m is a natural isomer in the U-238 chain. The corrected wording is accurate."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Hg",
+                          "field":  "nameOrigin",
+                          "current":  "The planet and Roman god Mercury; symbol Hg from Greek hydrargyrum, water-silver.",
+                          "corrected":  "\"The planet and Roman god Mercury; symbol Hg from hydrargyrum, the Latin form of Greek hydrargyros, water-silver.\"",
+                          "firstReferee":  "Etymonline, Merriam-Webster and Wiktionary all give hydrargyrum as the (New) Latin form of the Greek hydrargyros (hydor \u0027water\u0027 + argyros \u0027silver\u0027). Calling hydrargyrum a Greek word is a factual misattribution, and the correction fixes it.",
+                          "sourceCheck":  "Wikipedia \u0027Mercury (element)\u0027 says Hg abbreviates \u0027hydrargyrum, a romanized form of the ancient Greek name for mercury, hydrargyros\u0027, meaning water-silver. Hydrargyrum is the Latin form, not the Greek word, so the current text is wrong."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "At",
+                          "field":  "electronAffinity",
+                          "current":  "2.8",
+                          "corrected":  "2.416",
+                          "firstReferee":  "Leimbach et al., Nat. Commun. 11, 3824 (2020) measured 2.41578(7) eV, and the Wikipedia EA data page lists it. The stored 2.8 eV is an old estimate about 16% too high.",
+                          "sourceCheck":  "Leimbach et al., Nat. Commun. 11, 3824 (2020) measured 2.41578(7) eV, as listed in Wikipedia\u0027s \u0027Electron affinity (data page)\u0027. The current 2.8 eV is about 16% too high."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "At",
+                          "field":  "ionizationEnergy",
+                          "current":  "9.5",
+                          "corrected":  "9.318",
+                          "firstReferee":  "NIST ASD gives At I 9.31751(8) eV (Rothe et al. 2013, ref L18394). The stored 9.5 is about 2% high, at the edge of tolerance, but this is a precisely measured constant and current authoritative sources (NIST, CRC) do not give 9.5; that figure is a pre-measurement estimate.",
+                          "sourceCheck":  "NIST ASD and Rothe et al., Nat. Commun. 4, 1835 (2013) give 9.31751(8) eV. The current 9.5 is about 2% off, but this is a precisely measured constant. The only higher figure found was an old pre-measurement estimate (920 kJ/mol); no current reputable source gives 9.5."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Fr",
+                          "field":  "ionizationEnergy",
+                          "current":  "3.9",
+                          "corrected":  "4.073",
+                          "firstReferee":  "NIST ASD gives Fr I 4.0727411(11) eV. The stored 3.9 is about 4% low.",
+                          "sourceCheck":  "NIST ASD gives Fr I 4.0727411(11) eV. The current 3.9 is about 4% low."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Th",
+                          "field":  "ionizationEnergy",
+                          "current":  "6.08",
+                          "corrected":  "6.307",
+                          "firstReferee":  "NIST ASD gives Th I 6.30670(25) eV (ref L15992), and CRC agrees. The stored 6.08 (old 587 kJ/mol, still on some sites) is about 3.6% low, which is an outdated value rather than a legitimate disagreement over a precise spectroscopic constant.",
+                          "sourceCheck":  "NIST ASD gives Th I 6.30670(25) eV. The current 6.08 is about 3.6% low."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Ac",
+                          "field":  "ionizationEnergy",
+                          "current":  "5.17",
+                          "corrected":  "5.380",
+                          "firstReferee":  "NIST ASD gives Ac I 5.380235(12) eV (refs L22136, L17893, resonance ionization). The stored 5.17 is about 4% low.",
+                          "sourceCheck":  "NIST ASD gives Ac I 5.380235(12) eV. The current 5.17 is about 3.9% low."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Tl",
+                          "field":  "electronAffinity",
+                          "current":  "0.2",
+                          "corrected":  "0.32",
+                          "firstReferee":  "The Wikipedia EA data page lists Tl 0.320053(19) eV (Walter, Gibson \u0026 Spielman, Phys. Rev. A 101, 052511, 2020; consistent with the earlier Walter et al. 2010 measurement). The stored 0.2 is about 38% low.",
+                          "sourceCheck":  "Wikipedia\u0027s \u0027Electron affinity (data page)\u0027 gives Tl 0.320053(19) eV, citing Walter, Gibson \u0026 Spielman, Phys. Rev. A 101, 052511 (2020). The current 0.2 eV is about 38% low."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "At",
+                          "field":  "statePredicted",
+                          "current":  "false",
+                          "corrected":  "true",
+                          "firstReferee":  "No bulk astatine has ever been made; the entry itself says so, and its bulk structure is marked \u0027Predicted\u0027. Wikipedia\u0027s infobox gives phase \u0027solid (predicted)\u0027. Francium, in the same situation, already has statePredicted true in this dataset, so false for At is wrong and inconsistent.",
+                          "sourceCheck":  "Bulk astatine has never been made; the entry itself says no visible amount exists, and Wikipedia lists its phase at STP as \u0027solid (predicted)\u0027. The solid state is therefore a prediction, which also matches how this dataset flags Fr (statePredicted true)."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Pb",
+                          "field":  "origin",
+                          "current":  "[\"dying low-mass stars\"]",
+                          "corrected":  "[\"dying low-mass stars\", \"merging neutron stars\"]",
+                          "firstReferee":  "The Wikimedia Commons rendering of Johnson\u0027s chart (Nucleosynthesis_periodic_table.svg, data credited to Jennifer Johnson) codes Pb as \u0027oy\u0027 with tooltip \u002747% Dying low-mass stars, 53% Merging neutron stars\u0027, so the chart shows a clearly visible neutron-star share. Neighbours Tl and Bi already list both sources. Adding merging neutron stars is correct.",
+                          "sourceCheck":  "The Wikimedia Commons \u0027Nucleosynthesis periodic table.svg\u0027 (Cmglee, drawn from Jennifer Johnson\u0027s data) has a tooltip for Pb reading \u002747% Dying low-mass stars, 53% Merging neutron stars\u0027. The neutron-star share is clearly visible, so it should be listed. This matches the Tl and Bi entries, which already list both."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Pu",
+                          "field":  "bulk.latticeConstantPm",
+                          "current":  "463.7",
+                          "corrected":  "618.3",
+                          "firstReferee":  "The bulk structure is given as monoclinic alpha-Pu. WebElements lists P21/m with a = 618.3, b = 482.2, c = 1096.3 pm and beta = 101.79 deg. 463.7 pm is the delta-Pu fcc edge, which only describes how the cell is drawn. The U entry follows the same rule: it is drawn as bcc but lists the real alpha-U a and c. So a should be 618.3.",
+                          "sourceCheck":  "The entry\u0027s bulk.structure is monoclinic alpha-Pu, but 463.7 pm is the cubic edge of fcc delta-Pu. The Wikipedia Plutonium infobox gives alpha-Pu (mP16) a = 0.6183 nm, b = 0.4822 nm, c = 1.0964 nm, beta = 101.79 deg. The current value is about 25% off the a of the real structure."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Pu",
+                          "field":  "bulk.cPm",
+                          "current":  "null",
+                          "corrected":  "1096.3",
+                          "firstReferee":  "WebElements and Wikipedia give alpha-Pu (monoclinic P21/m) c = 1096.3 pm. The convention asks for c of the real structure, and that value is well established, so null is wrong.",
+                          "sourceCheck":  "Alpha-Pu is monoclinic with a well-defined c. The Wikipedia Plutonium infobox gives c = 1.0964 nm. The proposed 1096.3 pm (CRC) agrees within 0.01%. Null is wrong for the real structure."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Am",
+                          "field":  "bulk.cPm",
+                          "current":  "562",
+                          "corrected":  "1124.1",
+                          "firstReferee":  "WebElements gives dhcp Am as a = 346.81, c = 1124.1 pm, and Wikipedia gives a = 346.8, c = 1124 pm. 562 is half of the real c, which is the simple-hcp equivalent. The convention asks for c of the real structure, and the entry itself names the structure as double hcp. The dataset\u0027s other dhcp entries (La, Pr, Nd, Pm) also use half-c, so they have the same problem, but they are outside this group.",
+                          "sourceCheck":  "Wikipedia (Americium) gives the real alpha-Am structure as dhcp, P63/mmc, with a = 346.8 pm and c = 1124 pm. The value 562 is half of that, the simple-hcp equivalent, while the convention asks for c of the real structure. Note: the dhcp lanthanides La, Pr, Nd and Pm in elements-06/07 also use half-c (608.6, 591.7, 590.0, 582.5), so they have the same issue."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Cm",
+                          "field":  "bulk.cPm",
+                          "current":  "566.6",
+                          "corrected":  "1133.1",
+                          "firstReferee":  "WebElements gives dhcp Cm (P63/mmc) as a = 349.6, c = 1133.1 pm, which matches the entry\u0027s a. 566.6 is half of that c. Wikipedia\u0027s text gives a different pair (365 / 1182 pm), but under either source the real dhcp c is about 1130-1180 pm, not 567. 1133.1 goes with the stored a.",
+                          "sourceCheck":  "WebElements (Curium crystal structure) gives P63/mmc with a = 349.6 pm and c = 1133.1 pm, which matches the entry\u0027s a. The text of Wikipedia\u0027s Curium article gives a = 365 pm and c = 1182 pm. Either way, the real dhcp c is about twice the current 566.6, which is the simple-hcp half-cell value."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Bk",
+                          "field":  "bulk.cPm",
+                          "current":  "553.5",
+                          "corrected":  "1106.9",
+                          "firstReferee":  "Wikipedia gives alpha-Bk (dhcp, P63/mmc) lattice parameters of 341 and 1107 pm, and Peterson et al. give a = 341.6, c = 1106.9 pm. The current 553.5 is half of the real dhcp c.",
+                          "sourceCheck":  "Wikipedia (Berkelium) says alpha-Bk is double hcp (ABAC) with lattice parameters 341 pm and 1107 pm. The value 553.5 is half the real c. The proposed 1106.9 agrees."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Cf",
+                          "field":  "bulk.cPm",
+                          "current":  "550.8",
+                          "corrected":  "1101.5",
+                          "firstReferee":  "Haire and Asprey give dhcp alpha-Cf as a = 339.0, c = 1101.5 pm. WebElements lists a = 338, c = 1102.5 pm, which is within tolerance of that. 550.8 is half of the real c.",
+                          "sourceCheck":  "Wikipedia says alpha-Cf is dhcp. WebElements (Californium crystal structure) gives P63/mmc with c = 1102.5 pm (it prints 11.025, i.e. Angstrom). The proposed 1101.5 (Haire \u0026 Baybarz, with a = 339 pm as in the entry) is within 0.1%. The value 550.8 is the half-cell value, not c of the real structure."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "U",
+                          "field":  "electronAffinity",
+                          "current":  "null",
+                          "corrected":  "0.315",
+                          "firstReferee":  "Tang, Lu, Liu and Ning, Phys. Rev. A 103, L050801 (2021), measured EA(U) = 0.31497(9) eV by slow-electron velocity-map imaging of U-. Wikipedia\u0027s electron affinity data page lists this value. A measured value exists, so null breaks the convention. The proposal\u0027s citation names the wrong journal, but the value is right.",
+                          "sourceCheck":  "The electron affinity of uranium has been measured. Tang, Lu, Liu \u0026 Ning, Phys. Rev. A 103, L050801 (2021), used slow-electron velocity-map imaging of U- and found EA(U) = 314.97(9) meV. Ciborowski et al., J. Chem. Phys. 154, 224307 (2021), also measured it. Null is reserved for elements with no measured value, so it is wrong here. 0.315 eV is correct."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Bk",
+                          "field":  "summary",
+                          "current":  "Berkelium is made only in microgram amounts in special reactors. Berkelium-249 was the target used to create tennessine.",
+                          "corrected":  "\"Berkelium is made only in milligram amounts in special reactors. Berkelium-249 was the target used to create tennessine.\"",
+                          "firstReferee":  "Wikipedia (Berkelium) says just over one gram has been produced in the US since 1967, and that a 22 mg batch of Bk-249 was made at Oak Ridge in 2009 for the tennessine experiment. Microgram amounts were true only of the earliest work (0.6 ug in 1958). \u0027Milligram amounts\u0027 correctly describes production batches.",
+                          "sourceCheck":  "Wikipedia (Berkelium) says \u0027just over one gram of berkelium has been produced in the United States since 1967\u0027 and that a 22-milligram batch of Bk-249 was made for the tennessine target. \u0027Only microgram amounts\u0027 is therefore false, and it also contradicts the entry\u0027s own 22 mg fact."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Bk",
+                          "field":  "appearance",
+                          "current":  "Silvery metal; only microgram amounts have been made.",
+                          "corrected":  "\"Silvery metal; it is made only in milligram batches.\"",
+                          "firstReferee":  "Wikipedia gives just over 1 g produced in the US since 1967, in batches such as the 22 mg used for tennessine, so \u0027only microgram amounts have been made\u0027 is false. The proposed \u0027only milligram amounts have been made\u0027 is also not quite right, because the total is about a gram. The corrected text describes batch size instead.",
+                          "sourceCheck":  "Wikipedia (Berkelium) reports about one gram produced in total since 1967, in batches such as the 22 mg tennessine target. The claim that only micrograms have been made is false."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Hs",
+                          "field":  "summary",
+                          "current":  "Hassium is predicted to be the densest element of all, roughly twice as dense as osmium. Its tetroxide is the heaviest molecule whose chemistry has been tested.",
+                          "corrected":  "\"Hassium is predicted to be one of the densest elements, about 25% denser than osmium. Its tetroxide, HsO4, behaves much like osmium tetroxide.\"",
+                          "firstReferee":  "Even et al., Science 345, 1491 (2014), made seaborgium hexacarbonyl Sg(CO)6 (about 433 u) and studied its chemistry. Earlier gas-phase studies of SgO2Cl2 (about 368 u) and BhO3Cl (about 350 u) also involved molecules heavier than HsO4 (about 333 u). So the \u0027heaviest molecule\u0027 claim is false. I changed \u0027just like\u0027 to \u0027much like\u0027 because HsO4 is measurably less volatile than OsO4, though it behaves very similarly.",
+                          "sourceCheck":  "Seaborgium hexacarbonyl, Sg(CO)6, about 433 u with Sg-265, was made and detected by Even et al., Science 345, 1491 (2014). It is heavier than HsO4 (about 333 u), so the \u0027heaviest molecule\u0027 claim is false. Wikipedia (Hassium) says experiments confirm Hs acts as osmium\u0027s heavier homologue and forms a volatile tetroxide, so \u0027behaves much like osmium tetroxide\u0027 is fair. The proposed text kept \u0027roughly twice as dense as osmium\u0027, but that is also false. Wikipedia\u0027s Hassium physical-properties section gives a predicted 27-29 g/cm3 against 22.59 g/cm3 for osmium, about 1.2-1.3 times, and calls Hs \u0027one of the densest\u0027. The corrected text fixes that too."
+                      },
+                      {
+                          "kind":  "element",
+                          "id":  "Fl",
+                          "field":  "facts[0]",
+                          "current":  "Its isotopes live longer than those of its neighbors, a hint of the island of stability.",
+                          "corrected":  "\"Its longest-lived confirmed isotope, flerovium-289, has a half-life of about 2 seconds, far longer than many lighter superheavy isotopes, a hint of the island of stability.\"",
+                          "firstReferee":  "Wikipedia\u0027s isotope tables (from NUBASE) give a longest confirmed Fl half-life of 1.9 s (Fl-289); Fl-290 at about 19 s is unconfirmed. Its neighbor Nh-286 lives about 9.5 s and Cn-285 about 30 s, so the original claim is false. The proposed \u0027Its isotopes live for seconds\u0027 is also wrong: most Fl isotopes live under a second (Fl-284 2.5 ms, Fl-285 86 ms, Fl-286 105 ms, Fl-287 360 ms, Fl-288 653 ms). The corrected wording fixes this.",
+                          "sourceCheck":  "Wikipedia\u0027s isotope tables (NUBASE-based) give Fl-289 1.9 s, which is the longest confirmed Fl isotope (Fl-290 at 19 s is unconfirmed). The neighbors live longer: Nh-286 at 9.5 s and Cn-285 at 28 s. So the current claim is false. The proposed idea is right. The wording is tightened to \u0027half-life of about 2 seconds\u0027 rather than \u0027lasts about 2 seconds\u0027."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "white-phosphorus",
+                          "field":  "pubchemCid",
+                          "current":  "5462309",
+                          "corrected":  "123286",
+                          "firstReferee":  "PubChem PUG REST checked: CID 5462309 = \u0027Phosphorus\u0027, formula P (single atom); CID 123286 = \u0027Tetraphosphorus\u0027, formula P4, IUPAC 1,2,3,4-tetraphosphatricyclo[1.1.0.0^2,4]butane. The entry is P4 (aka tetraphosphorus), so 123286 is the right CID.",
+                          "sourceCheck":  "PubChem PUG REST property lookup: CID 5462309 is \u0027Phosphorus\u0027 with formula P (a single atom), and CID 123286 is \u0027Tetraphosphorus\u0027 with formula P4. White phosphorus is the P4 molecule, so the correct CID is 123286."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "hydrochloric-acid",
+                          "field":  "facts[0]",
+                          "current":  "Stomach acid is about 0.1 M hydrochloric acid, pH 1.5–3.5.",
+                          "corrected":  "\"Stomach acid is dilute hydrochloric acid; the stomach contents have a pH of about 1.5–3.5.\"",
+                          "firstReferee":  "Simple pH arithmetic: 0.1 M HCl, a strong acid, has pH 1.0, and pH 1.5–3.5 means about 0.03 to 0.0003 M. The sentence pairs the concentration of freshly secreted acid (~0.1–0.16 M) with the pH of the stomach contents, so it contradicts itself in a chemistry context. The corrected sentence keeps the commonly cited gastric pH range (physiology texts; Wikipedia \u0027Gastric acid\u0027) and drops the inconsistent molarity.",
+                          "sourceCheck":  "The sentence contradicts itself: 0.1 M HCl has pH 1.0, which is outside 1.5–3.5. Wikipedia \u0027Gastric acid\u0027 gives up to 160 mM HCl for the freshly secreted acid (pH as low as 0.8), diluted in the stomach lumen to about pH 1–3. Many physiology texts give 1.5–3.5, a normal spread between sources. The corrected wording separates the acid from the pH of the stomach contents and is accurate."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "ammonia",
+                          "field":  "summary",
+                          "current":  "Ammonia is the base of modern agriculture: most nitrogen in your body passed through a Haber–Bosch plant.",
+                          "corrected":  "\"Ammonia is the base of modern agriculture: about half the nitrogen in your body passed through a Haber–Bosch plant.\"",
+                          "firstReferee":  "The usual estimate is about half (Hager, The Alchemy of Air; Standage; Smil ~40%; Erisman et al. 2008 ~48% of the population fed by Haber–Bosch nitrogen). No standard source says \u0027most\u0027, meaning a majority. The entry\u0027s own fact says \u0027roughly half\u0027, so \u0027most\u0027 overstates it. \u0027About half\u0027 is right.",
+                          "sourceCheck":  "Widely cited estimates (Hager, The Alchemy of Air, 2008; Smil, about 40% of dietary protein; Wikipedia \u0027Haber process\u0027, nearly 50% of nitrogen in human tissue) put the share at about half, not \u0027most\u0027. The entry\u0027s own fact says Haber–Bosch feeds about half the world. \u0027About half\u0027 matches the sources."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "carbonic-acid",
+                          "field":  "state",
+                          "current":  "aqueous ion",
+                          "corrected":  "\"aqueous\"",
+                          "firstReferee":  "H2CO3 is a neutral molecule; the ions are HCO3− and CO3^2−. The state string is shown directly as a chip and in the Properties list (views.js lines 970 and 978), so the page would call carbonic acid an ion. No code maps state values to a fixed vocabulary, so \u0027aqueous\u0027 displays without problems.",
+                          "sourceCheck":  "H2CO3 is a neutral diprotic acid molecule; its ions are HCO3− and CO3^2−. The entry\u0027s own formation, CO2 + H2O \u003c-\u003e H2CO3, shows a neutral species in water. No app code (js/html) checks the state value against a fixed list, so \u0027aqueous\u0027 is a valid free-text state. \u0027Aqueous ion\u0027 is factually wrong for this compound."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "silver-bromide",
+                          "field":  "occurrence",
+                          "current":  "Synthetic.",
+                          "corrected":  "\"Occurs naturally as the mineral bromargyrite; usually made synthetically.\"",
+                          "firstReferee":  "AgBr occurs in nature as the mineral bromargyrite (bromyrite), found mainly in Mexico and Chile in arid oxidized silver deposits (Wikipedia \u0027Bromargyrite\u0027; Mindat), so \u0027Synthetic.\u0027 is false. I dropped \u0027rare\u0027 from the proposal because the sources checked do not describe the mineral as rare.",
+                          "sourceCheck":  "Mindat lists bromargyrite (AgBr, isometric) as an approved, grandfathered IMA mineral species with many confirmed localities, for example the Mammoth-Saint Anthony Mine in Arizona and the Golosina mine in Spain. Calling AgBr purely synthetic is misleading."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "americium-dioxide",
+                          "field":  "formation",
+                          "current":  "\"Am(C2O4)2 -\u003e AmO2 + 4 CO2 (heating americium oxalate)\"",
+                          "corrected":  "\"Am2(C2O4)3 + 2 O2 -\u003e 2 AmO2 + 6 CO2 (heating americium(III) oxalate in air)\"",
+                          "firstReferee":  "Atom count of the current equation: left O = 8, right O = 2 + 8 = 10, so it does not balance. Wikipedia (ORNL route) says the precipitate is americium(III) oxalate, calcined in air at 350–800 °C to AmO2. The corrected equation balances (Am 2, C 6, O 16 on each side) and the redox balances: 2 Am(III)→Am(IV) and 6 C(+3)→C(+4) lose 8 e−, and 2 O2 gain 8 e−.",
+                          "sourceCheck":  "The current equation does not balance: there are 8 O on the left and 10 O on the right. Wikipedia \u0027Americium dioxide\u0027 (Oak Ridge method) describes precipitating americium(III) oxalate and calcining it at 350–800 °C, and the cited ORNL report is titled \u0027Thermal Decomposition of Americium Oxalate in Air\u0027. The corrected equation balances (Am 2, C 6, O 16 on each side) and is redox-balanced: Am(III) to Am(IV) plus oxalate carbon to CO2 gives up 8 electrons, which 2 O2 take up."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "cubic-zirconia",
+                          "field":  "formation",
+                          "current":  "\"ZrSiO4 + 2 NaOH -\u003e ... -\u003e ZrO2 (from zircon sand)\"",
+                          "corrected":  "\"ZrSiO4 + 4 NaOH -\u003e Na2ZrO3 + Na2SiO3 + 2 H2O (alkali fusion of zircon; the zirconate is then converted to ZrO2)\"",
+                          "firstReferee":  "The current text has an ellipsis and is not a balanced reaction, which breaks the \u0027real, balanced reaction\u0027 convention. The corrected equation balances (Zr 1, Si 1, Na 4, H 4, O 8 each side). The zircon caustic-fusion literature (patents, Metals 2024, IPEN and BATAN studies) cites it as the standard 4:1 NaOH fusion giving sodium zirconate and silicate. The zirconate is then leached and acid-treated on the way to ZrO2.",
+                          "sourceCheck":  "The current text is not a balanced reaction: Na and Si disappear in \u0027... -\u003e ZrO2\u0027. That breaks the convention that formation must be a real, balanced reaction. The proposer is wrong that 2 NaOH can never work: a 1:2 ratio gives Na2ZrSiO5, which the EJChem study lists as a variant. The corrected 1:4 equation is the standard caustic-fusion step, given in that study and in patent CN106477627A (600–750 °C). It balances: Zr 1, Si 1, Na 4, H 4, O 8 on each side."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "thoria",
+                          "field":  "summary",
+                          "current":  "\"Thoria is the highest-melting oxide known and glows brightly in lantern mantles.\"",
+                          "corrected":  "\"Thoria is the highest-melting oxide known; mixed with 1% ceria it glows brightly in lantern mantles.\"",
+                          "firstReferee":  "Period sources on the Welsbach mantle (Nature 1907; the Wikipedia \u0027Gas mantle\u0027 article as a cross-check) say a pure-thoria mantle gives only a dull light with almost no visible emission. Welsbach\u0027s 1891 mix of 99% ThO2 and 1% CeO2 is what gives the bright white light, so crediting the glow to thoria alone is misleading. The highest-melting-oxide claim (about 3350 °C) is kept as it was.",
+                          "sourceCheck":  "Wikipedia \u0027Gas mantle\u0027 gives Welsbach\u0027s 1891 mixture as 99% ThO2 and 1% CeO2. Historical sources found by search (a 1907 Nature note at nature.com/articles/076092a0; Luckiesh, via yarchive.net/chem/thoria_mantles.html) say pure thoria gives very little light and that the small ceria addition makes the mantle glow brilliantly. Crediting the bright glow to thoria alone is therefore misleading. The \u0027highest-melting oxide\u0027 claim (about 3350-3390 °C) is standard and the corrected text keeps it."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "ceria",
+                          "field":  "pubchemCid",
+                          "current":  "9905479",
+                          "corrected":  "73963",
+                          "firstReferee":  "A PubChem PUG REST property lookup shows CID 9905479 is Ce2O3 (bis(cerium(3+)) tris(oxygen(2-)), titled \u0027Cerium oxide\u0027). CID 73963 is CeO2 (\u0027dioxocerium\u0027, titled \u0027Ceria\u0027), which matches the entry\u0027s CeO2.",
+                          "sourceCheck":  "PubChem PUG REST property lookup: CID 9905479 is Ce2O3 (\u0027Cerium oxide\u0027, bis(cerium(3+));tris(oxygen(2-))), and CID 73963 is CeO2 (\u0027Ceria\u0027, dioxocerium). Ceria is CeO2, so the CID should be 73963."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "strontium-titanate",
+                          "field":  "facts[0]",
+                          "current":  "SrTiO3 becomes a superconductor below about 0.3 K.",
+                          "corrected":  "\"Lightly electron-doped SrTiO3 becomes a superconductor below about 0.3 K.\"",
+                          "firstReferee":  "Stoichiometric SrTiO3 is a band insulator. Superconductivity was found in reduced, electron-doped SrTiO3 (Schooley et al. 1964) and only shows up at low carrier densities from oxygen vacancies or Nb/La doping, with Tc about 0.1–0.45 K. The unqualified sentence is false for the pure compound, and the correction is accurate.",
+                          "sourceCheck":  "Schooley, Hosler and Cohen (PRL 12, 474, 1964) found superconductivity in reduced, oxygen-deficient SrTiO3 at about 0.25-0.28 K. Reviews (arXiv 1508.00529, 1804.07067, 1912.01509) describe the superconductor as n-doped SrTiO3 with very low carrier density. Pure SrTiO3 is a band insulator with a gap of about 3.2 eV (arXiv 1206.6686). The unqualified sentence is misleading, and the correction states the doping condition correctly."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "cassiterite",
+                          "field":  "facts[0]",
+                          "current":  "Bronze Age traders shipped tin ore across Europe from Cornwall.",
+                          "corrected":  "\"Bronze Age traders carried Cornish tin across Europe, often as smelted ingots.\"",
+                          "firstReferee":  "Berger et al. (PLoS ONE 2019) traced 13th–12th c. BCE tin ingots from Israel to Cornwall/Devon, so Cornish tin did travel far. The material traded was smelted tin metal (ingots, also seen in the Salcombe/Erme wrecks), not cassiterite ore, and none of the sources found support shipments of ore. \u0027Shipped tin ore\u0027 is inaccurate; the correction keeps the Cornish link and fixes the material.",
+                          "sourceCheck":  "All the long-distance evidence is for smelted metal, not ore. Berger et al., PLoS ONE 2019 (PMC6594607) link 13th-12th c. BC tin ingots from Israel to Cornish sources. Wikipedia \u0027Mining in Cornwall and Devon\u0027 cites the Erme-mouth wreck with tin ingots, and Diodorus describes tin cast into blocks before export. Saying \u0027tin ore\u0027 was shipped misdescribes what was traded. The corrected sentence matches the evidence."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "potassium-dichromate",
+                          "field":  "structure.units[1].bonds[2]",
+                          "current":  "[1, 3, 1.5]",
+                          "corrected":  "[1, 3, 1.67]",
+                          "firstReferee":  "Formal Lewis count for Cr(VI) in Cr2O7 2-: each Cr has 6 bond-order units, 1 to the bridging O and 5 shared over 3 terminal O, so the average is 5/3 ≈ 1.67. With 1.5 the bond orders around each Cr add up to 5.5, which fits no Lewis structure. The data files use exact averages elsewhere (SO4 2- 1.5, CO3 2-/NO3- 1.33, MnO4- and TcO4- 1.75), so 1.5 is inconsistent with that convention. The other terminal bonds, bonds[3]–[7], need the same change.",
+                          "sourceCheck":  "Formal valence count: each Cr(VI) has bond-order sum 6. One single bond goes to the bridging O, leaving 5 shared over 3 terminal O, so the terminal Cr–O bond order is 5/3 ≈ 1.67, not 1.5. Equivalently, the resonance Lewis structure has Cr=O, Cr=O and Cr–O− on each Cr. The file uses the same averaging elsewhere (SO4 2- 1.5, NO3-/CO3 2- 1.33, MnO4- 1.75). The bridging bond (1) and the geometry are fine. The other terminal bonds, bonds[3] to bonds[7], need the same change."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "radium-chloride",
+                          "field":  "formation",
+                          "current":  "RaSO4 -\u003e ... -\u003e RaCl2 (Curie\u0027s refining of pitchblende)",
+                          "corrected":  "\"RaCO3 + 2 HCl -\u003e RaCl2 + CO2 + H2O (Curie turned radium-bearing sulfates into carbonates, dissolved them in HCl, then purified the chloride by fractional crystallization)\"",
+                          "firstReferee":  "The current value contains an ellipsis, not a real balanced reaction as the convention requires. Curie\u0027s thesis (\u0027Radio-Active Substances\u0027, Project Gutenberg 60564) describes boiling the crude radium-barium sulphates with concentrated sodium carbonate to convert them to carbonates, dissolving in hydrochloric acid, then fractionally crystallising the chlorides. The proposed equation balances: Ra 1, C 1, O 3, H 2, Cl 2 on each side.",
+                          "sourceCheck":  "The current value contains no balanced reaction, which breaks the formation convention. Curie\u0027s thesis \u0027Radio-Active Substances\u0027 (Project Gutenberg 60564) says the crude sulphates \u0027are boiled with sodium carbonate\u0027, the \u0027precipitated carbonates ... are washed and converted into chlorides\u0027, and the mixed chlorides undergo \u0027fractional crystallisation in pure water\u0027. Wikipedia \u0027Radium chloride\u0027 says RaCl2 \u0027can be produced by treating radium carbonate with hydrochloric acid\u0027. The proposed equation is balanced (Ra 1, C 1, O 3, H 2, Cl 2 on each side)."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "promethium-chloride",
+                          "field":  "summary",
+                          "current":  "Promethium chloride is a rare glowing salt of the only radioactive lanthanide.",
+                          "corrected":  "\"Promethium chloride is a rare glowing salt of the only lanthanide with no stable isotopes.\"",
+                          "firstReferee":  "Several lanthanides have naturally occurring radioactive isotopes: La-138, Sm-147 (used in Sm–Nd dating), Lu-176 (used in Lu–Hf dating) and Nd-144, among others. So calling Pm \u0027the only radioactive lanthanide\u0027 is false. What sets Pm apart is that it has no stable isotopes (NUBASE; Wikipedia \u0027Promethium\u0027). The correction is accurate.",
+                          "sourceCheck":  "Natural samarium (Sm-147, about 15%, t1/2 about 1.06e11 y) and lutetium (Lu-176, about 2.6%, t1/2 about 3.7e10 y) are measurably radioactive (NUBASE data), so \u0027only radioactive lanthanide\u0027 is technically false. Wikipedia \u0027Promethium\u0027 states the distinguishing fact: \u0027Promethium is the only lanthanide ... with no stable\u0027 isotopes, and \u0027All of its isotopes are radioactive.\u0027 The correction matches this."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "cobalt-chloride",
+                          "field":  "facts[0]",
+                          "current":  "Dry blue CoCl2 turns pink as it absorbs water and becomes [Co(H2O)6]2+.",
+                          "corrected":  "\"Dry blue CoCl2 turns pink as it absorbs water, forming the hydrate CoCl2·6H2O.\"",
+                          "firstReferee":  "The pink solid hexahydrate is built from trans-[CoCl2(H2O)4] molecules plus two lattice waters (Wikipedia \u0027Cobalt(II) chloride\u0027; Greenwood \u0026 Earnshaw). [Co(H2O)6]2+ exists in aqueous solution. In the humidity-indicator setting the solid hydrate forms, so saying it \u0027becomes [Co(H2O)6]2+\u0027 is false for the solid. The correction is accurate.",
+                          "sourceCheck":  "Wikipedia \u0027Cobalt(II) chloride\u0027: the solid hexahydrate contains neutral trans-CoCl2(H2O)4 molecules plus two waters of crystallization. The [Co(H2O)6]2+ ion is present only in aqueous solution. The article also says the anhydrous solid is blue and the hexahydrate pink. The current sentence names the wrong species for the pink hydrate; the correction is accurate."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "magnetite",
+                          "field":  "facts[1]",
+                          "current":  "Some bacteria and birds use magnetite crystals to sense Earth\u0027s magnetic field.",
+                          "corrected":  "\"Some bacteria use magnetite crystals to sense Earth\u0027s magnetic field, and some animals may too.\"",
+                          "firstReferee":  "Magnetotactic bacteria with magnetosome magnetite chains are well established. A magnetite-based magnetoreceptor in birds is unproven: Treiber et al. (Nature 2012) showed that the iron-rich cells in pigeon beaks are macrophages, and bird magnetoreception is mostly attributed to cryptochrome radical pairs. Stating as fact that birds use magnetite is misleading.",
+                          "sourceCheck":  "Wikipedia \u0027Magnetoreception\u0027 (citing Treiber et al., Nature 2012): the iron-rich cells in pigeon beaks \u0027proved to be immune system macrophages\u0027, iron-based bird receptors have not been independently replicated, and the cryptochrome radical-pair mechanism has the strongest support. Magnetite use by magnetotactic bacteria (magnetosomes) is well established. Stating as fact that birds use magnetite is misleading, and the hedged correction is accurate."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "sodium-pertechnetate",
+                          "field":  "formation",
+                          "current":  "99Mo -\u003e 99mTc (molybdenum-99 decays in a generator; eluted with saline as NaTcO4)",
+                          "corrected":  "\"99MoO4 2- -\u003e 99mTcO4- + e- (beta decay of molybdate in a generator; eluted with saline as NaTcO4)\"",
+                          "firstReferee":  "As written, the equation is not balanced: Z goes from 42 to 43 with no beta particle shown. In the generator, molybdate adsorbed on alumina beta-decays to pertechnetate (Wikipedia \u0027Technetium-99m generator\u0027). The proposed form balances mass number (99), atoms (4 O) and charge (-2 = -1 + -1). Leaving out the antineutrino is the usual chemistry simplification.",
+                          "sourceCheck":  "The current equation omits the beta particle, so it does not balance (Z 42 -\u003e 43). Wikipedia \u0027Technetium-99m generator\u0027: molybdate MoO4 2- is adsorbed on alumina, and \u0027when the 99Mo decays it forms pertechnetate TcO4−\u0027, which saline elutes as sodium pertechnetate. The proposed equation balances mass number (99) and charge (-2 = -1 + -1). Leaving out the antineutrino is an acceptable simplification."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "silica",
+                          "field":  "occurrence",
+                          "current":  "The most abundant mineral family in Earth\u0027s crust: quartz, sand, flint, opal.",
+                          "corrected":  "\"One of the most common minerals in Earth\u0027s crust: quartz, sand, flint, opal.\"",
+                          "firstReferee":  "The sentence lists silica forms (quartz, flint, opal) and calls them the most abundant mineral family. Standard mineralogy and USGS sources put feldspars first (about half the crust) and quartz second (about 12%). The claim is false, and the correction is accurate.",
+                          "sourceCheck":  "Feldspars are the most abundant mineral group in the crust: about 50% (plagioclase about 39-40% plus alkali feldspar about 12%) per sandatlas, Libretexts physical geology and the mindat \u0027Most Common Minerals\u0027 article. Quartz, the main silica mineral, is second at about 12% (Windows to the Universe, sandatlas). The current sentence is false and the corrected one is accurate."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "tungsten-carbide",
+                          "field":  "occurrence",
+                          "current":  "Synthetic.",
+                          "corrected":  "\"Almost all synthetic; it also occurs as the very rare natural mineral qusongite.\"",
+                          "firstReferee":  "Qusongite, WC, is an IMA-approved mineral (IMA 2007-034) from the Luobusa chromitites in Qusong County, Tibet (Fang et al., American Mineralogist 94, 387–390, 2009). Plain \u0027Synthetic.\u0027 implies WC does not occur in nature, which conflicts with this and with the entry\u0027s \u0027Minerals \u0026 ores\u0027 category. The correction matches the style of other entries, such as strontium titanate\u0027s \u0027Rare mineral tausonite; mostly synthetic.\u0027",
+                          "sourceCheck":  "Qusongite is natural WC: IMA 2007-034, described by Fang et al., American Mineralogist 94 (2009) 387, from the Luobusa ophiolite, Qusong County, Tibet, and since reported from Hokkaido placers (Wikipedia \u0027Qusongite\u0027, webmineral, RRUFF CIF). \u0027Synthetic.\u0027 alone is incomplete and conflicts with the entry\u0027s \u0027Minerals \u0026 ores\u0027 category. The correction is accurate."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "praseodymium-oxide",
+                          "field":  "pubchemCid",
+                          "current":  "165911",
+                          "corrected":  "16211481",
+                          "firstReferee":  "I checked PubChem PUG REST. CID 165911 is O3Pr2, \"Praseodymium oxide\" (Pr2O3). CID 16211481 is O11Pr6, \"Praseodymium(III,IV) oxide\", which matches the entry (Pr6O11).",
+                          "sourceCheck":  "PubChem PUG REST: CID 165911 has formula O3Pr2 (praseodymium(III) oxide, Pr2O3). CID 16211481 has formula O11Pr6 and title \u0027Praseodymium(III,IV) oxide\u0027, which matches the entry\u0027s formula Pr6O11."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "ybco",
+                          "field":  "formation",
+                          "current":  "\"Y2O3 + 4 BaCO3 + 6 CuO -\u003e sintered at about 950 °C in oxygen\"",
+                          "corrected":  "\"Y2O3 + 4 BaCO3 + 6 CuO + 1/2 O2 -\u003e 2 YBa2Cu3O7 + 4 CO2 (sintered at about 950 °C in oxygen)\"",
+                          "firstReferee":  "The current field names no products, so it is not a balanced reaction as the convention requires. Atom count for the proposed equation: Y 2/2, Ba 4/4, Cu 6/6, C 4/4, O 3+12+6+1=22 vs 14+8=22. This is the standard solid-state route to YBa2Cu3O7 (Wikipedia \u0027Yttrium barium copper oxide\u0027 gives the analogous carbonate route with O2 uptake), and it matches the entry formula YBa2Cu3O7.",
+                          "sourceCheck":  "The current text gives no products, so it is not a balanced reaction as the convention requires. I checked the atoms in the proposed equation: Y 2/2, Ba 4/4, Cu 6/6, C 4/4, O 3+12+6+1 = 22 vs 14+8 = 22. This is the standard solid-state route to YBa2Cu3O7 (Wikipedia, \u0027Yttrium barium copper oxide\u0027). Writing O7 instead of O7−δ is an acceptable simplification."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "boron-trifluoride",
+                          "field":  "bonding.types",
+                          "current":  "[\"polar covalent\", \"coordinate (dative)\"]",
+                          "corrected":  "[\"polar covalent\"]",
+                          "firstReferee":  "The entry\u0027s own electronSharing text says the dative bond forms only when BF3 accepts a lone pair from other molecules, i.e. in adducts such as BF3·NH3. Free BF3 has three polar covalent B–F bonds and no coordinate bond (Greenwood \u0026 Earnshaw). Partial π back-donation is not what the entry describes, and the fixed vocabulary does not call it a dative bond.",
+                          "sourceCheck":  "Wikipedia \u0027Boron trifluoride\u0027 (Structure and bonding) describes the free molecule as three short B–F bonds with π-bonding or ionic character. It never calls any of them dative or coordinate. Dative bonds appear only in adducts with Lewis bases such as BF3·NH3. The entry\u0027s own electronSharing text ties the dative label to accepting lone pairs from other molecules, which is not a bond in BF3 itself. Listing a coordinate bond for monomeric BF3 is therefore misleading, and the dataset uses this type only where such a bond actually exists (for example Al2Cl6, CO and complexes)."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "germane",
+                          "field":  "formation",
+                          "current":  "GeO2 + NaBH4 -\u003e GeH4 (in acid)",
+                          "corrected":  "\"GeO2 + NaBH4 -\u003e GeH4 + NaBO2\"",
+                          "firstReferee":  "The current equation is unbalanced: Na, B and the two O atoms have no product. Wikipedia \u0027Germane\u0027 and a germane patent confirm borohydride reduction of germanium oxides gives GeH4, with sodium borate as the boron byproduct. Atom count for GeO2 + NaBH4 -\u003e GeH4 + NaBO2: Ge 1, O 2, Na 1, B 1, H 4 on each side. It is a valid simplified overall reaction.",
+                          "sourceCheck":  "As written, Na and B disappear from the equation, so it is unbalanced. In the corrected equation every element balances (Ge 1, Na 1, B 1, O 2, H 4) and the oxidation states are consistent. Wikipedia \u0027Germane\u0027 says germane is made by reducing germanium oxides or germanates with hydride reagents such as NaBH4/KBH4, giving borate by-products. Metaborate is the usual NaBH4 by-product, so this is an acceptable simplified overall equation."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "phosphorus-pentoxide",
+                          "field":  "pubchemCid",
+                          "current":  "6326975",
+                          "corrected":  "14812",
+                          "firstReferee":  "PubChem PUG REST: CID 6326975 is O5P2 (the P2O5 empirical-formula record). CID 14812 is O10P4, \u0027Phosphorus oxide (P4O10)\u0027. The entry gives the formula as P4O10 and describes the adamantane-like P4O10 cage, so CID 14812 is the matching record.",
+                          "sourceCheck":  "PubChem PUG REST: CID 6326975 has formula O5P2 and SMILES O=P(=O)OP(=O)=O, a hypothetical P2O5 molecule that is not the cage. CID 14812 has formula O10P4, the adamantane-type cage SMILES O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3, and synonyms that include \u0027Tetraphosphorus decaoxide\u0027, \u0027P4O10\u0027 and \u0027Phosphoric anhydride\u0027. That matches the entry\u0027s formula P4O10 and its cage structure."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "arsine",
+                          "field":  "bonding.types",
+                          "current":  "[\"polar covalent\"]",
+                          "corrected":  "[\"nonpolar covalent\"]",
+                          "firstReferee":  "Pauling electronegativities (WebElements/CRC) are As 2.18 and H 2.20, so Δχ = 0.02, which is nonpolar under any usual threshold. The dataset classes PH3 (Δχ 0.01) as nonpolar covalent in the same batch, so labelling As–H polar is wrong and inconsistent.",
+                          "sourceCheck":  "Pauling electronegativities (WebElements/CRC) are As 2.18 and H 2.20, so Δχ(As–H) = 0.02. That is nonpolar under any usual cutoff, and smaller than phosphine\u0027s Δχ(P–H) of 0.01–0.02, which this dataset already labels \u0027nonpolar covalent\u0027."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "krypton-difluoride",
+                          "field":  "bonding.electronSharing",
+                          "current":  "Krypton\u0027s electrons are held more tightly than xenon\u0027s, so only fluorine can pull them into bonds, and weakly.",
+                          "corrected":  "\"Krypton\u0027s electrons are held more tightly than xenon\u0027s, so almost only fluorine can pull them into bonds, and then weakly.\"",
+                          "firstReferee":  "Krypton compounds without Kr–F bonds are known: Kr(OTeF5)2 has Kr–O bonds, and [HC≡N–KrF]+ salts have Kr–N bonds (Lehmann, Mercier \u0026 Schrobilgen, Coord. Chem. Rev. 2002; Wikipedia \u0027Krypton\u0027). So \u0027only fluorine\u0027 is false. The hedged sentence is accurate.",
+                          "sourceCheck":  "The abstract of Lehmann, Mercier \u0026 Schrobilgen, Coord. Chem. Rev. 233 (2002) 1–39, says krypton(II) compounds with Kr–F, Kr–O and Kr–N bonds have been characterized. Wikipedia \u0027Krypton\u0027 also describes Kr(OTeF5)2, which has a Kr–O bond, and a cation with a Kr–N bond. So \u0027only fluorine\u0027 is false, and \u0027almost only\u0027 is accurate."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "krypton-difluoride",
+                          "field":  "uses[0]",
+                          "current":  "The strongest known oxidizing and fluorinating agent in research",
+                          "corrected":  "\"One of the strongest known oxidizing and fluorinating agents, used in research\"",
+                          "firstReferee":  "Schrobilgen\u0027s krypton work calls the KrF+ cation the most potent chemical oxidant known. KrF+ salts oxidize BrF5 and ClF5 to BrF6+ and ClF6+, which shows KrF+ is stronger than KrF2 itself. Wikipedia\u0027s \u0027most powerful known oxidising agent\u0027 claim for KrF2 carries a citation-needed tag. \u0027One of the strongest\u0027 is correct; \u0027the strongest\u0027 overstates.",
+                          "sourceCheck":  "Wikipedia \u0027Krypton difluoride\u0027 calls KrF2 the most powerful known oxidising agent, but that claim is marked \u0027citation needed\u0027. The same article says the KrF+ cation oxidises BrF5 and ClF5 to BrF6+ and ClF6+. Britannica ranks the KrF+ cation among the most powerful chemical oxidizers known. A DTIC report and a Schrobilgen-group McMaster thesis say the krypton(II) cations (KrF+ salts) are the most potent oxidants known. KrF+ is therefore stronger than KrF2, so calling KrF2 \u0027the strongest known\u0027 overstates it. \u0027One of the strongest\u0027 is accurate."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "argon-fluorohydride",
+                          "field":  "facts[0]",
+                          "current":  "It is the only known neutral argon compound and falls apart above about −246 °C.",
+                          "corrected":  "\"It was the first neutral argon compound to be made and falls apart above about −246 °C.\"",
+                          "firstReferee":  "Wikipedia \u0027Argon compounds\u0027 lists other neutral argon molecules with bonding, such as ArMX (M = Cu, Ag, Au; e.g. ArAuCl with a 2.47 Å Ar–Au bond) and ArBeO. So \u0027only known\u0027 is false. Khriachtchev et al. (Nature 2000) and RSC/Physics World coverage describe HArF as the first argon compound, which is the standard description. The decomposition temperature of about 27 K (−246 °C) is correct.",
+                          "sourceCheck":  "Wikipedia \u0027Argon compounds\u0027 lists other neutral argon-containing molecules with Ar–metal bonding, including ArAuCl, ArAgF and ArCuX (gas-phase work by Evans \u0026 Gerry), and ArBeO in matrices. So \u0027only known\u0027 is too strong. Physics World and others describe HArF (Khriachtchev et al., Nature 406, 874 (2000)) as the first argon compound. Wikipedia gives its stability limit as 27 K (−246 °C), so that part of the sentence is correct."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "steel",
+                          "field":  "aka[1]",
+                          "current":  "\"ferrite\"",
+                          "corrected":  "\"plain carbon steel\"",
+                          "firstReferee":  "Ferrite is the name of the bcc α-iron phase (the entry\u0027s own geometry field uses it that way) and of ceramic iron oxides. It is not a synonym for carbon steel. \u0027Plain carbon steel\u0027 is a standard synonym and does not duplicate the name or \u0027mild steel\u0027.",
+                          "sourceCheck":  "In metallurgy, ferrite is the name of the bcc α-iron phase, and also of ferrimagnetic iron-oxide ceramics. It is not another name for carbon steel, and the entry itself uses \u0027ferrite\u0027 for the bcc phase in its geometry field. \u0027Plain carbon steel\u0027 (plain-carbon steel) is a standard synonym for carbon steel (ASM terminology)."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "nickel-tetracarbonyl",
+                          "field":  "facts[0]",
+                          "current":  "\"Discovered in 1890, it was the first metal carbonyl known.\"",
+                          "corrected":  "\"Discovered by Ludwig Mond in 1890, it was the first binary metal carbonyl known.\"",
+                          "firstReferee":  "Wikipedia \u0027Metal carbonyl\u0027 history: Schützenberger made Pt(CO)2Cl2 in 1868, the first metal carbonyl complex. Mond\u0027s Ni(CO)4 was the first pure, homoleptic (binary) metal carbonyl. So \u0027first metal carbonyl known\u0027 is false, and the corrected sentence is right.",
+                          "sourceCheck":  "Wikipedia \u0027Metal carbonyl\u0027 (History) says Schützenberger made the first heteroleptic metal carbonyl, Pt(CO)2Cl2, in 1868. It says Mond and coworkers discovered \u0027the first pure, homoleptic metal carbonyl, nickel tetracarbonyl\u0027. So \u0027first metal carbonyl\u0027 is false and \u0027first binary (homoleptic)\u0027 is correct. Mond, Langer and Quincke reported Ni(CO)4 in 1890."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "tetrachloroaurate",
+                          "field":  "facts[0]",
+                          "current":  "\"Reducing it gently makes gold nanoparticles that look ruby red, as in medieval stained glass.\"",
+                          "corrected":  "\"Reducing it gently makes gold nanoparticles that look ruby red, as in gold ruby glass.\"",
+                          "firstReferee":  "Analyses of 132 medieval red window glasses (Cardiff/UPC studies, e.g. Pradell et al.) found about 1% copper oxide and copper nanoparticles in all of them. Medieval reds were coloured by copper, not gold. Gold-ruby glass is a separate, later technology. The \u0027gold in medieval windows\u0027 claim is a popular misconception.",
+                          "sourceCheck":  "A Cardiff study (orca.cardiff.ac.uk/68656) analysed 132 medieval red window glasses and found about 1% copper oxide in all of them, with TEM showing copper nanoparticles, not gold. Britannica dates gold ruby glass, coloured with gold chloride, to Kunckel around 1679, after Cassius\u0027s 1676 report on gold chloride. Linking gold nanoparticles to medieval stained glass is therefore misleading, and \u0027gold ruby glass\u0027 is correct."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "tetraamminecopper",
+                          "field":  "pubchemCid",
+                          "current":  "21715496",
+                          "corrected":  "61847",
+                          "firstReferee":  "I queried PubChem PUG REST. CID 21715496 is \u0027Tetraamminecopper\u0027, CuH12N4+ with charge +1 (IUPAC name: azane;copper(1+)). CID 61847 is \u0027Tetraamminecopper(2+)\u0027, CuH12N4+2 with charge +2. The entry describes [Cu(NH3)4]2+, so the right CID is 61847.",
+                          "sourceCheck":  "PubChem PUG REST: CID 21715496 is \u0027Tetraamminecopper\u0027, CuH12N4+ with charge +1 (IUPAC name azane;copper(1+)), which is the Cu(I) species. CID 61847 is \u0027Tetraamminecopper(2+)\u0027, CuH12N4+2 with charge +2. That matches the entry\u0027s [Cu(NH3)4]2+."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "brass",
+                          "field":  "structure.composition",
+                          "current":  "[{\"el\":\"Cu\",\"fraction\":0.67},{\"el\":\"Zn\",\"fraction\":0.33}]",
+                          "corrected":  "[{\"el\":\"Cu\",\"fraction\":0.706},{\"el\":\"Zn\",\"fraction\":0.294}]",
+                          "firstReferee":  "Alloy compositions are atom fractions by convention, and the entry\u0027s aka says \u0027cartridge brass (70/30)\u0027, which is 70/30 by mass. Using IUPAC atomic masses (Cu 63.546, Zn 65.38): 70/63.546 = 1.1016 and 30/65.38 = 0.4589, which gives Cu 0.706 and Zn 0.294. The current 0.67/0.33 is about 66 wt% Cu, a yellow brass, so it does not match the named alloy (3.6 at.% off). The correction is computed correctly.",
+                          "sourceCheck":  "The entry\u0027s aka names cartridge brass (70/30), which is 70 Cu / 30 Zn by mass. Alloy mode stores atom fractions. Using IUPAC standard atomic weights (Cu 63.546, Zn 65.38): 70/63.546 = 1.1016 and 30/65.38 = 0.4589, so Cu = 0.706 and Zn = 0.294. The current 0.67/0.33 matches neither the mass nor the atom ratio of the named alloy. It is off by about 3.6 atom-% and contradicts the entry\u0027s own label."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "terfenol-d",
+                          "field":  "summary",
+                          "current":  "Terfenol-D changes length in a magnetic field more than any other room-temperature material.",
+                          "corrected":  "\"Terfenol-D has the largest magnetostriction of any alloy at room temperature.\"",
+                          "firstReferee":  "Ferromagnetic shape-memory Ni-Mn-Ga reaches several percent of magnetic-field-induced strain at room temperature (for example Murray et al. 2000, 6%; search results also show 1.6 to 2.6% and polycrystals at 3x Terfenol-D). Terfenol-D gives about 0.1 to 0.2%, so the \u0027any material\u0027 claim is false. Wikipedia \u0027Terfenol-D\u0027 states \u0027the highest magnetostriction of any alloy, up to 0.002 m/m at saturation\u0027, which supports the corrected wording.",
+                          "sourceCheck":  "Wikipedia \u0027Terfenol-D\u0027 says it \u0027has the highest magnetostriction of any alloy, up to 0.002 m/m at saturation\u0027. Ni-Mn-Ga magnetic shape-memory alloys show larger field-induced length changes at room temperature: 0.33-0.43% in the literature found (e.g. Metals 2023, Ni50Mn30Ga20), and several percent in single crystals. So \u0027more than any other room-temperature material\u0027 is false. The corrected wording matches the Wikipedia claim."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "methane",
+                          "field":  "aka",
+                          "current":  "[\"natural gas\",\"marsh gas\"]",
+                          "corrected":  "[\"marsh gas\"]",
+                          "firstReferee":  "Natural gas is a mixture (mainly methane, plus ethane, propane, CO2, N2 and others) and has its own CAS identity (8006-14-2), so it is not a synonym for methane. The entry itself calls methane the \u0027main component of natural gas\u0027, and the ethane entry calls ethane the \u0027second most common component of natural gas\u0027, so listing it as an alias contradicts the dataset. \u0027Marsh gas\u0027 is a genuine synonym.",
+                          "sourceCheck":  "Wikipedia \u0027Natural gas\u0027 describes natural gas as a naturally occurring mixture of hydrocarbons that is mainly methane. It is a different substance (separate CAS 8006-14-2). The entry\u0027s own occurrence and summary fields correctly call methane its main component. PubChem\u0027s depositor synonym list for CID 297 does include \u0027Natural gas\u0027, but that list is not authoritative: it also contains \u0027Biogas\u0027 and \u0027Tinnitus\u0027. \u0027Marsh gas\u0027 is a genuine synonym (PubChem). Listing \u0027natural gas\u0027 as another name for methane misleads in an educational context."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "acetylene",
+                          "field":  "meltingPointC",
+                          "current":  "-80.8",
+                          "corrected":  "null",
+                          "firstReferee":  "-80.8 °C is the triple point (Air Liquide: -80.75 °C at 1.2745 bar, about 1.26 atm; Wikipedia: 1.27 atm). At 1 atm acetylene sublimes at -84 °C and does not melt, as the entry\u0027s own fact says. The current data also has melting above \u0027boiling\u0027 (-80.8 vs -84), which is incoherent. Under the convention (null when not meaningful at 1 atm, sublimation point allowed in boilingPointC), meltingPointC should be null. This is consistent with CO2, whose meltingPointC is null.",
+                          "sourceCheck":  "Wikipedia \u0027Acetylene\u0027 and triple-point tables (LibreTexts Appendix F: 192.4 K, about 1.2 atm) put the triple point at -80.8 °C, above 1 atm. At 1 atm acetylene sublimes at -84 °C and has no liquid phase, so it has no melting point at 1 atm. The entry\u0027s own fact says so. Under the dataset convention (values at 1 atm; null when not meaningful; the sublimation point may sit in boilingPointC), meltingPointC should be null. This matches how the dataset handles carbon-dioxide, whose meltingPointC is null."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "formic-acid",
+                          "field":  "occurrence",
+                          "current":  "Ant and bee stings, nettles.",
+                          "corrected":  "\"Ant venom and stinging nettles.\"",
+                          "firstReferee":  "Wikipedia \u0027Apitoxin\u0027 lists honey bee venom as melittin, phospholipase A2, apamin, hyaluronidase, MCD peptide, histamine and so on, with no formic acid. Wikipedia \u0027Formic acid\u0027 (natural occurrence) names ants, stingless bees of the genus Oxytrigona (which bite, not sting) and stinging-nettle trichomes, but not bee stings. \u0027Bee stings\u0027 is the popular myth. The corrected text is accurate.",
+                          "sourceCheck":  "Wikipedia \u0027Formic acid\u0027 (Natural occurrence) names most ants (Formica wood ants spray it), stingless Oxytrigona bees (which do not sting), and stinging-nettle trichomes. It does not name honeybee stings. Bee venom is mainly melittin, phospholipase A2 and apamin (Wikipedia \u0027Melittin\u0027; Compound Chem insect venoms; Chimia review). The formic-acid claim for bee venom is a 19th-century error. \u0027Bee stings\u0027 is false, and the corrected text keeps the valid sources."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "urea",
+                          "field":  "summary",
+                          "current":  "Urea was the first organic compound made from inorganic starting materials.",
+                          "corrected":  "\"Wöhler\u0027s 1828 urea synthesis was a famous early case of making an organic compound from inorganic starting materials.\"",
+                          "firstReferee":  "Wikipedia \u0027Oxalic acid\u0027 (History): in 1824 Wöhler obtained oxalic acid by reacting cyanogen with ammonia, which \u0027may represent the first synthesis of a natural product\u0027. That is four years before urea. Wikipedia \u0027Wöhler synthesis\u0027 calls urea only \u0027the starting point\u0027 and notes Ramberg\u0027s (2000) finding that textbooks repeat a \u0027Wöhler myth\u0027. \u0027The first\u0027 is therefore not accurate, and the corrected sentence is true and similar in tone.",
+                          "sourceCheck":  "Wikipedia \u0027Oxalic acid\u0027 (History) says Wöhler obtained oxalic acid from cyanogen and aqueous ammonia in 1824 and that this \u0027may represent the first synthesis of a natural product\u0027. Ramberg (Ambix 2000) documents the same 1823/24 work. So calling urea (1828) the \u0027first\u0027 is a textbook oversimplification that the historical record contradicts. Wikipedia \u0027Wöhler synthesis\u0027 calls it only the starting point of modern organic chemistry. The corrected sentence is true under every source checked."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "atp",
+                          "field":  "formation",
+                          "current":  "\"ADP + phosphate -\u003e ATP (ATP synthase, driven by respiration)\"",
+                          "corrected":  "\"ADP + phosphate -\u003e ATP + H2O (ATP synthase, driven by respiration)\"",
+                          "firstReferee":  "Formation must be a balanced reaction. ADP (C10H15N5O10P2) + H3PO4 = C10H18N5O14P3, and ATP (C10H16N5O13P3) + H2O = C10H18N5O14P3. Without H2O the equation is unbalanced. ADP + Pi -\u003e ATP + H2O is the standard condensation in biochemistry texts.",
+                          "sourceCheck":  "Atom count with neutral formulas: ADP C10H15N5O10P2 + H3PO4 = C10H18N5O14P3, and ATP C10H16N5O13P3 + H2O = C10H18N5O14P3. ATP synthesis is a condensation that releases water (standard biochemistry, e.g. Berg). Without H2O the equation is unbalanced, which breaks the \u0027balanced reaction\u0027 rule."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "thymine",
+                          "field":  "occurrence",
+                          "current":  "\"DNA only.\"",
+                          "corrected":  "\"Mainly DNA; small amounts in tRNA as ribothymidine.\"",
+                          "firstReferee":  "Ribothymidine (5-methyluridine, which contains the thymine base) is a near-universal modified nucleoside in the TΨC loop of tRNA. This is standard biochemistry, so \u0027DNA only\u0027 is false, and the corrected sentence is accurate.",
+                          "sourceCheck":  "Ribothymidine (m5U, 5-methyluridine, whose base is thymine) sits at position 54 in the TΨC loop of almost all bacterial and eukaryotic tRNAs. It also occurs in rRNA, e.g. E. coli 23S m5U1939 (MODOMICS; PMC/NAR papers on TrmA/TrmU54 methyltransferases). \u0027DNA only\u0027 is therefore false."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "retinol",
+                          "field":  "facts[0]",
+                          "current":  "Vision starts when one photon straightens a single bond in retinal.",
+                          "corrected":  "\"Vision starts when one photon flips a cis double bond in retinal to trans.\"",
+                          "firstReferee":  "The primary event of vision is photoisomerization of 11-cis-retinal to all-trans-retinal at the C11=C12 double bond (Wald; standard biochemistry). Saying it acts on a single bond is false and contradicts the entry\u0027s own electronSharing text (\u0027light flips one double bond from cis to trans\u0027).",
+                          "sourceCheck":  "Standard biochemistry (Wald; rhodopsin photochemistry): absorbing a photon isomerizes 11-cis-retinal to all-trans-retinal at the C11=C12 double bond, not at a single bond. The entry\u0027s own electronSharing text also says a double bond flips from cis to trans."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "lactic-acid",
+                          "field":  "boilingPointC",
+                          "current":  "122",
+                          "corrected":  "null",
+                          "firstReferee":  "Every PubChem boiling-point record for CID 612 (PhysProp, CRC Handbook 95th ed. p. 3-336, JECFA) gives 122 °C at 15 mmHg, not at 1 atm. No reliable 1-atm normal boiling point is reported. On heating at atmospheric pressure lactic acid self-esterifies (oligomers and lactide) rather than distilling cleanly. A value at 1 atm is not meaningful, so null fits the convention, and 122 as a 1-atm boiling point is wrong.",
+                          "sourceCheck":  "PubChem CID 612 (HSDB, DrugBank, JECFA), Wikipedia and Sigma-Aldrich all give 122 °C at 15 mmHg, a reduced-pressure value, not 1 atm. No handbook source found gives a 1 atm boiling point. Historical process patents (e.g. US321925A) note lactic acid is volatile only around 200-250 °C, and then with destruction of much of the acid through anhydride, lactide and oligomer formation. Under the convention (null when the compound decomposes or the value is not meaningful), null is right and 122 is wrong for 1 atm."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "lactic-acid",
+                          "field":  "formation",
+                          "current":  "Pyruvate + NADH -\u003e lactate (fermentation in muscles and bacteria)",
+                          "corrected":  "\"Pyruvate + NADH + H+ -\u003e lactate + NAD+ (fermentation in muscles and bacteria)\"",
+                          "firstReferee":  "The lactate dehydrogenase reaction is pyruvate + NADH + H+ -\u003e lactate + NAD+ (standard biochemistry). As written, NADH disappears with no NAD+ product, so the equation is unbalanced, which breaks the balanced-reaction convention. The correction is the textbook equation.",
+                          "sourceCheck":  "The lactate dehydrogenase reaction in standard biochemistry texts is pyruvate + NADH + H+ \u003c-\u003e lactate + NAD+. As written, the current equation consumes NADH without producing NAD+ and is not balanced, which breaks the \u0027real, balanced reaction\u0027 rule."
+                      },
+                      {
+                          "kind":  "compound",
+                          "id":  "retinol",
+                          "field":  "bonding.types",
+                          "current":  "[\"nonpolar covalent\",\"delocalized (aromatic or resonance)\"]",
+                          "corrected":  "[\"nonpolar covalent\",\"polar covalent\",\"delocalized (aromatic or resonance)\"]",
+                          "firstReferee":  "Retinol (C20H30O) is a primary alcohol with C–O and O–H bonds, which are polar covalent. The dataset treats the analogous cholesterol entry (a single OH on a hydrocarbon frame) as [\u0027nonpolar covalent\u0027,\u0027polar covalent\u0027], so omitting polar covalent here is an inconsistent and incomplete classification.",
+                          "sourceCheck":  "Retinol (C20H30O, PubChem 445354) is a primary alcohol with a terminal CH2OH. Its C-O and O-H bonds are polar covalent, and the current list leaves them out. Within the dataset, cholesterol (also a large hydrocarbon with one OH) lists \u0027nonpolar covalent\u0027 and \u0027polar covalent\u0027, so the addition is consistent with the vocabulary\u0027s usage."
+                      }
+                  ],
+    "incomplete":  [
+
+                   ],
+    "halted":  false,
+    "rejected":  [
+                     {
+                         "group":  "elements B",
+                         "id":  "Nb",
+                         "field":  "discovery.note",
+                         "why":  "source check: Wikipedia credits Rose with recognizing niobium as a distinct element (infobox: 1844) and Blomstrand, Deville and Marignac (1864-1866) with conclusive proof and separation. Other sources, such as the T.I.C.-type accounts surfaced in search, describe Rose as having separated or distinguished columbium from tantalum in 1844. Rose did prepare distinct niobic acid. \u0027Separated\u0027 is a common simplification within normal source variation and is not clearly false, so the change is a matter of wording."
+                     },
+                     {
+                         "group":  "elements D",
+                         "id":  "Pm",
+                         "field":  "uses[0]",
+                         "why":  "source check: Sources disagree. Wikipedia \u0027Promethium\u0027 calls space-probe and satellite power a \u0027possible future\u0027 use. The peer-reviewed review \u0027Promethium: To Strive, to Seek, to Find and Not to Yield\u0027 (Front. Chem. 2020, PMC7366832) says plainly that \u0027Promethium is used in long-life atomic batteries for satellites or space probes\u0027. Neither names a specific mission, so I cannot show the current text is false."
+                     },
+                     {
+                         "group":  "elements F",
+                         "id":  "Np",
+                         "field":  "bulk.latticeConstantPm",
+                         "why":  "source check: Reputable sources use different axis settings for alpha-Np. Wikipedia\u0027s Neptunium infobox, following Zachariasen\u0027s original Pmcn cell, gives a = 472.3, b = 488.7, c = 666.3 pm, so the current 472 is a in that setting. WebElements uses the Pnma setting, a = 666.3, b = 472.3, c = 488.7 pm. Because the sources disagree, 472 is not clearly wrong. Note: the entry\u0027s cPm of 489 does not match the Wikipedia setting, where it would be 666.3. That is a separate cPm issue for this element."
+                     },
+                     {
+                         "group":  "elements F",
+                         "id":  "Es",
+                         "field":  "summary",
+                         "why":  "source check: Both parts are supported by Wikipedia (Einsteinium). Self-irradiation \u0027rapidly destroys the crystal lattice\u0027, and Es-253, the most common isotope and the one seen in visible amounts, converts to Bk and Cf at about 3% (3.3%) per day. Popular sources use the same \u0027losing X% of its mass\u0027 wording (Smithsonian, on Es-254). The sentence does not actually say the mass is lost because the lattice breaks, so this is a simplification or style issue, not a false statement. The proposed wording is clearer but optional."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "h3-plus",
+                         "field":  "structure.bonds[2][3]",
+                         "why":  "refute: The 4th bond element is not a flag for drawing the bond. In atlas/js/views.js line 641 it becomes b.e, the number of shared electrons drawn on that bond (scenes.js lines 519 and 1398), and the bond itself is still drawn from b[2]. The values 1, 1, 0 put 2 electrons on the triangle, which is right for a three-centre two-electron bond (H3+ has only 2 electrons). Setting the third to 1 would draw 3 electrons, which is wrong. The geometry is already equilateral (all three bonds 0.67 order, coordinates ~0.87 Å apart)."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "iodine",
+                         "field":  "summary",
+                         "why":  "refute: Iodine crystals do sublime: they go directly from solid to violet vapor at room temperature and on gentle heating below 113.7 °C. That is the standard textbook description. The sentence does not say iodine cannot melt, and the entry gives mp/bp separately. This is an acceptable simplification and a style preference, not a false statement."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "cfc-12",
+                         "field":  "occurrence",
+                         "why":  "refute: The CFC production ban was set under the Montreal Protocol, the treaty adopted in 1987. The London and Copenhagen amendments and adjustments are part of that treaty (Article 2A as amended), not separate instruments. Naming it \u0027the 1987 Montreal Protocol\u0027 identifies the treaty and is a common simplification, not a false statement. The proposed wording is more precise but this is a style preference."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "americium-dioxide",
+                         "field":  "meltingPointC",
+                         "why":  "refute: Wikipedia\u0027s 2113 °C (2386 K, from Guéneau et al. 2020) comes from Epifano et al. (J. Chem. Thermodyn.). There it is a value assumed or extrapolated for pure AmO2 to fit U–Am mixed-oxide melting data, not a direct measurement. AmO2 loses oxygen (reduces toward AmO2−x / Am2O3) on strong heating. Under the convention, null for a compound that decomposes is defensible, and sources do not give a well-established measured value."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "uranium-hexafluoride",
+                         "field":  "meltingPointC",
+                         "why":  "refute: The CRC Handbook and Wikipedia both list UF6\u0027s melting point as 64.05 °C (triple point), the normal way to report a melting point for a substance that sublimes. The dataset does the same for SF6 (mp −50.8, bp −63.8), IF7 (mp 4.5, bp 4.8) and AlCl3 (mp 192.4, bp 180). Removing it would contradict standard sources and the dataset\u0027s own practice."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "uranium-hexafluoride",
+                         "field":  "boilingPointC",
+                         "why":  "refute: The convention says boilingPointC MAY hold the sublimation point; it does not require it, and null is allowed when a 1 atm boiling point is not meaningful. The dataset uses both choices (CO2 has both null). UF6 does not boil at 1 atm and the 56.5 °C sublimation point is already given in the facts, so null is not an error."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "sphalerite",
+                         "field":  "meltingPointC",
+                         "why":  "refute: Wikipedia\u0027s zinc sulfide infobox gives melting point \u00271,850 °C (sublime)\u0027, and sources commonly quote this melting point measured under pressure. The dataset does the same for CdS (1750 °C, which also sublimes at 1 atm). Sources reasonably disagree on how to report it, so 1850 °C is not a clear error."
+                     },
+                     {
+                         "group":  "compounds A",
+                         "id":  "sphalerite",
+                         "field":  "boilingPointC",
+                         "why":  "refute: Under the convention, putting a sublimation point in boilingPointC is optional (\u0027may hold\u0027), and null is allowed when no 1 atm boiling point exists. ZnS does not boil at 1 atm and its sublimation (~1185 °C) is already stated in the entry\u0027s facts. The current value is allowed, not wrong."
+                     },
+                     {
+                         "group":  "compounds B",
+                         "id":  "epsom-salt",
+                         "field":  "facts[0]",
+                         "why":  "refute: Read literally, \u0027one of the main salts ... after sodium chloride\u0027 puts MgSO4 among the major salts behind NaCl, which is true (about 5% of sea salt). It does not say MgSO4 is second. The ranking of \u0027salts\u0027 in seawater also depends on how the ions are paired into salts; the Lyman–Fleming pairing, for example, lists Na2SO4 rather than MgSO4. At most the wording is ambiguous; it is not false."
+                     },
+                     {
+                         "group":  "compounds B",
+                         "id":  "promethium-chloride",
+                         "field":  "bonding.electronSharing",
+                         "why":  "refute: The +3 state is the standard textbook \u0027characteristic oxidation state of all the lanthanides\u0027 (Greenwood \u0026 Earnshaw), and every lanthanide, including Eu, Yb and Ce, forms a trichloride LnCl3. The sentence is a fair simplification, not a false statement. Swapping \u0027all\u0027 for \u0027most\u0027 is wording preference."
+                     },
+                     {
+                         "group":  "compounds B",
+                         "id":  "cobalt-chloride",
+                         "field":  "pubchemCid",
+                         "why":  "refute: A null CID only means no PubChem link is shown (views.js renders the link only when a CID is present). It states nothing false, so it is an omission, not an error. Several other entries also leave the field null. PubChem has two CoCl2 records, CID 24288 (\u0027Cobalt(II) chloride\u0027, the primary one) and CID 3032536 (\u0027Cobalt chloride (cocl2)\u0027, the proposed value), so choosing 3032536 is itself debatable."
+                     },
+                     {
+                         "group":  "compounds C",
+                         "id":  "yttria",
+                         "field":  "facts[0]",
+                         "why":  "refute: Wikipedia \u0027Yttrium(III) oxide\u0027 says it is used to make Eu:YVO4 and Eu:Y2O3 phosphors that give the red color in color TV picture tubes. Y2O3:Eu was used in some TV tubes, including projection CRTs, alongside Y2O2S:Eu. The current sentence simplifies, but sources support it, so it is not false."
+                     },
+                     {
+                         "group":  "compounds C",
+                         "id":  "indium-phosphide",
+                         "field":  "facts[0]",
+                         "why":  "refute: \u0027InP lasers\u0027 is the standard industry term for lasers built on the InP platform (InGaAsP/InP). The 1.3 and 1.55 µm bands are the two low-loss telecom windows, so \u0027travel farthest\u0027 is a loose simplification rather than a false claim. The proposed rewording is a style improvement, not a fix for an error."
+                     },
+                     {
+                         "group":  "compounds C",
+                         "id":  "tetrachloroaurate",
+                         "field":  "aka[0]",
+                         "why":  "refute: PubChem CID 122706823 lists the closely equivalent synonyms \u0027Gold trichloride, acid\u0027 and \u0027Gold trichloride,acid\u0027 (a CAS-style index name). HAuCl4·3H2O is also sold commercially as \u0027gold(III) chloride trihydrate\u0027. The current alias is non-standard phrasing but not false or misleading, so swapping it for \u0027hydrogen tetrachloroaurate\u0027 is a style preference."
+                     },
+                     {
+                         "group":  "compounds D",
+                         "id":  "formic-acid",
+                         "field":  "summary",
+                         "why":  "refute: This is an acceptable generic simplification, not a false statement. Wikipedia \u0027Formic acid\u0027 says it \u0027appears in most ants\u0027, and formicine ants do bite and then spray formic acid into the wound. Adding \u0027many\u0027 is a hedging and style preference, not a correction of an error."
+                     }
+                 ]
+}

@@ -1,0 +1,167 @@
+[
+    {
+        "kind":  "compound",
+        "batch":  "compounds 01",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-01.json",
+        "id":  "h3-plus",
+        "field":  "structure.bonds[2][3]",
+        "current":  "0",
+        "corrected":  "1",
+        "reason":  "All three H–H bonds in equilateral H3+ are the same, but the third bond (2–0) has a different final flag (0) from the other two (1). That makes the triangle look open or uneven, which contradicts the note and bonding text saying it is an equilateral triangle with one bond spread over all three atoms.",
+        "source":  "Oka, PNAS 103, 12235 (2006): H3+ is an equilateral triangle (D3h) with three equivalent H–H bonds"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 02",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-02.json",
+        "id":  "white-phosphorus",
+        "field":  "pubchemCid",
+        "current":  "5462309",
+        "corrected":  "123286",
+        "reason":  "The entry is the P4 molecule, but CID 5462309 is the elemental phosphorus atom record with formula P. The P4 record is CID 123286.",
+        "source":  "PubChem PUG REST: CID 5462309 = \u0027Phosphorus\u0027 (P, single atom); CID 123286 = \u0027Tetraphosphorus\u0027 (P4)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 02",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-02.json",
+        "id":  "iodine",
+        "field":  "summary",
+        "current":  "\"Iodine forms shiny dark crystals that turn straight into violet vapor.\"",
+        "corrected":  "\"Iodine forms shiny dark crystals that give off violet vapor even before they melt.\"",
+        "reason":  "At 1 atm iodine melts at 113.7 °C and boils at 184.3 °C, as the entry\u0027s own values show. It has a high vapor pressure and visibly sublimes, but it does not go straight from solid to vapor on heating at normal pressure, so \u0027turn straight into\u0027 is misleading.",
+        "source":  "CRC Handbook: I2 mp 113.7 °C, bp 184.3 °C at 1 atm (the entry gives both values)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-03.json",
+        "id":  "hydrochloric-acid",
+        "field":  "facts[0]",
+        "current":  "Stomach acid is about 0.1 M hydrochloric acid, pH 1.5–3.5.",
+        "corrected":  "\"Stomach acid is dilute hydrochloric acid; the stomach contents have a pH of about 1.5–3.5.\"",
+        "reason":  "The sentence contradicts itself. 0.1 M HCl has a pH of 1.0, not 1.5–3.5. The concentration only describes freshly secreted acid, while the pH range describes the stomach contents.",
+        "source":  "Basic pH arithmetic; physiology texts (gastric lumen pH 1.5–3.5)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 03",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-03.json",
+        "id":  "cfc-12",
+        "field":  "occurrence",
+        "current":  "Synthetic; banned by the 1987 Montreal Protocol.",
+        "corrected":  "\"Synthetic; phased out under the 1987 Montreal Protocol and its later amendments.\"",
+        "reason":  "The original 1987 protocol only froze and partly cut CFC production. The full ban came later, through the 1990 and 1992 amendments, taking effect in 1996 in developed countries and 2010 worldwide.",
+        "source":  "UNEP Ozone Secretariat: Montreal Protocol history (1987 freeze and cuts; full CFC phase-out by 1996 in developed countries under the London/Copenhagen amendments)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-04.json",
+        "id":  "ammonia",
+        "field":  "summary",
+        "current":  "Ammonia is the base of modern agriculture: most nitrogen in your body passed through a Haber–Bosch plant.",
+        "corrected":  "\"Ammonia is the base of modern agriculture: about half the nitrogen in your body passed through a Haber–Bosch plant.\"",
+        "reason":  "Published estimates put the share of human body nitrogen that came from Haber–Bosch at roughly 40–50% worldwide, not \u0027most\u0027. The entry\u0027s own fact says it feeds about half the world, so the summary overstates it.",
+        "source":  "Smil, Enriching the Earth (2001); Erisman et al., Nature Geoscience 1, 636 (2008)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-04.json",
+        "id":  "carbonic-acid",
+        "field":  "state",
+        "current":  "aqueous ion",
+        "corrected":  "\"aqueous\"",
+        "reason":  "H2CO3 is a neutral molecule found dissolved in water. Calling it an ion is wrong; the ions are HCO3− and CO3^2−.",
+        "source":  "IUPAC; general chemistry (H2CO3 is a neutral diprotic acid molecule)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-05.json",
+        "id":  "silver-bromide",
+        "field":  "occurrence",
+        "current":  "Synthetic.",
+        "corrected":  "\"Occurs naturally as the rare mineral bromargyrite; usually made synthetically.\"",
+        "reason":  "AgBr occurs in nature as the mineral bromargyrite (bromyrite), so calling it simply synthetic is misleading.",
+        "source":  "Mindat / Wikipedia: Bromargyrite (AgBr)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "americium-dioxide",
+        "field":  "formation",
+        "current":  "\"Am(C2O4)2 -\u003e AmO2 + 4 CO2 (heating americium oxalate)\"",
+        "corrected":  "\"Am2(C2O4)3 + 2 O2 -\u003e 2 AmO2 + 6 CO2 (heating americium(III) oxalate in air)\"",
+        "reason":  "Americium oxalate is the Am(III) salt Am2(C2O4)3, and the equation as written does not balance: there are 8 O on the left and 10 O on the right.",
+        "source":  "Wikipedia \u0027Americium dioxide\u0027 (preparation by calcining Am2(C2O4)3); atom count"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "americium-dioxide",
+        "field":  "meltingPointC",
+        "current":  "null",
+        "corrected":  "2113",
+        "reason":  "AmO2 has a well-known melting point, so the value should not be null.",
+        "source":  "Wikipedia / CRC: AmO2 melting point about 2113 °C"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "uranium-hexafluoride",
+        "field":  "meltingPointC",
+        "current":  "64.1",
+        "corrected":  "null",
+        "reason":  "At 1 atm UF6 sublimes, so a liquid phase exists only above 1.5 atm and 64.1 °C is the triple point. The fact text itself says it sublimes at 56.5 °C. The data convention calls for a null melting point here.",
+        "source":  "CRC Handbook / Wikipedia UF6: sublimes at 56.5 °C at 1 atm; triple point 64.05 °C at 1.5 atm"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "uranium-hexafluoride",
+        "field":  "boilingPointC",
+        "current":  "null",
+        "corrected":  "56.5",
+        "reason":  "By the data convention, a compound that sublimes at 1 atm keeps its sublimation point in boilingPointC.",
+        "source":  "CRC Handbook: UF6 sublimation point 56.5 °C at 1 atm"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "sphalerite",
+        "field":  "meltingPointC",
+        "current":  "1850",
+        "corrected":  "null",
+        "reason":  "At 1 atm ZnS sublimes, as the entry\u0027s own fact says, so a 1 atm melting point is not meaningful. The 1850 °C value applies only under pressure.",
+        "source":  "Wikipedia/CRC zinc sulfide: melts about 1850 °C only under pressure; sublimes about 1185 °C at 1 atm"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "sphalerite",
+        "field":  "boilingPointC",
+        "current":  "null",
+        "corrected":  "1185",
+        "reason":  "By the data convention, a substance that sublimes at 1 atm carries its sublimation point in boilingPointC. This value matches the entry\u0027s own fact.",
+        "source":  "CRC Handbook: ZnS sublimes 1185 °C"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "cubic-zirconia",
+        "field":  "formation",
+        "current":  "\"ZrSiO4 + 2 NaOH -\u003e ... -\u003e ZrO2 (from zircon sand)\"",
+        "corrected":  "\"ZrSiO4 + 4 NaOH -\u003e Na2ZrO3 + Na2SiO3 + 2 H2O (alkali fusion of zircon; the zirconate is then converted to ZrO2)\"",
+        "reason":  "The equation as written is unbalanced and incomplete. The real fusion step needs 4 NaOH and gives sodium zirconate and sodium silicate.",
+        "source":  "Standard zircon alkali-fusion process (Greenwood \u0026 Earnshaw)"
+    }
+]

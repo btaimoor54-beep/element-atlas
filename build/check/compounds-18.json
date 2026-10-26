@@ -1,0 +1,471 @@
+[
+    {
+        "id":  "galinstan",
+        "name":  "Galinstan",
+        "formula":  "Ga-In-Sn",
+        "aka":  [
+
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Ga",
+                         "In",
+                         "Sn"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "fcc",
+                          "a":  440,
+                          "composition":  [
+                                              {
+                                                  "el":  "Ga",
+                                                  "fraction":  0.784
+                                              },
+                                              {
+                                                  "el":  "In",
+                                                  "fraction":  0.149
+                                              },
+                                              {
+                                                  "el":  "Sn",
+                                                  "fraction":  0.067
+                                              }
+                                          ],
+                          "note":  "Liquid at room temperature; atoms drawn on a lattice only to show proportions."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "A liquid metal: gallium, indium and tin atoms sharing one electron sea with no fixed lattice.",
+                        "electronSharing":  "The three metals share valence electrons; mixing them disrupts crystal packing so the alloy melts at about −19 °C.",
+                        "geometry":  "Liquid (no long-range order)",
+                        "bondLengths":  "Metal–metal about 280 pm on average"
+                    },
+        "formation":  "Melting 68.5% gallium, 21.5% indium and 10% tin by mass",
+        "state":  "liquid",
+        "meltingPointC":  -19,
+        "boilingPointC":  1300,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Non-toxic replacement for mercury in thermometers",
+                     "Liquid-metal cooling",
+                     "Soft robotics and stretchable electronics"
+                 ],
+        "facts":  [
+                      "The name combines GALlium, INdium and STANnum (tin)."
+                  ],
+        "hazards":  "Low toxicity; stains skin and attacks aluminium.",
+        "summary":  "Galinstan is a liquid metal that replaces mercury in thermometers."
+    },
+    {
+        "id":  "pewter",
+        "name":  "Pewter",
+        "formula":  "Sn-Sb-Cu",
+        "aka":  [
+                    "Britannia metal"
+                ],
+        "category":  "Alloys",
+        "elements":  [
+                         "Sn",
+                         "Sb",
+                         "Cu"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "alloy",
+                          "lattice":  "fcc",
+                          "a":  460,
+                          "composition":  [
+                                              {
+                                                  "el":  "Sn",
+                                                  "fraction":  0.903
+                                              },
+                                              {
+                                                  "el":  "Sb",
+                                                  "fraction":  0.057
+                                              },
+                                              {
+                                                  "el":  "Cu",
+                                                  "fraction":  0.040
+                                              }
+                                          ],
+                          "note":  "Schematic proportions; tin\u0027s real crystal is tetragonal."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "metallic"
+                                  ],
+                        "summary":  "Mostly tin, hardened by small amounts of antimony and copper.",
+                        "electronSharing":  "All atoms share a metallic electron sea; antimony and copper atoms disrupt slip in tin\u0027s soft lattice.",
+                        "geometry":  "Tetragonal tin matrix",
+                        "bondLengths":  "Sn–Sn about 302 pm"
+                    },
+        "formation":  "Melting about 92% tin with 6% antimony and 2% copper",
+        "state":  "solid",
+        "meltingPointC":  240,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic; modern pewter is lead-free.",
+        "uses":  [
+                     "Tankards, plates and figurines",
+                     "Decorative items"
+                 ],
+        "facts":  [
+                      "Old pewter often contained lead, which leached into food."
+                  ],
+        "hazards":  "Modern pewter is safe.",
+        "summary":  "Pewter is a soft, low-melting tin alloy for tableware and ornaments."
+    },
+    {
+        "id":  "methane",
+        "name":  "Methane",
+        "formula":  "CH4",
+        "aka":  [
+                    "natural gas",
+                    "marsh gas"
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  297,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 297)",
+                          "atomCount":  5,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "Carbon shares one pair with each of four hydrogens.",
+                        "electronSharing":  "Carbon\u0027s four valence electrons pair with four hydrogen electrons; C and H pull almost equally (Δχ 0.35), so the bonds are nearly nonpolar.",
+                        "geometry":  "Tetrahedral, 109.5°",
+                        "bondLengths":  "C–H 108.7 pm"
+                    },
+        "formation":  "CO2 + 4 H2 -\u003e CH4 + 2 H2O (also made by microbes in swamps and cows)",
+        "state":  "gas",
+        "meltingPointC":  -182.5,
+        "boilingPointC":  -161.5,
+        "occurrence":  "Main component of natural gas; made by microbes; found on Titan and the giant planets.",
+        "uses":  [
+                     "Heating and cooking fuel",
+                     "Electricity generation",
+                     "Making hydrogen and methanol"
+                 ],
+        "facts":  [
+                      "Methane traps about 80 times more heat than CO2 over 20 years.",
+                      "Titan has lakes of liquid methane and ethane."
+                  ],
+        "hazards":  "Flammable and explosive; a potent greenhouse gas.",
+        "summary":  "Methane is the simplest hydrocarbon and the main ingredient of natural gas."
+    },
+    {
+        "id":  "ethane",
+        "name":  "Ethane",
+        "formula":  "C2H6",
+        "aka":  [
+
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  6324,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 6324)",
+                          "atomCount":  8,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "Two carbons joined by a single bond, each carrying three hydrogens.",
+                        "electronSharing":  "The C–C bond shares one pair evenly; each carbon also shares a pair with each of its three hydrogens.",
+                        "geometry":  "Tetrahedral carbons; staggered",
+                        "bondLengths":  "C–C 153.5 pm, C–H 109.4 pm"
+                    },
+        "formation":  "Separated from natural gas",
+        "state":  "gas",
+        "meltingPointC":  -182.8,
+        "boilingPointC":  -88.5,
+        "occurrence":  "Second most common component of natural gas.",
+        "uses":  [
+                     "Making ethylene by steam cracking",
+                     "Refrigerant"
+                 ],
+        "facts":  [
+                      "The two CH3 groups spin almost freely around the C–C bond."
+                  ],
+        "hazards":  "Flammable.",
+        "summary":  "Ethane is mostly cracked into ethylene for plastics."
+    },
+    {
+        "id":  "propane",
+        "name":  "Propane",
+        "formula":  "C3H8",
+        "aka":  [
+                    "LPG (with butane)"
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  6334,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 6334)",
+                          "atomCount":  11,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "A three-carbon chain with single bonds.",
+                        "electronSharing":  "All bonds are shared pairs between C–C and C–H with very little polarity.",
+                        "geometry":  "Bent chain, C–C–C 112°",
+                        "bondLengths":  "C–C 153 pm"
+                    },
+        "formation":  "Separated from natural gas and oil refining",
+        "state":  "gas",
+        "meltingPointC":  -187.7,
+        "boilingPointC":  -42.1,
+        "occurrence":  "Natural gas and crude oil.",
+        "uses":  [
+                     "Barbecue and heating fuel",
+                     "Vehicle fuel (autogas)",
+                     "Refrigerant (R-290)"
+                 ],
+        "facts":  [
+                      "Propane is stored as a liquid under modest pressure, which is why it fits in small tanks."
+                  ],
+        "hazards":  "Flammable; heavier than air.",
+        "summary":  "Propane is the portable fuel in camping stoves and barbecue tanks."
+    },
+    {
+        "id":  "butane",
+        "name":  "Butane",
+        "formula":  "C4H10",
+        "aka":  [
+                    "n-butane"
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  7843,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 7843)",
+                          "atomCount":  14,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "A four-carbon chain with single bonds.",
+                        "electronSharing":  "Shared pairs throughout, almost evenly divided between C and H.",
+                        "geometry":  "Zig-zag chain",
+                        "bondLengths":  "C–C 153 pm"
+                    },
+        "formation":  "Separated from natural gas and oil refining",
+        "state":  "gas",
+        "meltingPointC":  -138.3,
+        "boilingPointC":  -0.5,
+        "occurrence":  "Natural gas and crude oil.",
+        "uses":  [
+                     "Lighter fuel",
+                     "Aerosol propellant",
+                     "Blending into petrol"
+                 ],
+        "facts":  [
+                      "Its isomer isobutane has the same formula but a branched shape."
+                  ],
+        "hazards":  "Flammable.",
+        "summary":  "Butane is the liquefied fuel you see sloshing in a clear lighter."
+    },
+    {
+        "id":  "octane",
+        "name":  "Octane",
+        "formula":  "C8H18",
+        "aka":  [
+                    "n-octane"
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  356,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 356)",
+                          "atomCount":  26,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "van der Waals between molecules"
+                                  ],
+                        "summary":  "An eight-carbon chain; long enough that molecules stick together as a liquid.",
+                        "electronSharing":  "All shared pairs, barely polar; van der Waals attraction between the long chains makes octane a liquid.",
+                        "geometry":  "Zig-zag chain",
+                        "bondLengths":  "C–C 153 pm"
+                    },
+        "formation":  "Distilled from crude oil",
+        "state":  "liquid",
+        "meltingPointC":  -57,
+        "boilingPointC":  125.6,
+        "occurrence":  "A component of petrol.",
+        "uses":  [
+                     "Fuel component in petrol"
+                 ],
+        "facts":  [
+                      "The \u0027octane rating\u0027 refers to the branched isomer isooctane, not to n-octane, which knocks badly."
+                  ],
+        "hazards":  "Flammable.",
+        "summary":  "Octane is a typical petrol molecule: a chain of eight carbons."
+    },
+    {
+        "id":  "ethylene",
+        "name":  "Ethylene",
+        "formula":  "C2H4",
+        "aka":  [
+                    "ethene"
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  6325,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 6325)",
+                          "atomCount":  6,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "A carbon–carbon double bond in a flat molecule.",
+                        "electronSharing":  "The carbons share two pairs: one along the axis (σ) and one above and below the plane (π). The π bond locks the molecule flat and is easy to open, which lets ethylene join into chains.",
+                        "geometry":  "Trigonal planar carbons, all atoms in one plane",
+                        "bondLengths":  "C=C 133.9 pm, C–H 108.7 pm"
+                    },
+        "formation":  "C2H6 -\u003e C2H4 + H2 (steam cracking at about 850 °C)",
+        "state":  "gas",
+        "meltingPointC":  -169.2,
+        "boilingPointC":  -103.7,
+        "occurrence":  "Made in larger amounts than any other organic chemical; also a plant hormone.",
+        "uses":  [
+                     "Making polyethylene, the most common plastic",
+                     "Making ethylene glycol and PVC",
+                     "Ripening fruit"
+                 ],
+        "facts":  [
+                      "A ripe banana releases ethylene that speeds up ripening of nearby fruit."
+                  ],
+        "hazards":  "Flammable.",
+        "summary":  "Ethylene\u0027s double bond opens up to make polyethylene."
+    },
+    {
+        "id":  "acetylene",
+        "name":  "Acetylene",
+        "formula":  "C2H2",
+        "aka":  [
+                    "ethyne"
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  6326,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 6326)",
+                          "atomCount":  4,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "A carbon–carbon triple bond in a straight line.",
+                        "electronSharing":  "The carbons share three pairs: one σ and two π bonds at right angles. Each carbon also shares a pair with its hydrogen.",
+                        "geometry":  "Linear, 180°",
+                        "bondLengths":  "C≡C 120.3 pm, C–H 106.0 pm"
+                    },
+        "formation":  "CaC2 + 2 H2O -\u003e C2H2 + Ca(OH)2",
+        "state":  "gas",
+        "meltingPointC":  -80.8,
+        "boilingPointC":  -84,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Oxy-acetylene welding and cutting",
+                     "Making chemicals and plastics"
+                 ],
+        "facts":  [
+                      "An oxy-acetylene flame reaches about 3,500 °C.",
+                      "At normal pressure it sublimes at −84 °C rather than melting."
+                  ],
+        "hazards":  "Flammable; can explode under pressure.",
+        "summary":  "Acetylene\u0027s triple bond stores a lot of energy, giving the hottest common fuel flame."
+    },
+    {
+        "id":  "benzene",
+        "name":  "Benzene",
+        "formula":  "C6H6",
+        "aka":  [
+
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  241,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 241)",
+                          "atomCount":  12,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A flat hexagonal ring with six electrons shared around the whole ring.",
+                        "electronSharing":  "Each carbon shares pairs with two ring neighbors and one hydrogen, and gives one electron to a ring of six π electrons spread evenly over all six carbons. All C–C bonds are identical, between single and double.",
+                        "geometry":  "Regular hexagon, planar",
+                        "bondLengths":  "C–C 139.7 pm, C–H 108.7 pm"
+                    },
+        "formation":  "Catalytic reforming of naphtha from crude oil",
+        "state":  "liquid",
+        "meltingPointC":  5.5,
+        "boilingPointC":  80.1,
+        "occurrence":  "Crude oil and coal tar.",
+        "uses":  [
+                     "Making styrene, nylon and other plastics",
+                     "Making detergents and dyes"
+                 ],
+        "facts":  [
+                      "August Kekulé said the ring structure came to him in a dream of a snake biting its own tail."
+                  ],
+        "hazards":  "Carcinogenic and flammable.",
+        "summary":  "Benzene\u0027s ring of shared electrons is the prototype of aromatic chemistry."
+    }
+]

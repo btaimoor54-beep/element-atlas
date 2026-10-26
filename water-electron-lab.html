@@ -1,0 +1,732 @@
+<title>Water Electron Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Schibsted+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: instrument panel on the left (bottom on phones), live 3D stage filling the rest. Deliberately single dark theme: molecules read best on deep water-blue. */
+:root {
+  color-scheme: dark;
+  --ink: #07121a;
+  --panel: #0c1a24;
+  --raise: #12232f;
+  --line: #1f3646;
+  --text: #d8e5ed;
+  --muted: #8ba1af;
+  --oxygen: #ff5f52;
+  --hydrogen: #eef3f6;
+  --electron: #5fd6ff;
+  --lone: #b48cff;
+  --hbond: #ffbf4f;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Schibsted Grotesk", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+html, body { height: 100%; }
+body { background: var(--ink); color: var(--text); font-family: var(--body); font-size: 14px; line-height: 1.5; overflow: hidden; }
+.app { height: 100%; display: grid; grid-template-columns: minmax(300px, 360px) 1fr; }
+.panel {
+  min-width: 0; overflow-y: auto; background: var(--panel); border-right: 1px solid var(--line);
+  padding-block: 22px 32px; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: 20px;
+  display: flex; flex-direction: column; gap: 22px;
+}
+.stage { position: relative; min-width: 0; min-height: 0; overflow: hidden; }
+#gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; }
+#gl:active { cursor: grabbing; }
+
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--display); font-weight: 700; font-size: 30px; line-height: 1.05; margin: 6px 0 8px; text-wrap: balance; letter-spacing: -.01em; }
+h1 .sub { color: var(--electron); }
+h2 { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+p { margin: 0; }
+.lede { color: var(--muted); max-width: 60ch; }
+
+.presets { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.presets button {
+  font: 500 13px/1.2 var(--body); color: var(--text); background: var(--raise); border: 1px solid var(--line);
+  border-radius: 8px; padding: 9px 10px; text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 2px;
+}
+.presets button small { font-family: var(--mono); font-size: 10.5px; color: var(--muted); }
+.presets button:hover { border-color: #33566b; }
+.presets button[aria-pressed="true"] { border-color: var(--electron); background: #0f2b39; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--electron); outline-offset: 2px; }
+
+.ctrl { display: flex; flex-direction: column; gap: 6px; }
+.ctrl + .ctrl { margin-top: 14px; }
+.ctrl-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.ctrl-head label { font-weight: 500; }
+.val { font-family: var(--mono); font-size: 12px; color: var(--electron); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hint { font-size: 12px; color: var(--muted); }
+input[type="range"] { width: 100%; accent-color: var(--electron); margin: 0; }
+
+.toggles { display: flex; flex-direction: column; gap: 2px; }
+.tog { display: grid; grid-template-columns: 18px 22px 1fr; align-items: start; gap: 8px; padding: 7px 4px; border-radius: 6px; cursor: pointer; }
+.tog:hover { background: var(--raise); }
+.tog input { margin: 3px 0 0; accent-color: var(--electron); }
+.tog .txt { min-width: 0; }
+.tog .txt b { font-weight: 500; display: block; }
+.tog .txt span { font-size: 12px; color: var(--muted); display: block; }
+.sw { width: 18px; height: 18px; margin-top: 1px; display: grid; place-items: center; }
+.sw i { display: block; border-radius: 50%; }
+.sw.shared i { width: 8px; height: 8px; background: var(--electron); box-shadow: 0 0 8px var(--electron); }
+.sw.lone i { width: 8px; height: 8px; background: var(--lone); box-shadow: 0 0 8px var(--lone); }
+.sw.cloud i { width: 18px; height: 10px; background: radial-gradient(closest-side, rgba(95,214,255,.55), rgba(95,214,255,0)); border-radius: 50%; }
+.sw.charge { font: 600 12px/1 var(--body); color: var(--oxygen); }
+.sw.hb i { width: 18px; height: 0; border-radius: 0; border-top: 2px dashed var(--hbond); }
+.sw.rot i { width: 12px; height: 12px; border: 1.5px solid var(--muted); border-right-color: transparent; }
+
+.atoms { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+.atoms span { display: inline-flex; align-items: center; gap: 6px; }
+.atoms i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+
+.btnrow { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn { font: 500 13px/1 var(--body); color: var(--text); background: var(--raise); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; cursor: pointer; }
+.btn:hover { border-color: #33566b; }
+.btn.primary { background: var(--electron); color: #04212c; border-color: var(--electron); }
+
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; font-size: 12.5px; margin: 0; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+.explain { display: flex; flex-direction: column; gap: 10px; color: var(--text); }
+.explain p { max-width: 62ch; }
+.explain em { font-style: normal; color: var(--electron); }
+.explain .lp { color: var(--lone); }
+.explain .hbc { color: var(--hbond); }
+.note { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+
+.hud {
+  position: absolute; top: 12px; right: max(12px, env(safe-area-inset-right, 0px)); left: 12px;
+  display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; pointer-events: none;
+}
+.chip {
+  font-family: var(--mono); font-size: 12px; font-variant-numeric: tabular-nums; background: rgba(7,18,26,.78);
+  border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px; white-space: nowrap; backdrop-filter: blur(6px);
+}
+.chip b { font-weight: 500; color: var(--muted); margin-right: 6px; }
+.chip.hbc { color: var(--hbond); }
+.stage-tip { position: absolute; left: 14px; bottom: 12px; font-size: 12px; color: var(--muted); pointer-events: none; }
+
+.spark-wrap { background: var(--raise); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px 8px; }
+.spark-head { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+#spark { width: 100%; height: 56px; display: block; }
+
+@media (max-width: 760px) {
+  .app { grid-template-columns: 1fr; grid-template-rows: 52% 48%; }
+  .stage { grid-row: 1; }
+  .panel { grid-row: 2; border-right: 0; border-top: 1px solid var(--line); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-block: 16px 28px; }
+  h1 { font-size: 24px; }
+  .stage-tip { display: none; }
+}
+</style>
+
+<div class="app">
+  <aside class="panel">
+    <header>
+      <div class="eyebrow">H₂O · TIP3P model</div>
+      <h1>Water Electron Lab</h1>
+      <p class="lede">Each O–H bond holds two shared electrons. Oxygen pulls them closer, which makes water polar and lets molecules grip each other through hydrogen bonds.</p>
+    </header>
+
+    <section>
+      <h2>Scene</h2>
+      <div class="presets" id="presets">
+        <button type="button" id="p-one" data-preset="one" aria-pressed="false">One molecule<small>bonds up close</small></button>
+        <button type="button" id="p-two" data-preset="two" aria-pressed="false">Two molecules<small>one hydrogen bond</small></button>
+        <button type="button" id="p-cluster" data-preset="cluster" aria-pressed="true">Cluster<small>10 molecules</small></button>
+        <button type="button" id="p-liquid" data-preset="liquid" aria-pressed="false">Liquid<small>64 molecules</small></button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Conditions</h2>
+      <div class="ctrl">
+        <div class="ctrl-head"><label for="temp">Temperature</label><span class="val" id="tempVal">220 K</span></div>
+        <input type="range" id="temp" min="20" max="600" step="5" value="220">
+      </div>
+      <div class="ctrl">
+        <div class="ctrl-head"><label for="pull">Oxygen's pull on shared electrons</label><span class="val" id="pullVal">Δχ 1.24</span></div>
+        <input type="range" id="pull" min="0" max="100" step="1" value="100">
+        <span class="hint" id="pullHint">Real water: polar covalent bonds</span>
+      </div>
+      <div class="ctrl">
+        <div class="ctrl-head"><label for="speed">Simulation speed</label><span class="val" id="speedVal">3 fs / frame</span></div>
+        <input type="range" id="speed" min="0" max="8" step="1" value="4">
+      </div>
+    </section>
+
+    <section>
+      <h2>Show</h2>
+      <div class="toggles">
+        <label class="tog"><input type="checkbox" id="showShared" checked><span class="sw shared"><i></i></span><span class="txt"><b>Shared electron pairs</b><span>2 electrons per O–H bond, held nearer O</span></span></label>
+        <label class="tog"><input type="checkbox" id="showLone" checked><span class="sw lone"><i></i></span><span class="txt"><b>Lone pairs on oxygen</b><span>2 unshared pairs, 4 electrons</span></span></label>
+        <label class="tog"><input type="checkbox" id="showClouds" checked><span class="sw cloud"><i></i></span><span class="txt"><b>Electron clouds</b><span>where the pairs are likely to be</span></span></label>
+        <label class="tog"><input type="checkbox" id="showCharges"><span class="sw charge">δ±</span><span class="txt"><b>Partial charges</b><span>δ− on O, δ+ on each H</span></span></label>
+        <label class="tog"><input type="checkbox" id="showHB" checked><span class="sw hb"><i></i></span><span class="txt"><b>Hydrogen bonds</b><span>H···O within 2.6 Å, nearly in line</span></span></label>
+        <label class="tog"><input type="checkbox" id="autoRotate" checked><span class="sw rot"><i></i></span><span class="txt"><b>Slowly orbit camera</b><span>drag to turn, scroll or pinch to zoom</span></span></label>
+      </div>
+      <div class="atoms" style="margin-top:10px">
+        <span><i style="background:var(--oxygen)"></i>Oxygen</span>
+        <span><i style="background:var(--hydrogen)"></i>Hydrogen</span>
+      </div>
+    </section>
+
+    <div class="btnrow">
+      <button type="button" class="btn primary" id="freeze">Freeze atoms</button>
+      <button type="button" class="btn" id="restart">Restart scene</button>
+    </div>
+
+    <section class="spark-wrap">
+      <div class="spark-head"><span>Hydrogen bonds per molecule</span><span class="val" id="sparkVal">0.00</span></div>
+      <canvas id="spark" width="600" height="112"></canvas>
+    </section>
+
+    <section class="explain">
+      <h2>What you're seeing</h2>
+      <p>Oxygen has 6 valence electrons and each hydrogen has 1. Oxygen shares one electron with each hydrogen, so every O–H bond is a <em>shared pair</em> of 2 electrons.</p>
+      <p>The sharing is uneven. Oxygen's electronegativity (3.44) is much higher than hydrogen's (2.20), so the shared pair sits closer to oxygen. Oxygen ends up slightly negative (δ−) and each hydrogen slightly positive (δ+).</p>
+      <p>Oxygen's other 4 electrons form two <span class="lp">lone pairs</span>. They push the hydrogens together, bending the molecule to 104.5°.</p>
+      <p>A δ+ hydrogen on one molecule is drawn to a lone pair on another. That attraction is a <span class="hbc">hydrogen bond</span>. Slide oxygen's pull to zero and the hydrogen bonds disappear: the molecules drift apart like a gas.</p>
+    </section>
+
+    <section>
+      <h2>One molecule, by the numbers</h2>
+      <dl class="facts">
+        <dt>O–H bond length</dt><dd>95.7 pm</dd>
+        <dt>H–O–H angle</dt><dd>104.5°</dd>
+        <dt>Electronegativity</dt><dd>O 3.44 · H 2.20</dd>
+        <dt>Dipole moment</dt><dd>1.85 D</dd>
+        <dt>H-bond energy</dt><dd>≈ 20 kJ/mol</dd>
+      </dl>
+    </section>
+
+    <p class="note">Motion uses the TIP3P water model: rigid molecules with point charges, a 1 fs time step and a thermostat. Electrons are drawn as moving dots to show where each pair spends its time; in reality each pair is a probability cloud, not a tiny orbiting ball.</p>
+  </aside>
+
+  <main class="stage">
+    <canvas id="gl" aria-label="3D view of water molecules with their shared electron pairs, lone pairs and hydrogen bonds"></canvas>
+    <div class="hud" aria-live="off">
+      <span class="chip"><b>T</b><span id="hT">220 K</span></span>
+      <span class="chip hbc"><b>H-bonds</b><span id="hHB">0</span></span>
+      <span class="chip"><b>time</b><span id="hTime">0.00 ps</span></span>
+    </div>
+    <div class="stage-tip">Drag to rotate · scroll to zoom</div>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+(() => {
+  const V3 = THREE.Vector3;
+  const $ = (id) => document.getElementById(id);
+
+  /* ---------- Physics constants (Å, kcal/mol, amu; 1 time unit = 48.89 fs) ---------- */
+  const KB = 0.0019872041, KC = 332.0636;
+  const MASS = 18.015, INERT = 1.6;
+  const QO = -0.834, QH = 0.417, SIG = 3.1507, SIG2 = SIG * SIG, EPS = 0.1521;
+  const RC = 9, RC2 = RC * RC, INV_RC2 = 1 / RC2;
+  const DT = 1 / 48.888;           // 1 fs
+  const TAU = 3;                   // thermostat coupling (~150 fs)
+  const FMAX = 250, KW = 5;
+  const MAXN = 64;
+  const Y = new V3(0, 1, 0), X = new V3(1, 0, 0);
+  // Body frame relative to centre of mass: O on +y, H atoms below. O–H 0.9572 Å, angle 104.52°.
+  const BODY = [new V3(0, 0.06556, 0), new V3(0.75695, -0.52032, 0), new V3(-0.75695, -0.52032, 0)];
+  const lpA = 55 * Math.PI / 180;
+  const LP = [new V3(0, Math.cos(lpA), Math.sin(lpA)), new V3(0, Math.cos(lpA), -Math.sin(lpA))];
+
+  const PRESETS = {
+    one:     { n: 1,  W: 1.2, T: 300, speed: 1, charges: true,  dist: 4.6 },
+    two:     { n: 2,  W: 3.5, T: 120, speed: 2, charges: true,  dist: 8 },
+    cluster: { n: 10, W: 4.6, T: 220, speed: 3, charges: false, dist: 19 },
+    liquid:  { n: 64, W: 6.2, T: 300, speed: 5, charges: false, dist: 27 },
+  };
+  const SPEEDS = [0.25, 0.5, 1, 2, 3, 5, 8, 12, 20];
+
+  /* ---------- State ---------- */
+  let mols = [], W = 4, Ttarget = 220, pull = 1, speed = 3, frozen = false, acc = 0;
+  let simFs = 0, Tshown = 220, presetKey = 'cluster', hbCount = 0;
+  const hbHistory = [];
+
+  const reduceMotion = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- Three.js scene ---------- */
+  const canvas = $('gl'), stage = canvas.parentElement;
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setClearColor(0x07121a);
+  const scene = new THREE.Scene();
+  scene.fog = new THREE.FogExp2(0x07121a, 0.016);
+  const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 400);
+  const controls = new THREE.OrbitControls(camera, canvas);
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.08;
+  controls.autoRotate = !reduceMotion;
+  controls.autoRotateSpeed = 0.5;
+  if (reduceMotion) $('autoRotate').checked = false;
+
+  scene.add(new THREE.HemisphereLight(0xd4ecff, 0x16222c, 0.85));
+  const key = new THREE.DirectionalLight(0xffffff, 0.95); key.position.set(5, 8, 6); scene.add(key);
+  const rim = new THREE.DirectionalLight(0x5fd6ff, 0.4); rim.position.set(-6, -3, -5); scene.add(rim);
+
+  function glowTexture() {
+    const c = document.createElement('canvas'); c.width = c.height = 64;
+    const g = c.getContext('2d');
+    const grd = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+    grd.addColorStop(0, 'rgba(255,255,255,1)');
+    grd.addColorStop(0.25, 'rgba(255,255,255,.55)');
+    grd.addColorStop(1, 'rgba(255,255,255,0)');
+    g.fillStyle = grd; g.fillRect(0, 0, 64, 64);
+    return new THREE.CanvasTexture(c);
+  }
+  function labelTexture(text, color) {
+    const c = document.createElement('canvas'); c.width = c.height = 128;
+    const g = c.getContext('2d');
+    g.font = '600 64px "Schibsted Grotesk", "Segoe UI", sans-serif';
+    g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.lineWidth = 10; g.strokeStyle = 'rgba(7,18,26,.85)'; g.strokeText(text, 64, 66);
+    g.fillStyle = color; g.fillText(text, 64, 66);
+    return new THREE.CanvasTexture(c);
+  }
+
+  const sphereGeo = new THREE.SphereGeometry(1, 32, 22);
+  const smallSphere = new THREE.SphereGeometry(1, 12, 8);
+  const bondGeo = new THREE.CylinderGeometry(1, 1, 1, 16, 1, true);
+
+  function inst(geo, mat, count) {
+    const m = new THREE.InstancedMesh(geo, mat, count);
+    m.frustumCulled = false; m.count = 0; scene.add(m); return m;
+  }
+  const oMesh = inst(sphereGeo, new THREE.MeshStandardMaterial({ color: 0xff5f52, roughness: 0.35, metalness: 0.05 }), MAXN);
+  const hMesh = inst(sphereGeo, new THREE.MeshStandardMaterial({ color: 0xeef3f6, roughness: 0.3, metalness: 0.0 }), MAXN * 2);
+  const bondMesh = inst(bondGeo, new THREE.MeshStandardMaterial({ color: 0x9fb4c2, roughness: 0.5 }), MAXN * 2);
+  const cloudMat = (color, opacity) => new THREE.MeshBasicMaterial({ color, transparent: true, opacity, blending: THREE.AdditiveBlending, depthWrite: false });
+  const bondCloud = inst(sphereGeo, cloudMat(0x5fd6ff, 0.16), MAXN * 2);
+  const lpCloud = inst(sphereGeo, cloudMat(0xb48cff, 0.14), MAXN * 2);
+  const eMesh = inst(smallSphere, new THREE.MeshBasicMaterial({ color: 0xbff0ff }), MAXN * 4);
+  const lpeMesh = inst(smallSphere, new THREE.MeshBasicMaterial({ color: 0xe2d2ff }), MAXN * 4);
+
+  const gtex = glowTexture();
+  function glowPoints(color) {
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(MAXN * 4 * 3), 3));
+    geo.setDrawRange(0, 0);
+    const pts = new THREE.Points(geo, new THREE.PointsMaterial({ color, size: 0.42, map: gtex, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, sizeAttenuation: true }));
+    pts.frustumCulled = false; scene.add(pts); return pts;
+  }
+  const glowBond = glowPoints(0x5fd6ff);
+  const glowLone = glowPoints(0xb48cff);
+
+  // Hydrogen bonds: dashed segments, two per molecule at most (one per H)
+  const hbGeo = new THREE.BufferGeometry();
+  const hbPos = new Float32Array(MAXN * 2 * 2 * 3), hbDist = new Float32Array(MAXN * 2 * 2);
+  hbGeo.setAttribute('position', new THREE.BufferAttribute(hbPos, 3));
+  hbGeo.setAttribute('lineDistance', new THREE.BufferAttribute(hbDist, 1));
+  hbGeo.setDrawRange(0, 0);
+  const hbLines = new THREE.LineSegments(hbGeo, new THREE.LineDashedMaterial({ color: 0xffbf4f, dashSize: 0.16, gapSize: 0.12, transparent: true, opacity: 0.95 }));
+  hbLines.frustumCulled = false; scene.add(hbLines);
+
+  // Partial-charge labels
+  const texMinus = labelTexture('δ−', '#ff8a80'), texPlus = labelTexture('δ+', '#eef3f6');
+  const chargeGroup = new THREE.Group(); scene.add(chargeGroup);
+  const sprites = [];
+  for (let i = 0; i < MAXN * 3; i++) {
+    const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: i % 3 === 0 ? texMinus : texPlus, transparent: true, depthWrite: false }));
+    s.scale.setScalar(0.42); s.visible = false; chargeGroup.add(s); sprites.push(s);
+  }
+
+  let boxLines = null;
+  function buildBox(half) {
+    if (boxLines) { scene.remove(boxLines); boxLines.geometry.dispose(); }
+    const g = new THREE.EdgesGeometry(new THREE.BoxGeometry(half * 2, half * 2, half * 2));
+    boxLines = new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color: 0x2a4a5e, transparent: true, opacity: 0.55 }));
+    scene.add(boxLines);
+  }
+
+  /* ---------- Molecules ---------- */
+  function makeMol() {
+    return { p: new V3(), v: new V3(), q: new THREE.Quaternion(), w: new V3(), f: new V3(), t: new V3(),
+             atoms: [new V3(), new V3(), new V3()], fa: [new V3(), new V3(), new V3()] };
+  }
+  function gauss() { let u = 0, v = 0; while (u === 0) u = Math.random(); v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); }
+  function randomQuat(q) {
+    const u1 = Math.random(), u2 = Math.random() * 2 * Math.PI, u3 = Math.random() * 2 * Math.PI;
+    const a = Math.sqrt(1 - u1), b = Math.sqrt(u1);
+    return q.set(a * Math.sin(u2), a * Math.cos(u2), b * Math.sin(u3), b * Math.cos(u3));
+  }
+  function thermalize(m, T, withTranslation) {
+    const sv = Math.sqrt(KB * T / MASS), sw = Math.sqrt(KB * T / INERT);
+    if (withTranslation) m.v.set(gauss() * sv, gauss() * sv, gauss() * sv); else m.v.set(0, 0, 0);
+    m.w.set(gauss() * sw, gauss() * sw, gauss() * sw);
+  }
+  function removeDrift() {
+    if (!mols.length) return;
+    const avg = new V3();
+    for (const m of mols) avg.add(m.v);
+    avg.divideScalar(mols.length);
+    for (const m of mols) m.v.sub(avg);
+  }
+
+  function setupPreset(k) {
+    presetKey = k;
+    const P = PRESETS[k];
+    W = P.W; Ttarget = P.T; speed = P.speed;
+    mols = [];
+    if (P.n === 1) {
+      const m = makeMol();
+      m.q.setFromAxisAngle(new V3(1, 0.3, 0).normalize(), 0.35);
+      thermalize(m, Ttarget, false);
+      mols.push(m);
+    } else if (P.n === 2) {
+      const A = makeMol(), B = makeMol();
+      const oh = BODY[1].clone().sub(BODY[0]).normalize();
+      A.q.setFromUnitVectors(oh, X);
+      const aH = BODY[1].clone().applyQuaternion(A.q);
+      const bO = aH.clone().add(new V3(1.9, 0, 0));
+      B.q.setFromUnitVectors(Y, new V3(-1, 0, 0));
+      B.p.copy(bO).sub(BODY[0].clone().applyQuaternion(B.q));
+      const mid = A.p.clone().add(B.p).multiplyScalar(0.5);
+      A.p.sub(mid); B.p.sub(mid);
+      thermalize(A, Ttarget * 0.3, true); thermalize(B, Ttarget * 0.3, true);
+      mols.push(A, B);
+    } else {
+      const side = Math.ceil(Math.cbrt(P.n)), s = (2 * W) / side;
+      const slots = [];
+      for (let i = 0; i < side; i++) for (let j = 0; j < side; j++) for (let l = 0; l < side; l++)
+        slots.push(new V3(-W + s * (i + 0.5), -W + s * (j + 0.5), -W + s * (l + 0.5)));
+      for (let i = slots.length - 1; i > 0; i--) { const r = Math.floor(Math.random() * (i + 1)); [slots[i], slots[r]] = [slots[r], slots[i]]; }
+      for (let i = 0; i < P.n; i++) {
+        const m = makeMol();
+        m.p.copy(slots[i]).add(new V3(gauss() * 0.1, gauss() * 0.1, gauss() * 0.1));
+        randomQuat(m.q);
+        thermalize(m, Ttarget, true);
+        mols.push(m);
+      }
+    }
+    removeDrift();
+    simFs = 0; Tshown = Ttarget; acc = 0; hbHistory.length = 0;
+
+    const n = mols.length;
+    oMesh.count = n; hMesh.count = bondMesh.count = bondCloud.count = lpCloud.count = n * 2;
+    eMesh.count = lpeMesh.count = n * 4;
+    glowBond.geometry.setDrawRange(0, n * 4); glowLone.geometry.setDrawRange(0, n * 4);
+    sprites.forEach((s, i) => { s.visible = i < n * 3; });
+    buildBox(W + 1.6);
+
+    camera.position.set(P.dist * 0.42, P.dist * 0.3, P.dist);
+    controls.target.set(0, 0, 0);
+    controls.update();
+
+    // Sync UI
+    $('temp').value = Ttarget;
+    $('speed').value = SPEEDS.indexOf(speed);
+    $('showCharges').checked = P.charges;
+    document.querySelectorAll('#presets button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.preset === k)));
+    syncLabels();
+    applyVisibility();
+    computeForces();
+  }
+
+  /* ---------- Forces & integration ---------- */
+  function addPair(fa, fb, rx, ry, rz, f) {
+    let fx = f * rx, fy = f * ry, fz = f * rz;
+    const m2 = fx * fx + fy * fy + fz * fz;
+    if (m2 > FMAX * FMAX) { const s = FMAX / Math.sqrt(m2); fx *= s; fy *= s; fz *= s; }
+    fb.x += fx; fb.y += fy; fb.z += fz;
+    fa.x -= fx; fa.y -= fy; fa.z -= fz;
+  }
+  const tmpR = new V3(), tmpC = new V3();
+  function computeForces() {
+    const n = mols.length, qs = pull;
+    const ch = [QO * qs, QH * qs, QH * qs];
+    for (const m of mols) {
+      m.f.set(0, 0, 0); m.t.set(0, 0, 0);
+      for (let k = 0; k < 3; k++) { m.atoms[k].copy(BODY[k]).applyQuaternion(m.q).add(m.p); m.fa[k].set(0, 0, 0); }
+    }
+    for (let a = 0; a < n; a++) {
+      const A = mols[a];
+      for (let b = a + 1; b < n; b++) {
+        const B = mols[b];
+        const dx = B.p.x - A.p.x, dy = B.p.y - A.p.y, dz = B.p.z - A.p.z;
+        if (dx * dx + dy * dy + dz * dz > RC2) continue;
+        // Lennard-Jones between oxygens
+        const oa = A.atoms[0], ob = B.atoms[0];
+        let rx = ob.x - oa.x, ry = ob.y - oa.y, rz = ob.z - oa.z;
+        let r2 = Math.max(rx * rx + ry * ry + rz * rz, 4);
+        const s2 = SIG2 / r2, s6 = s2 * s2 * s2;
+        addPair(A.fa[0], B.fa[0], rx, ry, rz, 24 * EPS * (2 * s6 * s6 - s6) / r2);
+        if (qs <= 0) continue;
+        // Shifted-force Coulomb between all 9 charge pairs
+        for (let i = 0; i < 3; i++) {
+          const pi = A.atoms[i];
+          for (let j = 0; j < 3; j++) {
+            const pj = B.atoms[j];
+            rx = pj.x - pi.x; ry = pj.y - pi.y; rz = pj.z - pi.z;
+            r2 = Math.max(rx * rx + ry * ry + rz * rz, 0.6);
+            const g = 1 / r2 - INV_RC2;
+            if (g <= 0) continue;
+            addPair(A.fa[i], B.fa[j], rx, ry, rz, KC * ch[i] * ch[j] * g / Math.sqrt(r2));
+          }
+        }
+      }
+    }
+    for (const m of mols) {
+      for (let k = 0; k < 3; k++) {
+        tmpR.subVectors(m.atoms[k], m.p);
+        m.t.add(tmpC.crossVectors(tmpR, m.fa[k]));
+        m.f.add(m.fa[k]);
+      }
+      for (const ax of ['x', 'y', 'z']) {
+        const c = m.p[ax];
+        if (c > W) m.f[ax] -= KW * (c - W); else if (c < -W) m.f[ax] -= KW * (c + W);
+      }
+    }
+  }
+
+  const axis = new V3(), dq = new THREE.Quaternion();
+  let stepCount = 0;
+  function step() {
+    const h = DT * 0.5;
+    for (const m of mols) {
+      m.v.addScaledVector(m.f, h / MASS);
+      m.w.addScaledVector(m.t, h / INERT);
+      m.p.addScaledVector(m.v, DT);
+      const wl = m.w.length();
+      if (wl > 1e-9) { axis.copy(m.w).divideScalar(wl); dq.setFromAxisAngle(axis, wl * DT); m.q.premultiply(dq).normalize(); }
+    }
+    computeForces();
+    let ke = 0;
+    for (const m of mols) {
+      m.v.addScaledVector(m.f, h / MASS);
+      m.w.addScaledVector(m.t, h / INERT);
+      if (m.v.lengthSq() > 4) m.v.setLength(2);
+      if (m.w.lengthSq() > 64) m.w.setLength(8);
+      ke += 0.5 * MASS * m.v.lengthSq() + 0.5 * INERT * m.w.lengthSq();
+    }
+    const dof = mols.length === 1 ? 3 : 6 * mols.length - 3;
+    const Tcur = 2 * ke / (dof * KB);
+    if (Tcur > 1e-6) {
+      let lam = Math.sqrt(1 + (DT / TAU) * (Ttarget / Tcur - 1));
+      lam = Math.min(1.08, Math.max(0.92, lam));
+      for (const m of mols) { m.v.multiplyScalar(lam); m.w.multiplyScalar(lam); }
+    } else {
+      for (const m of mols) thermalize(m, Ttarget, mols.length > 1);
+    }
+    Tshown += (Tcur - Tshown) * 0.01;
+    simFs += 1;
+    if (++stepCount % 200 === 0) removeDrift();
+  }
+
+  /* ---------- Visual update ---------- */
+  const M4 = new THREE.Matrix4(), Q = new THREE.Quaternion(), IDQ = new THREE.Quaternion(), S = new V3();
+  const d = new V3(), c = new V3(), u = new V3(), v = new V3(), e = new V3(), lp = new V3(), mid = new V3(), bis = new V3();
+  function basis(dir) { u.crossVectors(dir, Math.abs(dir.y) < 0.9 ? Y : X).normalize(); v.crossVectors(dir, u); }
+  const HB_COS = Math.cos(50 * Math.PI / 180);
+
+  function updateVisuals(time) {
+    const n = mols.length;
+    const gbp = glowBond.geometry.attributes.position.array;
+    const glp = glowLone.geometry.attributes.position.array;
+    const shift = 0.5 - 0.18 * pull;            // where the shared pair's centre sits along O→H
+    const cloudW = 0.24 + 0.04 * (1 - pull);
+    for (let i = 0; i < n; i++) {
+      const m = mols[i], O = m.atoms[0];
+      oMesh.setMatrixAt(i, M4.compose(O, IDQ, S.setScalar(0.36)));
+      for (let k = 1; k <= 2; k++) {
+        const H = m.atoms[k], bi = i * 2 + k - 1;
+        hMesh.setMatrixAt(bi, M4.compose(H, IDQ, S.setScalar(0.22)));
+        d.subVectors(H, O); const len = d.length(); d.divideScalar(len);
+        Q.setFromUnitVectors(Y, d);
+        mid.copy(O).addScaledVector(d, len * 0.5);
+        bondMesh.setMatrixAt(bi, M4.compose(mid, Q, S.set(0.06, len, 0.06)));
+        c.copy(O).addScaledVector(d, len * shift);
+        bondCloud.setMatrixAt(bi, M4.compose(c, Q, S.set(cloudW, len * 0.6, cloudW)));
+        basis(d);
+        const psi = time * 0.9 + i * 1.3 + k * 2.2, ph = time * 2.4 + i * 0.77 + k * 1.9;
+        for (let s = 0; s < 2; s++) {
+          const p = ph + s * Math.PI, ps = psi + s * Math.PI * 0.5;
+          e.copy(c).addScaledVector(d, len * 0.32 * Math.cos(p))
+            .addScaledVector(u, 0.16 * Math.sin(p) * Math.cos(ps))
+            .addScaledVector(v, 0.16 * Math.sin(p) * Math.sin(ps));
+          const ei = i * 4 + (k - 1) * 2 + s;
+          eMesh.setMatrixAt(ei, M4.compose(e, IDQ, S.setScalar(0.05)));
+          gbp[ei * 3] = e.x; gbp[ei * 3 + 1] = e.y; gbp[ei * 3 + 2] = e.z;
+        }
+        // δ+ label beyond each hydrogen
+        sprites[i * 3 + k].position.copy(H).addScaledVector(d, 0.42);
+      }
+      for (let k = 0; k < 2; k++) {
+        lp.copy(LP[k]).applyQuaternion(m.q);
+        c.copy(O).addScaledVector(lp, 0.42);
+        Q.setFromUnitVectors(Y, lp);
+        lpCloud.setMatrixAt(i * 2 + k, M4.compose(c, Q, S.set(0.25, 0.36, 0.25)));
+        basis(lp);
+        const psi = time * 1.1 + i * 0.9 + k * 3.1, ph = time * 2.1 + i * 1.1 + k * 2.6;
+        for (let s = 0; s < 2; s++) {
+          const p = ph + s * Math.PI, ps = psi + s * Math.PI * 0.5;
+          e.copy(c).addScaledVector(lp, 0.17 * Math.cos(p))
+            .addScaledVector(u, 0.15 * Math.sin(p) * Math.cos(ps))
+            .addScaledVector(v, 0.15 * Math.sin(p) * Math.sin(ps));
+          const ei = i * 4 + k * 2 + s;
+          lpeMesh.setMatrixAt(ei, M4.compose(e, IDQ, S.setScalar(0.05)));
+          glp[ei * 3] = e.x; glp[ei * 3 + 1] = e.y; glp[ei * 3 + 2] = e.z;
+        }
+      }
+      bis.copy(Y).applyQuaternion(m.q);
+      sprites[i * 3].position.copy(O).addScaledVector(bis, 1.0);
+    }
+    for (const mesh of [oMesh, hMesh, bondMesh, bondCloud, lpCloud, eMesh, lpeMesh]) mesh.instanceMatrix.needsUpdate = true;
+    glowBond.geometry.attributes.position.needsUpdate = true;
+    glowLone.geometry.attributes.position.needsUpdate = true;
+
+    // Hydrogen bonds: H on one molecule, O on another, H···O < 2.6 Å and O–H···O angle > 130°
+    let nb = 0;
+    for (let a = 0; a < n; a++) {
+      const A = mols[a], Oa = A.atoms[0];
+      for (let k = 1; k <= 2; k++) {
+        const H = A.atoms[k];
+        d.subVectors(H, Oa).normalize();
+        let best = -1, bestD = 2.6;
+        for (let b = 0; b < n; b++) {
+          if (b === a) continue;
+          const Ob = mols[b].atoms[0];
+          const dist = H.distanceTo(Ob);
+          if (dist >= bestD) continue;
+          e.subVectors(Ob, H).divideScalar(dist);
+          if (d.dot(e) > HB_COS) { best = b; bestD = dist; }
+        }
+        if (best >= 0) {
+          const Ob = mols[best].atoms[0], o = nb * 6;
+          hbPos[o] = H.x; hbPos[o + 1] = H.y; hbPos[o + 2] = H.z;
+          hbPos[o + 3] = Ob.x; hbPos[o + 4] = Ob.y; hbPos[o + 5] = Ob.z;
+          hbDist[nb * 2] = 0; hbDist[nb * 2 + 1] = bestD;
+          nb++;
+        }
+      }
+    }
+    hbCount = nb;
+    hbGeo.setDrawRange(0, nb * 2);
+    hbGeo.attributes.position.needsUpdate = true;
+    hbGeo.attributes.lineDistance.needsUpdate = true;
+  }
+
+  /* ---------- UI ---------- */
+  function syncLabels() {
+    $('tempVal').textContent = Ttarget + ' K';
+    const dchi = (pull * 1.24).toFixed(2);
+    $('pullVal').textContent = 'Δχ ' + dchi;
+    $('pullHint').textContent =
+      pull < 0.03 ? 'Equal sharing: nonpolar, no partial charges' :
+      pull < 0.5  ? 'Slightly uneven sharing: weakly polar' :
+      pull < 0.97 ? 'Uneven sharing: polar' :
+                    'Real water: polar covalent bonds';
+    $('speedVal').textContent = (speed < 1 ? speed : speed.toFixed(0)) + ' fs / frame';
+    chargeGroup.children.forEach(s => { s.material.opacity = pull; });
+  }
+  function applyVisibility() {
+    const shared = $('showShared').checked, lone = $('showLone').checked, clouds = $('showClouds').checked;
+    eMesh.visible = glowBond.visible = shared;
+    lpeMesh.visible = glowLone.visible = lone;
+    bondCloud.visible = clouds && shared;
+    lpCloud.visible = clouds && lone;
+    hbLines.visible = $('showHB').checked;
+    chargeGroup.visible = $('showCharges').checked;
+    controls.autoRotate = $('autoRotate').checked;
+  }
+
+  $('presets').addEventListener('click', (ev) => {
+    const b = ev.target.closest('button[data-preset]');
+    if (b) setupPreset(b.dataset.preset);
+  });
+  $('temp').addEventListener('input', (ev) => { Ttarget = +ev.target.value; syncLabels(); });
+  $('pull').addEventListener('input', (ev) => { pull = ev.target.value / 100; syncLabels(); });
+  $('speed').addEventListener('input', (ev) => { speed = SPEEDS[+ev.target.value]; syncLabels(); });
+  ['showShared', 'showLone', 'showClouds', 'showCharges', 'showHB', 'autoRotate'].forEach(id => $(id).addEventListener('change', applyVisibility));
+  $('freeze').addEventListener('click', () => {
+    frozen = !frozen;
+    $('freeze').textContent = frozen ? 'Resume motion' : 'Freeze atoms';
+    $('freeze').classList.toggle('primary', !frozen);
+  });
+  $('restart').addEventListener('click', () => {
+    const keepT = Ttarget, keepSpeed = speed, keepCharges = $('showCharges').checked;
+    setupPreset(presetKey);
+    Ttarget = keepT; speed = keepSpeed; Tshown = keepT;
+    $('temp').value = keepT; $('speed').value = SPEEDS.indexOf(keepSpeed); $('showCharges').checked = keepCharges;
+    syncLabels(); applyVisibility();
+  });
+
+  /* ---------- Sparkline ---------- */
+  const spark = $('spark'), sg = spark.getContext('2d');
+  function drawSpark() {
+    const w = spark.width, h = spark.height, pad = 6, maxY = 4;
+    sg.clearRect(0, 0, w, h);
+    sg.strokeStyle = 'rgba(139,161,175,.18)'; sg.lineWidth = 1;
+    sg.font = '18px "JetBrains Mono", monospace'; sg.fillStyle = 'rgba(139,161,175,.7)';
+    for (const g of [1, 2, 3]) {
+      const y = h - pad - (g / maxY) * (h - 2 * pad);
+      sg.beginPath(); sg.moveTo(30, y); sg.lineTo(w, y); sg.stroke();
+      sg.fillText(String(g), 4, y + 6);
+    }
+    if (hbHistory.length < 2) return;
+    const N = 150, xs = (w - 34) / (N - 1);
+    const start = Math.max(0, hbHistory.length - N);
+    const pts = hbHistory.slice(start).map((val, i) => [32 + i * xs, h - pad - Math.min(val, maxY) / maxY * (h - 2 * pad)]);
+    sg.beginPath(); sg.moveTo(pts[0][0], h - pad);
+    pts.forEach(p => sg.lineTo(p[0], p[1]));
+    sg.lineTo(pts[pts.length - 1][0], h - pad); sg.closePath();
+    sg.fillStyle = 'rgba(255,191,79,.14)'; sg.fill();
+    sg.beginPath(); pts.forEach((p, i) => i ? sg.lineTo(p[0], p[1]) : sg.moveTo(p[0], p[1]));
+    sg.strokeStyle = '#ffbf4f'; sg.lineWidth = 2.5; sg.stroke();
+    const last = pts[pts.length - 1];
+    sg.beginPath(); sg.arc(last[0], last[1], 5, 0, Math.PI * 2); sg.fillStyle = '#ffbf4f'; sg.fill();
+  }
+
+  /* ---------- Resize & loop ---------- */
+  function resize() {
+    const r = stage.getBoundingClientRect();
+    renderer.setSize(Math.max(1, r.width), Math.max(1, r.height), false);
+    camera.aspect = Math.max(1, r.width) / Math.max(1, r.height);
+    camera.updateProjectionMatrix();
+  }
+  new ResizeObserver(resize).observe(stage);
+  resize();
+
+  const com = new V3(), prevTarget = new V3();
+  let frame = 0, last = performance.now(), vtime = 0;
+  function loop(now) {
+    const dtReal = Math.min(0.05, (now - last) / 1000); last = now;
+    vtime += dtReal * (reduceMotion ? 0.35 : 1);
+    if (!frozen) {
+      acc += speed;
+      let guard = 0;
+      while (acc >= 1 && guard++ < 40) { step(); acc -= 1; }
+    }
+    // Keep small scenes centred as they drift
+    if (mols.length <= 2) {
+      com.set(0, 0, 0); mols.forEach(m => com.add(m.p)); com.divideScalar(mols.length);
+      prevTarget.copy(controls.target);
+      controls.target.lerp(com, 0.05);
+      camera.position.add(prevTarget.sub(controls.target).negate());
+    }
+    updateVisuals(vtime);
+    controls.update();
+    renderer.render(scene, camera);
+
+    if (++frame % 8 === 0) {
+      const per = mols.length ? hbCount / mols.length : 0;
+      hbHistory.push(per); if (hbHistory.length > 600) hbHistory.splice(0, hbHistory.length - 600);
+      $('hT').textContent = Math.round(Tshown) + ' K';
+      $('hHB').textContent = hbCount;
+      $('hTime').textContent = (simFs / 1000).toFixed(2) + ' ps';
+      $('sparkVal').textContent = per.toFixed(2);
+      drawSpark();
+    }
+    requestAnimationFrame(loop);
+  }
+
+  syncLabels();
+  setupPreset('cluster');
+  requestAnimationFrame(loop);
+})();
+</script>

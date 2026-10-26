@@ -1,0 +1,782 @@
+[
+    {
+        "kind":  "element",
+        "id":  "F",
+        "field":  "electronAffinity",
+        "corrected":  "3.401"
+    },
+    {
+        "kind":  "element",
+        "id":  "F",
+        "field":  "bulk.structure",
+        "corrected":  "\"Monoclinic (solid alpha-F2 below 45 K)\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Li",
+        "field":  "discovery.note",
+        "corrected":  "\"Found in the mineral petalite; William Brande first isolated the metal by electrolysis of lithium oxide in 1821, and Bunsen and Matthiessen made larger amounts in 1855.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "O",
+        "field":  "discovery.note",
+        "corrected":  "\"Scheele made it around 1771–72 but published only in 1777; Priestley made it in 1774 and published in 1775.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Ne",
+        "field":  "facts[0]",
+        "corrected":  "\"Pure neon glows red-orange; most other sign colors come from other gases, mercury vapor, colored glass or coatings.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "He",
+        "field":  "elementalForm.description",
+        "corrected":  "\"Helium\u0027s two electrons completely fill its only shell, so its atoms have no reason to share or exchange electrons. It forms no stable compounds under ordinary conditions and exists as single atoms.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Ca",
+        "field":  "electronAffinity",
+        "corrected":  "0.02455"
+    },
+    {
+        "kind":  "element",
+        "id":  "S",
+        "field":  "bulk.cPm",
+        "corrected":  "2448"
+    },
+    {
+        "kind":  "element",
+        "id":  "Cl",
+        "field":  "bulk.cPm",
+        "corrected":  "826"
+    },
+    {
+        "kind":  "element",
+        "id":  "Al",
+        "field":  "isotopes.radioactive[0].note",
+        "corrected":  "\"Made in massive stars and supernovae; its gamma rays are seen across the Milky Way. Cosmic rays also make small amounts in rocks and meteorites.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "S",
+        "field":  "biology",
+        "corrected":  "\"Essential: in the amino acids cysteine and methionine and in the vitamins thiamine and biotin.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Cu",
+        "field":  "facts[1]",
+        "corrected":  "\"Copper is one of only a few metals that are not grey or silvery; others include gold and caesium.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Fe",
+        "field":  "discovery.note",
+        "corrected":  "\"Iron from meteorites was used before 3000 BCE; smelting began in the Bronze Age, by about 2000 BCE, and became widespread around 1200 BCE (the Iron Age).\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Cu",
+        "field":  "origin",
+        "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Zn",
+        "field":  "origin",
+        "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Fe",
+        "field":  "elementalForm.allotropes[0].note",
+        "corrected":  "\"Body-centered cubic, stable below 912 °C; magnetic below 770 °C.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Co",
+        "field":  "elementalForm.allotropes",
+        "corrected":  "[{\"name\": \"Hexagonal cobalt\", \"note\": \"Hexagonal close-packed, stable at room temperature.\"}, {\"name\": \"Cubic cobalt\", \"note\": \"Face-centered cubic, stable above about 420–450 °C.\"}]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Mn",
+        "field":  "elementalForm.allotropes",
+        "corrected":  "[{\"name\": \"Alpha manganese\", \"note\": \"Complex cubic cell with 58 atoms, stable at room temperature.\"}, {\"name\": \"Beta manganese\", \"note\": \"Complex cubic cell with 20 atoms, 727–1095 °C.\"}, {\"name\": \"Gamma manganese\", \"note\": \"Face-centered cubic, 1095–1133 °C.\"}, {\"name\": \"Delta manganese\", \"note\": \"Body-centered cubic, 1133 °C up to melting at 1246 °C.\"}]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Ge",
+        "field":  "electronAffinity",
+        "corrected":  "1.233"
+    },
+    {
+        "kind":  "element",
+        "id":  "Rb",
+        "field":  "electronAffinity",
+        "corrected":  "0.486"
+    },
+    {
+        "kind":  "element",
+        "id":  "Sr",
+        "field":  "electronAffinity",
+        "corrected":  "0.052"
+    },
+    {
+        "kind":  "element",
+        "id":  "Zr",
+        "field":  "atomicMass",
+        "corrected":  "\"91.222\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Y",
+        "field":  "vdwRadius",
+        "corrected":  "275"
+    },
+    {
+        "kind":  "element",
+        "id":  "Zr",
+        "field":  "vdwRadius",
+        "corrected":  "252"
+    },
+    {
+        "kind":  "element",
+        "id":  "Kr",
+        "field":  "isotopes.stable",
+        "corrected":  "[{\"A\":80,\"abundance\":2.286},{\"A\":82,\"abundance\":11.593},{\"A\":83,\"abundance\":11.500},{\"A\":84,\"abundance\":56.987},{\"A\":86,\"abundance\":17.279}]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Kr",
+        "field":  "isotopes.radioactive",
+        "corrected":  "[{\"A\":78,\"halfLife\":\"9.2×10^21 years\",\"note\":\"0.355% of natural krypton; decays by rare double electron capture.\"},{\"A\":85,\"halfLife\":\"10.7 years\",\"note\":\"Released by nuclear fuel reprocessing.\"},{\"A\":81,\"halfLife\":\"229,000 years\",\"note\":\"Used to date old groundwater and ice.\"}]"
+    },
+    {
+        "kind":  "element",
+        "id":  "In",
+        "field":  "electronAffinity",
+        "corrected":  "0.384"
+    },
+    {
+        "kind":  "element",
+        "id":  "Sn",
+        "field":  "electronAffinity",
+        "corrected":  "1.112"
+    },
+    {
+        "kind":  "element",
+        "id":  "Rh",
+        "field":  "isotopes.radioactive[0].halfLife",
+        "corrected":  "\"4.07 years\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Tc",
+        "field":  "ionizationEnergy",
+        "corrected":  "7.119"
+    },
+    {
+        "kind":  "element",
+        "id":  "Ag",
+        "field":  "summary",
+        "corrected":  "\"Silver conducts electricity better than any other element and heat better than any other metal, and it reflects visible light best of all metals. Silver ions kill bacteria.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "In",
+        "field":  "discovery.by",
+        "corrected":  "\"Ferdinand Reich; Hieronymus Theodor Richter\""
+    },
+    {
+        "kind":  "element",
+        "id":  "In",
+        "field":  "facts[0]",
+        "corrected":  "\"Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals suddenly twin.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Ba",
+        "field":  "electronAffinity",
+        "corrected":  "0.145"
+    },
+    {
+        "kind":  "element",
+        "id":  "Sb",
+        "field":  "bulk.cPm",
+        "corrected":  "1127.4"
+    },
+    {
+        "kind":  "element",
+        "id":  "La",
+        "field":  "electronAffinity",
+        "corrected":  "0.558"
+    },
+    {
+        "kind":  "element",
+        "id":  "Ce",
+        "field":  "electronAffinity",
+        "corrected":  "0.6"
+    },
+    {
+        "kind":  "element",
+        "id":  "Nd",
+        "field":  "elementalForm.description",
+        "corrected":  "\"Neodymium shares three valence electrons; its three remaining unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Xe",
+        "field":  "isotopes.radioactive[0].halfLife",
+        "corrected":  "\"1.1×10^22 years\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Pr",
+        "field":  "facts[0]",
+        "corrected":  "\"Praseodymium-doped crystals have slowed light to about 45 meters per second in research experiments.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "La",
+        "field":  "biology",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Ce",
+        "field":  "biology",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Pr",
+        "field":  "biology",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Nd",
+        "field":  "biology",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Te",
+        "field":  "origin",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Te",
+        "field":  "originNote",
+        "corrected":  "\"Made mostly by rapid neutron capture, with some slow capture in aging stars.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Tm",
+        "field":  "facts[0]",
+        "corrected":  "\"Thulium is rare, yet it is more common in the crust than silver.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Sm",
+        "field":  "isotopes.radioactive[2].halfLife",
+        "corrected":  "\"over 2×10^15 years (never observed to decay)\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Eu",
+        "field":  "isotopes.stable",
+        "corrected":  "[{\"A\":153,\"abundance\":52.19}]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Eu",
+        "field":  "isotopes.radioactive",
+        "corrected":  "[{\"A\":151,\"halfLife\":\"4.6×10^18 years\",\"note\":\"47.81% of natural europium; its extremely slow alpha decay was first reported in 2007 and confirmed in 2014.\"},{\"A\":152,\"halfLife\":\"13.5 years\",\"note\":\"\"}]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Pm",
+        "field":  "bulk.cPm",
+        "corrected":  "1165"
+    },
+    {
+        "kind":  "element",
+        "id":  "Er",
+        "field":  "facts[0]",
+        "corrected":  "\"Erbium amplifiers boost light directly, so one undersea fiber can carry many signal colors without converting them to electricity.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Tb",
+        "field":  "summary",
+        "corrected":  "\"Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than almost any other material.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Gd",
+        "field":  "discovery.note",
+        "corrected":  "\"Detected spectroscopically; Lecoq de Boisbaudran purified its oxide in 1886, but the metal was not isolated until 1935.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Er",
+        "field":  "origin",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Ta",
+        "field":  "ionizationEnergy",
+        "corrected":  "7.5496"
+    },
+    {
+        "kind":  "element",
+        "id":  "Os",
+        "field":  "ionizationEnergy",
+        "corrected":  "8.4382"
+    },
+    {
+        "kind":  "element",
+        "id":  "Re",
+        "field":  "electronAffinity",
+        "corrected":  "0.0604"
+    },
+    {
+        "kind":  "element",
+        "id":  "Lu",
+        "field":  "electronAffinity",
+        "corrected":  "0.239"
+    },
+    {
+        "kind":  "element",
+        "id":  "Hf",
+        "field":  "electronAffinity",
+        "corrected":  "0.178"
+    },
+    {
+        "kind":  "element",
+        "id":  "Ta",
+        "field":  "isotopes.radioactive[0].note",
+        "corrected":  "\"0.012%: the rarest primordial nuclide and the only primordial nuclear isomer.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Hg",
+        "field":  "nameOrigin",
+        "corrected":  "\"The planet and Roman god Mercury; symbol Hg from hydrargyrum, the Latin form of Greek hydrargyros, water-silver.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "At",
+        "field":  "electronAffinity",
+        "corrected":  "2.416"
+    },
+    {
+        "kind":  "element",
+        "id":  "At",
+        "field":  "ionizationEnergy",
+        "corrected":  "9.318"
+    },
+    {
+        "kind":  "element",
+        "id":  "Fr",
+        "field":  "ionizationEnergy",
+        "corrected":  "4.073"
+    },
+    {
+        "kind":  "element",
+        "id":  "Th",
+        "field":  "ionizationEnergy",
+        "corrected":  "6.307"
+    },
+    {
+        "kind":  "element",
+        "id":  "Ac",
+        "field":  "ionizationEnergy",
+        "corrected":  "5.380"
+    },
+    {
+        "kind":  "element",
+        "id":  "Tl",
+        "field":  "electronAffinity",
+        "corrected":  "0.32"
+    },
+    {
+        "kind":  "element",
+        "id":  "At",
+        "field":  "statePredicted",
+        "corrected":  "true"
+    },
+    {
+        "kind":  "element",
+        "id":  "Pb",
+        "field":  "origin",
+        "corrected":  "[\"dying low-mass stars\", \"merging neutron stars\"]"
+    },
+    {
+        "kind":  "element",
+        "id":  "Pu",
+        "field":  "bulk.latticeConstantPm",
+        "corrected":  "618.3"
+    },
+    {
+        "kind":  "element",
+        "id":  "Pu",
+        "field":  "bulk.cPm",
+        "corrected":  "1096.3"
+    },
+    {
+        "kind":  "element",
+        "id":  "Am",
+        "field":  "bulk.cPm",
+        "corrected":  "1124.1"
+    },
+    {
+        "kind":  "element",
+        "id":  "Cm",
+        "field":  "bulk.cPm",
+        "corrected":  "1133.1"
+    },
+    {
+        "kind":  "element",
+        "id":  "Bk",
+        "field":  "bulk.cPm",
+        "corrected":  "1106.9"
+    },
+    {
+        "kind":  "element",
+        "id":  "Cf",
+        "field":  "bulk.cPm",
+        "corrected":  "1101.5"
+    },
+    {
+        "kind":  "element",
+        "id":  "U",
+        "field":  "electronAffinity",
+        "corrected":  "0.315"
+    },
+    {
+        "kind":  "element",
+        "id":  "Bk",
+        "field":  "summary",
+        "corrected":  "\"Berkelium is made only in milligram amounts in special reactors. Berkelium-249 was the target used to create tennessine.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Bk",
+        "field":  "appearance",
+        "corrected":  "\"Silvery metal; it is made only in milligram batches.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Hs",
+        "field":  "summary",
+        "corrected":  "\"Hassium is predicted to be one of the densest elements, about 25% denser than osmium. Its tetroxide, HsO4, behaves much like osmium tetroxide.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Fl",
+        "field":  "facts[0]",
+        "corrected":  "\"Its longest-lived confirmed isotope, flerovium-289, has a half-life of about 2 seconds, far longer than many lighter superheavy isotopes, a hint of the island of stability.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "white-phosphorus",
+        "field":  "pubchemCid",
+        "corrected":  "123286"
+    },
+    {
+        "kind":  "compound",
+        "id":  "hydrochloric-acid",
+        "field":  "facts[0]",
+        "corrected":  "\"Stomach acid is dilute hydrochloric acid; the stomach contents have a pH of about 1.5–3.5.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "ammonia",
+        "field":  "summary",
+        "corrected":  "\"Ammonia is the base of modern agriculture: about half the nitrogen in your body passed through a Haber–Bosch plant.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "carbonic-acid",
+        "field":  "state",
+        "corrected":  "\"aqueous\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "silver-bromide",
+        "field":  "occurrence",
+        "corrected":  "\"Occurs naturally as the mineral bromargyrite; usually made synthetically.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "americium-dioxide",
+        "field":  "formation",
+        "corrected":  "\"Am2(C2O4)3 + 2 O2 -\u003e 2 AmO2 + 6 CO2 (heating americium(III) oxalate in air)\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "cubic-zirconia",
+        "field":  "formation",
+        "corrected":  "\"ZrSiO4 + 4 NaOH -\u003e Na2ZrO3 + Na2SiO3 + 2 H2O (alkali fusion of zircon; the zirconate is then converted to ZrO2)\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "thoria",
+        "field":  "summary",
+        "corrected":  "\"Thoria is the highest-melting oxide known; mixed with 1% ceria it glows brightly in lantern mantles.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "ceria",
+        "field":  "pubchemCid",
+        "corrected":  "73963"
+    },
+    {
+        "kind":  "compound",
+        "id":  "strontium-titanate",
+        "field":  "facts[0]",
+        "corrected":  "\"Lightly electron-doped SrTiO3 becomes a superconductor below about 0.3 K.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "cassiterite",
+        "field":  "facts[0]",
+        "corrected":  "\"Bronze Age traders carried Cornish tin across Europe, often as smelted ingots.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "potassium-dichromate",
+        "field":  "structure.units[1].bonds[2]",
+        "corrected":  "[1, 3, 1.67]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "radium-chloride",
+        "field":  "formation",
+        "corrected":  "\"RaCO3 + 2 HCl -\u003e RaCl2 + CO2 + H2O (Curie turned radium-bearing sulfates into carbonates, dissolved them in HCl, then purified the chloride by fractional crystallization)\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "promethium-chloride",
+        "field":  "summary",
+        "corrected":  "\"Promethium chloride is a rare glowing salt of the only lanthanide with no stable isotopes.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "cobalt-chloride",
+        "field":  "facts[0]",
+        "corrected":  "\"Dry blue CoCl2 turns pink as it absorbs water, forming the hydrate CoCl2·6H2O.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "magnetite",
+        "field":  "facts[1]",
+        "corrected":  "\"Some bacteria use magnetite crystals to sense Earth\u0027s magnetic field, and some animals may too.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "sodium-pertechnetate",
+        "field":  "formation",
+        "corrected":  "\"99MoO4 2- -\u003e 99mTcO4- + e- (beta decay of molybdate in a generator; eluted with saline as NaTcO4)\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "silica",
+        "field":  "occurrence",
+        "corrected":  "\"One of the most common minerals in Earth\u0027s crust: quartz, sand, flint, opal.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "tungsten-carbide",
+        "field":  "occurrence",
+        "corrected":  "\"Almost all synthetic; it also occurs as the very rare natural mineral qusongite.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "praseodymium-oxide",
+        "field":  "pubchemCid",
+        "corrected":  "16211481"
+    },
+    {
+        "kind":  "compound",
+        "id":  "ybco",
+        "field":  "formation",
+        "corrected":  "\"Y2O3 + 4 BaCO3 + 6 CuO + 1/2 O2 -\u003e 2 YBa2Cu3O7 + 4 CO2 (sintered at about 950 °C in oxygen)\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "boron-trifluoride",
+        "field":  "bonding.types",
+        "corrected":  "[\"polar covalent\"]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "germane",
+        "field":  "formation",
+        "corrected":  "\"GeO2 + NaBH4 -\u003e GeH4 + NaBO2\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "phosphorus-pentoxide",
+        "field":  "pubchemCid",
+        "corrected":  "14812"
+    },
+    {
+        "kind":  "compound",
+        "id":  "arsine",
+        "field":  "bonding.types",
+        "corrected":  "[\"nonpolar covalent\"]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "krypton-difluoride",
+        "field":  "bonding.electronSharing",
+        "corrected":  "\"Krypton\u0027s electrons are held more tightly than xenon\u0027s, so almost only fluorine can pull them into bonds, and then weakly.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "krypton-difluoride",
+        "field":  "uses[0]",
+        "corrected":  "\"One of the strongest known oxidizing and fluorinating agents, used in research\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "argon-fluorohydride",
+        "field":  "facts[0]",
+        "corrected":  "\"It was the first neutral argon compound to be made and falls apart above about −246 °C.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "steel",
+        "field":  "aka[1]",
+        "corrected":  "\"plain carbon steel\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "nickel-tetracarbonyl",
+        "field":  "facts[0]",
+        "corrected":  "\"Discovered by Ludwig Mond in 1890, it was the first binary metal carbonyl known.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "tetrachloroaurate",
+        "field":  "facts[0]",
+        "corrected":  "\"Reducing it gently makes gold nanoparticles that look ruby red, as in gold ruby glass.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "tetraamminecopper",
+        "field":  "pubchemCid",
+        "corrected":  "61847"
+    },
+    {
+        "kind":  "compound",
+        "id":  "brass",
+        "field":  "structure.composition",
+        "corrected":  "[{\"el\":\"Cu\",\"fraction\":0.706},{\"el\":\"Zn\",\"fraction\":0.294}]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "terfenol-d",
+        "field":  "summary",
+        "corrected":  "\"Terfenol-D has the largest magnetostriction of any alloy at room temperature.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "methane",
+        "field":  "aka",
+        "corrected":  "[\"marsh gas\"]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "acetylene",
+        "field":  "meltingPointC",
+        "corrected":  "null"
+    },
+    {
+        "kind":  "compound",
+        "id":  "formic-acid",
+        "field":  "occurrence",
+        "corrected":  "\"Ant venom and stinging nettles.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "urea",
+        "field":  "summary",
+        "corrected":  "\"Wöhler\u0027s 1828 urea synthesis was a famous early case of making an organic compound from inorganic starting materials.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "atp",
+        "field":  "formation",
+        "corrected":  "\"ADP + phosphate -\u003e ATP + H2O (ATP synthase, driven by respiration)\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "thymine",
+        "field":  "occurrence",
+        "corrected":  "\"Mainly DNA; small amounts in tRNA as ribothymidine.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "retinol",
+        "field":  "facts[0]",
+        "corrected":  "\"Vision starts when one photon flips a cis double bond in retinal to trans.\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "lactic-acid",
+        "field":  "boilingPointC",
+        "corrected":  "null"
+    },
+    {
+        "kind":  "compound",
+        "id":  "lactic-acid",
+        "field":  "formation",
+        "corrected":  "\"Pyruvate + NADH + H+ -\u003e lactate + NAD+ (fermentation in muscles and bacteria)\""
+    },
+    {
+        "kind":  "compound",
+        "id":  "retinol",
+        "field":  "bonding.types",
+        "corrected":  "[\"nonpolar covalent\",\"polar covalent\",\"delocalized (aromatic or resonance)\"]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "potassium-dichromate",
+        "field":  "structure.units[1].bonds[3]",
+        "corrected":  "[1, 4, 1.67]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "potassium-dichromate",
+        "field":  "structure.units[1].bonds[4]",
+        "corrected":  "[1, 5, 1.67]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "potassium-dichromate",
+        "field":  "structure.units[1].bonds[5]",
+        "corrected":  "[2, 6, 1.67]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "potassium-dichromate",
+        "field":  "structure.units[1].bonds[6]",
+        "corrected":  "[2, 7, 1.67]"
+    },
+    {
+        "kind":  "compound",
+        "id":  "potassium-dichromate",
+        "field":  "structure.units[1].bonds[7]",
+        "corrected":  "[2, 8, 1.67]"
+    }
+]

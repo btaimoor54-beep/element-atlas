@@ -1,0 +1,632 @@
+[
+    {
+        "id":  "yellowcake",
+        "name":  "Triuranium octoxide (yellowcake)",
+        "formula":  "U3O8",
+        "aka":  [
+                    "yellowcake (when mixed with other uranium oxides)"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "U",
+                         "O"
+                     ],
+        "pubchemCid":  92028829,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "U5+",
+                                            "charge":  5,
+                                            "count":  2,
+                                            "el":  "U"
+                                        },
+                                        {
+                                            "label":  "U6+",
+                                            "charge":  6,
+                                            "count":  1,
+                                            "el":  "U"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  8,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "Mixed-valence oxide; real crystal is orthorhombic."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A mixed-valence oxide with uranium in two oxidation states.",
+                        "electronSharing":  "On average each uranium gives 16/3 electrons to oxygen; formally two are U5+ and one is U6+.",
+                        "geometry":  "Orthorhombic layered crystal",
+                        "bondLengths":  "U–O about 207–223 pm"
+                    },
+        "formation":  "3 UO2 + O2 -\u003e U3O8",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "The usual product of uranium mills; also in pitchblende.",
+        "uses":  [
+                     "Shipping and storing uranium",
+                     "Converted to UF6 for enrichment"
+                 ],
+        "facts":  [
+                      "Despite the name, modern yellowcake is usually dark green to black; the yellow color came from older ammonium diuranate products."
+                  ],
+        "hazards":  "Radioactive and toxic.",
+        "summary":  "U3O8 is the most stable uranium oxide and the form in which uranium ore concentrate is traded."
+    },
+    {
+        "id":  "rutile",
+        "name":  "Titanium dioxide (rutile)",
+        "formula":  "TiO2",
+        "aka":  [
+                    "titania",
+                    "titanium white"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Ti",
+                         "O"
+                     ],
+        "pubchemCid":  26042,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rutile",
+                          "a":  459.4,
+                          "c":  295.9,
+                          "u":  0.305,
+                          "cation":  "Ti",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Each Ti is surrounded by an octahedron of six O; each O by a triangle of three Ti.",
+                        "electronSharing":  "Titanium gives its four valence electrons toward oxygen, with significant covalent sharing.",
+                        "geometry":  "Rutile structure, 6:3",
+                        "bondLengths":  "Ti–O 195–198 pm"
+                    },
+        "formation":  "TiCl4 + O2 -\u003e TiO2 + 2 Cl2 (chloride process)",
+        "state":  "solid",
+        "meltingPointC":  1843,
+        "boilingPointC":  2972,
+        "occurrence":  "Minerals rutile, anatase and brookite.",
+        "uses":  [
+                     "White pigment in paint, paper, plastics and toothpaste",
+                     "Sunscreen",
+                     "Self-cleaning photocatalytic coatings"
+                 ],
+        "facts":  [
+                      "TiO2 has one of the highest refractive indices of any common material, which is why it is so opaque and white."
+                  ],
+        "hazards":  "Low toxicity; fine dust is a possible carcinogen when inhaled.",
+        "summary":  "Titanium dioxide is the brightest white pigment, found in most paints."
+    },
+    {
+        "id":  "cassiterite",
+        "name":  "Tin(IV) oxide (cassiterite)",
+        "formula":  "SnO2",
+        "aka":  [
+                    "cassiterite",
+                    "stannic oxide"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Sn",
+                         "O"
+                     ],
+        "pubchemCid":  16747781,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rutile",
+                          "a":  473.7,
+                          "c":  318.6,
+                          "u":  0.307,
+                          "cation":  "Sn",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Rutile structure: tin octahedrally surrounded by oxygen.",
+                        "electronSharing":  "Tin gives four electrons toward oxygen with partial covalent sharing.",
+                        "geometry":  "Rutile structure, 6:3",
+                        "bondLengths":  "Sn–O 205 pm"
+                    },
+        "formation":  "Sn + O2 -\u003e SnO2",
+        "state":  "solid",
+        "meltingPointC":  1630,
+        "boilingPointC":  null,
+        "occurrence":  "Cassiterite, the main tin ore.",
+        "uses":  [
+                     "Source of tin",
+                     "Transparent conductive coatings (fluorine-doped tin oxide)",
+                     "Gas sensors"
+                 ],
+        "facts":  [
+                      "Bronze Age traders shipped tin ore across Europe from Cornwall."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Cassiterite is the ore that made the Bronze Age possible."
+    },
+    {
+        "id":  "perovskite",
+        "name":  "Calcium titanate (perovskite)",
+        "formula":  "CaTiO3",
+        "aka":  [
+                    "perovskite"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Ca",
+                         "Ti",
+                         "O"
+                     ],
+        "pubchemCid":  162251,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "perovskite",
+                          "a":  384,
+                          "cation":  "Ca",
+                          "b":  "Ti",
+                          "anion":  "O",
+                          "note":  "Idealized cubic cell; real CaTiO3 is slightly distorted (orthorhombic)."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Ti at the center of an oxygen octahedron, Ca in the spaces between octahedra.",
+                        "electronSharing":  "Calcium gives two electrons and titanium four, all ending up on the three oxygens.",
+                        "geometry":  "Perovskite (ABX3)",
+                        "bondLengths":  "Ti–O 192 pm"
+                    },
+        "formation":  "CaCO3 + TiO2 -\u003e CaTiO3 + CO2",
+        "state":  "solid",
+        "meltingPointC":  1975,
+        "boilingPointC":  null,
+        "occurrence":  "Found in the Ural Mountains in 1839; rare in crust.",
+        "uses":  [
+                     "Gives its name to perovskite solar cells",
+                     "Model for minerals deep in Earth"
+                 ],
+        "facts":  [
+                      "The most abundant mineral in Earth\u0027s lower mantle, bridgmanite, has the perovskite structure."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Perovskite gives its name to one of the most important crystal structures in materials science."
+    },
+    {
+        "id":  "strontium-titanate",
+        "name":  "Strontium titanate",
+        "formula":  "SrTiO3",
+        "aka":  [
+                    "tausonite",
+                    "Fabulite"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Sr",
+                         "Ti",
+                         "O"
+                     ],
+        "pubchemCid":  82899,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "perovskite",
+                          "a":  390.5,
+                          "cation":  "Sr",
+                          "b":  "Ti",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "The textbook cubic perovskite.",
+                        "electronSharing":  "Strontium gives two electrons and titanium four to the oxygens.",
+                        "geometry":  "Cubic perovskite",
+                        "bondLengths":  "Ti–O 195 pm"
+                    },
+        "formation":  "SrCO3 + TiO2 -\u003e SrTiO3 + CO2",
+        "state":  "solid",
+        "meltingPointC":  2080,
+        "boilingPointC":  null,
+        "occurrence":  "Rare mineral tausonite; mostly synthetic.",
+        "uses":  [
+                     "Substrate for oxide electronics",
+                     "Diamond simulant (Fabulite)",
+                     "Superconductivity research"
+                 ],
+        "facts":  [
+                      "SrTiO3 becomes a superconductor below about 0.3 K."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "SrTiO3 is the classic cubic perovskite crystal."
+    },
+    {
+        "id":  "barium-titanate",
+        "name":  "Barium titanate",
+        "formula":  "BaTiO3",
+        "aka":  [
+
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Ba",
+                         "Ti",
+                         "O"
+                     ],
+        "pubchemCid":  159419,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "perovskite",
+                          "a":  400.6,
+                          "cation":  "Ba",
+                          "b":  "Ti",
+                          "anion":  "O",
+                          "note":  "Cubic form above 120 °C; slightly tetragonal at room temperature."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "A perovskite in which the Ti ion shifts slightly off-center, creating permanent electric dipoles.",
+                        "electronSharing":  "Barium gives two and titanium four electrons to oxygen; the off-center Ti makes the crystal ferroelectric.",
+                        "geometry":  "Perovskite (tetragonal at room temperature)",
+                        "bondLengths":  "Ti–O 186–216 pm"
+                    },
+        "formation":  "BaCO3 + TiO2 -\u003e BaTiO3 + CO2",
+        "state":  "solid",
+        "meltingPointC":  1625,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Multilayer ceramic capacitors (billions made each year)",
+                     "Piezoelectric sensors and transducers",
+                     "Thermistors"
+                 ],
+        "facts":  [
+                      "Every smartphone contains hundreds of tiny BaTiO3 capacitors."
+                  ],
+        "hazards":  "Toxic if swallowed (barium).",
+        "summary":  "Barium titanate\u0027s shifting titanium ions make it ferroelectric, perfect for capacitors."
+    },
+    {
+        "id":  "iridium-dioxide",
+        "name":  "Iridium(IV) oxide",
+        "formula":  "IrO2",
+        "aka":  [
+
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Ir",
+                         "O"
+                     ],
+        "pubchemCid":  82821,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rutile",
+                          "a":  449.8,
+                          "c":  315.4,
+                          "u":  0.308,
+                          "cation":  "Ir",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent",
+                                      "metallic"
+                                  ],
+                        "summary":  "Rutile structure, but metallic: its partly filled 5d band conducts electricity.",
+                        "electronSharing":  "Iridium gives four electrons toward oxygen; its remaining 5d electrons are shared through the crystal like a metal.",
+                        "geometry":  "Rutile structure, 6:3",
+                        "bondLengths":  "Ir–O 196–200 pm"
+                    },
+        "formation":  "Ir + O2 -\u003e IrO2 (heating iridium in air)",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Anode catalyst for splitting water in PEM electrolyzers",
+                     "Electrodes for chlorine production"
+                 ],
+        "facts":  [
+                      "IrO2 is one of the few catalysts that survive the harsh acid of green-hydrogen electrolyzers; it decomposes near 1,100 °C."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "IrO2 is a conductive oxide that catalyzes oxygen release in green-hydrogen production."
+    },
+    {
+        "id":  "calcite",
+        "name":  "Calcium carbonate (calcite, chalk)",
+        "formula":  "CaCO3",
+        "aka":  [
+                    "limestone",
+                    "chalk",
+                    "marble",
+                    "calcite",
+                    "aragonite"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Ca",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  10112,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Ca2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Ca"
+                                        },
+                                        {
+                                            "label":  "CO3 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "C",
+                                                          "shape":  "trigonal-planar",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "Ca2+ ions attract flat carbonate ions; inside carbonate, C and O share electrons.",
+                        "electronSharing":  "Calcium hands two electrons to the carbonate group. Within CO3 2−, carbon\u0027s bonds to three oxygens are equal, each about 1⅓ bonds, because a π pair is spread over all three (resonance).",
+                        "geometry":  "Carbonate: trigonal planar, 120°",
+                        "bondLengths":  "C–O 129 pm"
+                    },
+        "formation":  "Ca2+ + CO3 2- -\u003e CaCO3 (shells, coral, cave formations); CaO + CO2 -\u003e CaCO3",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Limestone, marble, chalk, seashells, coral reefs, stalactites.",
+        "uses":  [
+                     "Cement and building stone",
+                     "Antacids and calcium supplements",
+                     "Paper and plastic filler",
+                     "Blackboard chalk"
+                 ],
+        "facts":  [
+                      "A clear calcite crystal splits light in two, showing a double image (birefringence).",
+                      "It decomposes to lime and CO2 near 825 °C instead of melting."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Calcium carbonate builds shells, coral and whole mountains of limestone."
+    },
+    {
+        "id":  "gypsum",
+        "name":  "Calcium sulfate dihydrate (gypsum)",
+        "formula":  "CaSO4·2H2O",
+        "aka":  [
+                    "gypsum",
+                    "alabaster",
+                    "selenite"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Ca",
+                         "S",
+                         "O",
+                         "H"
+                     ],
+        "pubchemCid":  24928,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Ca2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Ca"
+                                        },
+                                        {
+                                            "label":  "SO4 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "S",
+                                                          "shape":  "tetrahedral",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.49,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.49,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.49,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.49,
+                                                                              "o":  1.5
+                                                                          }
+                                                                      ]
+                                                      }
+                                        },
+                                        {
+                                            "label":  "H2O",
+                                            "charge":  0,
+                                            "count":  2,
+                                            "vsepr":  {
+                                                          "center":  "O",
+                                                          "shape":  "bent",
+                                                          "angle":  104.5,
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.958
+                                                                          },
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.958
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit with its two waters of crystallization."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Ca2+ and SO4 2− ions with water molecules locked into the crystal.",
+                        "electronSharing":  "Calcium gives two electrons to the sulfate group. Water molecules bind to calcium through oxygen lone pairs and hydrogen-bond to sulfate.",
+                        "geometry":  "Sulfate: tetrahedral",
+                        "bondLengths":  "S–O 149 pm"
+                    },
+        "formation":  "Ca2+ + SO4 2- + 2 H2O -\u003e CaSO4·2H2O (evaporating seawater)",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Evaporite beds; giant crystals in Mexico\u0027s Naica cave.",
+        "uses":  [
+                     "Plasterboard (drywall)",
+                     "Plaster of Paris",
+                     "Cement setting regulator",
+                     "Soil conditioner"
+                 ],
+        "facts":  [
+                      "Heating gypsum to about 150 °C drives off water to make plaster of Paris, which sets hard when wetted.",
+                      "The Naica caves hold gypsum crystals over 11 m long."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Gypsum is the soft mineral in drywall and plaster casts."
+    },
+    {
+        "id":  "barium-sulfate",
+        "name":  "Barium sulfate",
+        "formula":  "BaSO4",
+        "aka":  [
+                    "barite",
+                    "baryte",
+                    "blanc fixe"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Ba",
+                         "S",
+                         "O"
+                     ],
+        "pubchemCid":  24414,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Ba2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Ba"
+                                        },
+                                        {
+                                            "label":  "SO4 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "S",
+                                                          "shape":  "tetrahedral",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ba2+ and SO4 2− ions packed so tightly that water can barely separate them.",
+                        "electronSharing":  "Barium gives two electrons to the sulfate group, whose four S–O bonds share the extra charge equally.",
+                        "geometry":  "Sulfate: tetrahedral",
+                        "bondLengths":  "S–O 148 pm"
+                    },
+        "formation":  "BaCl2 + Na2SO4 -\u003e BaSO4 + 2 NaCl",
+        "state":  "solid",
+        "meltingPointC":  1580,
+        "boilingPointC":  null,
+        "occurrence":  "The mineral barite.",
+        "uses":  [
+                     "X-ray contrast \u0027barium meal\u0027",
+                     "Weighting agent in oil-drilling mud",
+                     "White pigment and paper coating"
+                 ],
+        "facts":  [
+                      "It is safe to swallow because almost none of it dissolves, even in stomach acid."
+                  ],
+        "hazards":  "Insoluble and safe; soluble barium salts are toxic.",
+        "summary":  "Barium sulfate is dense, insoluble and opaque to X-rays."
+    }
+]

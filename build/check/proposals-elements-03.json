@@ -1,0 +1,101 @@
+[
+    {
+        "id":  "Cu",
+        "field":  "facts[1]",
+        "current":  "\"Copper is one of only two metals that are not grey or silvery; gold is the other.\"",
+        "corrected":  "\"Copper is one of only a few metals that are not grey or silvery; gold and caesium are the others.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia, Copper: \u0027one of a few metallic elements with a natural color other than gray or silver\u0027; caesium is a pale-gold metal (CRC Handbook, WebElements)",
+        "reason":  "Caesium is also a golden-coloured metal, so \u0027only two\u0027 is false."
+    },
+    {
+        "id":  "Fe",
+        "field":  "discovery.note",
+        "current":  "\"Iron from meteorites was used before 3000 BCE; smelting began around 1200 BCE (the Iron Age).\"",
+        "corrected":  "\"Iron from meteorites was used before 3000 BCE; smelting began by about 2000 BCE and became widespread around 1200 BCE (the Iron Age).\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia, Ferrous metallurgy (earliest smelting evidence in the 3rd millennium BC; wrought iron rare until the 12th century BC)",
+        "reason":  "Iron smelting began well before 1200 BCE. 1200 BCE marks when iron became common (the start of the Iron Age), not when smelting began."
+    },
+    {
+        "id":  "Fe",
+        "field":  "discovery.note",
+        "current":  "Iron from meteorites was used before 3000 BCE; smelting began around 1200 BCE (the Iron Age).",
+        "corrected":  "\"Iron from meteorites was used before 3000 BCE; smelting began in the Bronze Age and spread widely around 1200 BCE (the Iron Age).\"",
+        "confidence":  "high",
+        "source":  "Wikipedia, Ferrous metallurgy: earliest smelting evidence is from the Middle East in the 3rd millennium BC; the Iron Age is defined by the widespread replacement of bronze, from about 1200 BC",
+        "reason":  "Iron smelting started roughly a thousand years before 1200 BCE. The Iron Age marks when iron became widespread, not when smelting was invented."
+    },
+    {
+        "id":  "Cu",
+        "field":  "facts[1]",
+        "current":  "Copper is one of only two metals that are not grey or silvery; gold is the other.",
+        "corrected":  "\"Copper is one of only a few metals that are not grey or silvery; gold and caesium are others.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia, Copper (\u0027one of a few metallic elements with a natural color other than gray or silver\u0027); Wikipedia, Caesium (\u0027silvery-golden\u0027, \u0027appears yellowish\u0027)",
+        "reason":  "Caesium is also visibly golden, so \u0027only two\u0027 is false. The usual statement names copper, gold and caesium."
+    },
+    {
+        "id":  "Cu",
+        "field":  "origin",
+        "current":  "[\"exploding massive stars\"]",
+        "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]",
+        "confidence":  "medium",
+        "source":  "Wikimedia Commons, Nucleosynthesis_periodic_table.svg (CMG Lee, from Jennifer Johnson\u0027s data): Cu tooltip \u002742% Exploding massive stars, 58% Exploding white dwarfs\u0027",
+        "reason":  "Johnson\u0027s chart gives copper a majority share from exploding white dwarfs. The entry lists only massive stars, although V and Cr list both sources even with minor shares of about 23-25%. Confidence is medium because I could check only the 2017-data rendition, not the 2019 Science figure itself."
+    },
+    {
+        "id":  "Cu",
+        "field":  "originNote",
+        "current":  "Made by neutron capture in massive stars.",
+        "corrected":  "\"Made in massive stars and in white-dwarf (type Ia) supernovae.\"",
+        "confidence":  "medium",
+        "source":  "Wikimedia Commons Nucleosynthesis_periodic_table.svg based on Johnson\u0027s data (Cu 42% massive stars, 58% white dwarfs)",
+        "reason":  "The note should match the corrected origin list. As written it implies massive stars are the only source, which contradicts the chart convention."
+    },
+    {
+        "id":  "Zn",
+        "field":  "origin",
+        "current":  "[\"exploding massive stars\"]",
+        "corrected":  "[\"exploding white dwarfs\", \"exploding massive stars\"]",
+        "confidence":  "medium",
+        "source":  "Wikimedia Commons, Nucleosynthesis_periodic_table.svg (CMG Lee, from Jennifer Johnson\u0027s data): Zn tooltip \u002746% Exploding massive stars, 54% Exploding white dwarfs\u0027",
+        "reason":  "Johnson\u0027s chart gives zinc a slight majority from exploding white dwarfs, which the entry omits. Confidence is medium because the check was against the 2017-data rendition of the chart."
+    },
+    {
+        "id":  "Zn",
+        "field":  "originNote",
+        "current":  "Made in massive stars and their supernovae.",
+        "corrected":  "\"Made in massive stars and in white-dwarf (type Ia) supernovae.\"",
+        "confidence":  "medium",
+        "source":  "Wikimedia Commons Nucleosynthesis_periodic_table.svg based on Johnson\u0027s data (Zn 46% massive stars, 54% white dwarfs)",
+        "reason":  "Matches the corrected origin list. Under the chart convention, the current note leaves out the larger contributor."
+    },
+    {
+        "id":  "Fe",
+        "field":  "elementalForm.allotropes[0].note",
+        "current":  "Body-centered cubic, magnetic, stable below 912 °C.",
+        "corrected":  "\"Body-centered cubic, stable below 912 °C; magnetic below 770 °C.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia, Allotropes of iron (alpha iron loses ferromagnetism at the Curie point, 770 °C)",
+        "reason":  "Alpha iron is not magnetic over its whole stability range. Between 770 and 912 °C it is paramagnetic, so the note misleads."
+    },
+    {
+        "id":  "Co",
+        "field":  "elementalForm.allotropes",
+        "current":  "[]",
+        "corrected":  "[{\"name\": \"Hexagonal cobalt\", \"note\": \"Hexagonal close-packed, stable at room temperature.\"}, {\"name\": \"Cubic cobalt\", \"note\": \"Face-centered cubic, stable above about 420 °C.\"}]",
+        "confidence":  "medium",
+        "source":  "Wikipedia, Cobalt (two crystal structures: hcp and fcc, transition around 417-450 °C); CRC Handbook",
+        "reason":  "Cobalt\u0027s hcp/fcc allotropy is well established. Ti and Fe list their high-temperature forms, but cobalt\u0027s list is empty."
+    },
+    {
+        "id":  "Mn",
+        "field":  "elementalForm.allotropes",
+        "current":  "[{\"name\": \"Alpha manganese\", \"note\": \"Complex cubic cell with 58 atoms, stable at room temperature.\"}]",
+        "corrected":  "[{\"name\": \"Alpha manganese\", \"note\": \"Complex cubic cell with 58 atoms, stable at room temperature.\"}, {\"name\": \"Beta manganese\", \"note\": \"Complex cubic cell with 20 atoms, 727–1095 °C.\"}, {\"name\": \"Gamma manganese\", \"note\": \"Face-centered cubic, 1095–1133 °C.\"}, {\"name\": \"Delta manganese\", \"note\": \"Body-centered cubic, 1133 °C up to melting at 1246 °C.\"}]",
+        "confidence":  "medium",
+        "source":  "Wikipedia, Manganese (four allotropes: alpha, beta, gamma, delta); CRC Handbook",
+        "reason":  "Manganese has four well-known allotropes, but only alpha is listed. The other entries list high-temperature forms (Ti, Fe), so this list is incomplete."
+    }
+]

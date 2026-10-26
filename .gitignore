@@ -1,0 +1,13 @@
+# the built website: made from atlas/ by build/make-site.ps1 (locally, and by GitHub when publishing)
+site/
+
+# downloaded source data, original photo downloads and caches (rebuildable)
+build/raw/
+build/img/
+build/data-backup/
+build/check/progress*.json
+
+# editor and OS files
+.vscode/
+Thumbs.db
+desktop.ini

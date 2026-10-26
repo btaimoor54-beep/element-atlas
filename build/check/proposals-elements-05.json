@@ -1,0 +1,83 @@
+[
+    {
+        "id":  "In",
+        "field":  "electronAffinity",
+        "current":  "0.3",
+        "corrected":  "0.384",
+        "confidence":  "high",
+        "source":  "Walter et al., Phys. Rev. A 2010 (laser photodetachment), 0.38392(6) eV; Wikipedia Electron affinity (data page)",
+        "reason":  "0.3 eV is an outdated estimate. The measured electron affinity of indium is 0.384 eV, so the current value is about 22% too low."
+    },
+    {
+        "id":  "Sn",
+        "field":  "electronAffinity",
+        "current":  "1.2",
+        "corrected":  "1.112",
+        "confidence":  "high",
+        "source":  "Wikipedia Electron affinity (data page): 1.112070(2) eV / 107.2984 kJ/mol; WebElements 107.3 kJ/mol",
+        "reason":  "The measured electron affinity of tin is 1.112 eV. The rounded 1.2 is about 8% too high, which is outside tolerance."
+    },
+    {
+        "id":  "Rh",
+        "field":  "isotopes.radioactive[0].halfLife",
+        "current":  "\"3.3 years\"",
+        "corrected":  "\"4.07 years\"",
+        "confidence":  "high",
+        "source":  "NUBASE2020 via Wikipedia Isotopes of rhodium (101Rh 4.07(5) y; 102mRh 3.742 y)",
+        "reason":  "Rh-101 has a half-life of 4.07 years. The 3.3-year value is old, and it would wrongly make Rh-101 shorter-lived than Rh-102m (3.742 y), when Rh-101 is in fact the longest-lived rhodium radioisotope."
+    },
+    {
+        "id":  "Tc",
+        "field":  "ionizationEnergy",
+        "current":  "7.28",
+        "corrected":  "7.119",
+        "confidence":  "medium",
+        "source":  "NIST Atomic Spectra Database ionization energies: Tc I 7.11938(3) eV; Mattolat et al., Phys. Rev. A 81, 052513 (2010)",
+        "reason":  "7.28 eV (58,700 cm-1) is the 1950s value, which a 2010 resonance-ionization measurement replaced. NIST ASD now gives 7.119 eV, so the current value is about 2.3% too high."
+    },
+    {
+        "id":  "Ag",
+        "field":  "summary",
+        "current":  "\"Silver conducts electricity and heat better than any other element and reflects visible light best of all metals. Silver ions kill bacteria.\"",
+        "corrected":  "\"Silver conducts electricity better than any other element and heat better than any other metal, and it reflects visible light best of all metals. Silver ions kill bacteria.\"",
+        "confidence":  "medium",
+        "source":  "CRC Handbook thermal conductivities: Ag about 429 W/(m·K); diamond (carbon) about 2000 W/(m·K)",
+        "reason":  "Silver has the highest electrical conductivity of any element. Its thermal conductivity is the highest only among metals, because diamond (carbon) conducts heat roughly five times better, so \u0027heat better than any other element\u0027 is false."
+    },
+    {
+        "id":  "Ag",
+        "field":  "summary",
+        "current":  "Silver conducts electricity and heat better than any other element and reflects visible light best of all metals. Silver ions kill bacteria.",
+        "corrected":  "\"Silver conducts electricity better than any other element and heat better than any other metal, and it reflects visible light best of all metals. Silver ions kill bacteria.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia Silver (lead: highest electrical conductivity, thermal conductivity and reflectivity \u0027of any metal\u0027); CRC Handbook thermal conductivities (Ag about 429 W/m·K; diamond about 2000 W/m·K)",
+        "reason":  "Silver does have the highest electrical conductivity of any element. Carbon as diamond conducts heat about five times better than silver, though, so \u0027heat better than any other element\u0027 is false. It is true only among metals."
+    },
+    {
+        "id":  "In",
+        "field":  "discovery.by",
+        "current":  "Ferdinand Reich; Hieronymous Theodor Richter",
+        "corrected":  "\"Ferdinand Reich; Hieronymus Theodor Richter\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia article \u0027Hieronymus Theodor Richter\u0027; Wikipedia Indium, History section",
+        "reason":  "Richter\u0027s first name is misspelled. The German chemist (1824-1898) was Hieronymus Theodor Richter. \u0027Hieronymous\u0027 is a common misspelling, and Wikipedia\u0027s own Indium article uses both spellings."
+    },
+    {
+        "id":  "In",
+        "field":  "facts[0]",
+        "current":  "Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals slip.",
+        "corrected":  "\"Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals suddenly twin.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia Indium (crackling sound \u0027due to crystal twinning\u0027); same explanation as for tin cry",
+        "reason":  "The cry comes from deformation twinning, where parts of a crystal suddenly flip into a mirror-image orientation. It does not come from slip (dislocation glide), which is a different and quiet deformation mechanism. A fact that has to be strictly true should not name the wrong mechanism."
+    },
+    {
+        "id":  "Nb",
+        "field":  "discovery.note",
+        "current":  "Named columbium; confused with tantalum until Heinrich Rose separated them in 1844.",
+        "corrected":  "\"Named columbium; confused with tantalum until Heinrich Rose showed in 1844 that it was a different element.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia Niobium, History section; RSC periodic table (niobium)",
+        "reason":  "Rose did not separate niobium from tantalum. He showed that tantalite held a second element, which he called niobium. He also wrongly claimed a third element, pelopium. Blomstrand showed the difference unequivocally in 1864, and Marignac worked out the actual separation, by fractional crystallization, in 1864-1866. Sources give 1844 or 1846 for Rose\u0027s work, so the year can stay."
+    }
+]

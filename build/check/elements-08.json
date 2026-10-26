@@ -1,0 +1,1029 @@
+[
+    {
+        "z":  71,
+        "symbol":  "Lu",
+        "name":  "Lutetium",
+        "altName":  null,
+        "atomicMass":  "174.9667",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d1 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.27,
+        "ionizationEnergy":  5.426,
+        "electronAffinity":  null,
+        "covalentRadius":  187,
+        "vdwRadius":  221,
+        "meltingPoint":  1925,
+        "boilingPoint":  3675,
+        "density":  9.84,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1907",
+                          "by":  "Georges Urbain; Carl Auer von Welsbach; Charles James",
+                          "note":  "Three chemists separated it from ytterbia independently."
+                      },
+        "nameOrigin":  "Lutetia, the Latin name of Paris.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  175,
+                                            "abundance":  97.401
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  176,
+                                                 "halfLife":  "3.76×10^10 years",
+                                                 "note":  "2.599% of natural lutetium; used to date meteorites."
+                                             },
+                                             {
+                                                 "A":  177,
+                                                 "halfLife":  "6.65 days",
+                                                 "note":  "Used in targeted prostate and neuroendocrine cancer therapy."
+                                             }
+                                         ],
+                         "displayA":  175
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Lu",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Lutetium (4f14 5d1 6s2) shares three valence electrons; the lanthanide contraction makes it the densest and hardest lanthanide.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  350.5,
+                     "cPm":  554.9,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  0.8,
+        "appearance":  "Silvery-white, hard metal.",
+        "summary":  "Lutetium is the last lanthanide. Lutetium-177 is used in modern targeted radiotherapy for prostate cancer.",
+        "uses":  [
+                     "Lutetium-177 cancer therapy",
+                     "PET scanner crystals (LYSO)",
+                     "Petroleum cracking catalysts"
+                 ],
+        "facts":  [
+                      "A 2021 IUPAC project report recommends placing lutetium, not lanthanum, below yttrium in group 3."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#00AB24"
+    },
+    {
+        "z":  72,
+        "symbol":  "Hf",
+        "name":  "Hafnium",
+        "altName":  null,
+        "atomicMass":  "178.49",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  4,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d2 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.825,
+        "electronAffinity":  null,
+        "covalentRadius":  175,
+        "vdwRadius":  212,
+        "meltingPoint":  2506,
+        "boilingPoint":  4876,
+        "density":  13.31,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1923",
+                          "by":  "Dirk Coster; George de Hevesy",
+                          "note":  "Found by X-ray spectroscopy in zirconium ore in Copenhagen, guided by Bohr\u0027s atomic theory."
+                      },
+        "nameOrigin":  "Latin Hafnia, Copenhagen.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  176,
+                                            "abundance":  5.26
+                                        },
+                                        {
+                                            "A":  177,
+                                            "abundance":  18.60
+                                        },
+                                        {
+                                            "A":  178,
+                                            "abundance":  27.28
+                                        },
+                                        {
+                                            "A":  179,
+                                            "abundance":  13.62
+                                        },
+                                        {
+                                            "A":  180,
+                                            "abundance":  35.08
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  174,
+                                                 "halfLife":  "7×10^16 years",
+                                                 "note":  "0.16% of natural hafnium."
+                                             },
+                                             {
+                                                 "A":  "178m2",
+                                                 "halfLife":  "31 years",
+                                                 "note":  "A famous long-lived nuclear isomer."
+                                             },
+                                             {
+                                                 "A":  182,
+                                                 "halfLife":  "8.9 million years",
+                                                 "note":  "Used to date the formation of planetary cores."
+                                             }
+                                         ],
+                         "displayA":  180
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Hf",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Hafnium shares four valence electrons (5d2 6s2). The lanthanide contraction makes it almost the same size as zirconium, so the two are very hard to separate.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  319.5,
+                     "cPm":  505.1,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  3,
+        "appearance":  "Lustrous, silvery-grey metal.",
+        "summary":  "Hafnium is a near-twin of zirconium but absorbs neutrons strongly. Hafnium oxide insulating layers made modern smaller transistors possible.",
+        "uses":  [
+                     "High-k dielectric (HfO2) in computer chips",
+                     "Nuclear reactor control rods",
+                     "Superalloys",
+                     "Plasma-cutting electrodes"
+                 ],
+        "facts":  [
+                      "Hafnium (1923) was the second-to-last stable element to be discovered; only rhenium (1925) came later."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; powder is flammable.",
+        "color":  "#4DC2FF"
+    },
+    {
+        "z":  73,
+        "symbol":  "Ta",
+        "name":  "Tantalum",
+        "altName":  null,
+        "atomicMass":  "180.9479",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  5,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d3 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.5,
+        "ionizationEnergy":  7.89,
+        "electronAffinity":  0.322,
+        "covalentRadius":  170,
+        "vdwRadius":  217,
+        "meltingPoint":  3290,
+        "boilingPoint":  5731,
+        "density":  16.69,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                5
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1802",
+                          "by":  "Anders Gustaf Ekeberg",
+                          "note":  "Found in minerals from Finland and Sweden; long confused with niobium."
+                      },
+        "nameOrigin":  "Tantalus of Greek myth, tormented in water he could never drink: tantalum oxide does not absorb acid.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  181,
+                                            "abundance":  99.988
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  "180m",
+                                                 "halfLife":  "over 10^15 years (never observed to decay)",
+                                                 "note":  "0.012%: the rarest naturally occurring nuclide and the only natural nuclear isomer."
+                                             },
+                                             {
+                                                 "A":  182,
+                                                 "halfLife":  "114 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  181
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ta",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Tantalum shares five valence electrons in a strong body-centered cubic metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  330.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  2,
+        "appearance":  "Dense, blue-grey, very hard metal.",
+        "summary":  "Tantalum is extremely corrosion-resistant and forms a tough oxide layer, ideal for tiny high-capacity capacitors in phones and laptops.",
+        "uses":  [
+                     "Capacitors in electronics",
+                     "Surgical implants",
+                     "Jet-engine superalloys",
+                     "Chemical-plant linings"
+                 ],
+        "facts":  [
+                      "Tantalum-180m is the only nuclide found in nature in a long-lived excited state."
+                  ],
+        "biology":  "None known; very well tolerated by the body.",
+        "hazards":  "Low toxicity.",
+        "color":  "#4DA6FF"
+    },
+    {
+        "z":  74,
+        "symbol":  "W",
+        "name":  "Tungsten",
+        "altName":  null,
+        "atomicMass":  "183.84",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  6,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d4 6s2",
+        "configPredicted":  false,
+        "electronegativity":  2.36,
+        "ionizationEnergy":  7.98,
+        "electronAffinity":  0.815,
+        "covalentRadius":  162,
+        "vdwRadius":  210,
+        "meltingPoint":  3695,
+        "boilingPoint":  5828,
+        "density":  19.25,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                6
+                            ],
+        "otherOxidationStates":  [
+                                     2,
+                                     3,
+                                     4,
+                                     5
+                                 ],
+        "discovery":  {
+                          "year":  "1783",
+                          "by":  "Juan José Elhuyar; Fausto Elhuyar",
+                          "note":  "The brothers reduced tungstic acid with charcoal."
+                      },
+        "nameOrigin":  "Swedish tung sten, heavy stone; symbol W from wolfram.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  182,
+                                            "abundance":  26.50
+                                        },
+                                        {
+                                            "A":  183,
+                                            "abundance":  14.31
+                                        },
+                                        {
+                                            "A":  184,
+                                            "abundance":  30.64
+                                        },
+                                        {
+                                            "A":  186,
+                                            "abundance":  28.43
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  180,
+                                                 "halfLife":  "1.8×10^18 years",
+                                                 "note":  "0.12% of natural tungsten."
+                                             }
+                                         ],
+                         "displayA":  184
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "W",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Tungsten\u0027s six valence electrons fill its bonding d states almost exactly, giving the strongest metallic bonding of any element and the highest melting point of any metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  316.5,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  1.25,
+        "appearance":  "Steel-grey to white, very dense metal.",
+        "summary":  "Tungsten has the highest melting point of all metals, 3,422 °C. That is why it was used for light-bulb filaments.",
+        "uses":  [
+                     "Tungsten carbide cutting tools and drill bits",
+                     "Light-bulb filaments and X-ray targets",
+                     "Heavy alloys and counterweights",
+                     "Welding electrodes"
+                 ],
+        "facts":  [
+                      "Tungsten is about as dense as gold."
+                  ],
+        "biology":  "Used by a few heat-loving bacteria; not essential for humans.",
+        "hazards":  "Low toxicity.",
+        "color":  "#2194D6"
+    },
+    {
+        "z":  75,
+        "symbol":  "Re",
+        "name":  "Rhenium",
+        "altName":  null,
+        "atomicMass":  "186.207",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  7,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d5 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.9,
+        "ionizationEnergy":  7.88,
+        "electronAffinity":  0.15,
+        "covalentRadius":  151,
+        "vdwRadius":  217,
+        "meltingPoint":  3459,
+        "boilingPoint":  5869,
+        "density":  21.02,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                7,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     6,
+                                     3
+                                 ],
+        "discovery":  {
+                          "year":  "1925",
+                          "by":  "Walter Noddack; Ida Tacke; Otto Berg",
+                          "note":  "Found by X-ray spectroscopy in platinum ores and gadolinite."
+                      },
+        "nameOrigin":  "Latin Rhenus, the Rhine.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  185,
+                                            "abundance":  37.40
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  187,
+                                                 "halfLife":  "4.12×10^10 years",
+                                                 "note":  "62.60% of natural rhenium; used in rhenium-osmium dating."
+                                             },
+                                             {
+                                                 "A":  188,
+                                                 "halfLife":  "17 hours",
+                                                 "note":  "Used in cancer therapy."
+                                             }
+                                         ],
+                         "displayA":  187
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Re",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Rhenium shares seven valence electrons in a dense hexagonal metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  276.1,
+                     "cPm":  445.6,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  0.0007,
+        "appearance":  "Dense, silvery-grey metal.",
+        "summary":  "Rhenium was the last stable element to be discovered. It has the third highest melting point of any element and is vital to jet-engine turbine blades.",
+        "uses":  [
+                     "Nickel superalloys for jet-engine blades",
+                     "Platinum-rhenium catalysts for high-octane petrol",
+                     "Thermocouples and filaments"
+                 ],
+        "facts":  [
+                      "Most natural rhenium is slightly radioactive rhenium-187."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#267DAB"
+    },
+    {
+        "z":  76,
+        "symbol":  "Os",
+        "name":  "Osmium",
+        "altName":  null,
+        "atomicMass":  "190.23",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  8,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d6 6s2",
+        "configPredicted":  false,
+        "electronegativity":  2.2,
+        "ionizationEnergy":  8.7,
+        "electronAffinity":  1.1,
+        "covalentRadius":  144,
+        "vdwRadius":  216,
+        "meltingPoint":  3306,
+        "boilingPoint":  5285,
+        "density":  22.59,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4,
+                                8
+                            ],
+        "otherOxidationStates":  [
+                                     2,
+                                     3,
+                                     6
+                                 ],
+        "discovery":  {
+                          "year":  "1803",
+                          "by":  "Smithson Tennant",
+                          "note":  "Found in the black residue left when platinum ore was dissolved in aqua regia."
+                      },
+        "nameOrigin":  "Greek osme, smell, for the pungent osmium tetroxide.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  187,
+                                            "abundance":  1.96
+                                        },
+                                        {
+                                            "A":  188,
+                                            "abundance":  13.24
+                                        },
+                                        {
+                                            "A":  189,
+                                            "abundance":  16.15
+                                        },
+                                        {
+                                            "A":  190,
+                                            "abundance":  26.26
+                                        },
+                                        {
+                                            "A":  192,
+                                            "abundance":  40.78
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  184,
+                                                 "halfLife":  "over 5.6×10^13 years",
+                                                 "note":  "0.02% of natural osmium."
+                                             },
+                                             {
+                                                 "A":  186,
+                                                 "halfLife":  "2.0×10^15 years",
+                                                 "note":  "1.59% of natural osmium."
+                                             }
+                                         ],
+                         "displayA":  192
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Os",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Osmium\u0027s eight valence electrons and the lanthanide contraction pack its atoms extremely tightly.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  273.4,
+                     "cPm":  431.7,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  0.0015,
+        "appearance":  "Hard, brittle, bluish-white metal.",
+        "summary":  "Osmium is the densest naturally occurring element, at 22.59 g/cm³. A cube 10 cm on a side would weigh about 22.6 kg.",
+        "uses":  [
+                     "Hard alloys for fountain-pen tips and electrical contacts",
+                     "Osmium tetroxide stain for electron microscopy",
+                     "Catalysts"
+                 ],
+        "facts":  [
+                      "Osmium and iridium are so close in density that which is densest depends on how it is measured; osmium usually wins."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Osmium tetroxide is highly toxic and can blind.",
+        "color":  "#266696"
+    },
+    {
+        "z":  77,
+        "symbol":  "Ir",
+        "name":  "Iridium",
+        "altName":  null,
+        "atomicMass":  "192.22",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  9,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d7 6s2",
+        "configPredicted":  false,
+        "electronegativity":  2.2,
+        "ionizationEnergy":  9.1,
+        "electronAffinity":  1.565,
+        "covalentRadius":  141,
+        "vdwRadius":  202,
+        "meltingPoint":  2719,
+        "boilingPoint":  4701,
+        "density":  22.56,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     1,
+                                     6
+                                 ],
+        "discovery":  {
+                          "year":  "1803",
+                          "by":  "Smithson Tennant",
+                          "note":  "Found together with osmium in platinum residues."
+                      },
+        "nameOrigin":  "Greek iris, rainbow, for the many colors of its salts.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  191,
+                                            "abundance":  37.3
+                                        },
+                                        {
+                                            "A":  193,
+                                            "abundance":  62.7
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  192,
+                                                 "halfLife":  "73.8 days",
+                                                 "note":  "Gamma source for radiography and brachytherapy."
+                                             }
+                                         ],
+                         "displayA":  193
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ir",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Iridium shares 5d and 6s electrons in a very dense, very hard face-centered cubic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  383.9,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by rapid neutron capture.",
+        "crustAbundancePpm":  0.001,
+        "appearance":  "Hard, brittle, silvery-white metal.",
+        "summary":  "Iridium is the most corrosion-resistant metal. A thin layer rich in iridium, found worldwide in 66-million-year-old rocks, points to the asteroid impact that ended the age of dinosaurs.",
+        "uses":  [
+                     "Spark-plug tips",
+                     "Crucibles for growing crystals",
+                     "Iridium-192 radiography",
+                     "Standard meter and kilogram alloys (platinum-iridium)"
+                 ],
+        "facts":  [
+                      "The old international prototype kilogram was made of 90% platinum and 10% iridium."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity as metal.",
+        "color":  "#175487"
+    },
+    {
+        "z":  78,
+        "symbol":  "Pt",
+        "name":  "Platinum",
+        "altName":  null,
+        "atomicMass":  "195.08",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  10,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d9 6s1",
+        "configPredicted":  false,
+        "electronegativity":  2.28,
+        "ionizationEnergy":  9,
+        "electronAffinity":  2.128,
+        "covalentRadius":  136,
+        "vdwRadius":  209,
+        "meltingPoint":  2041.4,
+        "boilingPoint":  4098,
+        "density":  21.45,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2,
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1748",
+                          "by":  "Antonio de Ulloa (described); used earlier in pre-Columbian South America",
+                          "note":  "Ulloa described it from Colombia; pre-Columbian peoples had already worked it."
+                      },
+        "nameOrigin":  "Spanish platina, little silver.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  192,
+                                            "abundance":  0.782
+                                        },
+                                        {
+                                            "A":  194,
+                                            "abundance":  32.86
+                                        },
+                                        {
+                                            "A":  195,
+                                            "abundance":  33.78
+                                        },
+                                        {
+                                            "A":  196,
+                                            "abundance":  25.21
+                                        },
+                                        {
+                                            "A":  198,
+                                            "abundance":  7.36
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  190,
+                                                 "halfLife":  "4.8×10^11 years",
+                                                 "note":  "0.012% of natural platinum."
+                                             }
+                                         ],
+                         "displayA":  195
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Pt",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Platinum (5d9 6s1) forms a dense, unreactive face-centered cubic metal whose surface is an outstanding catalyst.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  392.4,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by rapid neutron capture.",
+        "crustAbundancePpm":  0.005,
+        "appearance":  "Heavy, silvery-white, untarnishing metal.",
+        "summary":  "Platinum is a rare, dense, unreactive metal and one of the most important catalysts, from car exhausts to fuel cells. Platinum compounds such as cisplatin treat cancer.",
+        "uses":  [
+                     "Catalytic converters",
+                     "Fuel-cell and chemical catalysts",
+                     "Jewelry",
+                     "Cisplatin chemotherapy",
+                     "Laboratory electrodes and thermometers"
+                 ],
+        "facts":  [
+                      "Platinum does not tarnish even when heated red-hot in air.",
+                      "Catalytic converters spread platinum as nanoparticles so as much of its surface as possible touches the exhaust."
+                  ],
+        "biology":  "None; some platinum compounds are anticancer drugs.",
+        "hazards":  "Metal is low-toxicity; some platinum salts cause allergies.",
+        "color":  "#D0D0E0"
+    },
+    {
+        "z":  79,
+        "symbol":  "Au",
+        "name":  "Gold",
+        "altName":  null,
+        "atomicMass":  "196.97",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  11,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s1",
+        "configPredicted":  false,
+        "electronegativity":  2.54,
+        "ionizationEnergy":  9.226,
+        "electronAffinity":  2.309,
+        "covalentRadius":  136,
+        "vdwRadius":  166,
+        "meltingPoint":  1337.33,
+        "boilingPoint":  3129,
+        "density":  19.3,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Worked since at least 4000 BCE."
+                      },
+        "nameOrigin":  "Anglo-Saxon gold; symbol Au from Latin aurum.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  197,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  198,
+                                                 "halfLife":  "2.7 days",
+                                                 "note":  "Used in cancer therapy."
+                                             }
+                                         ],
+                         "displayA":  197
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Au",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Gold (5d10 6s1) shares its 6s electron in a metallic sea. Relativistic effects pull the 6s electron inward, which shifts how gold absorbs light and gives it its yellow color.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  407.8,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by rapid neutron capture, much of it in neutron-star collisions like the one seen in 2017.",
+        "crustAbundancePpm":  0.004,
+        "appearance":  "Bright yellow, soft, untarnishing metal.",
+        "summary":  "Gold resists corrosion and is beautifully yellow because of relativistic effects on its electrons. Much of it was forged when neutron stars collided.",
+        "uses":  [
+                     "Jewelry and investment",
+                     "Electronics contacts",
+                     "Dentistry",
+                     "Spacecraft visors and heat shields"
+                 ],
+        "facts":  [
+                      "One gram of gold can be beaten into a sheet of about 1 m².",
+                      "All the gold ever mined would fit in a cube about 22 m on a side."
+                  ],
+        "biology":  "None; some gold compounds were once used to treat arthritis.",
+        "hazards":  "Metal is non-toxic.",
+        "color":  "#FFD123"
+    },
+    {
+        "z":  80,
+        "symbol":  "Hg",
+        "name":  "Mercury",
+        "altName":  null,
+        "atomicMass":  "200.59",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  12,
+        "period":  6,
+        "block":  "d",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s2",
+        "configPredicted":  false,
+        "electronegativity":  2,
+        "ionizationEnergy":  10.438,
+        "electronAffinity":  null,
+        "covalentRadius":  132,
+        "vdwRadius":  209,
+        "meltingPoint":  234.32,
+        "boilingPoint":  629.88,
+        "density":  13.534,
+        "state":  "liquid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2,
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Found in Egyptian tombs from about 1500 BCE."
+                      },
+        "nameOrigin":  "The planet and Roman god Mercury; symbol Hg from Greek hydrargyrum, water-silver.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  196,
+                                            "abundance":  0.15
+                                        },
+                                        {
+                                            "A":  198,
+                                            "abundance":  9.97
+                                        },
+                                        {
+                                            "A":  199,
+                                            "abundance":  16.87
+                                        },
+                                        {
+                                            "A":  200,
+                                            "abundance":  23.10
+                                        },
+                                        {
+                                            "A":  201,
+                                            "abundance":  13.18
+                                        },
+                                        {
+                                            "A":  202,
+                                            "abundance":  29.86
+                                        },
+                                        {
+                                            "A":  204,
+                                            "abundance":  6.87
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  194,
+                                                 "halfLife":  "444 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  202
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Hg",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Mercury\u0027s 6s electrons are held so tightly (a relativistic effect) that they barely join the electron sea. The bonding is so weak that mercury is liquid at room temperature.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Rhombohedral (solid below −39 °C)",
+                     "lattice":  "rhombohedral",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  300.5,
+                     "cPm":  null,
+                     "note":  "Drawn as a simplified close-packed lattice."
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  0.085,
+        "appearance":  "Shiny, silvery liquid metal.",
+        "summary":  "Mercury is the only metal that is liquid at room temperature. Its toxicity has led to bans on most mercury thermometers and many other uses.",
+        "uses":  [
+                     "Fluorescent lamps (being phased out)",
+                     "Chlor-alkali production (being phased out)",
+                     "Dental amalgam",
+                     "Scientific instruments"
+                 ],
+        "facts":  [
+                      "Mercury becomes a superconductor below 4.2 K: the first superconductor ever found, in 1911."
+                  ],
+        "biology":  "None; highly toxic, especially as methylmercury in fish.",
+        "hazards":  "Toxic vapor; methylmercury damages the nervous system.",
+        "color":  "#B8B8D0"
+    }
+]

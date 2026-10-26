@@ -1,0 +1,471 @@
+[
+    {
+        "id":  "sphalerite",
+        "name":  "Zinc sulfide (sphalerite)",
+        "formula":  "ZnS",
+        "aka":  [
+                    "sphalerite",
+                    "zinc blende"
+                ],
+        "category":  "Ionic crystals",
+        "elements":  [
+                         "Zn",
+                         "S"
+                     ],
+        "pubchemCid":  9833931,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "zincblende",
+                          "a":  541.0,
+                          "cation":  "Zn",
+                          "anion":  "S"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "Each Zn bonded tetrahedrally to four S, like diamond with two kinds of atoms.",
+                        "electronSharing":  "Zinc and sulfur share electron pairs in four directional bonds, pulled toward sulfur (Δχ 0.93).",
+                        "geometry":  "Zincblende, 4:4 tetrahedral",
+                        "bondLengths":  "Zn–S 234 pm"
+                    },
+        "formation":  "Natural mineral; Zn2+ + H2S -\u003e ZnS + 2 H+",
+        "state":  "solid",
+        "meltingPointC":  1850,
+        "boilingPointC":  null,
+        "occurrence":  "The main ore of zinc.",
+        "uses":  [
+                     "Zinc ore",
+                     "Glow-in-the-dark and screen phosphors",
+                     "Infrared windows"
+                 ],
+        "facts":  [
+                      "Copper-doped ZnS was the classic glow-in-the-dark material; it sublimes near 1,185 °C at normal pressure."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Sphalerite names the zincblende structure used by many semiconductors."
+    },
+    {
+        "id":  "cubic-zirconia",
+        "name":  "Zirconium dioxide (cubic zirconia)",
+        "formula":  "ZrO2",
+        "aka":  [
+                    "zirconia",
+                    "cubic zirconia",
+                    "CZ"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Zr",
+                         "O"
+                     ],
+        "pubchemCid":  62395,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  512,
+                          "cation":  "Zr",
+                          "anion":  "O",
+                          "note":  "Cubic form, stabilized with yttria."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Zr4+ and O2− in the fluorite structure (cubic form, stabilized by yttrium).",
+                        "electronSharing":  "Zirconium gives four electrons, two to each of two oxygens, with some covalent character.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "Zr–O 222 pm"
+                    },
+        "formation":  "ZrSiO4 + 2 NaOH -\u003e ... -\u003e ZrO2 (from zircon sand)",
+        "state":  "solid",
+        "meltingPointC":  2715,
+        "boilingPointC":  4300,
+        "occurrence":  "Rare mineral baddeleyite; made from zircon.",
+        "uses":  [
+                     "Diamond simulant gemstones",
+                     "Oxygen sensors in car exhausts",
+                     "Dental crowns and ceramic knives",
+                     "Fuel cells"
+                 ],
+        "facts":  [
+                      "Pure ZrO2 is monoclinic; a little yttria locks it into the sparkling cubic form."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Cubic zirconia is a tough, sparkling ceramic used as imitation diamond and in oxygen sensors."
+    },
+    {
+        "id":  "ceria",
+        "name":  "Cerium(IV) oxide",
+        "formula":  "CeO2",
+        "aka":  [
+                    "ceria"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Ce",
+                         "O"
+                     ],
+        "pubchemCid":  9905479,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  541.1,
+                          "cation":  "Ce",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Ce4+ and O2− in the fluorite structure.",
+                        "electronSharing":  "Cerium gives four electrons to oxygen. It can easily take one back (Ce3+), releasing oxygen, which makes ceria an oxygen \u0027sponge\u0027.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "Ce–O 234 pm"
+                    },
+        "formation":  "2 Ce2(CO3)3 + O2 -\u003e 4 CeO2 + 6 CO2 (calcining)",
+        "state":  "solid",
+        "meltingPointC":  2400,
+        "boilingPointC":  3500,
+        "occurrence":  "Made from monazite and bastnäsite ores.",
+        "uses":  [
+                     "Polishing glass and lenses",
+                     "Catalytic converters (oxygen storage)",
+                     "Self-cleaning oven linings"
+                 ],
+        "facts":  [
+                      "Ceria is the standard powder for polishing optical glass to a flawless finish."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Ceria polishes glass and helps catalytic converters by storing and releasing oxygen."
+    },
+    {
+        "id":  "thoria",
+        "name":  "Thorium dioxide",
+        "formula":  "ThO2",
+        "aka":  [
+                    "thoria"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Th",
+                         "O"
+                     ],
+        "pubchemCid":  14808,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  559.7,
+                          "cation":  "Th",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Th4+ and O2− in the fluorite structure.",
+                        "electronSharing":  "Thorium gives four electrons to oxygen.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "Th–O 242 pm"
+                    },
+        "formation":  "Th + O2 -\u003e ThO2",
+        "state":  "solid",
+        "meltingPointC":  3350,
+        "boilingPointC":  4400,
+        "occurrence":  "The mineral thorianite; from monazite sand.",
+        "uses":  [
+                     "Gas-lantern mantles (formerly)",
+                     "High-temperature crucibles",
+                     "Proposed thorium reactor fuel"
+                 ],
+        "facts":  [
+                      "ThO2 has the highest melting point of any oxide, 3,350 °C."
+                  ],
+        "hazards":  "Mildly radioactive.",
+        "summary":  "Thoria is the highest-melting oxide known and glows brightly in lantern mantles."
+    },
+    {
+        "id":  "uranium-dioxide",
+        "name":  "Uranium dioxide",
+        "formula":  "UO2",
+        "aka":  [
+                    "urania"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "U",
+                         "O"
+                     ],
+        "pubchemCid":  51003830,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  547.0,
+                          "cation":  "U",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "U4+ and O2− in the fluorite structure.",
+                        "electronSharing":  "Uranium gives four electrons to oxygen, keeping two 5f electrons.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "U–O 237 pm"
+                    },
+        "formation":  "UO3 + H2 -\u003e UO2 + H2O",
+        "state":  "solid",
+        "meltingPointC":  2865,
+        "boilingPointC":  null,
+        "occurrence":  "The mineral uraninite (pitchblende); made for fuel.",
+        "uses":  [
+                     "Nuclear fuel pellets in almost all power reactors"
+                 ],
+        "facts":  [
+                      "A fuel pellet the size of a fingertip releases as much energy as about a tonne of coal."
+                  ],
+        "hazards":  "Radioactive and toxic.",
+        "summary":  "UO2 ceramic pellets are the fuel of nearly every nuclear power plant."
+    },
+    {
+        "id":  "neptunium-dioxide",
+        "name":  "Neptunium dioxide",
+        "formula":  "NpO2",
+        "aka":  [
+
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Np",
+                         "O"
+                     ],
+        "pubchemCid":  44148103,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  543.4,
+                          "cation":  "Np",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Np4+ and O2− in the fluorite structure.",
+                        "electronSharing":  "Neptunium gives four electrons to oxygen.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "Np–O 235 pm"
+                    },
+        "formation":  "Np + O2 -\u003e NpO2",
+        "state":  "solid",
+        "meltingPointC":  2547,
+        "boilingPointC":  null,
+        "occurrence":  "Recovered from spent nuclear fuel.",
+        "uses":  [
+                     "Target for making plutonium-238 for space batteries"
+                 ],
+        "facts":  [
+                      "Irradiating NpO2 targets with neutrons makes the Pu-238 that powers deep-space probes."
+                  ],
+        "hazards":  "Radioactive.",
+        "summary":  "NpO2 is the raw material for spacecraft plutonium-238."
+    },
+    {
+        "id":  "plutonium-dioxide",
+        "name":  "Plutonium dioxide",
+        "formula":  "PuO2",
+        "aka":  [
+
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Pu",
+                         "O"
+                     ],
+        "pubchemCid":  101943067,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  539.6,
+                          "cation":  "Pu",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Pu4+ and O2− in the fluorite structure.",
+                        "electronSharing":  "Plutonium gives four electrons to oxygen.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "Pu–O 234 pm"
+                    },
+        "formation":  "Pu + O2 -\u003e PuO2",
+        "state":  "solid",
+        "meltingPointC":  2744,
+        "boilingPointC":  null,
+        "occurrence":  "Made from reactor plutonium.",
+        "uses":  [
+                     "Pu-238 dioxide in radioisotope generators (Voyager, Curiosity)",
+                     "Mixed-oxide (MOX) reactor fuel"
+                 ],
+        "facts":  [
+                      "A pellet of Pu-238 dioxide glows red-hot from its own radioactive decay."
+                  ],
+        "hazards":  "Extremely radiotoxic if inhaled.",
+        "summary":  "Plutonium dioxide powers spacecraft that travel too far from the Sun for solar panels."
+    },
+    {
+        "id":  "americium-dioxide",
+        "name":  "Americium dioxide",
+        "formula":  "AmO2",
+        "aka":  [
+
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Am",
+                         "O"
+                     ],
+        "pubchemCid":  57461988,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  537.6,
+                          "cation":  "Am",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Am4+ and O2− in the fluorite structure.",
+                        "electronSharing":  "Americium gives four electrons to oxygen.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "Am–O 233 pm"
+                    },
+        "formation":  "Am(C2O4)2 -\u003e AmO2 + 4 CO2 (heating americium oxalate)",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Made from reactor americium.",
+        "uses":  [
+                     "The radioactive source in ionization smoke detectors"
+                 ],
+        "facts":  [
+                      "The americium in a smoke detector is AmO2 sealed between gold and silver foils."
+                  ],
+        "hazards":  "Radioactive.",
+        "summary":  "AmO2 is the tiny radioactive source inside household smoke detectors."
+    },
+    {
+        "id":  "polonium-dioxide",
+        "name":  "Polonium dioxide",
+        "formula":  "PoO2",
+        "aka":  [
+
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "Po",
+                         "O"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "fluorite",
+                          "a":  563.7,
+                          "cation":  "Po",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Po4+ and O2− in the fluorite structure.",
+                        "electronSharing":  "Polonium gives four electrons to oxygen.",
+                        "geometry":  "Fluorite structure, 8:4",
+                        "bondLengths":  "Po–O 244 pm"
+                    },
+        "formation":  "Po + O2 -\u003e PoO2 (heating polonium in oxygen at 250 °C)",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Made only in tiny amounts.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "It decomposes back to the elements at about 500 °C."
+                  ],
+        "hazards":  "Intensely radioactive.",
+        "summary":  "PoO2 is a rare yellow oxide studied only in milligram amounts."
+    },
+    {
+        "id":  "uranium-hexafluoride",
+        "name":  "Uranium hexafluoride",
+        "formula":  "UF6",
+        "aka":  [
+                    "hex"
+                ],
+        "category":  "Oxides \u0026 nuclear fuels",
+        "elements":  [
+                         "U",
+                         "F"
+                     ],
+        "pubchemCid":  24560,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "U",
+                          "shape":  "octahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.996
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.996
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.996
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.996
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.996
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.996
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Six U–F bonds pointing to the corners of an octahedron.",
+                        "electronSharing":  "Uranium uses all six valence electrons to bond to six fluorines, which pull them strongly. The symmetric molecule is nonpolar and volatile.",
+                        "geometry":  "Octahedral",
+                        "bondLengths":  "U–F 199.6 pm"
+                    },
+        "formation":  "UF4 + F2 -\u003e UF6",
+        "state":  "solid",
+        "meltingPointC":  64.1,
+        "boilingPointC":  null,
+        "occurrence":  "Made from uranium ore concentrate.",
+        "uses":  [
+                     "Uranium enrichment in gas centrifuges"
+                 ],
+        "facts":  [
+                      "UF6 turns straight from solid to gas at 56.5 °C, which lets centrifuges separate U-235 from U-238 as a gas."
+                  ],
+        "hazards":  "Radioactive; reacts with moisture to form toxic HF.",
+        "summary":  "UF6 is the only uranium compound volatile enough to enrich uranium as a gas."
+    }
+]

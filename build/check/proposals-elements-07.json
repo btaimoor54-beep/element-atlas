@@ -1,0 +1,128 @@
+[
+    {
+        "id":  "Tm",
+        "field":  "facts[0]",
+        "current":  "\"Thulium is rarer in the crust than silver or iodine.\"",
+        "corrected":  "\"Thulium is rare, yet it is more common in the crust than silver or iodine.\"",
+        "confidence":  "high",
+        "source":  "CRC Handbook crustal abundances (via Wikipedia \u0027Abundance of elements in Earth\u0027s crust\u0027): Tm 0.52 mg/kg, Ag 0.075 mg/kg, I 0.45 mg/kg; also the entry\u0027s own crustAbundancePpm 0.52",
+        "reason":  "The statement is backwards. At 0.52 ppm, thulium is about 7 times more abundant than silver (0.075 ppm) and slightly more abundant than iodine (0.45 ppm). It also contradicts the entry\u0027s own crustAbundancePpm."
+    },
+    {
+        "id":  "Sm",
+        "field":  "isotopes.radioactive[2].halfLife",
+        "current":  "\"over 10^16 years\"",
+        "corrected":  "\"over 2×10^15 years (never observed to decay)\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Isotopes of samarium\u0027 (NUBASE-based table and footnote): Sm-149 is observationally stable, with expected alpha decay to Nd-145 at a half-life over 2×10^15 years",
+        "reason":  "The established experimental lower limit for Sm-149 is \u003e2×10^15 y, not \u003e10^16 y. The current value overstates the limit fivefold. The corrected wording matches the dataset\u0027s style for W-180m."
+    },
+    {
+        "id":  "Eu",
+        "field":  "isotopes.stable",
+        "current":  "[{\"A\":151,\"abundance\":47.81},{\"A\":153,\"abundance\":52.19}]",
+        "corrected":  "[{\"A\":153,\"abundance\":52.19}]",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Isotopes of europium\u0027; Belli et al. 2007 (Nucl. Phys. A 789, 15) and Casali et al. 2014 (\u0027Discovery of the 151Eu alpha decay\u0027): Eu-151 alpha-decays with half-life about 4.6×10^18 y",
+        "reason":  "Eu-151 has been observed to decay, so the stated convention puts it under radioactive. That is how the dataset treats W-180 (1.8×10^18 y), Bi-209, Nd-150 and Mo-100. Eu-153 stays stable, and displayA 153 is still fine."
+    },
+    {
+        "id":  "Eu",
+        "field":  "isotopes.radioactive",
+        "current":  "[{\"A\":152,\"halfLife\":\"13.5 years\",\"note\":\"\"}]",
+        "corrected":  "[{\"A\":151,\"halfLife\":\"4.6×10^18 years\",\"note\":\"47.81% of natural europium; its very slow alpha decay was first seen in 2007.\"},{\"A\":152,\"halfLife\":\"13.5 years\",\"note\":\"\"}]",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Isotopes of europium\u0027 (Eu-151 half-life 4.6×10^18 y, alpha decay found in 2007); IUPAC isotopic abundance 47.81%",
+        "reason":  "This goes with moving Eu-151 out of the stable list. A long-lived, naturally occurring radioactive isotope belongs under radioactive, with its abundance given in the note."
+    },
+    {
+        "id":  "Pm",
+        "field":  "bulk.cPm",
+        "current":  "582.5",
+        "corrected":  "1165",
+        "confidence":  "medium",
+        "source":  "Wikipedia Promethium infobox (dhcp, hP4; older value a = 365 pm, c = 1165 pm; current infobox a = 363.93 pm, c = 1173.9 pm); WebElements",
+        "reason":  "The real structure is double hexagonal close-packed (the entry\u0027s own bulk.structure says so), and its c is about 1165 pm. The value 582.5 is half of that, the c of the simplified hcp drawing model. The convention says cPm is c of the real structure. Note that La, Pr and Nd in elements-06.json use the same halved c, so this may be a systematic pipeline choice; if it is fixed, fix all four."
+    },
+    {
+        "id":  "Ho",
+        "field":  "isotopes.radioactive[0].halfLife",
+        "current":  "\"1,200 years\"",
+        "corrected":  "\"1,130 years\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Isotopes of holmium\u0027 (NUBASE2020): Ho-166m1 half-life 1132.6(39) y",
+        "reason":  "1,200 y is an older evaluation, and the current evaluated value is 1,133 y, about 6% lower. That is outside the 2% tolerance, though some older handbooks still print 1,200 y."
+    },
+    {
+        "id":  "Tm",
+        "field":  "facts[0]",
+        "current":  "Thulium is rarer in the crust than silver or iodine.",
+        "corrected":  "\"Although it is a rare lanthanide, thulium is more common in the crust than silver or iodine.\"",
+        "confidence":  "high",
+        "source":  "CRC Handbook crustal abundances: Tm 0.52 mg/kg, I 0.45 mg/kg, Ag 0.075 mg/kg (this entry\u0027s own crustAbundancePpm is 0.52)",
+        "reason":  "The statement has it backwards. Thulium (about 0.5 ppm) is more abundant in Earth\u0027s crust than iodine (0.45 ppm) and roughly seven times more abundant than silver (0.075 ppm)."
+    },
+    {
+        "id":  "Pm",
+        "field":  "bulk.cPm",
+        "current":  "582.5",
+        "corrected":  "1165",
+        "confidence":  "high",
+        "source":  "CRC Handbook / WebElements: Pm dhcp a = 365 pm, c = 1165 pm; Wikipedia infobox gives a = 363.9 pm, c = 1173.9 pm",
+        "reason":  "The structure is correctly given as double hexagonal close-packed, but 582.5 pm is half of the real dhcp c axis, which is about 1165 pm. It looks like the c value of the simplified hcp drawing model was entered. The convention says cPm must be c of the real structure."
+    },
+    {
+        "id":  "Pm",
+        "field":  "uses[0]",
+        "current":  "Nuclear batteries for pacemakers and space probes (historically)",
+        "corrected":  "\"Nuclear batteries for heart pacemakers (historically)\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Betacel\u0027 and \u0027Promethium\u0027; Physics Today, \u0027Betavoltaic power sources\u0027",
+        "reason":  "Pm-147 Betacel batteries did power more than 100 pacemakers in the 1970s. Space-probe power is only described as a possible use, and Pu-238 became the standard there. No record shows Pm batteries actually flew on space probes, so \u0027historically\u0027 is misleading for that part."
+    },
+    {
+        "id":  "Er",
+        "field":  "facts[0]",
+        "current":  "Without erbium amplifiers, transoceanic fiber-optic internet would need far more repeater stations.",
+        "corrected":  "\"Erbium amplifiers boost light directly, so one undersea fiber can carry many signal colors without converting them to electricity.\"",
+        "confidence":  "medium",
+        "source":  "TAT-8 (1988) used electronic regenerators about every 40 to 70 km (around 100 over 6,657 km); EDFA undersea systems (TAT-12/13 onward) used similar or shorter amplifier spacings",
+        "reason":  "Erbium amplifiers did not greatly cut the number of repeaters. Older optoelectronic regenerators were spaced about as far apart. What EDFAs changed was all-optical amplification of many WDM wavelength channels at once, at any bit rate, so the claim about \u0027far more repeater stations\u0027 is misleading."
+    },
+    {
+        "id":  "Tb",
+        "field":  "summary",
+        "current":  "Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than any other material.",
+        "corrected":  "\"Terbium compounds glow bright green and its alloy Terfenol-D changes shape in a magnetic field more than any other material at room temperature.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Magnetostriction\u0027 (Terfenol-D has the highest known magnetostriction of any alloy, about 2,000 microstrain at room temperature); patent literature reports Tb0.6Dy0.4 at about 6,300 ppm, but only at cryogenic temperatures",
+        "reason":  "Terfenol-D holds the record only at room temperature. Some Tb-Dy alloys and single crystals show larger magnetostriction at low temperatures, so the unqualified \u0027any other material\u0027 is false."
+    },
+    {
+        "id":  "Gd",
+        "field":  "discovery.note",
+        "current":  "Detected spectroscopically; isolated by Lecoq de Boisbaudran in 1886.",
+        "corrected":  "\"Detected spectroscopically; Lecoq de Boisbaudran isolated its oxide in 1886.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Gadolinium\u0027 (history): Lecoq de Boisbaudran separated gadolinia (the oxide) in 1886; Félix Trombe first isolated the metal in 1935",
+        "reason":  "In 1886 only the oxide (gadolinia) was obtained, and the metal was not isolated until 1935. Saying the element was \u0027isolated\u0027 in 1886 misleads students."
+    },
+    {
+        "id":  "Er",
+        "field":  "origin",
+        "current":  "[\"merging neutron stars\"]",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+        "confidence":  "medium",
+        "source":  "Johnson 2019 origin-of-elements chart; s-process (AGB) solar fractions from Arlandini et al. 1999 / Bisterzo et al. 2014: Er about 16-17% s-process, Gd about 15%",
+        "reason":  "Erbium\u0027s slow-neutron-capture share (about 16-17%) is at least as large as gadolinium\u0027s (about 15%), and this file lists \u0027dying low-mass stars\u0027 for Gd. Johnson\u0027s chart shows a low-mass-star share for Er. The list is inconsistent and incomplete, and the originNote \u0027made mostly by rapid neutron capture\u0027 already implies a second source."
+    },
+    {
+        "id":  "Dy",
+        "field":  "origin",
+        "current":  "[\"merging neutron stars\"]",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+        "confidence":  "medium",
+        "source":  "Johnson 2019 origin-of-elements chart; Arlandini et al. 1999 s-process fractions (Dy about 15% s-process, about the same as Gd)",
+        "reason":  "Dysprosium\u0027s s-process (AGB-star) share is about the same as gadolinium\u0027s, and Gd is listed with \u0027dying low-mass stars\u0027. Leaving it off Dy is inconsistent with the chart and with Dy\u0027s own originNote (\u0027mostly\u0027 rapid neutron capture)."
+    }
+]

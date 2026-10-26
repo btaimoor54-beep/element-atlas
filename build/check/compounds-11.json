@@ -1,0 +1,564 @@
+[
+    {
+        "id":  "bismuth-telluride",
+        "name":  "Bismuth telluride",
+        "formula":  "Bi2Te3",
+        "aka":  [
+
+                ],
+        "category":  "Semiconductors \u0026 tech",
+        "elements":  [
+                         "Bi",
+                         "Te"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Bi3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Bi"
+                                        },
+                                        {
+                                            "label":  "Te2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "Te"
+                                        }
+                                    ],
+                          "note":  "Charges are formal; the real crystal is layered Te–Bi–Te–Bi–Te."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Five-atom layers Te–Bi–Te–Bi–Te stacked with weak links between them.",
+                        "electronSharing":  "Bismuth and tellurium share electrons almost equally (Δχ 0.08), giving a narrow band gap.",
+                        "geometry":  "Rhombohedral, layered",
+                        "bondLengths":  "Bi–Te 307–325 pm"
+                    },
+        "formation":  "2 Bi + 3 Te -\u003e Bi2Te3",
+        "state":  "solid",
+        "meltingPointC":  585,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic; rare mineral tellurobismuthite.",
+        "uses":  [
+                     "Thermoelectric coolers and generators (Peltier modules)"
+                 ],
+        "facts":  [
+                      "Its surface conducts electricity even though its interior does not: it is a topological insulator."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Bismuth telluride turns heat into electricity and powers Peltier coolers."
+    },
+    {
+        "id":  "scandia",
+        "name":  "Scandium oxide",
+        "formula":  "Sc2O3",
+        "aka":  [
+                    "scandia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Sc",
+                         "O"
+                     ],
+        "pubchemCid":  134661,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Sc3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Sc"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; real crystal is the cubic bixbyite type."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Sc3+ and O2− ions in the cubic bixbyite structure.",
+                        "electronSharing":  "Each scandium gives all three valence electrons to oxygen.",
+                        "geometry":  "Bixbyite (C-type rare-earth oxide)",
+                        "bondLengths":  "Sc–O about 212 pm"
+                    },
+        "formation":  "4 Sc + 3 O2 -\u003e 2 Sc2O3",
+        "state":  "solid",
+        "meltingPointC":  2485,
+        "boilingPointC":  null,
+        "occurrence":  "Recovered from uranium, titanium and rare-earth processing.",
+        "uses":  [
+                     "Making aluminium-scandium alloys",
+                     "Electrolytes for solid oxide fuel cells",
+                     "High-intensity discharge lamps"
+                 ],
+        "facts":  [
+                      "World scandium supply is only tens of tonnes a year."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Scandia is a very high-melting oxide that feeds scandium alloys and fuel cells."
+    },
+    {
+        "id":  "yttria",
+        "name":  "Yttrium oxide",
+        "formula":  "Y2O3",
+        "aka":  [
+                    "yttria"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Y",
+                         "O"
+                     ],
+        "pubchemCid":  159374,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Y3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Y"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; bixbyite structure."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Y3+ and O2− ions in the bixbyite structure.",
+                        "electronSharing":  "Yttrium gives three electrons to oxygen.",
+                        "geometry":  "Bixbyite",
+                        "bondLengths":  "Y–O about 228 pm"
+                    },
+        "formation":  "2 Y(OH)3 -\u003e Y2O3 + 3 H2O",
+        "state":  "solid",
+        "meltingPointC":  2425,
+        "boilingPointC":  4300,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Host for red europium phosphors",
+                     "Stabilizing zirconia ceramics",
+                     "Making YAG laser crystals",
+                     "Transparent armor ceramics"
+                 ],
+        "facts":  [
+                      "Europium-doped yttria made the red dots in color TV screens."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Yttria is the host crystal for many phosphors and stabilizes zirconia."
+    },
+    {
+        "id":  "lanthana",
+        "name":  "Lanthanum oxide",
+        "formula":  "La2O3",
+        "aka":  [
+                    "lanthana"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "La",
+                         "O"
+                     ],
+        "pubchemCid":  150906,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "La3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "La"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; real crystal is hexagonal (A-type)."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Large La3+ ions with seven oxygen neighbors.",
+                        "electronSharing":  "Lanthanum gives three electrons to oxygen.",
+                        "geometry":  "Hexagonal A-type rare-earth oxide",
+                        "bondLengths":  "La–O 237–273 pm"
+                    },
+        "formation":  "4 La + 3 O2 -\u003e 2 La2O3",
+        "state":  "solid",
+        "meltingPointC":  2315,
+        "boilingPointC":  4200,
+        "occurrence":  "From monazite and bastnäsite.",
+        "uses":  [
+                     "High-refractive optical glass for camera lenses",
+                     "Catalysts",
+                     "High-k dielectrics"
+                 ],
+        "facts":  [
+                      "Many high-end camera lenses contain glass that is up to 40% lanthanum oxide."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Lanthanum oxide gives optical glass a high refractive index."
+    },
+    {
+        "id":  "praseodymium-oxide",
+        "name":  "Praseodymium(III,IV) oxide",
+        "formula":  "Pr6O11",
+        "aka":  [
+
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Pr",
+                         "O"
+                     ],
+        "pubchemCid":  165911,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Pr4+",
+                                            "charge":  4,
+                                            "count":  4,
+                                            "el":  "Pr"
+                                        },
+                                        {
+                                            "label":  "Pr3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Pr"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  11,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "Mixed-valence, fluorite-related structure."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "A mixed-valence oxide: four Pr4+ and two Pr3+ per eleven oxygens.",
+                        "electronSharing":  "Most praseodymium atoms give four electrons, some three, so oxygen vacancies form in a fluorite-like lattice.",
+                        "geometry":  "Defect fluorite structure",
+                        "bondLengths":  "Pr–O about 235 pm"
+                    },
+        "formation":  "Heating praseodymium salts in air above about 500 °C",
+        "state":  "solid",
+        "meltingPointC":  2183,
+        "boilingPointC":  null,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Yellow ceramic glazes (praseodymium-doped zircon)",
+                     "Didymium glass",
+                     "Catalysts"
+                 ],
+        "facts":  [
+                      "It is the stable dark-brown oxide that forms when praseodymium burns in air."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Pr6O11 is a mixed-valence oxide behind the bright yellow of many ceramic glazes."
+    },
+    {
+        "id":  "europia",
+        "name":  "Europium(III) oxide",
+        "formula":  "Eu2O3",
+        "aka":  [
+                    "europia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Eu",
+                         "O"
+                     ],
+        "pubchemCid":  159371,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Eu3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Eu"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Eu3+ and O2− ions.",
+                        "electronSharing":  "Europium gives three electrons. Its remaining 4f electrons jump between levels and emit sharp red light.",
+                        "geometry":  "Cubic (bixbyite) or monoclinic",
+                        "bondLengths":  "Eu–O about 232 pm"
+                    },
+        "formation":  "4 Eu + 3 O2 -\u003e 2 Eu2O3",
+        "state":  "solid",
+        "meltingPointC":  2350,
+        "boilingPointC":  4118,
+        "occurrence":  "From bastnäsite and monazite.",
+        "uses":  [
+                     "Red phosphors for screens and lamps",
+                     "Anti-counterfeiting inks",
+                     "Neutron absorbers"
+                 ],
+        "facts":  [
+                      "Europium\u0027s red glow has an unusually narrow color band, which is ideal for displays."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Europium oxide is the source of the pure red glow in displays."
+    },
+    {
+        "id":  "gadolinia",
+        "name":  "Gadolinium(III) oxide",
+        "formula":  "Gd2O3",
+        "aka":  [
+                    "gadolinia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Gd",
+                         "O"
+                     ],
+        "pubchemCid":  159427,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Gd3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Gd"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Gd3+ and O2− ions.",
+                        "electronSharing":  "Gadolinium gives three electrons and keeps a half-filled 4f7 shell with seven unpaired electrons.",
+                        "geometry":  "Cubic (bixbyite) or monoclinic",
+                        "bondLengths":  "Gd–O about 230 pm"
+                    },
+        "formation":  "4 Gd + 3 O2 -\u003e 2 Gd2O3",
+        "state":  "solid",
+        "meltingPointC":  2420,
+        "boilingPointC":  null,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Burnable neutron absorber mixed into nuclear fuel",
+                     "Scintillators and X-ray screens",
+                     "Optical glass"
+                 ],
+        "facts":  [
+                      "Adding Gd2O3 to fuel pellets evens out reactor power early in a fuel cycle."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Gadolinia soaks up neutrons inside nuclear fuel."
+    },
+    {
+        "id":  "holmia",
+        "name":  "Holmium(III) oxide",
+        "formula":  "Ho2O3",
+        "aka":  [
+                    "holmia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Ho",
+                         "O"
+                     ],
+        "pubchemCid":  159423,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Ho3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Ho"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Ho3+ and O2− ions in the bixbyite structure.",
+                        "electronSharing":  "Holmium gives three electrons; its 4f electrons absorb light at very sharp, well-known wavelengths.",
+                        "geometry":  "Bixbyite",
+                        "bondLengths":  "Ho–O about 227 pm"
+                    },
+        "formation":  "4 Ho + 3 O2 -\u003e 2 Ho2O3",
+        "state":  "solid",
+        "meltingPointC":  2415,
+        "boilingPointC":  3900,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Wavelength calibration standards for spectrophotometers",
+                     "Yellow and red colorant for glass and cubic zirconia"
+                 ],
+        "facts":  [
+                      "Holmium oxide looks tan in daylight but pink under fluorescent light."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Holmia\u0027s sharp absorption lines make it a calibration standard."
+    },
+    {
+        "id":  "erbia",
+        "name":  "Erbium(III) oxide",
+        "formula":  "Er2O3",
+        "aka":  [
+                    "erbia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Er",
+                         "O"
+                     ],
+        "pubchemCid":  159426,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Er3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Er"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Er3+ and O2− ions in the bixbyite structure.",
+                        "electronSharing":  "Erbium gives three electrons; its 4f electrons absorb green light, so the oxide is pink.",
+                        "geometry":  "Bixbyite",
+                        "bondLengths":  "Er–O about 226 pm"
+                    },
+        "formation":  "4 Er + 3 O2 -\u003e 2 Er2O3",
+        "state":  "solid",
+        "meltingPointC":  2344,
+        "boilingPointC":  3290,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Pink colorant for glass and porcelain",
+                     "Laser and optical-fiber amplifier materials"
+                 ],
+        "facts":  [
+                      "Erbium-colored glass is used in some sunglasses and cheap jewelry for its pink tint."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Erbia is a pink oxide that colors glass."
+    },
+    {
+        "id":  "thulia",
+        "name":  "Thulium(III) oxide",
+        "formula":  "Tm2O3",
+        "aka":  [
+                    "thulia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Tm",
+                         "O"
+                     ],
+        "pubchemCid":  159411,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Tm3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Tm"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Tm3+ and O2− ions in the bixbyite structure.",
+                        "electronSharing":  "Thulium gives three electrons to oxygen.",
+                        "geometry":  "Bixbyite",
+                        "bondLengths":  "Tm–O about 225 pm"
+                    },
+        "formation":  "4 Tm + 3 O2 -\u003e 2 Tm2O3",
+        "state":  "solid",
+        "meltingPointC":  2341,
+        "boilingPointC":  3945,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Target for making thulium-170 X-ray sources",
+                     "Thulium fiber lasers"
+                 ],
+        "facts":  [
+                      "Irradiated thulium oxide makes portable X-ray sources that need no electricity."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Thulia is the precursor to portable thulium-170 X-ray sources."
+    }
+]

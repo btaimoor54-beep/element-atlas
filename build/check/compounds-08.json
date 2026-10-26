@@ -1,0 +1,925 @@
+[
+    {
+        "id":  "epsom-salt",
+        "name":  "Magnesium sulfate heptahydrate (Epsom salt)",
+        "formula":  "MgSO4·7H2O",
+        "aka":  [
+                    "Epsom salt",
+                    "epsomite"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Mg",
+                         "S",
+                         "O",
+                         "H"
+                     ],
+        "pubchemCid":  24843,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Mg2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Mg"
+                                        },
+                                        {
+                                            "label":  "SO4 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "S",
+                                                          "shape":  "tetrahedral",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          }
+                                                                      ]
+                                                      }
+                                        },
+                                        {
+                                            "label":  "H2O",
+                                            "charge":  0,
+                                            "count":  7,
+                                            "vsepr":  {
+                                                          "center":  "O",
+                                                          "shape":  "bent",
+                                                          "angle":  104.5,
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.958
+                                                                          },
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.958
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit; in the crystal six waters surround each Mg2+."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Mg2+ ions wrapped in six water molecules, plus sulfate and one more water.",
+                        "electronSharing":  "Magnesium gives two electrons to sulfate; water oxygens donate lone pairs toward Mg2+.",
+                        "geometry":  "[Mg(H2O)6]2+ octahedra and SO4 2− tetrahedra",
+                        "bondLengths":  "Mg–O 206 pm, S–O 148 pm"
+                    },
+        "formation":  "MgO + H2SO4 + 6 H2O -\u003e MgSO4·7H2O",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Named after a bitter spring at Epsom, England.",
+        "uses":  [
+                     "Bath salts",
+                     "Magnesium fertilizer",
+                     "Laxative",
+                     "Treating eclampsia in pregnancy"
+                 ],
+        "facts":  [
+                      "Magnesium sulfate is one of the main salts in seawater after sodium chloride."
+                  ],
+        "hazards":  "Laxative in large doses.",
+        "summary":  "Epsom salt is a hydrated magnesium salt used in baths, farming and medicine."
+    },
+    {
+        "id":  "blue-vitriol",
+        "name":  "Copper(II) sulfate pentahydrate",
+        "formula":  "CuSO4·5H2O",
+        "aka":  [
+                    "blue vitriol",
+                    "bluestone",
+                    "chalcanthite"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Cu",
+                         "S",
+                         "O",
+                         "H"
+                     ],
+        "pubchemCid":  24463,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Cu2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Cu"
+                                        },
+                                        {
+                                            "label":  "SO4 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "S",
+                                                          "shape":  "tetrahedral",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          }
+                                                                      ]
+                                                      }
+                                        },
+                                        {
+                                            "label":  "H2O",
+                                            "charge":  0,
+                                            "count":  5,
+                                            "vsepr":  {
+                                                          "center":  "O",
+                                                          "shape":  "bent",
+                                                          "angle":  104.5,
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.958
+                                                                          },
+                                                                          {
+                                                                              "el":  "H",
+                                                                              "r":  0.958
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit; four waters bind directly to copper."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "coordinate (dative)",
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Cu2+ ions surrounded by water molecules that donate lone pairs; sulfate balances the charge.",
+                        "electronSharing":  "Water oxygens donate lone pairs into empty copper orbitals (coordinate bonds). Light absorbed by copper\u0027s d electrons gives the deep blue color.",
+                        "geometry":  "Distorted octahedron around Cu",
+                        "bondLengths":  "Cu–O 196–240 pm"
+                    },
+        "formation":  "CuO + H2SO4 + 4 H2O -\u003e CuSO4·5H2O",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "The mineral chalcanthite; mostly synthetic.",
+        "uses":  [
+                     "Bordeaux mixture fungicide for vineyards",
+                     "Pool algicide",
+                     "Electroplating copper",
+                     "Testing for water (white anhydrous salt turns blue)"
+                 ],
+        "facts":  [
+                      "Heating the blue crystals drives off the water, leaving a white powder that turns blue again when wet."
+                  ],
+        "hazards":  "Harmful if swallowed; toxic to fish.",
+        "summary":  "Blue vitriol is a beautiful example of how water bound to metal ions creates color."
+    },
+    {
+        "id":  "saltpeter",
+        "name":  "Potassium nitrate (saltpeter)",
+        "formula":  "KNO3",
+        "aka":  [
+                    "saltpeter",
+                    "niter"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "K",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  24434,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "K+",
+                                            "charge":  1,
+                                            "count":  1,
+                                            "el":  "K"
+                                        },
+                                        {
+                                            "label":  "NO3-",
+                                            "charge":  -1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "N",
+                                                          "shape":  "trigonal-planar",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.25,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.25,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.25,
+                                                                              "o":  1.33
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "K+ ions and flat nitrate ions.",
+                        "electronSharing":  "Potassium gives one electron to the nitrate group, whose three N–O bonds share a delocalized π pair.",
+                        "geometry":  "Nitrate: trigonal planar",
+                        "bondLengths":  "N–O 125 pm"
+                    },
+        "formation":  "NH4NO3 + KCl -\u003e KNO3 + NH4Cl",
+        "state":  "solid",
+        "meltingPointC":  334,
+        "boilingPointC":  null,
+        "occurrence":  "Cave and desert deposits; once scraped from manure heaps.",
+        "uses":  [
+                     "Gunpowder (75% KNO3)",
+                     "Fertilizer",
+                     "Curing meat",
+                     "Rocket candy and fireworks"
+                 ],
+        "facts":  [
+                      "Gunpowder burns because nitrate supplies its own oxygen; it decomposes above 400 °C."
+                  ],
+        "hazards":  "Strong oxidizer.",
+        "summary":  "Saltpeter is the oxygen supplier in gunpowder and a valuable fertilizer."
+    },
+    {
+        "id":  "baking-soda",
+        "name":  "Sodium bicarbonate (baking soda)",
+        "formula":  "NaHCO3",
+        "aka":  [
+                    "baking soda",
+                    "bicarbonate of soda"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Na",
+                         "H",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  516892,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Na+",
+                                            "charge":  1,
+                                            "count":  1,
+                                            "el":  "Na"
+                                        },
+                                        {
+                                            "label":  "HCO3-",
+                                            "charge":  -1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "C",
+                                                          "shape":  "trigonal-planar",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.26,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.26,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.36,
+                                                                              "o":  1,
+                                                                              "hs":  1,
+                                                                              "hr":  0.97
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Na+ ions and hydrogen carbonate ions.",
+                        "electronSharing":  "Sodium gives an electron to the HCO3 group, where the extra charge is shared by the two oxygens without hydrogen.",
+                        "geometry":  "Hydrogen carbonate: trigonal planar",
+                        "bondLengths":  "C–O 126–136 pm"
+                    },
+        "formation":  "NaCl + NH3 + CO2 + H2O -\u003e NaHCO3 + NH4Cl (Solvay process)",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "The mineral nahcolite; mostly made by the Solvay process.",
+        "uses":  [
+                     "Baking (releases CO2 bubbles)",
+                     "Antacid",
+                     "Fire extinguishers",
+                     "Cleaning and deodorizing"
+                 ],
+        "facts":  [
+                      "Above about 50 °C it breaks down: 2 NaHCO3 -\u003e Na2CO3 + H2O + CO2, which makes cakes rise."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Baking soda releases carbon dioxide when heated or mixed with acid."
+    },
+    {
+        "id":  "washing-soda",
+        "name":  "Sodium carbonate (washing soda)",
+        "formula":  "Na2CO3",
+        "aka":  [
+                    "soda ash",
+                    "washing soda",
+                    "natron"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Na",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  10340,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Na+",
+                                            "charge":  1,
+                                            "count":  2,
+                                            "el":  "Na"
+                                        },
+                                        {
+                                            "label":  "CO3 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "C",
+                                                          "shape":  "trigonal-planar",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "Two Na+ ions for each carbonate ion.",
+                        "electronSharing":  "Each sodium gives one electron; carbonate shares the two extra electrons over its three oxygens.",
+                        "geometry":  "Carbonate: trigonal planar",
+                        "bondLengths":  "C–O 129 pm"
+                    },
+        "formation":  "2 NaHCO3 -\u003e Na2CO3 + H2O + CO2 (Solvay process)",
+        "state":  "solid",
+        "meltingPointC":  851,
+        "boilingPointC":  null,
+        "occurrence":  "Trona deposits and the Solvay process.",
+        "uses":  [
+                     "Glassmaking (soda-lime glass)",
+                     "Detergents and water softening",
+                     "Making other sodium chemicals"
+                 ],
+        "facts":  [
+                      "Ancient Egyptians used natural soda (natron) to mummify bodies."
+                  ],
+        "hazards":  "Irritant.",
+        "summary":  "Soda ash is a key ingredient of ordinary glass."
+    },
+    {
+        "id":  "bleach",
+        "name":  "Sodium hypochlorite (bleach)",
+        "formula":  "NaClO",
+        "aka":  [
+                    "bleach",
+                    "Javel water"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Na",
+                         "Cl",
+                         "O"
+                     ],
+        "pubchemCid":  23665760,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Na+",
+                                            "charge":  1,
+                                            "count":  1,
+                                            "el":  "Na"
+                                        },
+                                        {
+                                            "label":  "ClO-",
+                                            "charge":  -1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "Cl",
+                                                          "shape":  "linear",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.69,
+                                                                              "o":  1
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Na+ ions and hypochlorite ions with a Cl–O single bond.",
+                        "electronSharing":  "Sodium\u0027s electron ends up mostly on the oxygen of ClO−; chlorine is in the unusual +1 oxidation state, which makes it a strong oxidizer.",
+                        "geometry":  "Hypochlorite: diatomic",
+                        "bondLengths":  "Cl–O 169 pm"
+                    },
+        "formation":  "Cl2 + 2 NaOH -\u003e NaCl + NaClO + H2O",
+        "state":  "aqueous ion",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Made from chlorine and lye.",
+        "uses":  [
+                     "Household bleach and disinfectant",
+                     "Water treatment",
+                     "Pulp bleaching"
+                 ],
+        "facts":  [
+                      "Mixing bleach with acids releases chlorine gas; mixing it with ammonia releases toxic chloramines."
+                  ],
+        "hazards":  "Corrosive; never mix with acids or ammonia.",
+        "summary":  "Household bleach is a dilute solution of sodium hypochlorite."
+    },
+    {
+        "id":  "lithium-carbonate",
+        "name":  "Lithium carbonate",
+        "formula":  "Li2CO3",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Li",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  11125,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Li+",
+                                            "charge":  1,
+                                            "count":  2,
+                                            "el":  "Li"
+                                        },
+                                        {
+                                            "label":  "CO3 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "C",
+                                                          "shape":  "trigonal-planar",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.29,
+                                                                              "o":  1.33
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Two Li+ ions with one carbonate ion.",
+                        "electronSharing":  "Each lithium gives up its 2s electron to the carbonate group.",
+                        "geometry":  "Carbonate: trigonal planar",
+                        "bondLengths":  "C–O 129 pm"
+                    },
+        "formation":  "2 LiCl + Na2CO3 -\u003e Li2CO3 + 2 NaCl (from salt-flat brines)",
+        "state":  "solid",
+        "meltingPointC":  723,
+        "boilingPointC":  null,
+        "occurrence":  "Made from brines in salt flats and from spodumene ore.",
+        "uses":  [
+                     "Making lithium-ion battery materials",
+                     "Mood stabilizer for bipolar disorder",
+                     "Glass and ceramics"
+                 ],
+        "facts":  [
+                      "Its use for bipolar disorder was discovered by John Cade in 1949."
+                  ],
+        "hazards":  "Toxic in overdose; doses must be monitored.",
+        "summary":  "Lithium carbonate is both a battery raw material and a psychiatric medicine."
+    },
+    {
+        "id":  "strontium-nitrate",
+        "name":  "Strontium nitrate (red fireworks)",
+        "formula":  "Sr(NO3)2",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Sr",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  24848,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Sr2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Sr"
+                                        },
+                                        {
+                                            "label":  "NO3-",
+                                            "charge":  -1,
+                                            "count":  2,
+                                            "vsepr":  {
+                                                          "center":  "N",
+                                                          "shape":  "trigonal-planar",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.25,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.25,
+                                                                              "o":  1.33
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.25,
+                                                                              "o":  1.33
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Sr2+ ions and two nitrate ions.",
+                        "electronSharing":  "Strontium gives one electron to each nitrate. In a flame, excited strontium species emit red light.",
+                        "geometry":  "Nitrate: trigonal planar",
+                        "bondLengths":  "N–O 125 pm"
+                    },
+        "formation":  "SrCO3 + 2 HNO3 -\u003e Sr(NO3)2 + H2O + CO2",
+        "state":  "solid",
+        "meltingPointC":  570,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Red fireworks and road flares"
+                 ],
+        "facts":  [
+                      "The red of fireworks comes mainly from SrOH and SrCl formed in the flame."
+                  ],
+        "hazards":  "Oxidizer.",
+        "summary":  "Strontium nitrate makes the brilliant red in fireworks."
+    },
+    {
+        "id":  "potassium-permanganate",
+        "name":  "Potassium permanganate",
+        "formula":  "KMnO4",
+        "aka":  [
+                    "Condy\u0027s crystals"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "K",
+                         "Mn",
+                         "O"
+                     ],
+        "pubchemCid":  516875,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "K+",
+                                            "charge":  1,
+                                            "count":  1,
+                                            "el":  "K"
+                                        },
+                                        {
+                                            "label":  "MnO4-",
+                                            "charge":  -1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "Mn",
+                                                          "shape":  "tetrahedral",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.63,
+                                                                              "o":  1.75
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.63,
+                                                                              "o":  1.75
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.63,
+                                                                              "o":  1.75
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.63,
+                                                                              "o":  1.75
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "K+ ions and tetrahedral permanganate ions with Mn in its highest state, +7.",
+                        "electronSharing":  "Manganese has given all seven valence electrons toward oxygen. Light pushes electrons from oxygen back toward manganese, which absorbs green-yellow light and makes the deep purple color.",
+                        "geometry":  "Permanganate: tetrahedral",
+                        "bondLengths":  "Mn–O 163 pm"
+                    },
+        "formation":  "2 MnO2 + 4 KOH + O2 -\u003e 2 K2MnO4 + 2 H2O; then oxidized to KMnO4",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Water treatment (removes iron and manganese)",
+                     "Disinfectant",
+                     "Oxidizing agent in labs"
+                 ],
+        "facts":  [
+                      "A few crystals turn a whole bucket of water purple; it decomposes at about 240 °C."
+                  ],
+        "hazards":  "Strong oxidizer; stains skin brown.",
+        "summary":  "Potassium permanganate is a vivid purple oxidizer used to clean water."
+    },
+    {
+        "id":  "potassium-dichromate",
+        "name":  "Potassium dichromate",
+        "formula":  "K2Cr2O7",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "K",
+                         "Cr",
+                         "O"
+                     ],
+        "pubchemCid":  24502,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "K+",
+                                            "charge":  1,
+                                            "count":  2,
+                                            "el":  "K"
+                                        },
+                                        {
+                                            "label":  "Cr2O7 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "atoms":  [
+                                                          [
+                                                              "O",
+                                                              0,
+                                                              0,
+                                                              0
+                                                          ],
+                                                          [
+                                                              "Cr",
+                                                              1.595,
+                                                              -0.813,
+                                                              0
+                                                          ],
+                                                          [
+                                                              "Cr",
+                                                              -1.595,
+                                                              -0.813,
+                                                              0
+                                                          ],
+                                                          [
+                                                              "O",
+                                                              2.777,
+                                                              0.310,
+                                                              0
+                                                          ],
+                                                          [
+                                                              "O",
+                                                              1.730,
+                                                              -1.744,
+                                                              1.331
+                                                          ],
+                                                          [
+                                                              "O",
+                                                              1.730,
+                                                              -1.744,
+                                                              -1.331
+                                                          ],
+                                                          [
+                                                              "O",
+                                                              -2.777,
+                                                              0.310,
+                                                              0
+                                                          ],
+                                                          [
+                                                              "O",
+                                                              -1.730,
+                                                              -1.744,
+                                                              1.331
+                                                          ],
+                                                          [
+                                                              "O",
+                                                              -1.730,
+                                                              -1.744,
+                                                              -1.331
+                                                          ]
+                                                      ],
+                                            "bonds":  [
+                                                          [
+                                                              0,
+                                                              1,
+                                                              1
+                                                          ],
+                                                          [
+                                                              0,
+                                                              2,
+                                                              1
+                                                          ],
+                                                          [
+                                                              1,
+                                                              3,
+                                                              1.5
+                                                          ],
+                                                          [
+                                                              1,
+                                                              4,
+                                                              1.5
+                                                          ],
+                                                          [
+                                                              1,
+                                                              5,
+                                                              1.5
+                                                          ],
+                                                          [
+                                                              2,
+                                                              6,
+                                                              1.5
+                                                          ],
+                                                          [
+                                                              2,
+                                                              7,
+                                                              1.5
+                                                          ],
+                                                          [
+                                                              2,
+                                                              8,
+                                                              1.5
+                                                          ]
+                                                      ]
+                                        }
+                                    ],
+                          "note":  "Two CrO4 tetrahedra sharing one oxygen, Cr–O–Cr 126°."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Two chromium-oxygen tetrahedra joined through a shared oxygen.",
+                        "electronSharing":  "Each chromium (+6) has given its six valence electrons toward oxygen. Charge transfer from oxygen to chromium absorbs blue light, giving the orange color.",
+                        "geometry":  "Two tetrahedra sharing a corner",
+                        "bondLengths":  "Cr–O(bridge) 179 pm, Cr–O(terminal) 163 pm"
+                    },
+        "formation":  "2 K2CrO4 + H2SO4 -\u003e K2Cr2O7 + K2SO4 + H2O",
+        "state":  "solid",
+        "meltingPointC":  398,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Oxidizing agent in chemistry",
+                     "Old breathalyzers (orange turns green with alcohol)",
+                     "Leather tanning and wood treatment"
+                 ],
+        "facts":  [
+                      "Early breathalyzers measured alcohol by how much orange dichromate turned green."
+                  ],
+        "hazards":  "Toxic and carcinogenic (hexavalent chromium).",
+        "summary":  "Bright orange dichromate is a powerful oxidizer and a classic, but hazardous, lab reagent."
+    }
+]

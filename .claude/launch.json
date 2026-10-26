@@ -1,0 +1,23 @@
+﻿{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "water-lab",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ".claude\\serve.ps1", "-File", "water-electron-lab.html"],
+      "port": 8770
+    },
+    {
+      "name": "atlas",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ".claude\\serve.ps1", "-Root", "atlas"],
+      "port": 8771
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ".claude\\serve.ps1", "-Root", "site", "-Raw", "-Port", "8772"],
+      "port": 8772
+    }
+  ]
+}

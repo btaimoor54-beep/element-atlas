@@ -1,0 +1,145 @@
+[
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Np",
+        "field":  "bulk.latticeConstantPm",
+        "current":  "472",
+        "corrected":  "666.3",
+        "reason":  "472 pm is the b axis of alpha-Np, not a. The convention requires a.",
+        "source":  "Wikipedia/WebElements: alpha-Np orthorhombic Pnma, a = 666.3, b = 472.3, c = 488.7 pm"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Pu",
+        "field":  "bulk.latticeConstantPm",
+        "current":  "463.7",
+        "corrected":  "618.3",
+        "reason":  "463.7 pm is the cubic edge of fcc delta-Pu. bulk.lattice is monoclinic alpha-Pu, whose a is 618.3 pm.",
+        "source":  "Wikipedia/CRC: alpha-Pu monoclinic P21/m, a = 618.3, b = 482.2, c = 1096.3 pm, beta = 101.79 deg"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Pu",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "1096.3",
+        "reason":  "The real structure is monoclinic, so c is well known and should not be null.",
+        "source":  "Wikipedia/CRC: alpha-Pu monoclinic c = 1096.3 pm"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Am",
+        "field":  "bulk.cPm",
+        "current":  "562",
+        "corrected":  "1124.1",
+        "reason":  "The real double hcp (ABAC) cell has c of about 1124 pm. 562 is half of that, i.e. the simple-hcp equivalent, but the convention asks for c of the real structure.",
+        "source":  "Wikipedia (Americium crystal structure): dhcp a = 346.81 pm, c = 1124.1 pm"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Cm",
+        "field":  "bulk.cPm",
+        "current":  "566.6",
+        "corrected":  "1133.1",
+        "reason":  "Half of the real dhcp c axis is given. The real structure is double hcp.",
+        "source":  "Wikipedia (Curium): dhcp a = 349.6 pm, c = 1133.1 pm"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Bk",
+        "field":  "bulk.cPm",
+        "current":  "553.5",
+        "corrected":  "1106.9",
+        "reason":  "Half of the real dhcp c axis is given. The real structure is double hcp.",
+        "source":  "Wikipedia (Berkelium): alpha-Bk dhcp a = 341.6 pm, c = 1106.9 pm"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Cf",
+        "field":  "bulk.cPm",
+        "current":  "550.8",
+        "corrected":  "1101.5",
+        "reason":  "Half of the real dhcp c axis is given. The real structure is double hcp.",
+        "source":  "Wikipedia (Californium): alpha-Cf dhcp a = 339 pm, c = 1101.5 pm"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Es",
+        "field":  "summary",
+        "current":  "\"Einsteinium is the heaviest element ever seen as a visible amount. It destroys its own crystal structure with radiation, losing about 3% of its mass each day.\"",
+        "corrected":  "\"Einsteinium is the heaviest element ever seen as a visible amount. Its radiation damages its own crystal structure, and einsteinium-253 decays away at about 3% per day.\"",
+        "reason":  "The 3% per day is the radioactive decay of Es-253 into other elements. It is not mass lost through lattice destruction, so the sentence mixes up two separate effects and is misleading.",
+        "source":  "Wikipedia (Einsteinium): Es-253 (t1/2 20.47 d) decays at about 3.3% per day, and its self-irradiation damages the crystal lattice"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "U",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.315",
+        "reason":  "The electron affinity of uranium has now been measured, so null leaves out an experimental value.",
+        "source":  "Tang et al., Phys. Rev. Lett. / Nat. Commun. 2021 (slow-electron velocity-map imaging of U-): EA(U) = 0.31497 eV"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Bk",
+        "field":  "summary",
+        "current":  "Berkelium is made only in microgram amounts in special reactors. Berkelium-249 was the target used to create tennessine.",
+        "corrected":  "\"Berkelium is made only in milligram amounts in special reactors. Berkelium-249 was the target used to create tennessine.\"",
+        "reason":  "Milligram batches have been made. The entry\u0027s own fact gives the 22 mg used for tennessine, so \u0027only microgram amounts\u0027 contradicts it.",
+        "source":  "Wikipedia \u0027Berkelium\u0027 (about 1 g produced at ORNL since 1967; 22 mg batch for tennessine); Oganessian et al. 2010"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-10.json",
+        "id":  "Bk",
+        "field":  "appearance",
+        "current":  "Silvery metal; only microgram amounts have been made.",
+        "corrected":  "\"Silvery metal; only milligram amounts have been made.\"",
+        "reason":  "Total berkelium production is about a gram, made in batches of milligrams (for example 22 mg), not micrograms.",
+        "source":  "Wikipedia \u0027Berkelium\u0027; ORNL HFIR production records"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 11",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-11.json",
+        "id":  "Hs",
+        "field":  "summary",
+        "current":  "Hassium is predicted to be the densest element of all, roughly twice as dense as osmium. Its tetroxide is the heaviest molecule whose chemistry has been tested.",
+        "corrected":  "\"Hassium is predicted to be the densest element of all, roughly twice as dense as osmium. Its tetroxide, HsO4, behaves just like osmium tetroxide.\"",
+        "reason":  "Sg(CO)6 (about 437 u), studied in 2014, is a heavier molecule than HsO4 (about 333 u), so HsO4 is not the heaviest molecule whose chemistry has been tested.",
+        "source":  "Even et al., Science 345 (2014) 1491, on seaborgium hexacarbonyl"
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 12",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-12.json",
+        "id":  "Fl",
+        "field":  "facts[0]",
+        "current":  "Its isotopes live longer than those of its neighbors, a hint of the island of stability.",
+        "corrected":  "Its isotopes live for seconds, far longer than many lighter superheavy isotopes, a hint of the island of stability.",
+        "reason":  "False as stated. Its neighbor copernicium-285 (about 30 s) and nihonium-286 (about 10 s) outlive flerovium-289 (about 2 s), and no flerovium isotope clearly outlives them. The file\u0027s own data shows this: Cn-285 30 s, Nh-286 10 s, Fl-289 2 s.",
+        "source":  "NUBASE2020 / Wikipedia isotope tables: Cn-285 ~30 s, Nh-286 ~10 s, Fl-289 ~2 s, Fl-290 ~19 s (tentative)"
+    }
+]

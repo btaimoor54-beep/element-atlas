@@ -1,0 +1,152 @@
+[
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Zr",
+        "field":  "atomicMass",
+        "current":  "\"91.224\"",
+        "corrected":  "\"91.222\"",
+        "why":  "The CIAAW abridged table (ciaaw.org/abridged-atomic-weights.htm) lists Zr as 91.222 ± 0.003 and says Gd, Lu and Zr were revised in 2024. The field is defined as the IUPAC abridged standard atomic weight, and 91.224 is the superseded pre-2024 value at the same precision, so this is an update to the defining authority, not a style change. The numeric difference is tiny, and some older sources still print 91.224."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Y",
+        "field":  "vdwRadius",
+        "current":  "219",
+        "corrected":  "275",
+        "why":  "219 comes from PubChem\u0027s AtomicRadius column, which cites no source. Bondi and Mantina give no Y value. WebElements gives Y 275 pm and names Alvarez, Dalton Trans. 2013, 42, 8617 as its reference. Wikipedia\u0027s atomic radii data page lists no vdW value for Y. Under the stated Bondi/Alvarez convention, 219 is about 20% low, beyond the 10% threshold. 275 is the Alvarez value."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Zr",
+        "field":  "vdwRadius",
+        "current":  "186",
+        "corrected":  "252",
+        "why":  "186 comes from PubChem\u0027s AtomicRadius column, which cites no source. Bondi and Mantina give no Zr value. WebElements, citing Alvarez 2013, gives 252 pm. Even Batsanov\u0027s crystallographic radius (about 230 pm, via KnowledgeDoor) is about 24% above 186. Under the Bondi/Alvarez convention, 186 is about 26% low, so it should be flagged. 252 is the Alvarez value."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Kr",
+        "field":  "isotopes.stable",
+        "current":  "[{\"A\":78,\"abundance\":0.355},{\"A\":80,\"abundance\":2.286},{\"A\":82,\"abundance\":11.593},{\"A\":83,\"abundance\":11.500},{\"A\":84,\"abundance\":56.987},{\"A\":86,\"abundance\":17.279}]",
+        "corrected":  "[{\"A\":80,\"abundance\":2.286},{\"A\":82,\"abundance\":11.593},{\"A\":83,\"abundance\":11.500},{\"A\":84,\"abundance\":56.987},{\"A\":86,\"abundance\":17.279}]",
+        "why":  "Wikipedia\u0027s isotopes of krypton article lists 78Kr as a primordial radionuclide with half-life 9.2(+5.5-2.6)x10^21 y by double electron capture to 78Se (Gavrilyuk 2013 indication, Ratkevich 2017 measurement). It says natural krypton is five stable isotopes plus slightly radioactive 78Kr. The field definition puts long-lived naturally occurring radioactive isotopes under radioactive, as the dataset already does for Ge-76, Se-82 and Zr-96. So 78Kr does not belong in stable. The remaining five abundances are unchanged."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 04",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-04.json",
+        "id":  "Kr",
+        "field":  "isotopes.radioactive",
+        "current":  "[{\"A\":85,\"halfLife\":\"10.7 years\",\"note\":\"Released by nuclear fuel reprocessing.\"},{\"A\":81,\"halfLife\":\"229,000 years\",\"note\":\"Used to date old groundwater and ice.\"}]",
+        "corrected":  "[{\"A\":78,\"halfLife\":\"9.2×10^21 years\",\"note\":\"0.355% of natural krypton; decays by rare double electron capture.\"},{\"A\":85,\"halfLife\":\"10.7 years\",\"note\":\"Released by nuclear fuel reprocessing.\"},{\"A\":81,\"halfLife\":\"229,000 years\",\"note\":\"Used to date old groundwater and ice.\"}]",
+        "why":  "This is the companion to removing 78Kr from the stable list. Wikipedia (from NUBASE) gives 9.2x10^21 y, decaying by double electron capture to 78Se. The note\u0027s 0.355% matches the abundance the dataset already uses. Putting the primordial isotope first follows the order used for Ge, Se, Zr and Rb, and the half-life format matches Ge-76\u0027s \"1.8×10^21 years\"."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "In",
+        "field":  "electronAffinity",
+        "current":  "0.3",
+        "corrected":  "0.384",
+        "why":  "Wikipedia\u0027s electron affinity data page gives In = 0.38392(6) eV, from Walter et al., Phys. Rev. A 82, 032507 (2010), measured by infrared photodetachment threshold spectroscopy. 0.3 eV is an old estimate and is about 22% too low."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "Sn",
+        "field":  "electronAffinity",
+        "current":  "1.2",
+        "corrected":  "1.112",
+        "why":  "Vandevraye, Drag and Blondel, J. Phys. B 46, 125002 (2013), measured 1.112070(2) eV by photodetachment microscopy (Wikipedia data page). 1.2 is about 8% too high, which is beyond tolerance."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "Rh",
+        "field":  "isotopes.radioactive[0].halfLife",
+        "current":  "\"3.3 years\"",
+        "corrected":  "\"4.07 years\"",
+        "why":  "A precision measurement (arXiv:1712.03628, \u0027Half-lives of 101Rh and 108Agm\u0027) gives 4.07 +/- 0.05 y. NUBASE2020 uses it, and so does Wikipedia\u0027s Isotopes of rhodium (4.07(5) y). The old 3.3(3) y value is superseded and about 19% low. It also wrongly makes 101Rh shorter-lived than 102mRh (3.742 y)."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "Tc",
+        "field":  "ionizationEnergy",
+        "current":  "7.28",
+        "corrected":  "7.119",
+        "why":  "NIST ASD, checked directly, gives Tc I IE = 7.11938(3) eV, from Mattolat et al., Phys. Rev. A 81, 052513 (2010). Wikipedia\u0027s molar ionization energies table gives 686.9 kJ/mol, which is 7.119 eV. 7.28 is the 1950s value, now superseded by a precise measurement, and is 2.3% high, beyond the 2% tolerance. The other IEs in this file match NIST, so NIST is the consistent basis here."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "Ag",
+        "field":  "summary",
+        "current":  "\"Silver conducts electricity and heat better than any other element and reflects visible light best of all metals. Silver ions kill bacteria.\"",
+        "corrected":  "\"Silver conducts electricity better than any other element and heat better than any other metal, and it reflects visible light best of all metals. Silver ions kill bacteria.\"",
+        "why":  "Silver\u0027s thermal conductivity, about 429 W/(m K), is the highest among metals. Diamond (carbon) reaches about 2000-2200 W/(m K), so \u0027heat better than any other element\u0027 is false. Silver does have the highest electrical conductivity of any element, and the rest of the sentence holds. The proposed rewording is accurate."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "In",
+        "field":  "discovery.by",
+        "current":  "Ferdinand Reich; Hieronymous Theodor Richter",
+        "corrected":  "\"Ferdinand Reich; Hieronymus Theodor Richter\"",
+        "why":  "German Wikipedia\u0027s lead gives \u0027Hieronymus Theodor Richter\u0027. English Wikipedia\u0027s article is titled \u0027Hieronymus Theodor Richter\u0027, and \u0027Hieronymous\u0027 only redirects to it. Indium Corporation and the UNT \u0027Rediscovery of the Elements\u0027 pages also use Hieronymus. \u0027Hieronymous\u0027 is a common English misspelling of his name."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "In",
+        "field":  "facts[0]",
+        "current":  "Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals slip.",
+        "corrected":  "\"Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals suddenly twin.\"",
+        "why":  "Wikipedia\u0027s Indium article says the cry is \u0027a crackling sound due to crystal twinning\u0027, the same mechanism as tin cry. \u0027Slip\u0027 is the technical name for a different, quiet deformation mechanism (dislocation glide), so the current wording names the wrong mechanism. The corrected wording is accurate."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 05",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-05.json",
+        "id":  "Nb",
+        "field":  "discovery.note",
+        "current":  "Named columbium; confused with tantalum until Heinrich Rose separated them in 1844.",
+        "corrected":  "\"Named columbium; confused with tantalum until Heinrich Rose showed in 1844 that it was a different element.\"",
+        "why":  "RSC says Rose showed in 1844 that columbite contained both niobium and tantalum, and that the two are difficult to separate. Wikipedia\u0027s Niobium article says Rose determined that tantalum ores contain a second element. It credits Blomstrand, Sainte-Claire Deville and Marignac (1864-1866) with conclusively distinguishing them, and Marignac\u0027s 1866 work showed there were only two elements. Saying Rose \u0027separated them\u0027 is therefore misleading. The proposed wording matches the sources, and 1844 agrees with RSC and the Wikipedia infobox."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Ba",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.145",
+        "why":  "Barium has a well-established measured electron affinity of 0.14462(6) eV (laser photodetachment, Petrunin et al. 1995, Phys. Rev. Lett. 75, 1911). Wikipedia\u0027s electron affinity data page lists it with no caveat. Leaving it null omits a well-known value."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Sb",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "1127.4",
+        "why":  "latticeConstantPm = 431 is the hexagonal-setting a of A7 antimony (Wikipedia: a_h = 430.84 pm, c_h = 1127.36 pm at 20 °C; WebElements 430.7/1127.3 pm). The rhombohedral primitive a would be 450.7 pm, so the matching hexagonal c is a well-known value missing here. lattice (\u0027rhombohedral\u0027) differs from renderAs (\u0027simple-cubic\u0027), so the renderer does not use cPm, and adding it does not affect the drawing."
+    }
+]

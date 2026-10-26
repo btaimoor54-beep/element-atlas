@@ -1,0 +1,533 @@
+[
+    {
+        "id":  "corundum",
+        "name":  "Aluminium oxide (corundum, ruby, sapphire)",
+        "formula":  "Al2O3",
+        "aka":  [
+                    "alumina",
+                    "corundum",
+                    "ruby",
+                    "sapphire"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Al",
+                         "O"
+                     ],
+        "pubchemCid":  9989226,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Al3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Al"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; real corundum has hexagonal close-packed oxide with Al in octahedral holes."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Small, highly charged Al3+ ions in octahedral holes between close-packed O2− ions.",
+                        "electronSharing":  "Each aluminium gives three electrons toward oxygen; the bonds are strong and partly covalent, making corundum extremely hard.",
+                        "geometry":  "Corundum structure",
+                        "bondLengths":  "Al–O 186–197 pm"
+                    },
+        "formation":  "2 Al(OH)3 -\u003e Al2O3 + 3 H2O (Bayer process from bauxite)",
+        "state":  "solid",
+        "meltingPointC":  2072,
+        "boilingPointC":  2977,
+        "occurrence":  "Bauxite ore; gem corundum in metamorphic rocks.",
+        "uses":  [
+                     "Aluminium smelting feedstock",
+                     "Abrasives and sandpaper",
+                     "Gemstones and watch crystals",
+                     "Ceramics and insulators"
+                 ],
+        "facts":  [
+                      "Ruby is corundum with traces of chromium; blue sapphire contains iron and titanium.",
+                      "Corundum is 9 on the Mohs scale, second only to diamond among common minerals."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Alumina is the raw material for aluminium and, as corundum, the gems ruby and sapphire."
+    },
+    {
+        "id":  "chromium-oxide",
+        "name":  "Chromium(III) oxide",
+        "formula":  "Cr2O3",
+        "aka":  [
+                    "chrome green",
+                    "eskolaite"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Cr",
+                         "O"
+                     ],
+        "pubchemCid":  517277,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Cr3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Cr"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; corundum structure."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Cr3+ in octahedral holes between oxide ions (corundum structure).",
+                        "electronSharing":  "Chromium gives three electrons toward oxygen; its three remaining d electrons absorb red light, so it looks green.",
+                        "geometry":  "Corundum structure",
+                        "bondLengths":  "Cr–O 196–201 pm"
+                    },
+        "formation":  "(NH4)2Cr2O7 -\u003e Cr2O3 + N2 + 4 H2O (the \u0027volcano\u0027 demonstration)",
+        "state":  "solid",
+        "meltingPointC":  2435,
+        "boilingPointC":  4000,
+        "occurrence":  "Rare mineral eskolaite; mostly synthetic.",
+        "uses":  [
+                     "Green pigment (chrome green, viridian)",
+                     "Polishing compound",
+                     "Refractories"
+                 ],
+        "facts":  [
+                      "The green on many banknotes and in camouflage paint uses chromium oxide pigments."
+                  ],
+        "hazards":  "Low toxicity (unlike hexavalent chromium).",
+        "summary":  "Chromium oxide is a durable green pigment."
+    },
+    {
+        "id":  "pyrolusite",
+        "name":  "Manganese dioxide (pyrolusite)",
+        "formula":  "MnO2",
+        "aka":  [
+                    "pyrolusite"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Mn",
+                         "O"
+                     ],
+        "pubchemCid":  14801,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "rutile",
+                          "a":  439.9,
+                          "c":  287.4,
+                          "u":  0.305,
+                          "cation":  "Mn",
+                          "anion":  "O"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Mn4+ in oxygen octahedra, in the rutile structure.",
+                        "electronSharing":  "Manganese gives four electrons toward oxygen and readily accepts some back, which makes MnO2 a good battery cathode.",
+                        "geometry":  "Rutile structure, 6:3",
+                        "bondLengths":  "Mn–O 188 pm"
+                    },
+        "formation":  "Mn(NO3)2 -\u003e MnO2 + 2 NO2",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "The main manganese ore.",
+        "uses":  [
+                     "Cathode of alkaline and zinc-carbon batteries",
+                     "Decolorizing glass",
+                     "Catalyst"
+                 ],
+        "facts":  [
+                      "Neanderthals used manganese dioxide as black pigment and possibly to start fires.",
+                      "It decomposes to Mn2O3 and oxygen above 535 °C."
+                  ],
+        "hazards":  "Harmful if inhaled long-term.",
+        "summary":  "MnO2 powers ordinary alkaline batteries."
+    },
+    {
+        "id":  "cinnabar",
+        "name":  "Mercury(II) sulfide (cinnabar)",
+        "formula":  "HgS",
+        "aka":  [
+                    "cinnabar",
+                    "vermilion"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Hg",
+                         "S"
+                     ],
+        "pubchemCid":  10220267,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Hg2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Hg"
+                                        },
+                                        {
+                                            "label":  "S2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "el":  "S"
+                                        }
+                                    ],
+                          "note":  "One formula unit; the real red form has helical Hg–S chains."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "Spiral chains of alternating Hg and S atoms.",
+                        "electronSharing":  "Mercury and sulfur share electron pairs (Δχ 0.58) along the chains; the band gap absorbs blue-green light, giving the scarlet color.",
+                        "geometry":  "Helical chains (trigonal)",
+                        "bondLengths":  "Hg–S 237 pm"
+                    },
+        "formation":  "Hg + S -\u003e HgS",
+        "state":  "solid",
+        "meltingPointC":  580,
+        "boilingPointC":  null,
+        "occurrence":  "Hydrothermal veins; the main mercury ore (e.g. Almadén, Spain).",
+        "uses":  [
+                     "Mercury ore",
+                     "Vermilion red pigment (historically)"
+                 ],
+        "facts":  [
+                      "Vermilion paint from cinnabar colored Roman frescoes and Chinese lacquerware; it sublimes near 580 °C."
+                  ],
+        "hazards":  "Toxic.",
+        "summary":  "Cinnabar is the scarlet ore of mercury and the source of vermilion pigment."
+    },
+    {
+        "id":  "silica",
+        "name":  "Silicon dioxide (quartz, shown as cristobalite network)",
+        "formula":  "SiO2",
+        "aka":  [
+                    "silica",
+                    "quartz",
+                    "sand",
+                    "cristobalite"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Si",
+                         "O"
+                     ],
+        "pubchemCid":  24261,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "cristobalite",
+                          "a":  716,
+                          "cation":  "Si",
+                          "anion":  "O",
+                          "note":  "Idealized beta-cristobalite; quartz links the same SiO4 tetrahedra in spirals."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A 3D network of SiO4 tetrahedra, each oxygen bridging two silicons.",
+                        "electronSharing":  "Each silicon shares one pair with each of four oxygens, and each oxygen bonds to two silicons, keeping two lone pairs. Oxygen pulls the shared electrons (Δχ 1.54).",
+                        "geometry":  "Tetrahedral Si, bent Si–O–Si",
+                        "bondLengths":  "Si–O 161 pm"
+                    },
+        "formation":  "Si + O2 -\u003e SiO2; natural crystallization from magma and hot water",
+        "state":  "solid",
+        "meltingPointC":  1713,
+        "boilingPointC":  2950,
+        "occurrence":  "The most abundant mineral family in Earth\u0027s crust: quartz, sand, flint, opal.",
+        "uses":  [
+                     "Glass and optical fiber",
+                     "Quartz crystal oscillators in clocks and phones",
+                     "Concrete and sand",
+                     "Silicon production"
+                 ],
+        "facts":  [
+                      "Quartz vibrates at a precise frequency when a voltage is applied, keeping time in watches."
+                  ],
+        "hazards":  "Breathing fine crystalline silica dust causes silicosis.",
+        "summary":  "Silica is a giant covalent network: no separate molecules, just endless Si–O–Si links."
+    },
+    {
+        "id":  "arsenic-trioxide",
+        "name":  "Arsenic trioxide",
+        "formula":  "As2O3",
+        "aka":  [
+                    "white arsenic",
+                    "arsenolite (As4O6)"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "As",
+                         "O"
+                     ],
+        "pubchemCid":  14888,
+        "structure":  {
+                          "mode":  "cage",
+                          "x":  "As",
+                          "y":  "O",
+                          "ab":  1.78,
+                          "ang":  128
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Molecules of As4O6: four arsenic atoms bridged by six oxygens in a cage.",
+                        "electronSharing":  "Each arsenic shares pairs with three oxygens and keeps one lone pair; each oxygen bridges two arsenic atoms.",
+                        "geometry":  "Adamantane-like cage; As–O–As 128°",
+                        "bondLengths":  "As–O 178 pm"
+                    },
+        "formation":  "4 As + 3 O2 -\u003e As4O6 (roasting arsenic ores)",
+        "state":  "solid",
+        "meltingPointC":  312.2,
+        "boilingPointC":  465,
+        "occurrence":  "By-product of copper and gold smelting; mineral arsenolite.",
+        "uses":  [
+                     "Treatment of acute promyelocytic leukemia",
+                     "Decolorizing glass (historically)",
+                     "Wood preservatives (restricted)"
+                 ],
+        "facts":  [
+                      "Once called \u0027inheritance powder\u0027, it is now an approved leukemia drug."
+                  ],
+        "hazards":  "Highly toxic and carcinogenic.",
+        "summary":  "Arsenic trioxide went from infamous poison to life-saving leukemia medicine."
+    },
+    {
+        "id":  "stibnite",
+        "name":  "Antimony trisulfide (stibnite)",
+        "formula":  "Sb2S3",
+        "aka":  [
+                    "stibnite",
+                    "antimonite"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Sb",
+                         "S"
+                     ],
+        "pubchemCid":  16685273,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Sb3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Sb"
+                                        },
+                                        {
+                                            "label":  "S2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "S"
+                                        }
+                                    ],
+                          "note":  "One formula unit; real stibnite has ribbon-like chains."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ribbons of Sb–S bonds; antimony and sulfur share electrons fairly evenly.",
+                        "electronSharing":  "Antimony shares electrons with sulfur (Δχ 0.53) and keeps a lone pair that shapes the ribbons.",
+                        "geometry":  "Orthorhombic ribbons",
+                        "bondLengths":  "Sb–S 245–286 pm"
+                    },
+        "formation":  "2 Sb + 3 S -\u003e Sb2S3",
+        "state":  "solid",
+        "meltingPointC":  550,
+        "boilingPointC":  null,
+        "occurrence":  "The main antimony ore, often in long needle crystals.",
+        "uses":  [
+                     "Source of antimony",
+                     "Safety-match heads",
+                     "Ancient kohl eye makeup"
+                 ],
+        "facts":  [
+                      "Stibnite forms spectacular metallic needles up to tens of centimeters long."
+                  ],
+        "hazards":  "Toxic.",
+        "summary":  "Stibnite is the needle-shaped ore of antimony."
+    },
+    {
+        "id":  "vanadium-pentoxide",
+        "name":  "Vanadium pentoxide",
+        "formula":  "V2O5",
+        "aka":  [
+                    "vanadia"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "V",
+                         "O"
+                     ],
+        "pubchemCid":  14814,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "V5+",
+                                            "charge":  5,
+                                            "count":  2,
+                                            "el":  "V"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  5,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; the real solid is layered."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "Layers of VO5 square pyramids with a short V=O bond.",
+                        "electronSharing":  "Vanadium has given all five valence electrons toward oxygen and can take one back easily, which makes it a good oxidation catalyst.",
+                        "geometry":  "Layered, square-pyramidal V",
+                        "bondLengths":  "V=O 158 pm, V–O 178–202 pm"
+                    },
+        "formation":  "2 NH4VO3 -\u003e V2O5 + 2 NH3 + H2O",
+        "state":  "solid",
+        "meltingPointC":  690,
+        "boilingPointC":  1750,
+        "occurrence":  "From vanadium ores and oil residues.",
+        "uses":  [
+                     "Catalyst in sulfuric acid production",
+                     "Vanadium flow batteries",
+                     "Ceramics"
+                 ],
+        "facts":  [
+                      "V2O5 converts SO2 to SO3 in the contact process, making most of the world\u0027s sulfuric acid."
+                  ],
+        "hazards":  "Toxic; irritates lungs.",
+        "summary":  "Vanadium pentoxide is the catalyst behind sulfuric acid production."
+    },
+    {
+        "id":  "tungsten-carbide",
+        "name":  "Tungsten carbide",
+        "formula":  "WC",
+        "aka":  [
+
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "W",
+                         "C"
+                     ],
+        "pubchemCid":  2724274,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "tungsten-carbide",
+                          "a":  290.6,
+                          "c":  283.7,
+                          "cation":  "W",
+                          "anion":  "C"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "metallic"
+                                  ],
+                        "summary":  "Carbon atoms sit in trigonal prisms of tungsten atoms; bonding mixes covalent and metallic character.",
+                        "electronSharing":  "Carbon shares electrons with six tungsten neighbors, while tungsten\u0027s d electrons stay partly delocalized, so WC conducts electricity.",
+                        "geometry":  "Hexagonal (trigonal prismatic C)",
+                        "bondLengths":  "W–C 220 pm"
+                    },
+        "formation":  "W + C -\u003e WC (about 1,400–2,000 °C)",
+        "state":  "solid",
+        "meltingPointC":  2870,
+        "boilingPointC":  6000,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Cutting tools and drill bits",
+                     "Mining and armor-piercing ammunition",
+                     "Jewelry and ballpoint-pen balls"
+                 ],
+        "facts":  [
+                      "Tungsten carbide is roughly three times as stiff as steel."
+                  ],
+        "hazards":  "Dust is harmful to lungs (especially with cobalt binder).",
+        "summary":  "Tungsten carbide is one of the hardest practical materials, used for cutting tools."
+    },
+    {
+        "id":  "molybdenite",
+        "name":  "Molybdenum disulfide (molybdenite)",
+        "formula":  "MoS2",
+        "aka":  [
+                    "molybdenite"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Mo",
+                         "S"
+                     ],
+        "pubchemCid":  14823,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "molybdenite",
+                          "a":  316,
+                          "c":  1229,
+                          "u":  0.128,
+                          "cation":  "Mo",
+                          "anion":  "S"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "van der Waals between molecules"
+                                  ],
+                        "summary":  "Sandwich layers S–Mo–S held to each other only by weak forces.",
+                        "electronSharing":  "Within a layer, molybdenum shares electrons with six sulfurs in a trigonal prism. Between layers there are no bonds, so they slide easily.",
+                        "geometry":  "Layered, trigonal-prismatic Mo",
+                        "bondLengths":  "Mo–S 241 pm"
+                    },
+        "formation":  "Mo + 2 S -\u003e MoS2; natural mineral",
+        "state":  "solid",
+        "meltingPointC":  2375,
+        "boilingPointC":  null,
+        "occurrence":  "The main molybdenum ore.",
+        "uses":  [
+                     "Dry lubricant",
+                     "Catalyst for removing sulfur from fuels",
+                     "2D semiconductor research"
+                 ],
+        "facts":  [
+                      "A single layer of MoS2 is a semiconductor only three atoms thick."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "MoS2 is a slippery layered mineral, like graphite, used as a lubricant."
+    }
+]

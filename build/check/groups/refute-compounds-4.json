@@ -1,0 +1,156 @@
+[
+    {
+        "kind":  "compound",
+        "batch":  "compounds 16",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-16.json",
+        "id":  "tetraamminecopper",
+        "field":  "pubchemCid",
+        "current":  "21715496",
+        "corrected":  "61847",
+        "reason":  "The current CID is the singly charged copper(I) species, not the [Cu(NH3)4]2+ ion this entry describes.",
+        "source":  "PubChem PUG REST: CID 21715496 = \u0027Tetraamminecopper\u0027, CuH12N4+ (charge +1); CID 61847 = \u0027Tetraamminecopper(2+)\u0027, CuH12N4+2"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 17",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-17.json",
+        "id":  "brass",
+        "field":  "structure.composition",
+        "current":  "[{\"el\":\"Cu\",\"fraction\":0.67},{\"el\":\"Zn\",\"fraction\":0.33}]",
+        "corrected":  "[{\"el\":\"Cu\",\"fraction\":0.706},{\"el\":\"Zn\",\"fraction\":0.294}]",
+        "reason":  "The aka names cartridge brass (70/30 by mass), which works out to about 70.6% Cu and 29.4% Zn by atoms, not 67/33. 67/33 matches common yellow brass, not cartridge brass.",
+        "source":  "Atomic masses Cu 63.55, Zn 65.38 (IUPAC); cartridge brass = 70 Cu / 30 Zn by mass"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 17",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-17.json",
+        "id":  "terfenol-d",
+        "field":  "summary",
+        "current":  "Terfenol-D changes length in a magnetic field more than any other room-temperature material.",
+        "corrected":  "Terfenol-D has the largest magnetostriction of any alloy at room temperature.",
+        "reason":  "Ferromagnetic shape-memory alloys such as Ni-Mn-Ga reach field-induced strains of several percent at room temperature, far more than Terfenol-D\u0027s ~0.2%. Its record holds for magnetostriction among alloys, not for every material.",
+        "source":  "Wikipedia \u0027Terfenol-D\u0027; literature on Ni-Mn-Ga ferromagnetic shape-memory alloys"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 18",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-18.json",
+        "id":  "methane",
+        "field":  "aka",
+        "current":  "[\"natural gas\",\"marsh gas\"]",
+        "corrected":  "[\"marsh gas\"]",
+        "reason":  "Natural gas is a mixture, not another name for methane. The entry\u0027s own occurrence field correctly calls methane the \u0027main component of natural gas\u0027, so listing it as a synonym is misleading.",
+        "source":  "IUPAC naming conventions; Wikipedia \u0027Natural gas\u0027 (natural gas is a mixture, mainly methane plus ethane, propane, CO2, N2 and others)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 18",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-18.json",
+        "id":  "acetylene",
+        "field":  "meltingPointC",
+        "current":  "-80.8",
+        "corrected":  "null",
+        "reason":  "-80.8 °C is the triple point, reached only above 1 atm. At 1 atm acetylene sublimes, and the entry\u0027s own fact says so. By the dataset convention, meltingPointC should be null and boilingPointC can hold the sublimation point (-84).",
+        "source":  "NIST WebBook / CRC Handbook: triple point -80.8 °C at about 1.27 atm; sublimes at -84 °C at 1 atm"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 19",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-19.json",
+        "id":  "formic-acid",
+        "field":  "occurrence",
+        "current":  "Ant and bee stings, nettles.",
+        "corrected":  "\"Ant venom and stinging nettles.\"",
+        "reason":  "Bee venom is a peptide/enzyme mixture; the idea that bee stings are formic acid is a popular myth. Formic acid occurs notably in formicine ants and nettle hairs.",
+        "source":  "Wikipedia \u0027Formic acid\u0027 (natural occurrence: ants of subfamily Formicinae, stinging nettles); bee venom composition reviews (melittin, apamin, phospholipase A2)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 19",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-19.json",
+        "id":  "formic-acid",
+        "field":  "summary",
+        "current":  "Formic acid is the sting in ant bites.",
+        "corrected":  "\"Formic acid is the sting in many ant bites and nettles.\"",
+        "reason":  "Only some ants (Formicinae) use formic acid; many ant stings (e.g. fire ants) are alkaloid or protein venoms, so the unqualified claim is misleading.",
+        "source":  "Wikipedia \u0027Formic acid\u0027; \u0027Formicinae\u0027 (only formicine ants spray formic acid; fire ants use alkaloid venom)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 20",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-20.json",
+        "id":  "urea",
+        "field":  "summary",
+        "current":  "Urea was the first organic compound made from inorganic starting materials.",
+        "corrected":  "\"Wöhler\u0027s 1828 urea synthesis was a famous early case of making an organic compound from inorganic starting materials.\"",
+        "reason":  "Calling it the \u0027first\u0027 is a textbook myth. Wöhler had already made oxalic acid, an organic compound, from cyanogen in 1824. The 1828 urea synthesis is famous, but it was not strictly the first.",
+        "source":  "Ramberg, Ambix 47 (2000) 170; Wöhler\u0027s 1824 oxalic acid synthesis from cyanogen (Wikipedia: Wöhler synthesis, Friedrich Wöhler)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 22",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-22.json",
+        "id":  "atp",
+        "field":  "formation",
+        "current":  "\"ADP + phosphate -\u003e ATP (ATP synthase, driven by respiration)\"",
+        "corrected":  "\"ADP + phosphate -\u003e ATP + H2O (ATP synthase, driven by respiration)\"",
+        "reason":  "Phosphorylation of ADP is a condensation that releases water; without H2O the equation is unbalanced (H and O).",
+        "source":  "Standard biochemistry (Berg, Biochemistry); atom count ADP C10H15N5O10P2 + H3PO4 = ATP C10H16N5O13P3 + H2O"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 22",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-22.json",
+        "id":  "thymine",
+        "field":  "occurrence",
+        "current":  "\"DNA only.\"",
+        "corrected":  "\"Mainly DNA; small amounts in tRNA as ribothymidine.\"",
+        "reason":  "Thymine also occurs in RNA (tRNA T-loop), so \u0027DNA only\u0027 is overstated.",
+        "source":  "Biochemistry texts: 5-methyluridine (ribothymidine) in the TΨC loop of tRNA"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 23",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-23.json",
+        "id":  "retinol",
+        "field":  "facts[0]",
+        "current":  "Vision starts when one photon straightens a single bond in retinal.",
+        "corrected":  "\"Vision starts when one photon flips a cis double bond in retinal to trans.\"",
+        "reason":  "The photoisomerization happens at the C11=C12 double bond, not a single bond. The entry\u0027s own electronSharing text correctly says a double bond.",
+        "source":  "Standard biochemistry (Wald; 11-cis-retinal to all-trans-retinal photoisomerization at C11=C12)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 23",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-23.json",
+        "id":  "lactic-acid",
+        "field":  "boilingPointC",
+        "current":  "122",
+        "corrected":  "null",
+        "reason":  "122 °C is the boiling point under reduced pressure (about 15 mmHg). At 1 atm lactic acid decomposes or condenses to lactide before it boils, so by the convention the value should be null.",
+        "source":  "CRC Handbook / PubChem: bp 122 °C at 15 mmHg; decomposes on heating at 1 atm"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 23",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-23.json",
+        "id":  "lactic-acid",
+        "field":  "formation",
+        "current":  "Pyruvate + NADH -\u003e lactate (fermentation in muscles and bacteria)",
+        "corrected":  "\"Pyruvate + NADH + H+ -\u003e lactate + NAD+ (fermentation in muscles and bacteria)\"",
+        "reason":  "As written the equation is not balanced: NADH is consumed but NAD+ is not shown as a product, and the H+ is missing.",
+        "source":  "Lactate dehydrogenase reaction, standard biochemistry texts"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 23",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-23.json",
+        "id":  "retinol",
+        "field":  "bonding.types",
+        "current":  "[\"nonpolar covalent\",\"delocalized (aromatic or resonance)\"]",
+        "corrected":  "[\"nonpolar covalent\",\"polar covalent\",\"delocalized (aromatic or resonance)\"]",
+        "reason":  "Retinol has a terminal OH group, so its C–O and O–H bonds are polar covalent. Listing only nonpolar covalent bonds leaves this out.",
+        "source":  "Structure of retinol (primary alcohol, C–O–H)"
+    }
+]

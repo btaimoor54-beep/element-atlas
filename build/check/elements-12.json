@@ -1,0 +1,671 @@
+[
+    {
+        "z":  111,
+        "symbol":  "Rg",
+        "name":  "Roentgenium",
+        "altName":  null,
+        "atomicMass":  "[282]",
+        "category":  "transition metal",
+        "categoryPredicted":  true,
+        "group":  11,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d9 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1994",
+                          "by":  "Sigurd Hofmann and team (GSI Darmstadt)",
+                          "note":  "Made by fusing bismuth-209 with nickel-64."
+                      },
+        "nameOrigin":  "Wilhelm Conrad Röntgen, discoverer of X-rays.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  282,
+                                                 "halfLife":  "about 2 minutes",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  282
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Rg",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "No chemistry yet; predicted to be a noble metal below gold, perhaps even more resistant to reaction.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted body-centered cubic)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen; predicted to be silvery rather than golden.",
+        "summary":  "Roentgenium sits below gold. Relativistic effects are predicted to make it silvery rather than golden.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "It was first made exactly 99 years after Röntgen discovered X-rays (1895 to 1994)."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    },
+    {
+        "z":  112,
+        "symbol":  "Cn",
+        "name":  "Copernicium",
+        "altName":  null,
+        "atomicMass":  "[285]",
+        "category":  "transition metal",
+        "categoryPredicted":  true,
+        "group":  12,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d10 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "liquid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1996",
+                          "by":  "Sigurd Hofmann and team (GSI Darmstadt)",
+                          "note":  "Made by fusing lead-208 with zinc-70."
+                      },
+        "nameOrigin":  "Nicolaus Copernicus.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  285,
+                                                 "halfLife":  "about 30 seconds",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  285
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Cn",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Single-atom experiments show copernicium binds only weakly to gold, behaving like a very volatile metal; calculations suggest it is a liquid near room temperature.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted liquid near room temperature."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Copernicium is in mercury\u0027s group. Calculations predict that, like mercury, it would be a liquid metal near room temperature.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "It was officially named on 19 February 2010, Copernicus\u0027s 537th birthday."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    },
+    {
+        "z":  113,
+        "symbol":  "Nh",
+        "name":  "Nihonium",
+        "altName":  null,
+        "atomicMass":  "[286]",
+        "category":  "post-transition metal",
+        "categoryPredicted":  true,
+        "group":  13,
+        "period":  7,
+        "block":  "p",
+        "electronConfiguration":  "[Rn] 5f14 6d10 7s2 7p1",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "2004",
+                          "by":  "Kosuke Morita and team (RIKEN, Japan)",
+                          "note":  "Only three atoms were found in nine years of experiments."
+                      },
+        "nameOrigin":  "Nihon, Japan.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  286,
+                                                 "halfLife":  "about 10 seconds",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  286
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Nh",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Little chemistry known; predicted to be a soft metal below thallium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Nihonium was the first element discovered in Asia.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "The RIKEN team needed about nine years of experiments to observe three atoms."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    },
+    {
+        "z":  114,
+        "symbol":  "Fl",
+        "name":  "Flerovium",
+        "altName":  null,
+        "atomicMass":  "[290]",
+        "category":  "post-transition metal",
+        "categoryPredicted":  true,
+        "group":  14,
+        "period":  7,
+        "block":  "p",
+        "electronConfiguration":  "[Rn] 5f14 6d10 7s2 7p2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "unknown",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1999",
+                          "by":  "Yuri Oganessian and team (Dubna)",
+                          "note":  "Made by fusing plutonium-244 with calcium-48."
+                      },
+        "nameOrigin":  "The Flerov Laboratory of Nuclear Reactions, named after Georgy Flerov.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  289,
+                                                 "halfLife":  "about 2 seconds",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  290,
+                                                 "halfLife":  "about 20 seconds (tentative)",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  290
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Fl",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Single-atom experiments suggest flerovium is a volatile metal that bonds only weakly, partly because its 7p electrons are stabilized by relativistic effects.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Flerovium sits near the predicted \u0027island of stability\u0027 where superheavy nuclei might live longer.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Its isotopes live longer than those of its neighbors, a hint of the island of stability."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    },
+    {
+        "z":  115,
+        "symbol":  "Mc",
+        "name":  "Moscovium",
+        "altName":  null,
+        "atomicMass":  "[290]",
+        "category":  "post-transition metal",
+        "categoryPredicted":  true,
+        "group":  15,
+        "period":  7,
+        "block":  "p",
+        "electronConfiguration":  "[Rn] 5f14 6d10 7s2 7p3",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "2003",
+                          "by":  "Yuri Oganessian and team (Dubna) with Lawrence Livermore",
+                          "note":  "Made by fusing americium-243 with calcium-48."
+                      },
+        "nameOrigin":  "The Moscow region, where Dubna is located.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  290,
+                                                 "halfLife":  "about 0.65 seconds",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  290
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Mc",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Predicted to be a heavy post-transition metal like bismuth, possibly favoring the +1 state.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Moscovium is a synthetic element whose chemistry has only just begun to be probed, one atom at a time.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "It was officially named in 2016 along with nihonium, tennessine and oganesson."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    },
+    {
+        "z":  116,
+        "symbol":  "Lv",
+        "name":  "Livermorium",
+        "altName":  null,
+        "atomicMass":  "[293]",
+        "category":  "post-transition metal",
+        "categoryPredicted":  true,
+        "group":  16,
+        "period":  7,
+        "block":  "p",
+        "electronConfiguration":  "[Rn] 5f14 6d10 7s2 7p4",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "2000",
+                          "by":  "Yuri Oganessian and team (Dubna) with Lawrence Livermore",
+                          "note":  "Made by fusing curium-248 with calcium-48."
+                      },
+        "nameOrigin":  "Lawrence Livermore National Laboratory, California.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  293,
+                                                 "halfLife":  "about 60 milliseconds",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  293
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Lv",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Predicted to be a metal below polonium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Livermorium is a synthetic element. In 2024 Berkeley made it with a titanium-50 beam, a step toward making element 120.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Making it with a titanium-50 beam in 2024 showed a possible route to elements 119 and 120."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    },
+    {
+        "z":  117,
+        "symbol":  "Ts",
+        "name":  "Tennessine",
+        "altName":  null,
+        "atomicMass":  "[294]",
+        "category":  "halogen",
+        "categoryPredicted":  true,
+        "group":  17,
+        "period":  7,
+        "block":  "p",
+        "electronConfiguration":  "[Rn] 5f14 6d10 7s2 7p5",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "2010",
+                          "by":  "Yuri Oganessian and team (Dubna) with Oak Ridge and Vanderbilt",
+                          "note":  "Made by fusing berkelium-249 (from Oak Ridge) with calcium-48."
+                      },
+        "nameOrigin":  "Tennessee, home of Oak Ridge National Laboratory and Vanderbilt University.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  294,
+                                                 "halfLife":  "about 50 milliseconds",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  294
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Ts",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Though in the halogen group, it is predicted to behave more like a metalloid than like iodine.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Tennessine is the second-heaviest known element. Its target, berkelium-249, had to be made in a reactor and flown to Russia within months.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "The \u0027-ine\u0027 ending marks it as part of the halogen group."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    },
+    {
+        "z":  118,
+        "symbol":  "Og",
+        "name":  "Oganesson",
+        "altName":  null,
+        "atomicMass":  "[294]",
+        "category":  "noble gas",
+        "categoryPredicted":  true,
+        "group":  18,
+        "period":  7,
+        "block":  "p",
+        "electronConfiguration":  "[Rn] 5f14 6d10 7s2 7p6",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "2002",
+                          "by":  "Yuri Oganessian and team (Dubna) with Lawrence Livermore",
+                          "note":  "Made by fusing californium-249 with calcium-48; reported in 2006."
+                      },
+        "nameOrigin":  "Yuri Oganessian, pioneer of superheavy-element research.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  294,
+                                                 "halfLife":  "about 0.7 milliseconds",
+                                                 "note":  "The only isotope seen; only five or so atoms detected."
+                                             }
+                                         ],
+                         "displayA":  294
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Og",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Although in the noble-gas group, relativistic effects are predicted to make oganesson reactive and a solid semiconductor at room temperature.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted face-centered cubic solid)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted to melt around 50 °C."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Oganesson is the heaviest element known. Only a handful of its atoms have ever been made, each lasting under a millisecond.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "It is one of only two elements named after a living person (with seaborgium)."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    }
+]

@@ -1,0 +1,450 @@
+[
+    {
+        "id":  "urea",
+        "name":  "Urea",
+        "formula":  "CO(NH2)2",
+        "aka":  [
+                    "carbamide"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "O",
+                         "N",
+                         "H"
+                     ],
+        "pubchemCid":  1176,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1176)",
+                          "atomCount":  8,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A C=O group flanked by two NH2 groups.",
+                        "electronSharing":  "Nitrogen lone pairs partly join the C=O π bond, making the molecule flat and very polar.",
+                        "geometry":  "Planar",
+                        "bondLengths":  "C=O 126 pm, C–N 134 pm"
+                    },
+        "formation":  "2 NH3 + CO2 -\u003e CO(NH2)2 + H2O",
+        "state":  "solid",
+        "meltingPointC":  133,
+        "boilingPointC":  null,
+        "occurrence":  "Urine; made industrially in huge amounts.",
+        "uses":  [
+                     "Nitrogen fertilizer (the most used)",
+                     "Diesel exhaust fluid (AdBlue)",
+                     "Resins and skin creams"
+                 ],
+        "facts":  [
+                      "Friedrich Wöhler\u0027s 1828 synthesis of urea from inorganic salts helped end the belief that living things contain a special \u0027vital force\u0027."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Urea was the first organic compound made from inorganic starting materials."
+    },
+    {
+        "id":  "chloroform",
+        "name":  "Chloroform",
+        "formula":  "CHCl3",
+        "aka":  [
+                    "trichloromethane"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "Cl"
+                     ],
+        "pubchemCid":  6212,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 6212)",
+                          "atomCount":  5,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Carbon bonded to one hydrogen and three chlorines.",
+                        "electronSharing":  "The three chlorines pull electrons from carbon, making the C–H slightly acidic and the molecule polar.",
+                        "geometry":  "Tetrahedral",
+                        "bondLengths":  "C–Cl 176 pm"
+                    },
+        "formation":  "CH4 + 3 Cl2 -\u003e CHCl3 + 3 HCl",
+        "state":  "liquid",
+        "meltingPointC":  -63.5,
+        "boilingPointC":  61.2,
+        "occurrence":  "Synthetic; small amounts made by seaweed.",
+        "uses":  [
+                     "Making refrigerants (HCFC-22)",
+                     "Laboratory solvent"
+                 ],
+        "facts":  [
+                      "It was a common surgical anesthetic in the 1800s, used for Queen Victoria in childbirth."
+                  ],
+        "hazards":  "Toxic; possible carcinogen.",
+        "summary":  "Chloroform was an early anesthetic and is now a solvent and chemical feedstock."
+    },
+    {
+        "id":  "carbon-tetrachloride",
+        "name":  "Carbon tetrachloride",
+        "formula":  "CCl4",
+        "aka":  [
+                    "tetrachloromethane"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "Cl"
+                     ],
+        "pubchemCid":  5943,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5943)",
+                          "atomCount":  5,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Carbon bonded to four chlorines in a tetrahedron.",
+                        "electronSharing":  "Each C–Cl bond is polar, but the four pull equally in symmetric directions, so CCl4 is nonpolar.",
+                        "geometry":  "Tetrahedral",
+                        "bondLengths":  "C–Cl 177 pm"
+                    },
+        "formation":  "CH4 + 4 Cl2 -\u003e CCl4 + 4 HCl",
+        "state":  "liquid",
+        "meltingPointC":  -22.9,
+        "boilingPointC":  76.7,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Formerly fire extinguishers, dry cleaning and refrigerant production (now restricted)"
+                 ],
+        "facts":  [
+                      "It is a classic example of polar bonds in a nonpolar molecule."
+                  ],
+        "hazards":  "Toxic to liver; ozone-depleting.",
+        "summary":  "CCl4 shows how symmetry cancels bond polarity."
+    },
+    {
+        "id":  "vinyl-chloride",
+        "name":  "Vinyl chloride (PVC monomer)",
+        "formula":  "C2H3Cl",
+        "aka":  [
+                    "chloroethene"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "Cl"
+                     ],
+        "pubchemCid":  6338,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 6338)",
+                          "atomCount":  6,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ethylene with one hydrogen replaced by chlorine.",
+                        "electronSharing":  "The C=C double bond opens up during polymerization to link thousands of units into PVC chains.",
+                        "geometry":  "Planar",
+                        "bondLengths":  "C=C 133 pm, C–Cl 173 pm"
+                    },
+        "formation":  "C2H4 + Cl2 -\u003e C2H4Cl2 -\u003e C2H3Cl + HCl",
+        "state":  "gas",
+        "meltingPointC":  -153.8,
+        "boilingPointC":  -13.4,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Making PVC pipes, window frames and cable insulation"
+                 ],
+        "facts":  [
+                      "PVC is the third most produced plastic."
+                  ],
+        "hazards":  "Carcinogenic, flammable.",
+        "summary":  "Vinyl chloride is the building block of PVC."
+    },
+    {
+        "id":  "styrene",
+        "name":  "Styrene (polystyrene monomer)",
+        "formula":  "C8H8",
+        "aka":  [
+                    "vinylbenzene"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  7501,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 7501)",
+                          "atomCount":  16,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A vinyl group (C=C) attached to a benzene ring.",
+                        "electronSharing":  "The vinyl double bond is conjugated with the ring\u0027s π electrons; it opens to form polystyrene chains.",
+                        "geometry":  "Planar",
+                        "bondLengths":  "C=C 134 pm"
+                    },
+        "formation":  "C6H5CH2CH3 -\u003e C6H5CH=CH2 + H2 (dehydrogenating ethylbenzene)",
+        "state":  "liquid",
+        "meltingPointC":  -30.6,
+        "boilingPointC":  145,
+        "occurrence":  "Synthetic; traces in some foods.",
+        "uses":  [
+                     "Polystyrene and expanded polystyrene foam",
+                     "ABS plastic and synthetic rubber"
+                 ],
+        "facts":  [
+                      "Expanded polystyrene foam is about 98% air."
+                  ],
+        "hazards":  "Possible carcinogen; flammable.",
+        "summary":  "Styrene links up to make polystyrene."
+    },
+    {
+        "id":  "tetrafluoroethylene",
+        "name":  "Tetrafluoroethylene (Teflon monomer)",
+        "formula":  "C2F4",
+        "aka":  [
+                    "TFE"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "F"
+                     ],
+        "pubchemCid":  8301,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 8301)",
+                          "atomCount":  6,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ethylene with all four hydrogens replaced by fluorine.",
+                        "electronSharing":  "The strong, polar C–F bonds wrap the carbon chain in fluorine, which makes the polymer (PTFE) slippery and inert.",
+                        "geometry":  "Planar",
+                        "bondLengths":  "C=C 131 pm, C–F 132 pm"
+                    },
+        "formation":  "2 CHClF2 -\u003e C2F4 + 2 HCl",
+        "state":  "gas",
+        "meltingPointC":  -142.5,
+        "boilingPointC":  -76.3,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Making PTFE (Teflon) for non-stick pans, seals and cables"
+                 ],
+        "facts":  [
+                      "PTFE was discovered by accident in 1938 when a cylinder of TFE gas turned into white powder."
+                  ],
+        "hazards":  "Can polymerize explosively.",
+        "summary":  "TFE polymerizes into Teflon, one of the most slippery solids."
+    },
+    {
+        "id":  "diethyl-ether",
+        "name":  "Diethyl ether",
+        "formula":  "C4H10O",
+        "aka":  [
+                    "ether",
+                    "ethoxyethane"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  3283,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 3283)",
+                          "atomCount":  15,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "An oxygen atom linking two ethyl groups.",
+                        "electronSharing":  "Oxygen shares a pair with each carbon and keeps two lone pairs; with no O–H, ether cannot hydrogen-bond to itself, so it boils at only 34.6 °C.",
+                        "geometry":  "Bent at oxygen, C–O–C 112°",
+                        "bondLengths":  "C–O 141 pm"
+                    },
+        "formation":  "2 C2H5OH -\u003e (C2H5)2O + H2O (with sulfuric acid)",
+        "state":  "liquid",
+        "meltingPointC":  -116.3,
+        "boilingPointC":  34.6,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Laboratory solvent",
+                     "Starting fluid for engines",
+                     "Historic surgical anesthetic"
+                 ],
+        "facts":  [
+                      "The first public demonstration of ether anesthesia was in Boston in 1846."
+                  ],
+        "hazards":  "Extremely flammable; forms explosive peroxides.",
+        "summary":  "Diethyl ether made painless surgery possible."
+    },
+    {
+        "id":  "nitroglycerin",
+        "name":  "Nitroglycerin",
+        "formula":  "C3H5N3O9",
+        "aka":  [
+                    "glyceryl trinitrate"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  4510,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 4510)",
+                          "atomCount":  20,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "Glycerol with three nitrate groups.",
+                        "electronSharing":  "Fuel (C and H) and oxidizer (nitrate oxygen) sit in the same molecule, so it can rearrange explosively into N2, CO2 and water.",
+                        "geometry":  "Flexible chain with planar NO2 groups",
+                        "bondLengths":  "N–O 121 pm"
+                    },
+        "formation":  "C3H8O3 + 3 HNO3 -\u003e C3H5N3O9 + 3 H2O",
+        "state":  "liquid",
+        "meltingPointC":  13,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Dynamite and propellants",
+                     "Heart medicine for angina (relaxes blood vessels)"
+                 ],
+        "facts":  [
+                      "Alfred Nobel tamed it into dynamite and later funded the Nobel Prizes; decades later nitroglycerin was prescribed for his own heart condition."
+                  ],
+        "hazards":  "Shock-sensitive explosive.",
+        "summary":  "Nitroglycerin is both a powerful explosive and a heart medicine."
+    },
+    {
+        "id":  "tnt",
+        "name":  "Trinitrotoluene (TNT)",
+        "formula":  "C7H5N3O6",
+        "aka":  [
+                    "TNT"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  8376,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 8376)",
+                          "atomCount":  21,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A toluene ring carrying three nitro groups.",
+                        "electronSharing":  "The nitro groups pull electrons from the ring; the molecule stores oxygen and fuel together but is stable enough to melt and pour.",
+                        "geometry":  "Planar ring with twisted NO2 groups",
+                        "bondLengths":  "C–N 147 pm, N–O 122 pm"
+                    },
+        "formation":  "Toluene + 3 HNO3 -\u003e TNT + 3 H2O (with sulfuric acid)",
+        "state":  "solid",
+        "meltingPointC":  80.4,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Military and mining explosive",
+                     "Standard unit of explosive energy (tons of TNT)"
+                 ],
+        "facts":  [
+                      "Its stability made it safe enough to melt and pour into shells."
+                  ],
+        "hazards":  "Explosive and toxic.",
+        "summary":  "TNT is the reference explosive used to measure explosive energy."
+    },
+    {
+        "id":  "glucose",
+        "name":  "Glucose",
+        "formula":  "C6H12O6",
+        "aka":  [
+                    "dextrose",
+                    "blood sugar"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  5793,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5793)",
+                          "atomCount":  24,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A six-membered ring of five carbons and one oxygen, with OH groups around it.",
+                        "electronSharing":  "All bonds are shared pairs; the five O–H groups make glucose very soluble in water through hydrogen bonds.",
+                        "geometry":  "Chair-shaped pyranose ring",
+                        "bondLengths":  "C–C 152 pm, C–O 143 pm"
+                    },
+        "formation":  "6 CO2 + 6 H2O -\u003e C6H12O6 + 6 O2 (photosynthesis)",
+        "state":  "solid",
+        "meltingPointC":  146,
+        "boilingPointC":  null,
+        "occurrence":  "Blood, fruit, honey; made by every green plant.",
+        "uses":  [
+                     "Energy source for cells",
+                     "Food and drinks",
+                     "Medical drips"
+                 ],
+        "facts":  [
+                      "Your brain burns about 120 g of glucose a day."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Glucose is the fuel that photosynthesis makes and almost all cells burn."
+    }
+]

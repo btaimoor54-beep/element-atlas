@@ -1,0 +1,1052 @@
+[
+    {
+        "z":  51,
+        "symbol":  "Sb",
+        "name":  "Antimony",
+        "altName":  null,
+        "atomicMass":  "121.76",
+        "category":  "metalloid",
+        "categoryPredicted":  false,
+        "group":  15,
+        "period":  5,
+        "block":  "p",
+        "electronConfiguration":  "[Kr] 4d10 5s2 5p3",
+        "configPredicted":  false,
+        "electronegativity":  2.05,
+        "ionizationEnergy":  8.64,
+        "electronAffinity":  1.07,
+        "covalentRadius":  139,
+        "vdwRadius":  206,
+        "meltingPoint":  903.78,
+        "boilingPoint":  1860,
+        "density":  6.685,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                5,
+                                -3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Known in antiquity",
+                          "note":  "Stibnite (antimony sulfide) was used as eye makeup in ancient Egypt."
+                      },
+        "nameOrigin":  "Possibly Greek anti-monos, \u0027not alone\u0027; symbol Sb from Latin stibium.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  121,
+                                            "abundance":  57.21
+                                        },
+                                        {
+                                            "A":  123,
+                                            "abundance":  42.79
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  125,
+                                                 "halfLife":  "2.76 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  121
+                     },
+        "elementalForm":  {
+                              "kind":  "network",
+                              "formula":  "Sb (grey, layered)",
+                              "bondOrder":  1,
+                              "bondLengthPm":  291,
+                              "description":  "Like grey arsenic, each antimony atom shares pairs with three neighbors in puckered layers and keeps a lone pair; it conducts like a poor metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Rhombohedral (A7 layered)",
+                     "lattice":  "rhombohedral",
+                     "renderAs":  "simple-cubic",
+                     "latticeConstantPm":  431,
+                     "cPm":  null,
+                     "note":  "Drawn as a simplified distorted cubic net."
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  0.2,
+        "appearance":  "Brittle, lustrous, silvery-grey metalloid.",
+        "summary":  "Antimony is a brittle metalloid that, like water, expands slightly as it freezes, which made it valuable for casting sharp printing type.",
+        "uses":  [
+                     "Flame retardants (antimony trioxide)",
+                     "Lead-acid battery grids",
+                     "Semiconductors",
+                     "Pewter and type metal"
+                 ],
+        "facts":  [
+                      "Ancient Egyptians used antimony sulfide as kohl eyeliner."
+                  ],
+        "biology":  "None known; toxic.",
+        "hazards":  "Toxic, similar to arsenic but milder.",
+        "color":  "#9E63B5"
+    },
+    {
+        "z":  52,
+        "symbol":  "Te",
+        "name":  "Tellurium",
+        "altName":  null,
+        "atomicMass":  "127.6",
+        "category":  "metalloid",
+        "categoryPredicted":  false,
+        "group":  16,
+        "period":  5,
+        "block":  "p",
+        "electronConfiguration":  "[Kr] 4d10 5s2 5p4",
+        "configPredicted":  false,
+        "electronegativity":  2.1,
+        "ionizationEnergy":  9.01,
+        "electronAffinity":  1.971,
+        "covalentRadius":  138,
+        "vdwRadius":  206,
+        "meltingPoint":  722.66,
+        "boilingPoint":  1261,
+        "density":  6.232,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -2,
+                                4,
+                                6
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1782",
+                          "by":  "Franz-Joseph Müller von Reichenstein",
+                          "note":  "Found in gold ore from Transylvania; named by Klaproth in 1798."
+                      },
+        "nameOrigin":  "Latin tellus, Earth.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  120,
+                                            "abundance":  0.09
+                                        },
+                                        {
+                                            "A":  122,
+                                            "abundance":  2.55
+                                        },
+                                        {
+                                            "A":  123,
+                                            "abundance":  0.89
+                                        },
+                                        {
+                                            "A":  124,
+                                            "abundance":  4.74
+                                        },
+                                        {
+                                            "A":  125,
+                                            "abundance":  7.07
+                                        },
+                                        {
+                                            "A":  126,
+                                            "abundance":  18.84
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  128,
+                                                 "halfLife":  "2.2×10^24 years",
+                                                 "note":  "31.74% of natural tellurium: the slowest decay ever measured."
+                                             },
+                                             {
+                                                 "A":  130,
+                                                 "halfLife":  "7.9×10^20 years",
+                                                 "note":  "34.08% of natural tellurium."
+                                             }
+                                         ],
+                         "displayA":  130
+                     },
+        "elementalForm":  {
+                              "kind":  "polyatomic",
+                              "formula":  "Te (helical chains)",
+                              "bondOrder":  1,
+                              "bondLengthPm":  284,
+                              "description":  "Tellurium is built from spiral chains, like grey selenium: each atom shares one pair with each chain neighbor and keeps two lone pairs.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal (helical chains)",
+                     "lattice":  "hexagonal",
+                     "renderAs":  "chain",
+                     "latticeConstantPm":  445.7,
+                     "cPm":  592.9,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made almost entirely by rapid neutron capture.",
+        "crustAbundancePpm":  0.001,
+        "appearance":  "Brittle, silvery-white metalloid.",
+        "summary":  "Tellurium is one of the rarest stable elements in the crust. Tellurium-128 decays so slowly that its half-life is more than 100 trillion times the age of the universe.",
+        "uses":  [
+                     "Cadmium telluride solar panels",
+                     "Bismuth telluride thermoelectric coolers",
+                     "Rewritable optical discs",
+                     "Alloys for machinable steel"
+                 ],
+        "facts":  [
+                      "People exposed to tellurium can get strong garlic-smelling breath."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Toxic in moderate amounts.",
+        "color":  "#D47A00"
+    },
+    {
+        "z":  53,
+        "symbol":  "I",
+        "name":  "Iodine",
+        "altName":  null,
+        "atomicMass":  "126.90",
+        "category":  "halogen",
+        "categoryPredicted":  false,
+        "group":  17,
+        "period":  5,
+        "block":  "p",
+        "electronConfiguration":  "[Kr] 4d10 5s2 5p5",
+        "configPredicted":  false,
+        "electronegativity":  2.66,
+        "ionizationEnergy":  10.451,
+        "electronAffinity":  3.059,
+        "covalentRadius":  139,
+        "vdwRadius":  198,
+        "meltingPoint":  386.85,
+        "boilingPoint":  457.55,
+        "density":  4.93,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -1,
+                                7,
+                                5,
+                                1
+                            ],
+        "otherOxidationStates":  [
+                                     3
+                                 ],
+        "discovery":  {
+                          "year":  "1811",
+                          "by":  "Bernard Courtois",
+                          "note":  "Seen as violet vapor while making saltpeter from seaweed ash."
+                      },
+        "nameOrigin":  "Greek iodes, violet.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  127,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  131,
+                                                 "halfLife":  "8.02 days",
+                                                 "note":  "Treats thyroid disease; a hazard in nuclear accidents."
+                                             },
+                                             {
+                                                 "A":  129,
+                                                 "halfLife":  "16.1 million years",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  125,
+                                                 "halfLife":  "59.4 days",
+                                                 "note":  "Used in seed implants and lab assays."
+                                             }
+                                         ],
+                         "displayA":  127
+                     },
+        "elementalForm":  {
+                              "kind":  "diatomic",
+                              "formula":  "I2",
+                              "bondOrder":  1,
+                              "bondLengthPm":  267,
+                              "description":  "Two iodine atoms share one electron pair and each keeps three lone pairs. Large, easily distorted I2 molecules attract each other enough to form a solid.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Orthorhombic (layers of I2 molecules)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  726.8,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by rapid neutron capture.",
+        "crustAbundancePpm":  0.45,
+        "appearance":  "Shiny blue-black crystals that give off violet vapor.",
+        "summary":  "Iodine is a dark solid halogen that turns straight into violet vapor when warmed. Your thyroid needs it to make the hormones that control metabolism.",
+        "uses":  [
+                     "Disinfectants (iodine tincture, povidone-iodine)",
+                     "Iodized salt",
+                     "X-ray contrast agents",
+                     "Polarizing films in LCD screens"
+                 ],
+        "facts":  [
+                      "Iodine deficiency is the world\u0027s most preventable cause of brain damage; iodized salt fixed it in many countries."
+                  ],
+        "biology":  "Essential: part of the thyroid hormones thyroxine (T4) and T3.",
+        "hazards":  "Vapor irritates eyes and lungs; large doses are toxic.",
+        "color":  "#940094"
+    },
+    {
+        "z":  54,
+        "symbol":  "Xe",
+        "name":  "Xenon",
+        "altName":  null,
+        "atomicMass":  "131.29",
+        "category":  "noble gas",
+        "categoryPredicted":  false,
+        "group":  18,
+        "period":  5,
+        "block":  "p",
+        "electronConfiguration":  "[Kr] 4d10 5s2 5p6",
+        "configPredicted":  false,
+        "electronegativity":  2.6,
+        "ionizationEnergy":  12.13,
+        "electronAffinity":  null,
+        "covalentRadius":  140,
+        "vdwRadius":  216,
+        "meltingPoint":  161.4,
+        "boilingPoint":  165.051,
+        "density":  0.005887,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+                                     2,
+                                     4,
+                                     6,
+                                     8
+                                 ],
+        "discovery":  {
+                          "year":  "1898",
+                          "by":  "William Ramsay; Morris Travers",
+                          "note":  "Found in the last residues of evaporating liquid air."
+                      },
+        "nameOrigin":  "Greek xenos, stranger.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  126,
+                                            "abundance":  0.089
+                                        },
+                                        {
+                                            "A":  128,
+                                            "abundance":  1.910
+                                        },
+                                        {
+                                            "A":  129,
+                                            "abundance":  26.401
+                                        },
+                                        {
+                                            "A":  130,
+                                            "abundance":  4.071
+                                        },
+                                        {
+                                            "A":  131,
+                                            "abundance":  21.232
+                                        },
+                                        {
+                                            "A":  132,
+                                            "abundance":  26.909
+                                        },
+                                        {
+                                            "A":  134,
+                                            "abundance":  10.436
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  124,
+                                                 "halfLife":  "1.8×10^22 years",
+                                                 "note":  "0.095% of natural xenon."
+                                             },
+                                             {
+                                                 "A":  136,
+                                                 "halfLife":  "2.2×10^21 years",
+                                                 "note":  "8.857% of natural xenon."
+                                             },
+                                             {
+                                                 "A":  133,
+                                                 "halfLife":  "5.25 days",
+                                                 "note":  "Used in lung-ventilation scans."
+                                             }
+                                         ],
+                         "displayA":  132
+                     },
+        "elementalForm":  {
+                              "kind":  "monatomic",
+                              "formula":  "Xe",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Xenon has a full octet, but its outer electrons are far from the nucleus. Strongly electron-hungry atoms like fluorine and oxygen can pull them into bonds, forming compounds such as XeF2 and XeF4.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic (solid below 161 K)",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  620,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made mostly by rapid neutron capture.",
+        "crustAbundancePpm":  3E-05,
+        "appearance":  "Colorless, very dense gas; glows blue-violet in a discharge.",
+        "summary":  "Xenon was the first noble gas found to form compounds, in 1962. Its bright arc light is used in film projectors and car headlights.",
+        "uses":  [
+                     "Xenon arc and flash lamps",
+                     "Ion thrusters for spacecraft",
+                     "General anesthetic",
+                     "Dark-matter detectors (liquid xenon)"
+                 ],
+        "facts":  [
+                      "Neil Bartlett\u0027s 1962 xenon compound overturned the idea that noble gases cannot react."
+                  ],
+        "biology":  "None, though it acts as an anesthetic.",
+        "hazards":  "Can displace oxygen; otherwise non-toxic.",
+        "color":  "#429EB0"
+    },
+    {
+        "z":  55,
+        "symbol":  "Cs",
+        "name":  "Caesium",
+        "altName":  "Cesium",
+        "atomicMass":  "132.91",
+        "category":  "alkali metal",
+        "categoryPredicted":  false,
+        "group":  1,
+        "period":  6,
+        "block":  "s",
+        "electronConfiguration":  "[Xe] 6s1",
+        "configPredicted":  false,
+        "electronegativity":  0.79,
+        "ionizationEnergy":  3.894,
+        "electronAffinity":  0.472,
+        "covalentRadius":  244,
+        "vdwRadius":  343,
+        "meltingPoint":  301.59,
+        "boilingPoint":  944,
+        "density":  1.93,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1860",
+                          "by":  "Robert Bunsen; Gustav Kirchhoff",
+                          "note":  "The first element found by spectroscopy, from two blue lines in mineral water."
+                      },
+        "nameOrigin":  "Latin caesius, sky blue.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  133,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  137,
+                                                 "halfLife":  "30.1 years",
+                                                 "note":  "A major fallout product of Chernobyl and Fukushima."
+                                             },
+                                             {
+                                                 "A":  135,
+                                                 "halfLife":  "2.3 million years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  133
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Cs",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Caesium\u0027s single 6s electron is very far from the nucleus and easily shared; the metallic bonding is so weak that caesium melts at 28.5 °C.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  614.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  3,
+        "appearance":  "Soft, pale-gold metal that melts on a warm day.",
+        "summary":  "Caesium is the most reactive stable metal. The second is defined by the vibrations of caesium-133 atoms: exactly 9,192,631,770 cycles.",
+        "uses":  [
+                     "Atomic clocks that define the second",
+                     "Caesium formate drilling fluids",
+                     "Photoelectric cells",
+                     "Caesium-137 radiation sources"
+                 ],
+        "facts":  [
+                      "Caesium, gold and copper are the only metals that are clearly colored rather than grey or silvery."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Explodes on contact with water; Cs-137 is a radiation hazard.",
+        "color":  "#57178F"
+    },
+    {
+        "z":  56,
+        "symbol":  "Ba",
+        "name":  "Barium",
+        "altName":  null,
+        "atomicMass":  "137.33",
+        "category":  "alkaline earth metal",
+        "categoryPredicted":  false,
+        "group":  2,
+        "period":  6,
+        "block":  "s",
+        "electronConfiguration":  "[Xe] 6s2",
+        "configPredicted":  false,
+        "electronegativity":  0.89,
+        "ionizationEnergy":  5.212,
+        "electronAffinity":  null,
+        "covalentRadius":  215,
+        "vdwRadius":  268,
+        "meltingPoint":  1000,
+        "boilingPoint":  2170,
+        "density":  3.62,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1808",
+                          "by":  "Humphry Davy",
+                          "note":  "Isolated by electrolysis; Carl Scheele had recognized barium oxide in 1772."
+                      },
+        "nameOrigin":  "Greek barys, heavy, for the dense mineral barite.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  132,
+                                            "abundance":  0.101
+                                        },
+                                        {
+                                            "A":  134,
+                                            "abundance":  2.417
+                                        },
+                                        {
+                                            "A":  135,
+                                            "abundance":  6.592
+                                        },
+                                        {
+                                            "A":  136,
+                                            "abundance":  7.854
+                                        },
+                                        {
+                                            "A":  137,
+                                            "abundance":  11.232
+                                        },
+                                        {
+                                            "A":  138,
+                                            "abundance":  71.698
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  130,
+                                                 "halfLife":  "about 10^21 years",
+                                                 "note":  "0.106% of natural barium."
+                                             },
+                                             {
+                                                 "A":  133,
+                                                 "halfLife":  "10.5 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  138
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ba",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Barium shares two 6s electrons per atom in a soft metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  502.8,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made mostly by slow neutron capture in aging stars.",
+        "crustAbundancePpm":  425,
+        "appearance":  "Soft, silvery metal that quickly oxidizes.",
+        "summary":  "Barium is a heavy alkaline-earth metal. Barium sulfate is so insoluble that patients can swallow it safely for X-ray imaging, even though soluble barium salts are poisonous.",
+        "uses":  [
+                     "Barium sulfate for X-ray imaging and drilling mud",
+                     "Green fireworks",
+                     "Barium titanate capacitors",
+                     "Getters in vacuum tubes"
+                 ],
+        "facts":  [
+                      "Barium sulfate blocks X-rays, outlining the gut on medical images."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Soluble barium compounds are toxic.",
+        "color":  "#00C900"
+    },
+    {
+        "z":  57,
+        "symbol":  "La",
+        "name":  "Lanthanum",
+        "altName":  null,
+        "atomicMass":  "138.9055",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 5d1 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.1,
+        "ionizationEnergy":  5.577,
+        "electronAffinity":  0.5,
+        "covalentRadius":  207,
+        "vdwRadius":  240,
+        "meltingPoint":  1193,
+        "boilingPoint":  3737,
+        "density":  6.15,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1839",
+                          "by":  "Carl Gustaf Mosander",
+                          "note":  "Found hidden in cerium nitrate."
+                      },
+        "nameOrigin":  "Greek lanthanein, to lie hidden.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  139,
+                                            "abundance":  99.9119
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  138,
+                                                 "halfLife":  "1.03×10^11 years",
+                                                 "note":  "0.0881% of natural lanthanum."
+                                             }
+                                         ],
+                         "displayA":  139
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "La",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Lanthanum contributes three valence electrons (5d1 6s2) to metallic bonding, the pattern shared by most lanthanides.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  377.4,
+                     "cPm":  608.6,
+                     "note":  "Real stacking is ABAC (double hcp); drawn as simple hcp."
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  39,
+        "appearance":  "Soft, silvery-white metal that tarnishes in air.",
+        "summary":  "Lanthanum gives the lanthanide series its name. A hybrid car battery can contain several kilograms of lanthanum.",
+        "uses":  [
+                     "Nickel-metal hydride batteries",
+                     "Camera and telescope lenses",
+                     "Petroleum cracking catalysts",
+                     "Carbon-arc studio lighting"
+                 ],
+        "facts":  [
+                      "Lanthanum-nickel alloy can soak up hydrogen like a sponge."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low to moderate toxicity.",
+        "color":  "#70D4FF"
+    },
+    {
+        "z":  58,
+        "symbol":  "Ce",
+        "name":  "Cerium",
+        "altName":  null,
+        "atomicMass":  "140.116",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f1 5d1 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.12,
+        "ionizationEnergy":  5.539,
+        "electronAffinity":  0.5,
+        "covalentRadius":  204,
+        "vdwRadius":  235,
+        "meltingPoint":  1068,
+        "boilingPoint":  3716,
+        "density":  6.77,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1803",
+                          "by":  "Jöns Jacob Berzelius; Wilhelm Hisinger; Martin Klaproth",
+                          "note":  "Found as an oxide in the mineral cerite."
+                      },
+        "nameOrigin":  "The dwarf planet Ceres, discovered in 1801.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  136,
+                                            "abundance":  0.185
+                                        },
+                                        {
+                                            "A":  138,
+                                            "abundance":  0.251
+                                        },
+                                        {
+                                            "A":  140,
+                                            "abundance":  88.450
+                                        },
+                                        {
+                                            "A":  142,
+                                            "abundance":  11.114
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  144,
+                                                 "halfLife":  "285 days",
+                                                 "note":  "A fission product."
+                                             }
+                                         ],
+                         "displayA":  140
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ce",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Cerium\u0027s single 4f electron can join the metallic bonding, which lets cerium switch between valences and gives it unusual phase changes.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Gamma cerium",
+                                                     "note":  "Face-centered cubic, stable at room temperature."
+                                                 },
+                                                 {
+                                                     "name":  "Alpha cerium",
+                                                     "note":  "A denser fcc form under pressure or cold."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic (gamma-Ce)",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  516.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  66.5,
+        "appearance":  "Soft, ductile, iron-grey metal.",
+        "summary":  "Cerium is the most abundant rare-earth element, more common in the crust than copper. Scraped cerium-iron alloy throws sparks, which is how lighter flints work.",
+        "uses":  [
+                     "Lighter flints (ferrocerium)",
+                     "Glass polishing (cerium oxide)",
+                     "Catalytic converters",
+                     "Self-cleaning oven linings"
+                 ],
+        "facts":  [
+                      "Despite being a \u0027rare earth\u0027, cerium is about as abundant as copper."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Metal can ignite when scratched; low toxicity.",
+        "color":  "#FFFFC7"
+    },
+    {
+        "z":  59,
+        "symbol":  "Pr",
+        "name":  "Praseodymium",
+        "altName":  null,
+        "atomicMass":  "140.90766",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f3 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.13,
+        "ionizationEnergy":  5.464,
+        "electronAffinity":  null,
+        "covalentRadius":  203,
+        "vdwRadius":  239,
+        "meltingPoint":  1208,
+        "boilingPoint":  3793,
+        "density":  6.77,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     4
+                                 ],
+        "discovery":  {
+                          "year":  "1885",
+                          "by":  "Carl Auer von Welsbach",
+                          "note":  "Split \u0027didymium\u0027 into praseodymium and neodymium."
+                      },
+        "nameOrigin":  "Greek prasios didymos, green twin, for its green salts.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  141,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  143,
+                                                 "halfLife":  "13.6 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  141
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Pr",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Praseodymium shares three valence electrons; its 4f electrons stay mostly local and give magnetic properties.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  367.3,
+                     "cPm":  591.7,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  9.2,
+        "appearance":  "Soft, silvery metal that develops a green oxide coat.",
+        "summary":  "Praseodymium is a rare-earth metal used in strong magnets and in yellow-green glass and ceramic colors.",
+        "uses":  [
+                     "Neodymium-praseodymium magnets",
+                     "Welders\u0027 didymium goggles",
+                     "Yellow ceramic pigments",
+                     "Aircraft engine alloys"
+                 ],
+        "facts":  [
+                      "Praseodymium-doped glass slows light dramatically in research experiments."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#D9FFC7"
+    },
+    {
+        "z":  60,
+        "symbol":  "Nd",
+        "name":  "Neodymium",
+        "altName":  null,
+        "atomicMass":  "144.24",
+        "category":  "lanthanide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  6,
+        "block":  "f",
+        "electronConfiguration":  "[Xe] 4f4 6s2",
+        "configPredicted":  false,
+        "electronegativity":  1.14,
+        "ionizationEnergy":  5.525,
+        "electronAffinity":  null,
+        "covalentRadius":  201,
+        "vdwRadius":  229,
+        "meltingPoint":  1297,
+        "boilingPoint":  3347,
+        "density":  7.01,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1885",
+                          "by":  "Carl Auer von Welsbach",
+                          "note":  "The \u0027new twin\u0027 separated from didymium."
+                      },
+        "nameOrigin":  "Greek neos didymos, new twin.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  142,
+                                            "abundance":  27.152
+                                        },
+                                        {
+                                            "A":  143,
+                                            "abundance":  12.174
+                                        },
+                                        {
+                                            "A":  145,
+                                            "abundance":  8.293
+                                        },
+                                        {
+                                            "A":  146,
+                                            "abundance":  17.189
+                                        },
+                                        {
+                                            "A":  148,
+                                            "abundance":  5.756
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  144,
+                                                 "halfLife":  "2.29×10^15 years",
+                                                 "note":  "23.798% of natural neodymium."
+                                             },
+                                             {
+                                                 "A":  150,
+                                                 "halfLife":  "9×10^18 years",
+                                                 "note":  "5.638% of natural neodymium."
+                                             }
+                                         ],
+                         "displayA":  142
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Nd",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Neodymium shares three valence electrons; its four unpaired 4f electrons stay on each atom and give strong magnetism in compounds.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Double hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  365.8,
+                     "cPm":  590.0,
+                     "note":  "Drawn as simple hcp."
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  41.5,
+        "appearance":  "Silvery metal that tarnishes quickly.",
+        "summary":  "Neodymium makes the strongest permanent magnets known, Nd2Fe14B, found in headphones, wind turbines and electric cars.",
+        "uses":  [
+                     "Neodymium-iron-boron magnets",
+                     "Nd:YAG lasers",
+                     "Purple glass and welding goggles",
+                     "Electric motors and generators"
+                 ],
+        "facts":  [
+                      "A neodymium magnet can lift over 1,000 times its own weight."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; magnets can pinch skin badly.",
+        "color":  "#C7FFC7"
+    }
+]

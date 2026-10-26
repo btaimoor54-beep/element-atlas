@@ -1,0 +1,1082 @@
+[
+    {
+        "z":  41,
+        "symbol":  "Nb",
+        "name":  "Niobium",
+        "altName":  null,
+        "atomicMass":  "92.90637",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  5,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d4 5s1",
+        "configPredicted":  false,
+        "electronegativity":  1.6,
+        "ionizationEnergy":  6.759,
+        "electronAffinity":  0.893,
+        "covalentRadius":  164,
+        "vdwRadius":  207,
+        "meltingPoint":  2750,
+        "boilingPoint":  5017,
+        "density":  8.57,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                5,
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1801",
+                          "by":  "Charles Hatchett",
+                          "note":  "Named columbium; confused with tantalum until Heinrich Rose separated them in 1844."
+                      },
+        "nameOrigin":  "Niobe, daughter of Tantalus in Greek myth, because it is so like tantalum.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  93,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  92,
+                                                 "halfLife":  "34.7 million years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  93
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Nb",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Niobium (4d4 5s1) contributes five valence electrons to strong metallic bonding.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  330.0,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by neutron capture in several kinds of stars.",
+        "crustAbundancePpm":  20,
+        "appearance":  "Grey metal that turns blue, green or violet when anodized.",
+        "summary":  "Niobium becomes superconducting at 9.2 K, the highest of any pure element at normal pressure. Niobium-titanium wire builds the magnets of MRI scanners and the Large Hadron Collider.",
+        "uses":  [
+                     "Superconducting NbTi and Nb3Sn magnets",
+                     "High-strength low-alloy steels for pipelines",
+                     "Jet-engine superalloys",
+                     "Colorful anodized jewelry"
+                 ],
+        "facts":  [
+                      "About 90% of the world\u0027s niobium comes from Brazil."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity.",
+        "color":  "#73C2C9"
+    },
+    {
+        "z":  42,
+        "symbol":  "Mo",
+        "name":  "Molybdenum",
+        "altName":  null,
+        "atomicMass":  "95.95",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  6,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d5 5s1",
+        "configPredicted":  false,
+        "electronegativity":  2.16,
+        "ionizationEnergy":  7.092,
+        "electronAffinity":  0.746,
+        "covalentRadius":  154,
+        "vdwRadius":  209,
+        "meltingPoint":  2896,
+        "boilingPoint":  4912,
+        "density":  10.28,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                6,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     2,
+                                     3,
+                                     5
+                                 ],
+        "discovery":  {
+                          "year":  "1778",
+                          "by":  "Carl Wilhelm Scheele",
+                          "note":  "Scheele showed molybdenite was not graphite; Peter Jacob Hjelm isolated the metal in 1781."
+                      },
+        "nameOrigin":  "Greek molybdos, lead, because its ore was confused with lead ore.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  92,
+                                            "abundance":  14.53
+                                        },
+                                        {
+                                            "A":  94,
+                                            "abundance":  9.15
+                                        },
+                                        {
+                                            "A":  95,
+                                            "abundance":  15.84
+                                        },
+                                        {
+                                            "A":  96,
+                                            "abundance":  16.67
+                                        },
+                                        {
+                                            "A":  97,
+                                            "abundance":  9.60
+                                        },
+                                        {
+                                            "A":  98,
+                                            "abundance":  24.39
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  100,
+                                                 "halfLife":  "7×10^18 years",
+                                                 "note":  "9.82% of natural molybdenum."
+                                             },
+                                             {
+                                                 "A":  99,
+                                                 "halfLife":  "65.9 hours",
+                                                 "note":  "Parent of technetium-99m for medical scans."
+                                             }
+                                         ],
+                         "displayA":  98
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Mo",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Molybdenum (4d5 5s1) shares six valence electrons; half-filled d orbitals give very strong metallic bonding and a melting point above 2,600 °C.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  314.7,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by several neutron-capture processes.",
+        "crustAbundancePpm":  1.2,
+        "appearance":  "Silvery-grey, hard metal.",
+        "summary":  "Molybdenum is a hard, high-melting metal that strengthens steel. Nitrogen-fixing bacteria depend on a molybdenum enzyme to turn air into fertilizer.",
+        "uses":  [
+                     "Alloy and stainless steels",
+                     "Molybdenum disulfide lubricant",
+                     "Catalysts for removing sulfur from fuels",
+                     "Heating elements and furnace parts"
+                 ],
+        "facts":  [
+                      "Nitrogenase, the enzyme that fixes nitrogen from air, contains molybdenum."
+                  ],
+        "biology":  "Essential: part of several enzymes in plants, animals and bacteria.",
+        "hazards":  "Low toxicity in small amounts.",
+        "color":  "#54B5B5"
+    },
+    {
+        "z":  43,
+        "symbol":  "Tc",
+        "name":  "Technetium",
+        "altName":  null,
+        "atomicMass":  "[97]",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  7,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d5 5s2",
+        "configPredicted":  false,
+        "electronegativity":  1.9,
+        "ionizationEnergy":  7.28,
+        "electronAffinity":  0.55,
+        "covalentRadius":  147,
+        "vdwRadius":  209,
+        "meltingPoint":  2430,
+        "boilingPoint":  4538,
+        "density":  11.5,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                7,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     6
+                                 ],
+        "discovery":  {
+                          "year":  "1937",
+                          "by":  "Carlo Perrier; Emilio Segrè",
+                          "note":  "Found in molybdenum foil bombarded in a cyclotron: the first element made artificially."
+                      },
+        "nameOrigin":  "Greek technetos, artificial.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  97,
+                                                 "halfLife":  "4.21 million years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  98,
+                                                 "halfLife":  "4.2 million years",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  99,
+                                                 "halfLife":  "211,000 years",
+                                                 "note":  "A common fission product."
+                                             },
+                                             {
+                                                 "A":  "99m",
+                                                 "halfLife":  "6.01 hours",
+                                                 "note":  "Used in tens of millions of medical scans each year."
+                                             }
+                                         ],
+                         "displayA":  97
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Tc",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Technetium shares its seven valence electrons in metallic bonding, like its neighbors manganese and rhenium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  273.5,
+                     "cPm":  438.8,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "All its isotopes are radioactive; tiny traces form naturally in uranium ores, and red giant stars show technetium lines, proving stars make new elements.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Silvery-grey metal that tarnishes slowly.",
+        "summary":  "Technetium is the lightest element with no stable isotopes. Its metastable isotope technetium-99m is the most widely used medical imaging tracer.",
+        "uses":  [
+                     "Technetium-99m medical imaging",
+                     "Research on corrosion inhibitors"
+                 ],
+        "facts":  [
+                      "Mendeleev left a gap for it in 1871, but it was only made 66 years later."
+                  ],
+        "biology":  "None; used only as a diagnostic tracer.",
+        "hazards":  "Radioactive.",
+        "color":  "#3B9E9E"
+    },
+    {
+        "z":  44,
+        "symbol":  "Ru",
+        "name":  "Ruthenium",
+        "altName":  null,
+        "atomicMass":  "101.07",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  8,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d7 5s1",
+        "configPredicted":  false,
+        "electronegativity":  2.2,
+        "ionizationEnergy":  7.361,
+        "electronAffinity":  1.05,
+        "covalentRadius":  146,
+        "vdwRadius":  207,
+        "meltingPoint":  2607,
+        "boilingPoint":  4423,
+        "density":  12.45,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     2,
+                                     8
+                                 ],
+        "discovery":  {
+                          "year":  "1844",
+                          "by":  "Karl Ernst Claus",
+                          "note":  "Isolated from platinum ore residues in Kazan."
+                      },
+        "nameOrigin":  "Latin Ruthenia, Russia.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  96,
+                                            "abundance":  5.54
+                                        },
+                                        {
+                                            "A":  98,
+                                            "abundance":  1.87
+                                        },
+                                        {
+                                            "A":  99,
+                                            "abundance":  12.76
+                                        },
+                                        {
+                                            "A":  100,
+                                            "abundance":  12.60
+                                        },
+                                        {
+                                            "A":  101,
+                                            "abundance":  17.06
+                                        },
+                                        {
+                                            "A":  102,
+                                            "abundance":  31.55
+                                        },
+                                        {
+                                            "A":  104,
+                                            "abundance":  18.62
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  106,
+                                                 "halfLife":  "372 days",
+                                                 "note":  "A fission product."
+                                             }
+                                         ],
+                         "displayA":  102
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ru",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Ruthenium shares its 4d and 5s electrons in a hard, strong metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  270.6,
+                     "cPm":  428.1,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Mostly made by rapid neutron capture in neutron-star mergers.",
+        "crustAbundancePpm":  0.001,
+        "appearance":  "Hard, silvery-white platinum-group metal.",
+        "summary":  "Ruthenium is a rare, hard platinum-group metal. It makes electrical contacts wear-resistant and is used in important catalysts.",
+        "uses":  [
+                     "Hard-disk and chip contacts",
+                     "Catalysts (Grubbs catalyst)",
+                     "Hardening platinum and palladium alloys",
+                     "Dye-sensitized solar cells"
+                 ],
+        "facts":  [
+                      "Gottfried Osann reported it in 1827, but Claus was the first to prove it was a new element.",
+                      "Thin films of ruthenium in an unusual tetragonal form were shown in 2018 to be magnetic at room temperature."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Ruthenium tetroxide is highly toxic and explosive.",
+        "color":  "#248F8F"
+    },
+    {
+        "z":  45,
+        "symbol":  "Rh",
+        "name":  "Rhodium",
+        "altName":  null,
+        "atomicMass":  "102.9055",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  9,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d8 5s1",
+        "configPredicted":  false,
+        "electronegativity":  2.28,
+        "ionizationEnergy":  7.459,
+        "electronAffinity":  1.137,
+        "covalentRadius":  142,
+        "vdwRadius":  195,
+        "meltingPoint":  2237,
+        "boilingPoint":  3968,
+        "density":  12.41,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     1,
+                                     2,
+                                     4
+                                 ],
+        "discovery":  {
+                          "year":  "1803",
+                          "by":  "William Hyde Wollaston",
+                          "note":  "Found in platinum ore dissolved in aqua regia."
+                      },
+        "nameOrigin":  "Greek rhodon, rose, for its rose-colored salts.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  103,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  101,
+                                                 "halfLife":  "3.3 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  103
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Rh",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Rhodium (4d8 5s1) forms a dense, highly reflective metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  380.3,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Mostly made by rapid neutron capture.",
+        "crustAbundancePpm":  0.001,
+        "appearance":  "Hard, silvery-white, very reflective metal.",
+        "summary":  "Rhodium is one of the rarest and most expensive metals. Most of it goes into car catalytic converters, where it breaks down nitrogen oxides.",
+        "uses":  [
+                     "Catalytic converters",
+                     "Plating jewelry and mirrors",
+                     "Catalysts for making acetic acid",
+                     "Thermocouples"
+                 ],
+        "facts":  [
+                      "Rhodium has at times been the most expensive precious metal, over ten times the price of gold."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity as metal; some compounds are harmful.",
+        "color":  "#0A7D8C"
+    },
+    {
+        "z":  46,
+        "symbol":  "Pd",
+        "name":  "Palladium",
+        "altName":  null,
+        "atomicMass":  "106.42",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  10,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d10",
+        "configPredicted":  false,
+        "electronegativity":  2.2,
+        "ionizationEnergy":  8.337,
+        "electronAffinity":  0.557,
+        "covalentRadius":  139,
+        "vdwRadius":  202,
+        "meltingPoint":  1828.05,
+        "boilingPoint":  3236,
+        "density":  12,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2,
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1803",
+                          "by":  "William Hyde Wollaston",
+                          "note":  "Found in platinum ore and first sold anonymously as \u0027new silver\u0027."
+                      },
+        "nameOrigin":  "The asteroid Pallas, discovered a year earlier.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  102,
+                                            "abundance":  1.02
+                                        },
+                                        {
+                                            "A":  104,
+                                            "abundance":  11.14
+                                        },
+                                        {
+                                            "A":  105,
+                                            "abundance":  22.33
+                                        },
+                                        {
+                                            "A":  106,
+                                            "abundance":  27.33
+                                        },
+                                        {
+                                            "A":  108,
+                                            "abundance":  26.46
+                                        },
+                                        {
+                                            "A":  110,
+                                            "abundance":  11.72
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  107,
+                                                 "halfLife":  "6.5 million years",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  103,
+                                                 "halfLife":  "17 days",
+                                                 "note":  "Used in prostate-cancer seed implants."
+                                             }
+                                         ],
+                         "displayA":  106
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Pd",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Palladium (4d10, with no 5s electron in the free atom) forms a metallic lattice that can soak up hundreds of times its own volume of hydrogen.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  389.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  0.015,
+        "appearance":  "Silvery-white, lustrous metal.",
+        "summary":  "Palladium absorbs hydrogen like a sponge and is a superb catalyst. Its electron configuration, 4d10 with an empty 5s, is unique.",
+        "uses":  [
+                     "Catalytic converters",
+                     "Electronics (multilayer capacitors)",
+                     "Hydrogen purification membranes",
+                     "Jewelry and dentistry"
+                 ],
+        "facts":  [
+                      "Palladium can absorb up to about 900 times its own volume of hydrogen."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; can cause allergies.",
+        "color":  "#006985"
+    },
+    {
+        "z":  47,
+        "symbol":  "Ag",
+        "name":  "Silver",
+        "altName":  null,
+        "atomicMass":  "107.87",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  11,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d10 5s1",
+        "configPredicted":  false,
+        "electronegativity":  1.93,
+        "ionizationEnergy":  7.576,
+        "electronAffinity":  1.302,
+        "covalentRadius":  145,
+        "vdwRadius":  172,
+        "meltingPoint":  1234.93,
+        "boilingPoint":  2435,
+        "density":  10.49,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Mined since at least 3000 BCE in Anatolia."
+                      },
+        "nameOrigin":  "Anglo-Saxon seolfor; symbol Ag from Latin argentum.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  107,
+                                            "abundance":  51.839
+                                        },
+                                        {
+                                            "A":  109,
+                                            "abundance":  48.161
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  "108m",
+                                                 "halfLife":  "438 years",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  "110m",
+                                                 "halfLife":  "250 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  107
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ag",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Silver (4d10 5s1) shares its single 5s electron in a very mobile electron sea, which gives it the highest electrical conductivity of any element.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  408.6,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by rapid and slow neutron capture.",
+        "crustAbundancePpm":  0.075,
+        "appearance":  "Brilliant white, lustrous metal.",
+        "summary":  "Silver conducts electricity and heat better than any other element and reflects visible light best of all metals. Silver ions kill bacteria.",
+        "uses":  [
+                     "Electronics and solar-panel contacts",
+                     "Jewelry, coins and tableware",
+                     "Mirrors",
+                     "Antibacterial coatings",
+                     "Photography (silver halides)"
+                 ],
+        "facts":  [
+                      "Silver tarnish is silver sulfide, formed by sulfur compounds in the air."
+                  ],
+        "biology":  "None; silver ions are toxic to microbes.",
+        "hazards":  "Low toxicity; long exposure can turn skin blue-grey (argyria).",
+        "color":  "#C0C0C0"
+    },
+    {
+        "z":  48,
+        "symbol":  "Cd",
+        "name":  "Cadmium",
+        "altName":  null,
+        "atomicMass":  "112.41",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  12,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d10 5s2",
+        "configPredicted":  false,
+        "electronegativity":  1.69,
+        "ionizationEnergy":  8.994,
+        "electronAffinity":  null,
+        "covalentRadius":  144,
+        "vdwRadius":  158,
+        "meltingPoint":  594.22,
+        "boilingPoint":  1040,
+        "density":  8.65,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1817",
+                          "by":  "Friedrich Stromeyer",
+                          "note":  "Found as an impurity that colored zinc carbonate yellow."
+                      },
+        "nameOrigin":  "Latin cadmia, calamine (zinc ore).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  106,
+                                            "abundance":  1.25
+                                        },
+                                        {
+                                            "A":  108,
+                                            "abundance":  0.89
+                                        },
+                                        {
+                                            "A":  110,
+                                            "abundance":  12.49
+                                        },
+                                        {
+                                            "A":  111,
+                                            "abundance":  12.80
+                                        },
+                                        {
+                                            "A":  112,
+                                            "abundance":  24.13
+                                        },
+                                        {
+                                            "A":  114,
+                                            "abundance":  28.73
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  113,
+                                                 "halfLife":  "8×10^15 years",
+                                                 "note":  "12.22% of natural cadmium; a strong neutron absorber."
+                                             },
+                                             {
+                                                 "A":  116,
+                                                 "halfLife":  "3×10^19 years",
+                                                 "note":  "7.49% of natural cadmium."
+                                             }
+                                         ],
+                         "displayA":  114
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Cd",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Cadmium shares its two 5s electrons; the full 4d shell stays out, so bonding is weak and cadmium melts at 321 °C.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed (stretched)",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  297.9,
+                     "cPm":  561.9,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  0.15,
+        "appearance":  "Soft, bluish-white metal.",
+        "summary":  "Cadmium is a soft metal used in batteries, pigments and solar cells. It is highly toxic, so many of its uses are being phased out.",
+        "uses":  [
+                     "Nickel-cadmium batteries",
+                     "Cadmium telluride solar panels",
+                     "Bright yellow and red pigments",
+                     "Control rods in reactors"
+                 ],
+        "facts":  [
+                      "Itai-itai disease in 1950s Japan was caused by cadmium-polluted rice."
+                  ],
+        "biology":  "None in humans; one marine diatom uses a cadmium enzyme.",
+        "hazards":  "Toxic and carcinogenic; damages kidneys and bones.",
+        "color":  "#FFD98F"
+    },
+    {
+        "z":  49,
+        "symbol":  "In",
+        "name":  "Indium",
+        "altName":  null,
+        "atomicMass":  "114.818",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  13,
+        "period":  5,
+        "block":  "p",
+        "electronConfiguration":  "[Kr] 4d10 5s2 5p1",
+        "configPredicted":  false,
+        "electronegativity":  1.78,
+        "ionizationEnergy":  5.786,
+        "electronAffinity":  0.3,
+        "covalentRadius":  142,
+        "vdwRadius":  193,
+        "meltingPoint":  429.75,
+        "boilingPoint":  2345,
+        "density":  7.31,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     1
+                                 ],
+        "discovery":  {
+                          "year":  "1863",
+                          "by":  "Ferdinand Reich; Hieronymous Theodor Richter",
+                          "note":  "Found from a brilliant indigo line in the spectrum of zinc ore."
+                      },
+        "nameOrigin":  "The indigo line in its spectrum.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  113,
+                                            "abundance":  4.29
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  115,
+                                                 "halfLife":  "4.4×10^14 years",
+                                                 "note":  "95.71% of natural indium."
+                                             },
+                                             {
+                                                 "A":  111,
+                                                 "halfLife":  "2.80 days",
+                                                 "note":  "Used in medical imaging."
+                                             }
+                                         ],
+                         "displayA":  115
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "In",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Indium shares three valence electrons (5s2 5p1) in a soft metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered tetragonal (a slightly stretched face-centered cell)",
+                     "lattice":  "tetragonal",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  325.2,
+                     "cPm":  494.7,
+                     "note":  "Drawn as a simplified face-centered cubic lattice."
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  0.25,
+        "appearance":  "Very soft, silvery metal that cries when bent.",
+        "summary":  "Indium is soft enough to scratch with a fingernail. Indium tin oxide forms the transparent, conductive layer in touchscreens and flat displays.",
+        "uses":  [
+                     "Indium tin oxide for touchscreens and displays",
+                     "Low-melting solders",
+                     "Indium phosphide chips",
+                     "Cryogenic seals"
+                 ],
+        "facts":  [
+                      "Bending an indium bar makes a high-pitched \u0027cry\u0027 as its crystals slip."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Inhaled indium compounds can harm the lungs.",
+        "color":  "#A67573"
+    },
+    {
+        "z":  50,
+        "symbol":  "Sn",
+        "name":  "Tin",
+        "altName":  null,
+        "atomicMass":  "118.71",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  14,
+        "period":  5,
+        "block":  "p",
+        "electronConfiguration":  "[Kr] 4d10 5s2 5p2",
+        "configPredicted":  false,
+        "electronegativity":  1.96,
+        "ionizationEnergy":  7.344,
+        "electronAffinity":  1.2,
+        "covalentRadius":  139,
+        "vdwRadius":  217,
+        "meltingPoint":  505.08,
+        "boilingPoint":  2875,
+        "density":  7.287,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4,
+                                2
+                            ],
+        "otherOxidationStates":  [
+                                     -4
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Used since about 3500 BCE, mainly to make bronze."
+                      },
+        "nameOrigin":  "Anglo-Saxon tin; symbol Sn from Latin stannum.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  112,
+                                            "abundance":  0.97
+                                        },
+                                        {
+                                            "A":  114,
+                                            "abundance":  0.66
+                                        },
+                                        {
+                                            "A":  115,
+                                            "abundance":  0.34
+                                        },
+                                        {
+                                            "A":  116,
+                                            "abundance":  14.54
+                                        },
+                                        {
+                                            "A":  117,
+                                            "abundance":  7.68
+                                        },
+                                        {
+                                            "A":  118,
+                                            "abundance":  24.22
+                                        },
+                                        {
+                                            "A":  119,
+                                            "abundance":  8.59
+                                        },
+                                        {
+                                            "A":  120,
+                                            "abundance":  32.58
+                                        },
+                                        {
+                                            "A":  122,
+                                            "abundance":  4.63
+                                        },
+                                        {
+                                            "A":  124,
+                                            "abundance":  5.79
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  126,
+                                                 "halfLife":  "230,000 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  120
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Sn (white tin)",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "White tin is metallic. Below 13 °C it can slowly change into grey tin, a brittle diamond-structure semiconductor where each atom shares pairs with four neighbors.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "White (beta) tin",
+                                                     "note":  "Metallic, tetragonal; stable above 13.2 °C."
+                                                 },
+                                                 {
+                                                     "name":  "Grey (alpha) tin",
+                                                     "note":  "Diamond structure, brittle; \u0027tin pest\u0027."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Tetragonal (white tin)",
+                     "lattice":  "tetragonal",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  583.2,
+                     "cPm":  318.2,
+                     "note":  "Drawn as a simplified close-packed lattice."
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  2.3,
+        "appearance":  "Silvery-white, soft metal.",
+        "summary":  "Tin has ten stable isotopes, more than any other element. Mixed with copper it made bronze, and today it is mostly used in solder.",
+        "uses":  [
+                     "Solder for electronics",
+                     "Tin plating on steel cans",
+                     "Bronze and pewter",
+                     "Glass making (float glass)"
+                 ],
+        "facts":  [
+                      "Tin has 10 stable isotopes, the most of any element."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Metal is low-toxicity; organotin compounds are very toxic.",
+        "color":  "#668080"
+    }
+]

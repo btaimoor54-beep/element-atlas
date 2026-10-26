@@ -1,0 +1,128 @@
+[
+    {
+        "id":  "Ge",
+        "field":  "electronAffinity",
+        "current":  "1.35",
+        "corrected":  "1.233",
+        "confidence":  "high",
+        "source":  "Wikipedia Electron affinity (data page): Ge 1.2326764(13) eV (Scheer et al. 1998); WebElements 119 kJ/mol",
+        "reason":  "The measured electron affinity of germanium is 1.233 eV. The value 1.35 is an outdated PubChem figure and is about 9.5% too high."
+    },
+    {
+        "id":  "Rb",
+        "field":  "electronAffinity",
+        "current":  "0.468",
+        "corrected":  "0.486",
+        "confidence":  "high",
+        "source":  "Wikipedia Electron affinity (data page): Rb 0.485916(21) eV; WebElements 46.9 kJ/mol",
+        "reason":  "The precisely measured electron affinity of rubidium is 0.4859 eV. The value 0.468 is about 3.7% low and looks like a transposed digit."
+    },
+    {
+        "id":  "Sr",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.052",
+        "confidence":  "medium",
+        "source":  "Wikipedia Electron affinity (data page): Sr 0.05206(6) eV (Andersen et al. 1997)",
+        "reason":  "Unlike Be and Mg, strontium forms a bound anion. Its electron affinity is well measured at 0.052 eV, so null is wrong."
+    },
+    {
+        "id":  "Zr",
+        "field":  "atomicMass",
+        "current":  "\"91.224\"",
+        "corrected":  "\"91.222\"",
+        "confidence":  "medium",
+        "source":  "CIAAW abridged standard atomic weights (ciaaw.org/abridged-atomic-weights.htm): Zr 91.222 ± 0.003 (2024 revision)",
+        "reason":  "In 2024 IUPAC/CIAAW revised zirconium\u0027s standard atomic weight from 91.224(2) to 91.222(3). The abridged value is now 91.222."
+    },
+    {
+        "id":  "As",
+        "field":  "atomicMass",
+        "current":  "\"74.92159\"",
+        "corrected":  "\"74.922\"",
+        "confidence":  "medium",
+        "source":  "CIAAW abridged standard atomic weights: As 74.922 ± 0.001; full value 74.921595(6)",
+        "reason":  "This is not the abridged value, and it is also mis-rounded: 74.921595 rounds to 74.92160, not 74.92159. The IUPAC abridged value is 74.922."
+    },
+    {
+        "id":  "Y",
+        "field":  "atomicMass",
+        "current":  "\"88.90584\"",
+        "corrected":  "\"88.906\"",
+        "confidence":  "medium",
+        "source":  "CIAAW abridged standard atomic weights: Y 88.906 ± 0.001",
+        "reason":  "The dataset uses abridged values elsewhere (for example Rb 85.468). The IUPAC abridged value for yttrium is 88.906."
+    },
+    {
+        "id":  "Se",
+        "field":  "atomicMass",
+        "current":  "\"78.97\"",
+        "corrected":  "\"78.971\"",
+        "confidence":  "medium",
+        "source":  "CIAAW abridged standard atomic weights: Se 78.971 ± 0.008",
+        "reason":  "The IUPAC abridged value is 78.971. The value 78.97 is a further-rounded version (as used by PubChem), not the abridged one."
+    },
+    {
+        "id":  "Y",
+        "field":  "vdwRadius",
+        "current":  "219",
+        "corrected":  "275",
+        "confidence":  "medium",
+        "source":  "Alvarez, Dalton Trans. 2013, 42, 8617 (as quoted by WebElements: Y 275 pm); Bondi gives no Y value",
+        "reason":  "Under the stated Bondi/Alvarez convention, yttrium\u0027s van der Waals radius is 275 pm. The value 219 pm is about 20% low and has no clear source."
+    },
+    {
+        "id":  "Zr",
+        "field":  "vdwRadius",
+        "current":  "186",
+        "corrected":  "252",
+        "confidence":  "medium",
+        "source":  "Alvarez, Dalton Trans. 2013, 42, 8617 (as quoted by WebElements: Zr 252 pm); Bondi gives no Zr value",
+        "reason":  "Under the stated Bondi/Alvarez convention, zirconium\u0027s van der Waals radius is 252 pm. The value 186 pm is about 26% low."
+    },
+    {
+        "id":  "Ga",
+        "field":  "bulk.cPm",
+        "current":  "766",
+        "corrected":  "452.7",
+        "confidence":  "medium",
+        "source":  "Wikipedia Gallium infobox: a = 452.05 pm, b = 766.25 pm, c = 452.66 pm (20 °C); WebElements a=451.97, b=766.33, c=452.6 pm",
+        "reason":  "766 pm is the b axis of alpha-Ga in the standard Cmce setting. The c axis is 452.7 pm, and the convention says cPm is c."
+    },
+    {
+        "id":  "Br",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "870",
+        "confidence":  "medium",
+        "source":  "Wikipedia Bromine infobox: orthorhombic oS8, a = 674.30 pm, b = 466.85 pm, c = 870.02 pm (triple point)",
+        "reason":  "Solid bromine is orthorhombic with a well-known c axis of about 870 pm. The dataset fills cPm for other non-cubic solids (for example Ga), so null leaves out a known value."
+    },
+    {
+        "id":  "Kr",
+        "field":  "isotopes.stable",
+        "current":  "[{\"A\":78,\"abundance\":0.355},{\"A\":80,\"abundance\":2.286},{\"A\":82,\"abundance\":11.593},{\"A\":83,\"abundance\":11.500},{\"A\":84,\"abundance\":56.987},{\"A\":86,\"abundance\":17.279}]",
+        "corrected":  "[{\"A\":80,\"abundance\":2.286},{\"A\":82,\"abundance\":11.593},{\"A\":83,\"abundance\":11.500},{\"A\":84,\"abundance\":56.987},{\"A\":86,\"abundance\":17.279}]",
+        "confidence":  "medium",
+        "source":  "Wikipedia Krypton infobox/NUBASE: 78Kr 0.36%, half-life 9.2×10^21 y, double electron capture (observed 2013, Gavrilyuk et al.)",
+        "reason":  "Kr-78 has been observed to decay by double electron capture. This dataset lists other observed double-beta emitters (Ge-76, Se-82, Zr-96) under radioactive, so Kr-78 should be moved there too."
+    },
+    {
+        "id":  "Kr",
+        "field":  "isotopes.radioactive",
+        "current":  "[{\"A\":85,\"halfLife\":\"10.7 years\",\"note\":\"Released by nuclear fuel reprocessing.\"},{\"A\":81,\"halfLife\":\"229,000 years\",\"note\":\"Used to date old groundwater and ice.\"}]",
+        "corrected":  "[{\"A\":78,\"halfLife\":\"9.2×10^21 years\",\"note\":\"0.355% of natural krypton; decays by rare double electron capture.\"},{\"A\":85,\"halfLife\":\"10.7 years\",\"note\":\"Released by nuclear fuel reprocessing.\"},{\"A\":81,\"halfLife\":\"229,000 years\",\"note\":\"Used to date old groundwater and ice.\"}]",
+        "confidence":  "medium",
+        "source":  "Wikipedia Krypton infobox/NUBASE: 78Kr 9.2×10^21 y, εε to 78Se",
+        "reason":  "This is the other half of moving Kr-78 from stable to radioactive, to match how Ge-76, Se-82 and Zr-96 are handled."
+    },
+    {
+        "id":  "Ga",
+        "field":  "summary",
+        "current":  "Gallium melts just above room temperature but boils only above 2,400 °C, giving it one of the longest liquid ranges of any element. Gallium compounds power LEDs and fast electronics.",
+        "corrected":  "\"Gallium melts just above room temperature but does not boil until about 2,400 °C, giving it one of the longest liquid ranges of any element. Gallium compounds power LEDs and fast electronics.\"",
+        "confidence":  "medium",
+        "source":  "Entry\u0027s own boilingPoint 2673 K (= 2399.85 °C); Wikipedia/RSC 2400 °C; CRC Handbook 2229 °C; WebElements 2477 K",
+        "reason":  "Reputable values for gallium\u0027s boiling point run from about 2,200 °C to 2,400 °C, and the entry\u0027s own 2673 K is just below 2,400 °C. \u0027Boils only above 2,400 °C\u0027 therefore overstates it. \u0027About 2,400 °C\u0027 is accurate and keeps the point about its long liquid range."
+    }
+]

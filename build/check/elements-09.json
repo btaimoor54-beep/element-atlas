@@ -1,0 +1,940 @@
+[
+    {
+        "z":  81,
+        "symbol":  "Tl",
+        "name":  "Thallium",
+        "altName":  null,
+        "atomicMass":  "204.38",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  13,
+        "period":  6,
+        "block":  "p",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s2 6p1",
+        "configPredicted":  false,
+        "electronegativity":  1.62,
+        "ionizationEnergy":  6.108,
+        "electronAffinity":  0.2,
+        "covalentRadius":  145,
+        "vdwRadius":  196,
+        "meltingPoint":  577,
+        "boilingPoint":  1746,
+        "density":  11.85,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1,
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1861",
+                          "by":  "William Crookes",
+                          "note":  "Found by a bright green spectral line in sulfuric acid residues."
+                      },
+        "nameOrigin":  "Greek thallos, green shoot, for its spectral line.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  203,
+                                            "abundance":  29.52
+                                        },
+                                        {
+                                            "A":  205,
+                                            "abundance":  70.48
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  201,
+                                                 "halfLife":  "73 hours",
+                                                 "note":  "Used in heart-muscle scans."
+                                             },
+                                             {
+                                                 "A":  204,
+                                                 "halfLife":  "3.78 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  205
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Tl",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Thallium tends to keep its 6s pair to itself (the \u0027inert pair effect\u0027), so it often behaves as a +1 metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  345.6,
+                     "cPm":  552.5,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made mostly by slow neutron capture.",
+        "crustAbundancePpm":  0.85,
+        "appearance":  "Soft, grey-white metal that tarnishes.",
+        "summary":  "Thallium is a soft, very toxic metal once used as rat poison. Its compounds are tasteless and odorless, which made it a notorious poison.",
+        "uses":  [
+                     "Infrared optics",
+                     "Gamma-ray detectors (thallium-doped sodium iodide)",
+                     "Thallium-201 heart imaging"
+                 ],
+        "facts":  [
+                      "Agatha Christie\u0027s novel The Pale Horse describes thallium poisoning accurately."
+                  ],
+        "biology":  "None; highly toxic.",
+        "hazards":  "Highly toxic; absorbed through skin.",
+        "color":  "#A6544D"
+    },
+    {
+        "z":  82,
+        "symbol":  "Pb",
+        "name":  "Lead",
+        "altName":  null,
+        "atomicMass":  "207.2",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  14,
+        "period":  6,
+        "block":  "p",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s2 6p2",
+        "configPredicted":  false,
+        "electronegativity":  2.33,
+        "ionizationEnergy":  7.417,
+        "electronAffinity":  0.36,
+        "covalentRadius":  146,
+        "vdwRadius":  202,
+        "meltingPoint":  600.61,
+        "boilingPoint":  2022,
+        "density":  11.342,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2,
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Smelted since at least 6500 BCE."
+                      },
+        "nameOrigin":  "Anglo-Saxon lead; symbol Pb from Latin plumbum (as in plumbing).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  204,
+                                            "abundance":  1.4
+                                        },
+                                        {
+                                            "A":  206,
+                                            "abundance":  24.1
+                                        },
+                                        {
+                                            "A":  207,
+                                            "abundance":  22.1
+                                        },
+                                        {
+                                            "A":  208,
+                                            "abundance":  52.4
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  210,
+                                                 "halfLife":  "22.2 years",
+                                                 "note":  "From the uranium decay chain; dates recent sediments."
+                                             },
+                                             {
+                                                 "A":  205,
+                                                 "halfLife":  "17 million years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  208
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Pb",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Lead\u0027s 6s pair is held tightly (inert pair effect), so relatively few electrons bond the metal, making it soft and low-melting.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  495.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made mostly by slow neutron capture; some comes from the decay of uranium and thorium.",
+        "crustAbundancePpm":  14,
+        "appearance":  "Soft, dense, bluish-grey metal.",
+        "summary":  "Lead is soft, dense and easy to cast. Lead-208 has a \u0027doubly magic\u0027 nucleus, and it is the end point of the thorium decay chain.",
+        "uses":  [
+                     "Lead-acid car batteries",
+                     "Radiation shielding",
+                     "Weights and ammunition",
+                     "Solder (now mostly lead-free)"
+                 ],
+        "facts":  [
+                      "Lead-208 is the heaviest stable nucleus known."
+                  ],
+        "biology":  "None; toxic, especially to children\u0027s brains.",
+        "hazards":  "Toxic; accumulates in the body.",
+        "color":  "#575961"
+    },
+    {
+        "z":  83,
+        "symbol":  "Bi",
+        "name":  "Bismuth",
+        "altName":  null,
+        "atomicMass":  "208.98",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  15,
+        "period":  6,
+        "block":  "p",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s2 6p3",
+        "configPredicted":  false,
+        "electronegativity":  2.02,
+        "ionizationEnergy":  7.289,
+        "electronAffinity":  0.946,
+        "covalentRadius":  148,
+        "vdwRadius":  207,
+        "meltingPoint":  544.55,
+        "boilingPoint":  1837,
+        "density":  9.807,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     5
+                                 ],
+        "discovery":  {
+                          "year":  "1753",
+                          "by":  "Claude François Geoffroy",
+                          "note":  "Shown to be distinct from lead and tin; it had been used since the 1400s."
+                      },
+        "nameOrigin":  "German Wismuth, possibly \u0027white mass\u0027.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  209,
+                                                 "halfLife":  "2.01×10^19 years",
+                                                 "note":  "100% of natural bismuth; its decay was only detected in 2003."
+                                             },
+                                             {
+                                                 "A":  213,
+                                                 "halfLife":  "45.6 minutes",
+                                                 "note":  "Used in targeted alpha therapy."
+                                             }
+                                         ],
+                         "displayA":  209
+                     },
+        "elementalForm":  {
+                              "kind":  "network",
+                              "formula":  "Bi (layered)",
+                              "bondOrder":  1,
+                              "bondLengthPm":  307,
+                              "description":  "Like arsenic and antimony, each bismuth atom bonds to three neighbors in puckered layers, but the layers are close enough to share electrons, making it a semimetal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Rhombohedral (A7 layered)",
+                     "lattice":  "rhombohedral",
+                     "renderAs":  "simple-cubic",
+                     "latticeConstantPm":  475,
+                     "cPm":  null,
+                     "note":  "Drawn as a simplified distorted cubic net."
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by slow and rapid neutron capture.",
+        "crustAbundancePpm":  0.0085,
+        "appearance":  "Brittle, pinkish-silver metal; grows rainbow-colored stair-step crystals.",
+        "summary":  "Bismuth is technically radioactive, but its half-life is about a billion times the age of the universe. It is the most diamagnetic metal, repelled by magnets.",
+        "uses":  [
+                     "Pepto-Bismol (bismuth subsalicylate)",
+                     "Lead-free solders and shot",
+                     "Cosmetics pigments (bismuth oxychloride)",
+                     "Fire-sprinkler fusible alloys"
+                 ],
+        "facts":  [
+                      "Bismuth\u0027s rainbow colors come from a thin oxide film, not the metal itself."
+                  ],
+        "biology":  "None; low toxicity for a heavy metal.",
+        "hazards":  "Low toxicity.",
+        "color":  "#9E4FB5"
+    },
+    {
+        "z":  84,
+        "symbol":  "Po",
+        "name":  "Polonium",
+        "altName":  null,
+        "atomicMass":  "[209]",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  16,
+        "period":  6,
+        "block":  "p",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s2 6p4",
+        "configPredicted":  false,
+        "electronegativity":  2,
+        "ionizationEnergy":  8.417,
+        "electronAffinity":  1.9,
+        "covalentRadius":  140,
+        "vdwRadius":  197,
+        "meltingPoint":  527,
+        "boilingPoint":  1235,
+        "density":  9.196,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4,
+                                2
+                            ],
+        "otherOxidationStates":  [
+                                     -2,
+                                     6
+                                 ],
+        "discovery":  {
+                          "year":  "1898",
+                          "by":  "Marie Curie; Pierre Curie",
+                          "note":  "Found in pitchblende because it was far more radioactive than its uranium."
+                      },
+        "nameOrigin":  "Polonia, Latin for Poland, Marie Curie\u0027s homeland.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  209,
+                                                 "halfLife":  "124 years",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  210,
+                                                 "halfLife":  "138 days",
+                                                 "note":  "The natural isotope; used in antistatic devices and notoriously as a poison."
+                                             }
+                                         ],
+                         "displayA":  209
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Po",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Polonium is the only element with a simple cubic crystal: each atom has six neighbors at the corners of cubes.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Alpha polonium",
+                                                     "note":  "Simple cubic."
+                                                 },
+                                                 {
+                                                     "name":  "Beta polonium",
+                                                     "note":  "Rhombohedral, above about 36 °C."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Simple cubic (alpha-Po)",
+                     "lattice":  "simple-cubic",
+                     "renderAs":  "simple-cubic",
+                     "latticeConstantPm":  335.9,
+                     "cPm":  null,
+                     "note":  "The only element known to crystallize in the simple cubic structure."
+                 },
+        "origin":  [
+
+                   ],
+        "originNote":  "Polonium on Earth is continuously made by the radioactive decay of uranium, whose atoms were forged in merging neutron stars.",
+        "crustAbundancePpm":  2E-10,
+        "appearance":  "Silvery metal that glows blue from the radiation it emits.",
+        "summary":  "Polonium is intensely radioactive: a gram of polonium-210 heats itself to about 500 °C. It was the first element Marie and Pierre Curie discovered.",
+        "uses":  [
+                     "Antistatic brushes",
+                     "Heat source in early space probes",
+                     "Neutron sources (with beryllium)"
+                 ],
+        "facts":  [
+                      "Polonium is the only element with a simple cubic crystal structure."
+                  ],
+        "biology":  "None; extremely toxic because of its radiation.",
+        "hazards":  "Extremely radiotoxic if swallowed or inhaled.",
+        "color":  "#AB5C00"
+    },
+    {
+        "z":  85,
+        "symbol":  "At",
+        "name":  "Astatine",
+        "altName":  null,
+        "atomicMass":  "[210]",
+        "category":  "halogen",
+        "categoryPredicted":  false,
+        "group":  17,
+        "period":  6,
+        "block":  "p",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s2 6p5",
+        "configPredicted":  false,
+        "electronegativity":  2.2,
+        "ionizationEnergy":  9.5,
+        "electronAffinity":  2.8,
+        "covalentRadius":  150,
+        "vdwRadius":  202,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -1,
+                                1
+                            ],
+        "otherOxidationStates":  [
+                                     3,
+                                     5,
+                                     7
+                                 ],
+        "discovery":  {
+                          "year":  "1940",
+                          "by":  "Dale Corson; Kenneth MacKenzie; Emilio Segrè",
+                          "note":  "Made by bombarding bismuth with alpha particles at Berkeley."
+                      },
+        "nameOrigin":  "Greek astatos, unstable.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  210,
+                                                 "halfLife":  "8.1 hours",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  211,
+                                                 "halfLife":  "7.2 hours",
+                                                 "note":  "Studied for targeted alpha cancer therapy."
+                                             }
+                                         ],
+                         "displayA":  210
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "At",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "No visible amount has ever been made, so its bulk bonding is unmeasured. Calculations suggest it would be a metal rather than forming At2 molecules like the lighter halogens.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted face-centered cubic metal)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+
+                   ],
+        "originNote":  "Made briefly in uranium and thorium decay chains; less than a gram exists in Earth\u0027s crust at any time.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen as a bulk sample; it would vaporize from its own radioactive heat.",
+        "summary":  "Astatine is the rarest naturally occurring element, with well under a gram in Earth\u0027s crust at any moment. Its properties are mostly inferred from tiny traces and calculations.",
+        "uses":  [
+                     "Astatine-211 for targeted alpha therapy research"
+                 ],
+        "facts":  [
+                      "Astatine was made artificially in 1940 and only found in nature afterwards, in 1943."
+                  ],
+        "biology":  "None; collects in the thyroid like iodine.",
+        "hazards":  "Intensely radioactive.",
+        "color":  "#754F45"
+    },
+    {
+        "z":  86,
+        "symbol":  "Rn",
+        "name":  "Radon",
+        "altName":  null,
+        "atomicMass":  "[222]",
+        "category":  "noble gas",
+        "categoryPredicted":  false,
+        "group":  18,
+        "period":  6,
+        "block":  "p",
+        "electronConfiguration":  "[Xe] 4f14 5d10 6s2 6p6",
+        "configPredicted":  false,
+        "electronegativity":  null,
+        "ionizationEnergy":  10.745,
+        "electronAffinity":  null,
+        "covalentRadius":  150,
+        "vdwRadius":  220,
+        "meltingPoint":  202,
+        "boilingPoint":  211.45,
+        "density":  0.00973,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1899",
+                          "by":  "Ernest Rutherford; Robert Owens; Friedrich Ernst Dorn",
+                          "note":  "Found as a radioactive gas given off by thorium and radium compounds."
+                      },
+        "nameOrigin":  "From radium, which gives it off.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  222,
+                                                 "halfLife":  "3.82 days",
+                                                 "note":  "From the uranium decay chain; the main natural radon."
+                                             },
+                                             {
+                                                 "A":  220,
+                                                 "halfLife":  "55.6 seconds",
+                                                 "note":  "\u0027Thoron\u0027, from the thorium chain."
+                                             }
+                                         ],
+                         "displayA":  222
+                     },
+        "elementalForm":  {
+                              "kind":  "monatomic",
+                              "formula":  "Rn",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Radon has a full octet and exists as single atoms. Its outer electrons are loosely held, so it can react with fluorine.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic (solid below 202 K)",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+
+                   ],
+        "originNote":  "Continuously made by the decay of radium in rocks and soil.",
+        "crustAbundancePpm":  4E-13,
+        "appearance":  "Colorless gas; solid radon glows from its radioactivity.",
+        "summary":  "Radon is a heavy radioactive gas that seeps from rocks into buildings. After smoking, it is a leading cause of lung cancer in many countries.",
+        "uses":  [
+                     "Earthquake and groundwater research",
+                     "Formerly in radiotherapy"
+                 ],
+        "facts":  [
+                      "Radon is about 8 times denser than air and collects in basements."
+                  ],
+        "biology":  "None; harmful.",
+        "hazards":  "Radioactive; long-term exposure causes lung cancer.",
+        "color":  "#428296"
+    },
+    {
+        "z":  87,
+        "symbol":  "Fr",
+        "name":  "Francium",
+        "altName":  null,
+        "atomicMass":  "[223]",
+        "category":  "alkali metal",
+        "categoryPredicted":  false,
+        "group":  1,
+        "period":  7,
+        "block":  "s",
+        "electronConfiguration":  "[Rn] 7s1",
+        "configPredicted":  false,
+        "electronegativity":  0.7,
+        "ionizationEnergy":  3.9,
+        "electronAffinity":  null,
+        "covalentRadius":  260,
+        "vdwRadius":  348,
+        "meltingPoint":  300,
+        "boilingPoint":  950,
+        "density":  2.48,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1939",
+                          "by":  "Marguerite Perey",
+                          "note":  "Found at the Curie Institute as a decay product of actinium-227: the last element discovered in nature."
+                      },
+        "nameOrigin":  "France, Perey\u0027s homeland.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  223,
+                                                 "halfLife":  "22.0 minutes",
+                                                 "note":  "The longest-lived isotope, from the actinium decay chain."
+                                             }
+                                         ],
+                         "displayA":  223
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Fr",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Francium would be an alkali metal sharing one 7s electron in a metallic sea, but no visible amount has ever been made, so this is predicted.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Predicted body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted; never observed."
+                 },
+        "origin":  [
+
+                   ],
+        "originNote":  "Exists fleetingly in uranium ores as part of the actinium decay chain; perhaps 20–30 g are in Earth\u0027s crust at any time.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen; the largest sample, about 300,000 atoms, was held in a laser trap.",
+        "summary":  "Francium is the most unstable naturally occurring element. A visible sample would instantly vaporize itself with the heat of its own radioactivity.",
+        "uses":  [
+                     "Research on atomic structure and the weak nuclear force"
+                 ],
+        "facts":  [
+                      "It was the last element discovered in nature rather than made in a lab."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Intensely radioactive.",
+        "color":  "#420066"
+    },
+    {
+        "z":  88,
+        "symbol":  "Ra",
+        "name":  "Radium",
+        "altName":  null,
+        "atomicMass":  "[226]",
+        "category":  "alkaline earth metal",
+        "categoryPredicted":  false,
+        "group":  2,
+        "period":  7,
+        "block":  "s",
+        "electronConfiguration":  "[Rn] 7s2",
+        "configPredicted":  false,
+        "electronegativity":  0.9,
+        "ionizationEnergy":  5.279,
+        "electronAffinity":  null,
+        "covalentRadius":  221,
+        "vdwRadius":  283,
+        "meltingPoint":  973,
+        "boilingPoint":  2010,
+        "density":  5.5,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1898",
+                          "by":  "Marie Curie; Pierre Curie",
+                          "note":  "Found in pitchblende; Marie Curie and André-Louis Debierne isolated the metal in 1910."
+                      },
+        "nameOrigin":  "Latin radius, ray.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  226,
+                                                 "halfLife":  "1,600 years",
+                                                 "note":  "The common natural isotope, from the uranium chain."
+                                             },
+                                             {
+                                                 "A":  223,
+                                                 "halfLife":  "11.4 days",
+                                                 "note":  "Radium-223 dichloride treats prostate cancer spread to bone."
+                                             },
+                                             {
+                                                 "A":  228,
+                                                 "halfLife":  "5.75 years",
+                                                 "note":  "From the thorium chain."
+                                             }
+                                         ],
+                         "displayA":  226
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ra",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Radium shares two 7s electrons per atom in a body-centered cubic metallic lattice, like barium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  514.8,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+
+                   ],
+        "originNote":  "Continuously made in rocks by the decay of uranium and thorium.",
+        "crustAbundancePpm":  9E-07,
+        "appearance":  "Silvery-white metal that blackens in air; its compounds glow faintly.",
+        "summary":  "Radium glows from its own radioactivity and was once painted on watch dials. Many of the \u0027radium girls\u0027 who painted them suffered severe radiation injuries.",
+        "uses":  [
+                     "Radium-223 cancer therapy",
+                     "Formerly luminous paint and radiotherapy"
+                 ],
+        "facts":  [
+                      "The curie, a unit of radioactivity, was based on one gram of radium-226."
+                  ],
+        "biology":  "None; it collects in bones like calcium.",
+        "hazards":  "Highly radioactive; produces radon gas.",
+        "color":  "#007D00"
+    },
+    {
+        "z":  89,
+        "symbol":  "Ac",
+        "name":  "Actinium",
+        "altName":  null,
+        "atomicMass":  "[227]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 6d1 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.1,
+        "ionizationEnergy":  5.17,
+        "electronAffinity":  null,
+        "covalentRadius":  215,
+        "vdwRadius":  260,
+        "meltingPoint":  1324,
+        "boilingPoint":  3471,
+        "density":  10.07,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1899",
+                          "by":  "André-Louis Debierne",
+                          "note":  "Found in uranium ore residues; Friedrich Giesel found it independently in 1902."
+                      },
+        "nameOrigin":  "Greek aktinos, ray.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  227,
+                                                 "halfLife":  "21.8 years",
+                                                 "note":  "The natural isotope, from the uranium-235 chain."
+                                             },
+                                             {
+                                                 "A":  225,
+                                                 "halfLife":  "9.9 days",
+                                                 "note":  "Used in targeted alpha therapy for cancer."
+                                             }
+                                         ],
+                         "displayA":  227
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ac",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Actinium shares three valence electrons (6d1 7s2), like lanthanum above it.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  531.1,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+
+                   ],
+        "originNote":  "Made in uranium ores by the decay of uranium-235.",
+        "crustAbundancePpm":  5.5E-10,
+        "appearance":  "Silvery metal that glows pale blue in the dark from its radiation.",
+        "summary":  "Actinium gives the actinide series its name. It is so radioactive that it glows blue in the dark.",
+        "uses":  [
+                     "Actinium-225 targeted cancer therapy",
+                     "Neutron sources (with beryllium)"
+                 ],
+        "facts":  [
+                      "A ton of uranium ore contains only about 0.2 mg of actinium."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Highly radioactive.",
+        "color":  "#70ABFA"
+    },
+    {
+        "z":  90,
+        "symbol":  "Th",
+        "name":  "Thorium",
+        "altName":  null,
+        "atomicMass":  "232.04",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 6d2 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.08,
+        "electronAffinity":  null,
+        "covalentRadius":  206,
+        "vdwRadius":  237,
+        "meltingPoint":  2023,
+        "boilingPoint":  5061,
+        "density":  11.72,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1829",
+                          "by":  "Jöns Jacob Berzelius",
+                          "note":  "Found in a black mineral from Norway (now called thorite)."
+                      },
+        "nameOrigin":  "Thor, the Norse god of thunder.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  232,
+                                                 "halfLife":  "14.0 billion years",
+                                                 "note":  "Almost 100% of natural thorium; it decays more slowly than the age of the universe."
+                                             },
+                                             {
+                                                 "A":  230,
+                                                 "halfLife":  "75,400 years",
+                                                 "note":  "Trace; used to date corals and cave deposits."
+                                             },
+                                             {
+                                                 "A":  229,
+                                                 "halfLife":  "7,900 years",
+                                                 "note":  "Its low-energy nuclear transition may enable nuclear clocks."
+                                             }
+                                         ],
+                         "displayA":  232
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Th",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Thorium shares four valence electrons (6d2 7s2) in a face-centered cubic metallic lattice.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  508.4,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "merging neutron stars"
+                   ],
+        "originNote":  "Made by rapid neutron capture; it has survived since before the Sun formed.",
+        "crustAbundancePpm":  9.6,
+        "appearance":  "Silvery metal that tarnishes grey to black.",
+        "summary":  "Thorium is about three times more abundant than uranium and is only weakly radioactive. It is studied as a nuclear fuel for thorium reactors.",
+        "uses":  [
+                     "Proposed thorium nuclear fuel cycles",
+                     "Gas lantern mantles (formerly)",
+                     "High-temperature crucibles and lenses (thoria)"
+                 ],
+        "facts":  [
+                      "Much of Earth\u0027s internal heat comes from the decay of thorium, uranium and potassium."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Weakly radioactive; dust is hazardous to inhale.",
+        "color":  "#00BAFF"
+    }
+]

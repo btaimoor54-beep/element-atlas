@@ -1,0 +1,844 @@
+[
+    {
+        "z":  101,
+        "symbol":  "Md",
+        "name":  "Mendelevium",
+        "altName":  null,
+        "atomicMass":  "[258]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f13 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.58,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  1100,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                3,
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1955",
+                          "by":  "Albert Ghiorso; Bernard Harvey; Gregory Choppin; Stanley Thompson; Glenn Seaborg",
+                          "note":  "Made by bombarding einsteinium-253 with alpha particles; the first element made one atom at a time."
+                      },
+        "nameOrigin":  "Dmitri Mendeleev, creator of the periodic table.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  258,
+                                                 "halfLife":  "51.6 days",
+                                                 "note":  "The longest-lived isotope."
+                                             }
+                                         ],
+                         "displayA":  258
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Md",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Never made in bulk; predicted to be a divalent metal.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Mendelevium was the first element produced and identified one atom at a time; its discoverers found just 17 atoms.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Its discovery experiment produced only 17 atoms."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#B30DA6"
+    },
+    {
+        "z":  102,
+        "symbol":  "No",
+        "name":  "Nobelium",
+        "altName":  null,
+        "atomicMass":  "[259]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "f",
+        "electronConfiguration":  "[Rn] 5f14 7s2",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  6.65,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  1100,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                2,
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1966",
+                          "by":  "Georgy Flerov and team (Dubna)",
+                          "note":  "Claimed first in Sweden in 1957; the Dubna work of 1963–66 was credited."
+                      },
+        "nameOrigin":  "Alfred Nobel.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  259,
+                                                 "halfLife":  "58 minutes",
+                                                 "note":  "The longest-lived isotope."
+                                             },
+                                             {
+                                                 "A":  255,
+                                                 "halfLife":  "3.1 minutes",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  259
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "No",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Never made in bulk; nobelium is unusual in being most stable in the +2 state in water.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Nobelium is a synthetic actinide made atom by atom in accelerators. Unlike most actinides it prefers the +2 oxidation state.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Its discovery was disputed between labs in Sweden, the US and the USSR."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#BD0D87"
+    },
+    {
+        "z":  103,
+        "symbol":  "Lr",
+        "name":  "Lawrencium",
+        "altName":  null,
+        "atomicMass":  "[266]",
+        "category":  "actinide",
+        "categoryPredicted":  false,
+        "group":  null,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 7s2 7p1",
+        "configPredicted":  false,
+        "electronegativity":  1.3,
+        "ionizationEnergy":  4.96,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  1900,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1961",
+                          "by":  "Albert Ghiorso; Torbjørn Sikkeland; Almon Larsh; Robert Latimer",
+                          "note":  "Made at Berkeley by bombarding californium with boron nuclei."
+                      },
+        "nameOrigin":  "Ernest Lawrence, inventor of the cyclotron.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  266,
+                                                 "halfLife":  "11 hours",
+                                                 "note":  "The longest-lived isotope."
+                                             }
+                                         ],
+                         "displayA":  266
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Lr",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Never made in bulk. Its outermost electron is in a 7p orbital, a relativistic effect, rather than 6d as simple rules predict.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted hexagonal close-packed)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Lawrencium is the last actinide. In 2015 its first ionization energy was measured, one atom at a time, at 4.96 eV.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Its ionization energy was measured in 2015 using single atoms at a time."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#C70066"
+    },
+    {
+        "z":  104,
+        "symbol":  "Rf",
+        "name":  "Rutherfordium",
+        "altName":  null,
+        "atomicMass":  "[267]",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  4,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d2 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  6,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1969",
+                          "by":  "Albert Ghiorso and team (Berkeley); claimed by Georgy Flerov\u0027s team (Dubna) in 1964",
+                          "note":  "IUPAC credited both labs."
+                      },
+        "nameOrigin":  "Ernest Rutherford, who discovered the atomic nucleus.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  267,
+                                                 "halfLife":  "about 1.3 hours",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  267
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Rf",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Made only a few atoms at a time; gas-phase experiments show it behaves like hafnium, as a group 4 metal should.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted hexagonal close-packed)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators by fusing lighter nuclei.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Rutherfordium is the first transactinide element. Its chemistry, tested on single atoms, resembles hafnium\u0027s.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Its naming was part of the \u0027Transfermium Wars\u0027 over who discovered elements 104–109."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#CC0059"
+    },
+    {
+        "z":  105,
+        "symbol":  "Db",
+        "name":  "Dubnium",
+        "altName":  null,
+        "atomicMass":  "[268]",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  5,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d3 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                5
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1970",
+                          "by":  "Albert Ghiorso and team (Berkeley); Georgy Flerov\u0027s team (Dubna, 1968)",
+                          "note":  "IUPAC credited both labs and named it after Dubna."
+                      },
+        "nameOrigin":  "Dubna, Russia, home of the Joint Institute for Nuclear Research.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  268,
+                                                 "halfLife":  "about 16 hours",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  268
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Db",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Studied only one atom at a time; it behaves as a group 5 element, like niobium and tantalum.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted body-centered cubic)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Dubnium is a synthetic group 5 element. Some of its isotopes live for hours, long enough for chemistry on single atoms.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Its name was disputed for decades; Americans proposed \u0027hahnium\u0027."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#D1004F"
+    },
+    {
+        "z":  106,
+        "symbol":  "Sg",
+        "name":  "Seaborgium",
+        "altName":  null,
+        "atomicMass":  "[269]",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  6,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d4 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                6
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1974",
+                          "by":  "Albert Ghiorso; Kenneth Hulet and team (Berkeley-Livermore)",
+                          "note":  "Made by bombarding californium-249 with oxygen-18."
+                      },
+        "nameOrigin":  "Glenn Seaborg, co-discoverer of ten elements.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  269,
+                                                 "halfLife":  "about 14 minutes",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  269
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Sg",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Single-atom chemistry shows group 6 behavior like tungsten, including a volatile carbonyl Sg(CO)6.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted body-centered cubic)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Seaborgium was the first element named after a living person. Chemists have made its hexacarbonyl, one molecule at a time.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Glenn Seaborg could write his address using element names: seaborgium, lawrencium, berkelium, californium, americium."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#D90045"
+    },
+    {
+        "z":  107,
+        "symbol":  "Bh",
+        "name":  "Bohrium",
+        "altName":  null,
+        "atomicMass":  "[270]",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  7,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d5 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                7
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1981",
+                          "by":  "Peter Armbruster; Gottfried Münzenberg and team (GSI Darmstadt)",
+                          "note":  "Made by fusing bismuth-209 with chromium-54."
+                      },
+        "nameOrigin":  "Niels Bohr.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  270,
+                                                 "halfLife":  "about 1 minute",
+                                                 "note":  "Among the longest-lived known isotopes."
+                                             }
+                                         ],
+                         "displayA":  270
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Bh",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Single atoms formed the oxychloride BhO3Cl, behaving like rhenium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted hexagonal close-packed)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Bohrium is a synthetic group 7 element whose single-atom chemistry matches rhenium.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Only a few dozen bohrium atoms have ever been made."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E00038"
+    },
+    {
+        "z":  108,
+        "symbol":  "Hs",
+        "name":  "Hassium",
+        "altName":  null,
+        "atomicMass":  "[269]",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  8,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d6 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+                                8
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1984",
+                          "by":  "Peter Armbruster; Gottfried Münzenberg and team (GSI Darmstadt)",
+                          "note":  "Made by fusing lead-208 with iron-58."
+                      },
+        "nameOrigin":  "Hesse (Latin Hassia), the German state where GSI is located.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  269,
+                                                 "halfLife":  "about 16 seconds",
+                                                 "note":  ""
+                                             },
+                                             {
+                                                 "A":  270,
+                                                 "halfLife":  "about 10 seconds",
+                                                 "note":  "Sits at a predicted \u0027doubly magic\u0027 deformed nucleus."
+                                             }
+                                         ],
+                         "displayA":  269
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Hs",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "In 2001 chemists made hassium tetroxide, HsO4, from single atoms: it behaves like osmium tetroxide.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted hexagonal close-packed)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted; possibly the densest element (about 41 g/cm³)."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Hassium is predicted to be the densest element of all, roughly twice as dense as osmium. Its tetroxide is the heaviest molecule whose chemistry has been tested.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "Hassium tetroxide was made and studied one molecule at a time in 2001."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6002E"
+    },
+    {
+        "z":  109,
+        "symbol":  "Mt",
+        "name":  "Meitnerium",
+        "altName":  null,
+        "atomicMass":  "[278]",
+        "category":  "transition metal",
+        "categoryPredicted":  true,
+        "group":  9,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d7 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1982",
+                          "by":  "Peter Armbruster; Gottfried Münzenberg and team (GSI Darmstadt)",
+                          "note":  "A single atom was detected after a week of bombarding bismuth with iron."
+                      },
+        "nameOrigin":  "Lise Meitner, co-discoverer of nuclear fission.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  278,
+                                                 "halfLife":  "about 5 seconds",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  278
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Mt",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "No chemistry has been done yet; it is predicted to behave like iridium.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted face-centered cubic)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Meitnerium honors Lise Meitner, who helped explain nuclear fission. Its properties are known only from calculations.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "It is the only element named solely after a real woman; curium honors Marie and Pierre Curie together."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#EB0026"
+    },
+    {
+        "z":  110,
+        "symbol":  "Ds",
+        "name":  "Darmstadtium",
+        "altName":  null,
+        "atomicMass":  "[281]",
+        "category":  "transition metal",
+        "categoryPredicted":  true,
+        "group":  10,
+        "period":  7,
+        "block":  "d",
+        "electronConfiguration":  "[Rn] 5f14 6d8 7s2",
+        "configPredicted":  true,
+        "electronegativity":  null,
+        "ionizationEnergy":  null,
+        "electronAffinity":  null,
+        "covalentRadius":  null,
+        "vdwRadius":  null,
+        "meltingPoint":  null,
+        "boilingPoint":  null,
+        "density":  null,
+        "state":  "solid",
+        "statePredicted":  true,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1994",
+                          "by":  "Sigurd Hofmann and team (GSI Darmstadt)",
+                          "note":  "Made by fusing lead-208 with nickel-62."
+                      },
+        "nameOrigin":  "Darmstadt, Germany.",
+        "isotopes":  {
+                         "stable":  [
+
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  281,
+                                                 "halfLife":  "about 13 seconds",
+                                                 "note":  "The longest-lived known isotope."
+                                             }
+                                         ],
+                         "displayA":  281
+                     },
+        "elementalForm":  {
+                              "kind":  "unknown",
+                              "formula":  "Ds",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "No chemistry yet; predicted to resemble platinum.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Unknown (predicted body-centered cubic)",
+                     "lattice":  "unknown",
+                     "renderAs":  "unknown",
+                     "latticeConstantPm":  null,
+                     "cPm":  null,
+                     "note":  "Predicted."
+                 },
+        "origin":  [
+                       "human synthesis"
+                   ],
+        "originNote":  "Made in particle accelerators.",
+        "crustAbundancePpm":  null,
+        "appearance":  "Never seen.",
+        "summary":  "Darmstadtium is a synthetic element predicted to be a dense noble metal like platinum.",
+        "uses":  [
+                     "Research only"
+                 ],
+        "facts":  [
+                      "It was first made at GSI in Darmstadt, which also found elements 107–112."
+                  ],
+        "biology":  "None.",
+        "hazards":  "Radioactive.",
+        "color":  "#E6004C"
+    }
+]

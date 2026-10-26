@@ -1,0 +1,365 @@
+[
+    {
+        "id":  "aspirin",
+        "name":  "Aspirin",
+        "formula":  "C9H8O4",
+        "aka":  [
+                    "acetylsalicylic acid"
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  2244,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 2244)",
+                          "atomCount":  21,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A benzene ring with an acid group and an ester group side by side.",
+                        "electronSharing":  "The acetyl group transfers to the COX enzyme, permanently blocking it and reducing prostaglandins that cause pain and inflammation.",
+                        "geometry":  "Planar ring with side groups",
+                        "bondLengths":  "C=O 121 pm"
+                    },
+        "formation":  "Salicylic acid + acetic anhydride -\u003e aspirin + acetic acid",
+        "state":  "solid",
+        "meltingPointC":  136,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic; inspired by willow bark.",
+        "uses":  [
+                     "Pain and fever relief",
+                     "Preventing heart attacks and strokes (low dose)"
+                 ],
+        "facts":  [
+                      "People chewed willow bark, which contains salicin, for pain for thousands of years."
+                  ],
+        "hazards":  "Stomach bleeding; not for children (Reye\u0027s syndrome).",
+        "summary":  "Aspirin is one of the oldest and most used synthetic medicines."
+    },
+    {
+        "id":  "paracetamol",
+        "name":  "Paracetamol (acetaminophen)",
+        "formula":  "C8H9NO2",
+        "aka":  [
+                    "acetaminophen",
+                    "Tylenol"
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  1983,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1983)",
+                          "atomCount":  20,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A benzene ring with an OH and an amide group on opposite sides.",
+                        "electronSharing":  "Shared pairs throughout; the amide nitrogen\u0027s lone pair is delocalized into the C=O.",
+                        "geometry":  "Planar",
+                        "bondLengths":  "C=O 123 pm"
+                    },
+        "formation":  "4-aminophenol + acetic anhydride -\u003e paracetamol + acetic acid",
+        "state":  "solid",
+        "meltingPointC":  169,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Pain and fever relief"
+                 ],
+        "facts":  [
+                      "Even after over a century of use, exactly how it works is still debated."
+                  ],
+        "hazards":  "Overdose causes severe liver damage.",
+        "summary":  "Paracetamol is a common painkiller that is safe at normal doses but dangerous in overdose."
+    },
+    {
+        "id":  "ibuprofen",
+        "name":  "Ibuprofen",
+        "formula":  "C13H18O2",
+        "aka":  [
+                    "Advil",
+                    "Nurofen"
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  3672,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 3672)",
+                          "atomCount":  33,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A benzene ring with an isobutyl group and a propanoic acid group.",
+                        "electronSharing":  "The acid group and greasy side chains let it sit in the COX enzyme\u0027s channel and block it reversibly.",
+                        "geometry":  "Chiral center next to the ring",
+                        "bondLengths":  "C=O 121 pm"
+                    },
+        "formation":  "Made from isobutylbenzene (BHC three-step process)",
+        "state":  "solid",
+        "meltingPointC":  76,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic, discovered in 1961.",
+        "uses":  [
+                     "Pain, fever and inflammation relief"
+                 ],
+        "facts":  [
+                      "It was first tested by its co-inventor on his own hangover."
+                  ],
+        "hazards":  "Stomach irritation; kidney effects in overdose.",
+        "summary":  "Ibuprofen is a widely used anti-inflammatory painkiller."
+    },
+    {
+        "id":  "penicillin-g",
+        "name":  "Penicillin G",
+        "formula":  "C16H18N2O4S",
+        "aka":  [
+                    "benzylpenicillin"
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O",
+                         "S"
+                     ],
+        "pubchemCid":  5904,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5904)",
+                          "atomCount":  41,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A strained four-membered beta-lactam ring fused to a sulfur-containing ring.",
+                        "electronSharing":  "The strained beta-lactam ring snaps open and bonds to the bacterial enzyme that builds cell walls, disabling it.",
+                        "geometry":  "Fused four- and five-membered rings",
+                        "bondLengths":  "C=O (lactam) 121 pm"
+                    },
+        "formation":  "Made by Penicillium mold",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Penicillium mold.",
+        "uses":  [
+                     "Antibiotic for strep, syphilis and other infections"
+                 ],
+        "facts":  [
+                      "Alexander Fleming noticed in 1928 that mold killed bacteria on a forgotten culture plate."
+                  ],
+        "hazards":  "Allergies in some people.",
+        "summary":  "Penicillin, the first true antibiotic, kills bacteria by wrecking their cell walls."
+    },
+    {
+        "id":  "morphine",
+        "name":  "Morphine",
+        "formula":  "C17H19NO3",
+        "aka":  [
+
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  5288826,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5288826)",
+                          "atomCount":  40,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A rigid five-ring framework with one aromatic ring.",
+                        "electronSharing":  "The amine nitrogen and phenol OH let morphine bind opioid receptors, mimicking the body\u0027s endorphins.",
+                        "geometry":  "Rigid T-shaped polycyclic",
+                        "bondLengths":  "C–N 147 pm"
+                    },
+        "formation":  "Extracted from opium poppies",
+        "state":  "solid",
+        "meltingPointC":  255,
+        "boilingPointC":  null,
+        "occurrence":  "Opium poppy.",
+        "uses":  [
+                     "Severe pain relief"
+                 ],
+        "facts":  [
+                      "It was the first alkaloid isolated from a plant, by Friedrich Sertürner in 1804."
+                  ],
+        "hazards":  "Addictive; overdose stops breathing.",
+        "summary":  "Morphine is a powerful painkiller with serious risks."
+    },
+    {
+        "id":  "capsaicin",
+        "name":  "Capsaicin",
+        "formula":  "C18H27NO3",
+        "aka":  [
+
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  1548943,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1548943)",
+                          "atomCount":  49,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A vanillyl ring linked by an amide to a fatty chain.",
+                        "electronSharing":  "Its oily tail makes it dissolve in fats rather than water, which is why milk soothes better than water.",
+                        "geometry":  "Ring with long flexible chain",
+                        "bondLengths":  "C=O 123 pm"
+                    },
+        "formation":  "Made in chili pepper fruits",
+        "state":  "solid",
+        "meltingPointC":  65,
+        "boilingPointC":  null,
+        "occurrence":  "Chili peppers.",
+        "uses":  [
+                     "Spicy food",
+                     "Pain-relief creams",
+                     "Pepper spray"
+                 ],
+        "facts":  [
+                      "It triggers the same nerve receptor (TRPV1) that senses painful heat."
+                  ],
+        "hazards":  "Irritant to eyes and skin.",
+        "summary":  "Capsaicin tricks heat-sensing nerves, making chilies taste hot."
+    },
+    {
+        "id":  "menthol",
+        "name":  "Menthol",
+        "formula":  "C10H20O",
+        "aka":  [
+
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  1254,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1254)",
+                          "atomCount":  31,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A cyclohexane ring with an OH, a methyl and an isopropyl group.",
+                        "electronSharing":  "Mostly nonpolar bonds with one polar OH; it activates cold-sensing nerve receptors.",
+                        "geometry":  "Chair-shaped ring",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "Extracted from mint oil or made from thymol",
+        "state":  "solid",
+        "meltingPointC":  42,
+        "boilingPointC":  212,
+        "occurrence":  "Peppermint and corn mint.",
+        "uses":  [
+                     "Flavoring in toothpaste and sweets",
+                     "Cough drops and cooling creams"
+                 ],
+        "facts":  [
+                      "It triggers TRPM8, the same receptor that senses cold."
+                  ],
+        "hazards":  "Irritant in high doses.",
+        "summary":  "Menthol feels cold by switching on cold-sensing nerves."
+    },
+    {
+        "id":  "vanillin",
+        "name":  "Vanillin",
+        "formula":  "C8H8O3",
+        "aka":  [
+
+                ],
+        "category":  "Medicines \u0026 flavors",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  1183,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1183)",
+                          "atomCount":  19,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "A benzene ring with aldehyde, methoxy and OH groups.",
+                        "electronSharing":  "The aldehyde and phenol groups are conjugated with the ring, giving a strong scent.",
+                        "geometry":  "Planar",
+                        "bondLengths":  "C=O 122 pm"
+                    },
+        "formation":  "Made from guaiacol or lignin; natural vanillin from cured vanilla pods",
+        "state":  "solid",
+        "meltingPointC":  81,
+        "boilingPointC":  285,
+        "occurrence":  "Vanilla beans; most is synthetic.",
+        "uses":  [
+                     "Flavoring and perfume"
+                 ],
+        "facts":  [
+                      "Less than 1% of vanilla flavoring comes from real vanilla beans."
+                  ],
+        "hazards":  "Harmless in food.",
+        "summary":  "Vanillin is the main flavor molecule of vanilla."
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "id":  "Ca",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.02455",
+        "confidence":  "medium",
+        "source":  "Wikipedia Electron affinity (data page), citing Petrunin et al. 1996: Ca 0.02455(10) eV",
+        "reason":  "Calcium has a small but measured positive electron affinity (Ca- is weakly bound), so null leaves out a known value. The null for Mg is right because Mg- is unbound (estimated -0.4 eV)."
+    },
+    {
+        "id":  "Na",
+        "field":  "atomicMass",
+        "current":  "\"22.9897693\"",
+        "corrected":  "\"22.990\"",
+        "confidence":  "medium",
+        "source":  "IUPAC CIAAW abridged standard atomic weights (Na 22.990; full value 22.98976928(2))",
+        "reason":  "The convention is the IUPAC abridged standard atomic weight, but this value is neither the abridged nor the full IUPAC figure. It is a 9-digit truncation. The number itself is correct; only the format is inconsistent with the other entries."
+    },
+    {
+        "id":  "K",
+        "field":  "atomicMass",
+        "current":  "\"39.0983\"",
+        "corrected":  "\"39.098\"",
+        "confidence":  "medium",
+        "source":  "IUPAC CIAAW abridged standard atomic weights (K 39.098; full value 39.0983(1))",
+        "reason":  "The convention is the IUPAC abridged value (5 significant figures), which is 39.098. 39.0983 is the unabridged figure. The number is correct; only the format is inconsistent with the other entries."
+    },
+    {
+        "id":  "S",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "2448.6",
+        "confidence":  "medium",
+        "source":  "Wikipedia Sulfur infobox / Rettig \u0026 Trotter 1987: alpha-S8 orthorhombic Fddd, a = 1046 pm, b = 1286 pm, c = 2448 pm at 20 °C",
+        "reason":  "The real structure is orthorhombic, so c is a well-known lattice parameter (about 2448 pm), but it is null. latticeConstantPm = 1046 already matches a."
+    },
+    {
+        "id":  "Cl",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "826",
+        "confidence":  "medium",
+        "source":  "Collin 1952 (solid Cl2, orthorhombic Cmca: a = 624, b = 448, c = 826 pm); Wikipedia Chlorine infobox gives 630.80/455.83/815.49 pm at the triple point",
+        "reason":  "Solid chlorine is orthorhombic, so c is a well-known parameter, but it is null. 826 pm comes from the same low-temperature dataset as the a = 624 pm already stored."
+    },
+    {
+        "id":  "Al",
+        "field":  "isotopes.radioactive[0].note",
+        "current":  "\"Made by cosmic rays; its gamma rays are seen across the Milky Way.\"",
+        "corrected":  "\"Made by cosmic rays on Earth and by massive stars; its gamma rays are seen across the Milky Way.\"",
+        "confidence":  "medium",
+        "source":  "Diehl et al., COMPTEL/INTEGRAL 1.809 MeV 26Al sky maps (galactic 26Al comes from massive stars, Wolf-Rayet winds and supernovae)",
+        "reason":  "The sentence implies the galaxy-wide Al-26 gamma-ray glow comes from cosmic-ray production. That glow comes mainly from Al-26 made in massive stars and supernovae; cosmic rays are the source of Al-26 on Earth."
+    },
+    {
+        "id":  "S",
+        "field":  "biology",
+        "current":  "Essential: in the amino acids cysteine and methionine and in many vitamins.",
+        "corrected":  "\"Essential: in the amino acids cysteine and methionine and in the vitamins thiamine and biotin.\"",
+        "confidence":  "high",
+        "source":  "Standard biochemistry texts; NIH ODS vitamin fact sheets (only thiamine/B1 and biotin/B7 contain sulfur)",
+        "reason":  "Only 2 of the 13 vitamins, thiamine and biotin, contain sulfur, so saying \u0027many vitamins\u0027 is false."
+    },
+    {
+        "id":  "P",
+        "field":  "facts[0]",
+        "current":  "Phosphorus was the first element discovered by a known person.",
+        "corrected":  "\"Phosphorus was the first element with a well-documented discoverer and discovery date.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Arsenic\u0027 (Albertus Magnus isolated arsenic c. 1250; Jabir ibn Hayyan earlier); Wikipedia \u0027Phosphorus\u0027 (\u0027first discovery of an element since antiquity\u0027)",
+        "reason":  "Arsenic is widely credited to a named person, Albertus Magnus, around 1250, more than four centuries before Brand. \u0027First element discovered by a known person\u0027 is therefore not strictly true. The safer claim is a well-documented discoverer and date, or the first element discovered since antiquity."
+    },
+    {
+        "id":  "Al",
+        "field":  "isotopes.radioactive[0].note",
+        "current":  "Made by cosmic rays; its gamma rays are seen across the Milky Way.",
+        "corrected":  "\"Made in massive stars and supernovae; its gamma rays are seen across the Milky Way.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia \u0027Aluminium-26\u0027 (26Al in the interstellar medium is mainly made in supernovae and massive stars; cosmic rays make only a small amount)",
+        "reason":  "The note implies cosmic rays make the Al-26 whose 1.809 MeV gamma line maps the Galaxy. That Al-26 comes from stellar nucleosynthesis. Cosmic rays make only small amounts, such as the cosmogenic Al-26 in rocks and meteorites."
+    },
+    {
+        "id":  "Cl",
+        "field":  "origin",
+        "current":  "[\"exploding massive stars\"]",
+        "corrected":  "[\"exploding massive stars\", \"exploding white dwarfs\"]",
+        "confidence":  "medium",
+        "source":  "Johnson origin-of-elements data as encoded in Wikimedia Commons File:Nucleosynthesis_periodic_table.svg (Cl: 84% exploding massive stars, 16% exploding white dwarfs)",
+        "reason":  "Johnson\u0027s chart gives chlorine a substantial white-dwarf share of about 16%. That share is larger than argon\u0027s or sulfur\u0027s relative to the threshold used for other entries, and the file already lists white dwarfs for Si, S, Ar and Ca."
+    },
+    {
+        "id":  "Cl",
+        "field":  "originNote",
+        "current":  "Made by oxygen burning in massive stars.",
+        "corrected":  "\"Made mostly by oxygen burning in massive stars, with some from white-dwarf explosions.\"",
+        "confidence":  "medium",
+        "source":  "Johnson origin-of-elements data (Wikimedia Commons Nucleosynthesis_periodic_table.svg tooltips)",
+        "reason":  "This keeps the note consistent with the corrected origin list, about 16% from Type Ia (white-dwarf) supernovae."
+    },
+    {
+        "id":  "K",
+        "field":  "origin",
+        "current":  "[\"exploding massive stars\"]",
+        "corrected":  "[\"exploding massive stars\", \"exploding white dwarfs\"]",
+        "confidence":  "medium",
+        "source":  "Johnson origin-of-elements data as encoded in Wikimedia Commons File:Nucleosynthesis_periodic_table.svg (K: 82% exploding massive stars, 18% exploding white dwarfs)",
+        "reason":  "Johnson\u0027s chart attributes about 18% of solar-system potassium to exploding white dwarfs. That category is missing from the list."
+    },
+    {
+        "id":  "K",
+        "field":  "originNote",
+        "current":  "Made by oxygen burning in massive stars.",
+        "corrected":  "\"Made mostly by oxygen burning in massive stars, with some from white-dwarf explosions.\"",
+        "confidence":  "medium",
+        "source":  "Johnson origin-of-elements data (Wikimedia Commons Nucleosynthesis_periodic_table.svg tooltips)",
+        "reason":  "This keeps the note consistent with the corrected origin list, about 18% from white-dwarf explosions."
+    }
+]

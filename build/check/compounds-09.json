@@ -1,0 +1,635 @@
+[
+    {
+        "id":  "thallium-sulfate",
+        "name":  "Thallium(I) sulfate",
+        "formula":  "Tl2SO4",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Tl",
+                         "S",
+                         "O"
+                     ],
+        "pubchemCid":  24833,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Tl+",
+                                            "charge":  1,
+                                            "count":  2,
+                                            "el":  "Tl"
+                                        },
+                                        {
+                                            "label":  "SO4 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "S",
+                                                          "shape":  "tetrahedral",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.48,
+                                                                              "o":  1.5
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Two Tl+ ions with one sulfate.",
+                        "electronSharing":  "Each thallium gives one 6p electron and keeps its 6s pair (inert pair effect).",
+                        "geometry":  "Sulfate: tetrahedral",
+                        "bondLengths":  "S–O 148 pm"
+                    },
+        "formation":  "2 Tl + 2 H2SO4 -\u003e Tl2SO4 + SO2 + 2 H2O",
+        "state":  "solid",
+        "meltingPointC":  632,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Formerly rat poison and insecticide (banned in many countries)"
+                 ],
+        "facts":  [
+                      "The body mistakes Tl+ for K+, which is what makes it so poisonous."
+                  ],
+        "hazards":  "Highly toxic, odorless and tasteless.",
+        "summary":  "Thallium sulfate was a notorious poison because thallium imitates potassium."
+    },
+    {
+        "id":  "radium-chloride",
+        "name":  "Radium chloride",
+        "formula":  "RaCl2",
+        "aka":  [
+                    "radium-223 dichloride (Xofigo)"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Ra",
+                         "Cl"
+                     ],
+        "pubchemCid":  6365210,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Ra2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Ra"
+                                        },
+                                        {
+                                            "label":  "Cl-",
+                                            "charge":  -1,
+                                            "count":  2,
+                                            "el":  "Cl"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Ra2+ ions and Cl− ions.",
+                        "electronSharing":  "Radium gives its two 7s electrons, one to each chlorine.",
+                        "geometry":  "Ionic crystal",
+                        "bondLengths":  "Ra–Cl about 300 pm"
+                    },
+        "formation":  "RaSO4 -\u003e ... -\u003e RaCl2 (Curie\u0027s refining of pitchblende)",
+        "state":  "solid",
+        "meltingPointC":  900,
+        "boilingPointC":  null,
+        "occurrence":  "Made in tiny amounts.",
+        "uses":  [
+                     "Radium-223 dichloride treats prostate cancer that has spread to bone"
+                 ],
+        "facts":  [
+                      "Marie Curie first isolated radium as its chloride in 1902; it glows blue-green in the dark."
+                  ],
+        "hazards":  "Highly radioactive.",
+        "summary":  "Radium chloride was the first radium compound purified and is now a cancer drug."
+    },
+    {
+        "id":  "sodium-pertechnetate",
+        "name":  "Sodium pertechnetate (Tc-99m imaging agent)",
+        "formula":  "NaTcO4",
+        "aka":  [
+                    "pertechnetate"
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Na",
+                         "Tc",
+                         "O"
+                     ],
+        "pubchemCid":  74086836,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Na+",
+                                            "charge":  1,
+                                            "count":  1,
+                                            "el":  "Na"
+                                        },
+                                        {
+                                            "label":  "TcO4-",
+                                            "charge":  -1,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "Tc",
+                                                          "shape":  "tetrahedral",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.71,
+                                                                              "o":  1.75
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.71,
+                                                                              "o":  1.75
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.71,
+                                                                              "o":  1.75
+                                                                          },
+                                                                          {
+                                                                              "el":  "O",
+                                                                              "r":  1.71,
+                                                                              "o":  1.75
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Na+ and the tetrahedral pertechnetate ion, Tc in the +7 state.",
+                        "electronSharing":  "Technetium shares all seven valence electrons with four oxygens; the ion carries one extra electron from sodium.",
+                        "geometry":  "Pertechnetate: tetrahedral",
+                        "bondLengths":  "Tc–O 171 pm"
+                    },
+        "formation":  "99Mo -\u003e 99mTc (molybdenum-99 decays in a generator; eluted with saline as NaTcO4)",
+        "state":  "aqueous ion",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Made in hospital \u0027technetium cows\u0027.",
+        "uses":  [
+                     "Thyroid, brain and other diagnostic scans",
+                     "Starting material for most Tc-99m imaging kits"
+                 ],
+        "facts":  [
+                      "Tc-99m is used in tens of millions of scans per year because its 6-hour half-life and gentle gamma rays are ideal for imaging."
+                  ],
+        "hazards":  "Radioactive; doses are kept small.",
+        "summary":  "Pertechnetate solutions deliver the world\u0027s most used medical isotope."
+    },
+    {
+        "id":  "promethium-chloride",
+        "name":  "Promethium(III) chloride",
+        "formula":  "PmCl3",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Pm",
+                         "Cl"
+                     ],
+        "pubchemCid":  14475784,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Pm3+",
+                                            "charge":  3,
+                                            "count":  1,
+                                            "el":  "Pm"
+                                        },
+                                        {
+                                            "label":  "Cl-",
+                                            "charge":  -1,
+                                            "count":  3,
+                                            "el":  "Cl"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Pm3+ ions and three Cl− ions.",
+                        "electronSharing":  "Promethium gives three electrons, like all lanthanides.",
+                        "geometry":  "Hexagonal UCl3-type crystal",
+                        "bondLengths":  "Pm–Cl about 290 pm"
+                    },
+        "formation":  "Pm2O3 + 6 HCl -\u003e 2 PmCl3 + 3 H2O",
+        "state":  "solid",
+        "meltingPointC":  655,
+        "boilingPointC":  null,
+        "occurrence":  "Made in tiny amounts from reactor fission products.",
+        "uses":  [
+                     "Research; promethium salts were once used in luminous paint"
+                 ],
+        "facts":  [
+                      "Promethium salts glow pale blue-green from their own radioactivity."
+                  ],
+        "hazards":  "Radioactive.",
+        "summary":  "Promethium chloride is a rare glowing salt of the only radioactive lanthanide."
+    },
+    {
+        "id":  "rhodium-chloride",
+        "name":  "Rhodium(III) chloride",
+        "formula":  "RhCl3",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Rh",
+                         "Cl"
+                     ],
+        "pubchemCid":  24872,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Rh3+",
+                                            "charge":  3,
+                                            "count":  1,
+                                            "el":  "Rh"
+                                        },
+                                        {
+                                            "label":  "Cl-",
+                                            "charge":  -1,
+                                            "count":  3,
+                                            "el":  "Cl"
+                                        }
+                                    ],
+                          "note":  "One formula unit; the real solid is a layered network."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Rh3+ surrounded octahedrally by chloride in a layered crystal.",
+                        "electronSharing":  "Rhodium gives three electrons to chlorine with substantial covalent sharing.",
+                        "geometry":  "Layered (AlCl3-type) crystal",
+                        "bondLengths":  "Rh–Cl 231 pm"
+                    },
+        "formation":  "2 Rh + 3 Cl2 -\u003e 2 RhCl3",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Starting material for rhodium catalysts such as Wilkinson\u0027s catalyst"
+                 ],
+        "facts":  [
+                      "The red hydrate RhCl3·3H2O is the usual entry point to rhodium chemistry; the anhydrous salt decomposes above about 450 °C."
+                  ],
+        "hazards":  "Irritant.",
+        "summary":  "RhCl3 is the gateway compound for making rhodium catalysts."
+    },
+    {
+        "id":  "palladium-chloride",
+        "name":  "Palladium(II) chloride",
+        "formula":  "PdCl2",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Pd",
+                         "Cl"
+                     ],
+        "pubchemCid":  24290,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Pd2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Pd"
+                                        },
+                                        {
+                                            "label":  "Cl-",
+                                            "charge":  -1,
+                                            "count":  2,
+                                            "el":  "Cl"
+                                        }
+                                    ],
+                          "note":  "One formula unit; the real solid is made of square-planar chains."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "Pd2+ bonded to four bridging chlorides in square-planar chains.",
+                        "electronSharing":  "Palladium shares electrons with chlorides in a square-planar arrangement typical of d8 ions.",
+                        "geometry":  "Square-planar around Pd",
+                        "bondLengths":  "Pd–Cl 231 pm"
+                    },
+        "formation":  "Pd + Cl2 -\u003e PdCl2",
+        "state":  "solid",
+        "meltingPointC":  679,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Catalyst precursor (Wacker process, cross-coupling)",
+                     "Carbon monoxide detectors",
+                     "Palladium plating"
+                 ],
+        "facts":  [
+                      "Palladium-catalyzed cross-coupling earned the 2010 Nobel Prize in Chemistry."
+                  ],
+        "hazards":  "Irritant.",
+        "summary":  "PdCl2 is the starting point for many of chemistry\u0027s most important catalysts."
+    },
+    {
+        "id":  "cobalt-chloride",
+        "name":  "Cobalt(II) chloride",
+        "formula":  "CoCl2",
+        "aka":  [
+
+                ],
+        "category":  "Salts with polyatomic ions",
+        "elements":  [
+                         "Co",
+                         "Cl"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Co2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Co"
+                                        },
+                                        {
+                                            "label":  "Cl-",
+                                            "charge":  -1,
+                                            "count":  2,
+                                            "el":  "Cl"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "coordinate (dative)"
+                                  ],
+                        "summary":  "Co2+ and Cl− ions; with water, Co2+ binds six water molecules.",
+                        "electronSharing":  "Cobalt gives two electrons to chlorine. In the hydrate, water lone pairs bond to Co2+ and shift its d-electron energies, changing the color from blue to pink.",
+                        "geometry":  "Octahedral Co in the crystal",
+                        "bondLengths":  "Co–Cl 245 pm"
+                    },
+        "formation":  "Co(OH)2 + 2 HCl -\u003e CoCl2 + 2 H2O",
+        "state":  "solid",
+        "meltingPointC":  735,
+        "boilingPointC":  1049,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Humidity indicator in silica gel (blue dry, pink wet)",
+                     "Invisible ink",
+                     "Making other cobalt compounds"
+                 ],
+        "facts":  [
+                      "Dry blue CoCl2 turns pink as it absorbs water and becomes [Co(H2O)6]2+."
+                  ],
+        "hazards":  "Toxic; possible carcinogen.",
+        "summary":  "Cobalt chloride changes from blue to pink with moisture, so it signals humidity."
+    },
+    {
+        "id":  "hematite",
+        "name":  "Iron(III) oxide (hematite, rust)",
+        "formula":  "Fe2O3",
+        "aka":  [
+                    "hematite",
+                    "rust",
+                    "red ochre"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Fe",
+                         "O"
+                     ],
+        "pubchemCid":  518696,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Fe3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Fe"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; real hematite has the corundum structure."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Fe3+ and O2− ions in the corundum-type structure.",
+                        "electronSharing":  "Each iron gives three electrons toward oxygen; light absorbed by iron\u0027s d electrons gives the red-brown color.",
+                        "geometry":  "Corundum structure, octahedral Fe",
+                        "bondLengths":  "Fe–O 195–212 pm"
+                    },
+        "formation":  "4 Fe + 3 O2 -\u003e 2 Fe2O3 (rusting needs water too)",
+        "state":  "solid",
+        "meltingPointC":  1565,
+        "boilingPointC":  null,
+        "occurrence":  "The main iron ore; red soil and the surface of Mars.",
+        "uses":  [
+                     "Iron ore",
+                     "Red pigment (red ochre)",
+                     "Polishing (jeweler\u0027s rouge)"
+                 ],
+        "facts":  [
+                      "Mars is red because its dust is rich in iron oxides."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Hematite is the most important iron ore and the red in rust, ochre and Mars."
+    },
+    {
+        "id":  "magnetite",
+        "name":  "Iron(II,III) oxide (magnetite)",
+        "formula":  "Fe3O4",
+        "aka":  [
+                    "magnetite",
+                    "lodestone"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Fe",
+                         "O"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Fe2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Fe"
+                                        },
+                                        {
+                                            "label":  "Fe3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Fe"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  4,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; the real crystal is an inverse spinel."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "One Fe2+ and two Fe3+ per four oxide ions, in an inverse spinel structure.",
+                        "electronSharing":  "Electrons hop between Fe2+ and Fe3+ sites, so magnetite conducts electricity; the iron spins align into strong magnetism.",
+                        "geometry":  "Inverse spinel (cubic)",
+                        "bondLengths":  "Fe–O 189–206 pm"
+                    },
+        "formation":  "3 Fe + 4 H2O -\u003e Fe3O4 + 4 H2 (hot iron and steam)",
+        "state":  "solid",
+        "meltingPointC":  1597,
+        "boilingPointC":  null,
+        "occurrence":  "Common in igneous rocks and black sands.",
+        "uses":  [
+                     "Iron ore",
+                     "Magnetic recording media and toners",
+                     "MRI contrast nanoparticles"
+                 ],
+        "facts":  [
+                      "Natural lodestones of magnetite were the first compasses.",
+                      "Some bacteria and birds use magnetite crystals to sense Earth\u0027s magnetic field."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Magnetite is the most magnetic natural mineral, used in the first compasses."
+    },
+    {
+        "id":  "pyrite",
+        "name":  "Iron disulfide (pyrite, fool\u0027s gold)",
+        "formula":  "FeS2",
+        "aka":  [
+                    "pyrite",
+                    "fool\u0027s gold",
+                    "iron pyrite"
+                ],
+        "category":  "Minerals \u0026 ores",
+        "elements":  [
+                         "Fe",
+                         "S"
+                     ],
+        "pubchemCid":  14788,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Fe2+",
+                                            "charge":  2,
+                                            "count":  1,
+                                            "el":  "Fe"
+                                        },
+                                        {
+                                            "label":  "S2 2-",
+                                            "charge":  -2,
+                                            "count":  1,
+                                            "vsepr":  {
+                                                          "center":  "S",
+                                                          "shape":  "linear",
+                                                          "ligands":  [
+                                                                          {
+                                                                              "el":  "S",
+                                                                              "r":  2.16,
+                                                                              "o":  1
+                                                                          }
+                                                                      ]
+                                                      }
+                                        }
+                                    ],
+                          "note":  "One formula unit; the real crystal arranges these like NaCl."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "Fe2+ ions and S2 2− \u0027persulfide\u0027 pairs, arranged like a stretched rock-salt lattice.",
+                        "electronSharing":  "Iron gives two electrons to an S–S pair; the two sulfurs share one pair between them, like the O–O bond in peroxide.",
+                        "geometry":  "Pyrite structure (cubic)",
+                        "bondLengths":  "S–S 216 pm, Fe–S 226 pm"
+                    },
+        "formation":  "Fe2+ + 2 HS- -\u003e FeS2 + H2 (in oxygen-poor sediments)",
+        "state":  "solid",
+        "meltingPointC":  1177,
+        "boilingPointC":  null,
+        "occurrence":  "The most common sulfide mineral.",
+        "uses":  [
+                     "Source of sulfur and sulfuric acid",
+                     "Research for solar cells",
+                     "Firestarting (sparks with steel)"
+                 ],
+        "facts":  [
+                      "Its name comes from Greek pyr, fire, because it sparks when struck."
+                  ],
+        "hazards":  "Weathering releases sulfuric acid (acid mine drainage).",
+        "summary":  "Pyrite\u0027s brassy cubes have fooled gold prospectors for centuries."
+    }
+]

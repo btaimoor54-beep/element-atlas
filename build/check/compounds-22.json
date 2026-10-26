@@ -1,0 +1,467 @@
+[
+    {
+        "id":  "cytosine",
+        "name":  "Cytosine",
+        "formula":  "C4H5N3O",
+        "aka":  [
+                    "C"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  597,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 597)",
+                          "atomCount":  13,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A single ring (pyrimidine) with C=O and NH2.",
+                        "electronSharing":  "π electrons spread over the ring; three hydrogen bonds join it to guanine.",
+                        "geometry":  "Planar pyrimidine",
+                        "bondLengths":  "C=O 124 pm"
+                    },
+        "formation":  "Made in cells",
+        "state":  "solid",
+        "meltingPointC":  320,
+        "boilingPointC":  null,
+        "occurrence":  "DNA and RNA.",
+        "uses":  [
+                     "Genetic code letter C"
+                 ],
+        "facts":  [
+                      "Adding a methyl group to cytosine switches genes off (epigenetics)."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Cytosine is the \u0027C\u0027 of the genetic code."
+    },
+    {
+        "id":  "thymine",
+        "name":  "Thymine",
+        "formula":  "C5H6N2O2",
+        "aka":  [
+                    "T"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  1135,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1135)",
+                          "atomCount":  15,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A pyrimidine ring with two C=O groups and a methyl.",
+                        "electronSharing":  "Two hydrogen bonds join thymine to adenine.",
+                        "geometry":  "Planar pyrimidine",
+                        "bondLengths":  "C=O 123 pm"
+                    },
+        "formation":  "Made from uracil by adding a methyl group",
+        "state":  "solid",
+        "meltingPointC":  316,
+        "boilingPointC":  null,
+        "occurrence":  "DNA only.",
+        "uses":  [
+                     "Genetic code letter T"
+                 ],
+        "facts":  [
+                      "UV light can fuse neighboring thymines in DNA, a main cause of sunburn damage."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Thymine is DNA\u0027s version of uracil."
+    },
+    {
+        "id":  "uracil",
+        "name":  "Uracil",
+        "formula":  "C4H4N2O2",
+        "aka":  [
+                    "U"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  1174,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 1174)",
+                          "atomCount":  12,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A pyrimidine ring with two C=O groups.",
+                        "electronSharing":  "Pairs with adenine through two hydrogen bonds in RNA.",
+                        "geometry":  "Planar pyrimidine",
+                        "bondLengths":  "C=O 122 pm"
+                    },
+        "formation":  "Made in cells",
+        "state":  "solid",
+        "meltingPointC":  335,
+        "boilingPointC":  null,
+        "occurrence":  "RNA; found in meteorites and in samples from asteroid Ryugu.",
+        "uses":  [
+                     "Genetic code letter U in RNA"
+                 ],
+        "facts":  [
+                      "Uracil was detected in samples brought back from asteroid Ryugu."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Uracil replaces thymine in RNA."
+    },
+    {
+        "id":  "atp",
+        "name":  "Adenosine triphosphate (ATP)",
+        "formula":  "C10H16N5O13P3",
+        "aka":  [
+                    "ATP"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O",
+                         "P"
+                     ],
+        "pubchemCid":  5957,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5957)",
+                          "atomCount":  47,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "Adenine and ribose attached to a chain of three phosphate groups.",
+                        "electronSharing":  "The phosphate groups crowd negative charges together; breaking off the last phosphate releases energy that cells use.",
+                        "geometry":  "Purine ring, ribose ring and a phosphate chain",
+                        "bondLengths":  "P–O 150–160 pm"
+                    },
+        "formation":  "ADP + phosphate -\u003e ATP (ATP synthase, driven by respiration)",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Every living cell.",
+        "uses":  [
+                     "Energy currency of cells",
+                     "Building block of RNA"
+                 ],
+        "facts":  [
+                      "You recycle roughly your own body weight in ATP every day."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "ATP is the universal energy currency of life."
+    },
+    {
+        "id":  "cholesterol",
+        "name":  "Cholesterol",
+        "formula":  "C27H46O",
+        "aka":  [
+
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  5997,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5997)",
+                          "atomCount":  74,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Four fused rings (a steroid) with a small OH group and a hydrocarbon tail.",
+                        "electronSharing":  "Almost all bonds are nonpolar C–C and C–H, so cholesterol is oily; the single OH lets it sit in cell membranes.",
+                        "geometry":  "Rigid, nearly flat ring system",
+                        "bondLengths":  "C–C 153 pm"
+                    },
+        "formation":  "Made in the liver from acetyl-CoA (over 30 steps)",
+        "state":  "solid",
+        "meltingPointC":  148,
+        "boilingPointC":  360,
+        "occurrence":  "All animal cell membranes.",
+        "uses":  [
+                     "Keeps cell membranes flexible",
+                     "Raw material for steroid hormones, vitamin D and bile acids"
+                 ],
+        "facts":  [
+                      "Its structure, worked out partly by Heinrich Wieland and Adolf Windaus, earned Nobel Prizes in 1927 and 1928."
+                  ],
+        "hazards":  "High blood levels raise heart-disease risk.",
+        "summary":  "Cholesterol stiffens membranes and is the parent of steroid hormones."
+    },
+    {
+        "id":  "palmitic-acid",
+        "name":  "Palmitic acid",
+        "formula":  "C16H32O2",
+        "aka":  [
+                    "hexadecanoic acid"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  985,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 985)",
+                          "atomCount":  50,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A straight 16-carbon saturated chain ending in COOH.",
+                        "electronSharing":  "The long nonpolar tail avoids water while the acid head is polar: the basis of soaps and membranes.",
+                        "geometry":  "Straight zig-zag chain",
+                        "bondLengths":  "C–C 153 pm"
+                    },
+        "formation":  "Made by fatty acid synthase from acetyl-CoA",
+        "state":  "solid",
+        "meltingPointC":  62.9,
+        "boilingPointC":  351,
+        "occurrence":  "Palm oil, meat, butter.",
+        "uses":  [
+                     "Soaps and cosmetics",
+                     "Food"
+                 ],
+        "facts":  [
+                      "It is the most common saturated fat in animals and plants."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Palmitic acid is the most common saturated fatty acid."
+    },
+    {
+        "id":  "oleic-acid",
+        "name":  "Oleic acid",
+        "formula":  "C18H34O2",
+        "aka":  [
+                    "cis-9-octadecenoic acid"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  445639,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 445639)",
+                          "atomCount":  54,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "An 18-carbon chain with one cis double bond in the middle.",
+                        "electronSharing":  "The cis C=C puts a kink in the chain, so molecules cannot pack tightly; that keeps olive oil liquid.",
+                        "geometry":  "Kinked chain",
+                        "bondLengths":  "C=C 134 pm"
+                    },
+        "formation":  "Stearic acid -\u003e oleic acid (desaturase enzyme)",
+        "state":  "liquid",
+        "meltingPointC":  13.4,
+        "boilingPointC":  360,
+        "occurrence":  "Olive oil (55–83%).",
+        "uses":  [
+                     "Food",
+                     "Soaps and cosmetics"
+                 ],
+        "facts":  [
+                      "Its trans twin, elaidic acid, is a solid trans fat."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Oleic acid\u0027s kink keeps olive oil liquid."
+    },
+    {
+        "id":  "heme-b",
+        "name":  "Heme B",
+        "formula":  "C34H32FeN4O4",
+        "aka":  [
+                    "heme",
+                    "protoheme"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "Fe",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  4973,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "Flat 2D layout from PubChem (CID 4973); no 3D model exists for this molecule",
+                          "atomCount":  75,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "delocalized (aromatic or resonance)",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "An iron ion held at the center of a flat porphyrin ring by four nitrogens.",
+                        "electronSharing":  "The porphyrin\u0027s 18-electron aromatic ring donates four nitrogen lone pairs to iron. Iron uses a fifth and sixth position to bind the protein and O2.",
+                        "geometry":  "Flat porphyrin with Fe in the center",
+                        "bondLengths":  "Fe–N about 200 pm"
+                    },
+        "formation":  "Made from glycine and succinyl-CoA in eight steps",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Hemoglobin, myoglobin and cytochromes.",
+        "uses":  [
+                     "Carrying oxygen in blood",
+                     "Electron transport in cells"
+                 ],
+        "facts":  [
+                      "Each red blood cell holds about 270 million hemoglobin molecules, each with four hemes."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Heme\u0027s iron grabs oxygen in your blood and makes it red."
+    },
+    {
+        "id":  "chlorophyll-a",
+        "name":  "Chlorophyll a",
+        "formula":  "C55H72MgN4O5",
+        "aka":  [
+
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "Mg",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  12085802,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "Flat 2D layout from PubChem (CID 12085802); no 3D model exists for this molecule",
+                          "atomCount":  137,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "coordinate (dative)",
+                                      "delocalized (aromatic or resonance)",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A magnesium ion at the center of a flat ring, with a long oily tail.",
+                        "electronSharing":  "Four nitrogen lone pairs hold Mg2+. Delocalized π electrons over the ring absorb red and blue light and pass the energy on, which is why leaves look green.",
+                        "geometry":  "Flat chlorin ring with a phytol tail",
+                        "bondLengths":  "Mg–N about 205 pm"
+                    },
+        "formation":  "Made in plants from glutamate in many steps",
+        "state":  "solid",
+        "meltingPointC":  152,
+        "boilingPointC":  null,
+        "occurrence":  "All plants, algae and cyanobacteria.",
+        "uses":  [
+                     "Capturing light for photosynthesis",
+                     "Green food coloring (E140)"
+                 ],
+        "facts":  [
+                      "Chlorophyll and heme are built on very similar rings, one around magnesium, one around iron."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Chlorophyll captures sunlight to power almost all life on Earth."
+    },
+    {
+        "id":  "thyroxine",
+        "name":  "Thyroxine (T4)",
+        "formula":  "C15H11I4NO4",
+        "aka":  [
+                    "T4",
+                    "levothyroxine"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "I",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  5819,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5819)",
+                          "atomCount":  35,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "Two iodinated benzene rings joined by an oxygen, with an amino-acid tail.",
+                        "electronSharing":  "Four large iodine atoms bond to the rings; the shape fits the thyroid hormone receptor.",
+                        "geometry":  "Two twisted aromatic rings",
+                        "bondLengths":  "C–I 210 pm"
+                    },
+        "formation":  "Made in the thyroid from tyrosine and iodine",
+        "state":  "solid",
+        "meltingPointC":  235,
+        "boilingPointC":  null,
+        "occurrence":  "Thyroid gland.",
+        "uses":  [
+                     "Hormone controlling metabolism",
+                     "Levothyroxine medicine for underactive thyroid"
+                 ],
+        "facts":  [
+                      "About 65% of thyroxine\u0027s mass is iodine."
+                  ],
+        "hazards":  "Overdose causes hyperthyroid symptoms.",
+        "summary":  "Thyroxine is the iodine-rich hormone that sets your metabolic rate."
+    }
+]

@@ -1,0 +1,674 @@
+[
+    {
+        "id":  "iodine-heptafluoride",
+        "name":  "Iodine heptafluoride",
+        "formula":  "IF7",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "I",
+                         "F"
+                     ],
+        "pubchemCid":  85645,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "I",
+                          "shape":  "pentagonal-bipyramidal",
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.786
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.786
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.858
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.858
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.858
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.858
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.858
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Seven fluorines around iodine: two at the poles, five in a ring.",
+                        "electronSharing":  "Iodine uses all seven valence electrons to bond to seven fluorines, the largest number of bonds of any simple main-group molecule.",
+                        "geometry":  "Pentagonal bipyramidal",
+                        "bondLengths":  "I–F axial 178.6 pm, equatorial 185.8 pm"
+                    },
+        "formation":  "IF5 + F2 -\u003e IF7",
+        "state":  "gas",
+        "meltingPointC":  4.5,
+        "boilingPointC":  4.8,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Fluorinating agent in research"
+                 ],
+        "facts":  [
+                      "It is the only common example of a pentagonal bipyramidal molecule."
+                  ],
+        "hazards":  "Toxic and corrosive.",
+        "summary":  "IF7 packs seven atoms around iodine in a rare pentagonal bipyramid."
+    },
+    {
+        "id":  "titanium-tetrachloride",
+        "name":  "Titanium tetrachloride",
+        "formula":  "TiCl4",
+        "aka":  [
+                    "\u0027tickle\u0027"
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "Ti",
+                         "Cl"
+                     ],
+        "pubchemCid":  24193,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Ti",
+                          "shape":  "tetrahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.17
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.17
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.17
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.17
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A tetrahedral molecule; unusually for a metal compound, it is a liquid.",
+                        "electronSharing":  "Titanium shares its four valence electrons with four chlorines and has no d electrons left, so TiCl4 is colorless.",
+                        "geometry":  "Tetrahedral",
+                        "bondLengths":  "Ti–Cl 217 pm"
+                    },
+        "formation":  "TiO2 + 2 C + 2 Cl2 -\u003e TiCl4 + 2 CO",
+        "state":  "liquid",
+        "meltingPointC":  -24.1,
+        "boilingPointC":  136.4,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Making titanium metal (Kroll process)",
+                     "Making TiO2 pigment",
+                     "Ziegler–Natta catalysts for polyethylene"
+                 ],
+        "facts":  [
+                      "It reacts with moist air to make thick white smoke, used for skywriting and smoke screens."
+                  ],
+        "hazards":  "Corrosive, releases HCl.",
+        "summary":  "TiCl4 is a volatile liquid on the route to titanium metal and white pigment."
+    },
+    {
+        "id":  "aluminium-chloride-dimer",
+        "name":  "Aluminium chloride (Al2Cl6 dimer)",
+        "formula":  "Al2Cl6",
+        "aka":  [
+                    "aluminum chloride"
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "Al",
+                         "Cl"
+                     ],
+        "pubchemCid":  24012,
+        "structure":  {
+                          "mode":  "xyz",
+                          "atoms":  [
+                                        [
+                                            "Al",
+                                            1.577,
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            "Al",
+                                            -1.577,
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            "Cl",
+                                            0,
+                                            1.605,
+                                            0
+                                        ],
+                                        [
+                                            "Cl",
+                                            0,
+                                            -1.605,
+                                            0
+                                        ],
+                                        [
+                                            "Cl",
+                                            2.576,
+                                            0,
+                                            1.802
+                                        ],
+                                        [
+                                            "Cl",
+                                            2.576,
+                                            0,
+                                            -1.802
+                                        ],
+                                        [
+                                            "Cl",
+                                            -2.576,
+                                            0,
+                                            1.802
+                                        ],
+                                        [
+                                            "Cl",
+                                            -2.576,
+                                            0,
+                                            -1.802
+                                        ]
+                                    ],
+                          "bonds":  [
+                                        [
+                                            0,
+                                            2,
+                                            1
+                                        ],
+                                        [
+                                            0,
+                                            3,
+                                            1
+                                        ],
+                                        [
+                                            1,
+                                            2,
+                                            1
+                                        ],
+                                        [
+                                            1,
+                                            3,
+                                            1
+                                        ],
+                                        [
+                                            0,
+                                            4,
+                                            1
+                                        ],
+                                        [
+                                            0,
+                                            5,
+                                            1
+                                        ],
+                                        [
+                                            1,
+                                            6,
+                                            1
+                                        ],
+                                        [
+                                            1,
+                                            7,
+                                            1
+                                        ]
+                                    ],
+                          "note":  "Gas-phase dimer."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "coordinate (dative)"
+                                  ],
+                        "summary":  "Two AlCl4 tetrahedra sharing an edge through two bridging chlorines.",
+                        "electronSharing":  "Each aluminium has only six electrons in AlCl3, so a chlorine on one molecule donates a lone pair to the aluminium of the other, giving both an octet.",
+                        "geometry":  "Two edge-sharing tetrahedra",
+                        "bondLengths":  "Al–Cl(bridge) 225 pm, Al–Cl(terminal) 206 pm"
+                    },
+        "formation":  "2 Al + 3 Cl2 -\u003e Al2Cl6",
+        "state":  "solid",
+        "meltingPointC":  192.4,
+        "boilingPointC":  180,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Friedel–Crafts catalyst",
+                     "Antiperspirants (as aluminium chlorohydrate)"
+                 ],
+        "facts":  [
+                      "It sublimes at 180 °C into Al2Cl6 dimers."
+                  ],
+        "hazards":  "Corrosive; reacts violently with water.",
+        "summary":  "AlCl3 pairs up into Al2Cl6 so each aluminium can complete its octet."
+    },
+    {
+        "id":  "osmium-tetroxide",
+        "name":  "Osmium tetroxide",
+        "formula":  "OsO4",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "Os",
+                         "O"
+                     ],
+        "pubchemCid":  30318,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Os",
+                          "shape":  "tetrahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "O",
+                                              "r":  1.711,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.711,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.711,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.711,
+                                              "o":  2
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Osmium in its +8 state with four double-bonded oxygens.",
+                        "electronSharing":  "Osmium has given all eight valence electrons to bonds with four oxygens.",
+                        "geometry":  "Tetrahedral",
+                        "bondLengths":  "Os=O 171.1 pm"
+                    },
+        "formation":  "Os + 2 O2 -\u003e OsO4",
+        "state":  "solid",
+        "meltingPointC":  40.25,
+        "boilingPointC":  129.7,
+        "occurrence":  "Forms slowly when osmium powder is exposed to air.",
+        "uses":  [
+                     "Staining fats for electron microscopy",
+                     "Catalyst for making diols from alkenes"
+                 ],
+        "facts":  [
+                      "It is one of very few compounds with an element in the +8 oxidation state."
+                  ],
+        "hazards":  "Highly toxic; can cause blindness.",
+        "summary":  "OsO4 shows osmium in its highest oxidation state, +8."
+    },
+    {
+        "id":  "ruthenium-tetroxide",
+        "name":  "Ruthenium tetroxide",
+        "formula":  "RuO4",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "Ru",
+                         "O"
+                     ],
+        "pubchemCid":  119079,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Ru",
+                          "shape":  "tetrahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "O",
+                                              "r":  1.705,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.705,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.705,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.705,
+                                              "o":  2
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ruthenium in its +8 state with four oxygens.",
+                        "electronSharing":  "Ruthenium shares all eight valence electrons with four oxygens.",
+                        "geometry":  "Tetrahedral",
+                        "bondLengths":  "Ru=O 170.5 pm"
+                    },
+        "formation":  "RuO2 + 2 NaIO4 -\u003e RuO4 + 2 NaIO3",
+        "state":  "solid",
+        "meltingPointC":  25.4,
+        "boilingPointC":  40,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Powerful oxidizer in organic synthesis",
+                     "Revealing fingerprints"
+                 ],
+        "facts":  [
+                      "It can decompose explosively above about 100 °C."
+                  ],
+        "hazards":  "Highly toxic and explosive.",
+        "summary":  "RuO4 is the volatile, aggressive cousin of osmium tetroxide."
+    },
+    {
+        "id":  "xenon-difluoride",
+        "name":  "Xenon difluoride",
+        "formula":  "XeF2",
+        "aka":  [
+
+                ],
+        "category":  "Noble-gas \u0026 superheavy chemistry",
+        "elements":  [
+                         "Xe",
+                         "F"
+                     ],
+        "pubchemCid":  83674,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Xe",
+                          "shape":  "linear",
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.977
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.977
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A linear F–Xe–F molecule; xenon keeps three lone pairs.",
+                        "electronSharing":  "Xenon shares one electron pair across both Xe–F bonds (a three-centre four-electron bond). Its three lone pairs sit around its waist, so the molecule is straight.",
+                        "geometry":  "Linear",
+                        "bondLengths":  "Xe–F 197.7 pm"
+                    },
+        "formation":  "Xe + F2 -\u003e XeF2 (in sunlight)",
+        "state":  "solid",
+        "meltingPointC":  128.6,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Fluorinating agent",
+                     "Etching silicon in microfabrication"
+                 ],
+        "facts":  [
+                      "It can be made simply by exposing xenon and fluorine to sunlight."
+                  ],
+        "hazards":  "Toxic, strong oxidizer.",
+        "summary":  "XeF2 proves that noble gases can form stable compounds."
+    },
+    {
+        "id":  "xenon-tetrafluoride",
+        "name":  "Xenon tetrafluoride",
+        "formula":  "XeF4",
+        "aka":  [
+
+                ],
+        "category":  "Noble-gas \u0026 superheavy chemistry",
+        "elements":  [
+                         "Xe",
+                         "F"
+                     ],
+        "pubchemCid":  123324,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Xe",
+                          "shape":  "square-planar",
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.953
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.953
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.953
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.953
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Four fluorines in a square around xenon; two lone pairs above and below.",
+                        "electronSharing":  "Xenon shares four of its eight electrons with fluorines and keeps two lone pairs, which sit opposite each other.",
+                        "geometry":  "Square planar",
+                        "bondLengths":  "Xe–F 195.3 pm"
+                    },
+        "formation":  "Xe + 2 F2 -\u003e XeF4 (400 °C, 6 atm)",
+        "state":  "solid",
+        "meltingPointC":  117,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Fluorinating agent in research"
+                 ],
+        "facts":  [
+                      "XeF4 was made in 1962, weeks after Bartlett\u0027s first xenon compound."
+                  ],
+        "hazards":  "Toxic, strong oxidizer.",
+        "summary":  "XeF4 is a square-planar molecule, a textbook VSEPR example."
+    },
+    {
+        "id":  "krypton-difluoride",
+        "name":  "Krypton difluoride",
+        "formula":  "KrF2",
+        "aka":  [
+
+                ],
+        "category":  "Noble-gas \u0026 superheavy chemistry",
+        "elements":  [
+                         "Kr",
+                         "F"
+                     ],
+        "pubchemCid":  83721,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Kr",
+                          "shape":  "linear",
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.889
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.889
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A linear molecule like XeF2, but much less stable.",
+                        "electronSharing":  "Krypton\u0027s electrons are held more tightly than xenon\u0027s, so only fluorine can pull them into bonds, and weakly.",
+                        "geometry":  "Linear",
+                        "bondLengths":  "Kr–F 188.9 pm"
+                    },
+        "formation":  "Kr + F2 -\u003e KrF2 (electric discharge or UV at about −196 °C)",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "The strongest known oxidizing and fluorinating agent in research"
+                 ],
+        "facts":  [
+                      "KrF2 can oxidize gold to the +5 state; it decomposes slowly at room temperature."
+                  ],
+        "hazards":  "Extremely strong oxidizer.",
+        "summary":  "KrF2 is the main compound of krypton and a ferocious oxidizer."
+    },
+    {
+        "id":  "argon-fluorohydride",
+        "name":  "Argon fluorohydride",
+        "formula":  "HArF",
+        "aka":  [
+
+                ],
+        "category":  "Noble-gas \u0026 superheavy chemistry",
+        "elements":  [
+                         "H",
+                         "Ar",
+                         "F"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Ar",
+                          "shape":  "linear",
+                          "ligands":  [
+                                          {
+                                              "el":  "H",
+                                              "r":  1.329
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.969
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "H–Ar covalent, Ar–F largely ionic: roughly (HAr)+ F−.",
+                        "electronSharing":  "Argon shares a pair with hydrogen while fluorine takes most of an electron, forming an ion pair that only survives in frozen argon.",
+                        "geometry":  "Linear",
+                        "bondLengths":  "H–Ar 133 pm, Ar–F 197 pm"
+                    },
+        "formation":  "HF photolysed in solid argon below −246 °C",
+        "state":  "solid",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Made in 2000 at the University of Helsinki.",
+        "uses":  [
+                     "Research on noble-gas bonding"
+                 ],
+        "facts":  [
+                      "It is the only known neutral argon compound and falls apart above about −246 °C."
+                  ],
+        "hazards":  "Exists only at cryogenic temperatures.",
+        "summary":  "HArF showed that even argon can form a chemical bond."
+    },
+    {
+        "id":  "hassium-tetroxide",
+        "name":  "Hassium tetroxide",
+        "formula":  "HsO4",
+        "aka":  [
+
+                ],
+        "category":  "Noble-gas \u0026 superheavy chemistry",
+        "elements":  [
+                         "Hs",
+                         "O"
+                     ],
+        "pubchemCid":  null,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Hs",
+                          "shape":  "tetrahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "O",
+                                              "r":  1.75,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.75,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.75,
+                                              "o":  2
+                                          },
+                                          {
+                                              "el":  "O",
+                                              "r":  1.75,
+                                              "o":  2
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Predicted to be a tetrahedral molecule like OsO4.",
+                        "electronSharing":  "Hassium, like osmium, appears to share all eight valence electrons with four oxygens.",
+                        "geometry":  "Tetrahedral (predicted)",
+                        "bondLengths":  "Hs=O about 175 pm (calculated)"
+                    },
+        "formation":  "Hs + 2 O2 -\u003e HsO4 (single atoms in a gas stream)",
+        "state":  "gas",
+        "meltingPointC":  null,
+        "boilingPointC":  null,
+        "occurrence":  "Made one molecule at a time at GSI, Germany, in 2001.",
+        "uses":  [
+                     "Testing the periodic table at its heaviest end"
+                 ],
+        "facts":  [
+                      "Only seven HsO4 molecules were detected in the first experiment."
+                  ],
+        "hazards":  "Radioactive.",
+        "summary":  "HsO4 showed that element 108 behaves like osmium, as the periodic table predicts."
+    }
+]

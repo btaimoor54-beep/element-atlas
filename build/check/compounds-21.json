@@ -1,0 +1,466 @@
+[
+    {
+        "id":  "fructose",
+        "name":  "Fructose",
+        "formula":  "C6H12O6",
+        "aka":  [
+                    "fruit sugar",
+                    "levulose"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  2723872,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 2723872)",
+                          "atomCount":  24,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Same atoms as glucose, arranged with a ketone group instead of an aldehyde.",
+                        "electronSharing":  "Shared pairs throughout; many OH groups hydrogen-bond to water.",
+                        "geometry":  "Five- or six-membered ring in solution",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "Glucose -\u003e fructose (glucose isomerase enzyme)",
+        "state":  "solid",
+        "meltingPointC":  103,
+        "boilingPointC":  null,
+        "occurrence":  "Fruit and honey.",
+        "uses":  [
+                     "Sweetener",
+                     "High-fructose corn syrup"
+                 ],
+        "facts":  [
+                      "Fructose is the sweetest natural sugar, about 1.7 times as sweet as table sugar."
+                  ],
+        "hazards":  "Harmless in moderation.",
+        "summary":  "Fructose is glucose\u0027s sweeter twin with the same formula."
+    },
+    {
+        "id":  "sucrose",
+        "name":  "Sucrose",
+        "formula":  "C12H22O11",
+        "aka":  [
+                    "table sugar"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  5988,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5988)",
+                          "atomCount":  45,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A glucose ring and a fructose ring joined through an oxygen bridge.",
+                        "electronSharing":  "The glycosidic C–O–C link shares electrons between the two sugar rings; eight OH groups hydrogen-bond strongly.",
+                        "geometry":  "Two linked rings",
+                        "bondLengths":  "C–O 141–144 pm"
+                    },
+        "formation":  "Glucose + fructose -\u003e sucrose + H2O (in plants)",
+        "state":  "solid",
+        "meltingPointC":  186,
+        "boilingPointC":  null,
+        "occurrence":  "Sugar cane and sugar beet.",
+        "uses":  [
+                     "Sweetener",
+                     "Food preservation",
+                     "Fermentation"
+                 ],
+        "facts":  [
+                      "Sugar crystals give off flashes of light when crushed (triboluminescence)."
+                  ],
+        "hazards":  "Harmless; excess harms teeth and health.",
+        "summary":  "Table sugar is glucose and fructose joined together."
+    },
+    {
+        "id":  "ribose",
+        "name":  "Ribose",
+        "formula":  "C5H10O5",
+        "aka":  [
+                    "D-ribose"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  10975657,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 10975657)",
+                          "atomCount":  20,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A five-carbon sugar, the backbone sugar of RNA.",
+                        "electronSharing":  "Shared pairs with polar O–H groups.",
+                        "geometry":  "Five-membered furanose ring in RNA",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "Made in cells by the pentose phosphate pathway",
+        "state":  "solid",
+        "meltingPointC":  95,
+        "boilingPointC":  null,
+        "occurrence":  "RNA, ATP and coenzymes.",
+        "uses":  [
+                     "Building RNA and ATP",
+                     "Supplement"
+                 ],
+        "facts":  [
+                      "Ribose was found in meteorites in 2019."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Ribose is the \u0027R\u0027 in RNA."
+    },
+    {
+        "id":  "deoxyribose",
+        "name":  "Deoxyribose",
+        "formula":  "C5H10O4",
+        "aka":  [
+                    "2-deoxy-D-ribose"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  5460005,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5460005)",
+                          "atomCount":  19,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Ribose missing one oxygen at carbon 2.",
+                        "electronSharing":  "Lacking the 2′-OH group makes DNA much more chemically stable than RNA.",
+                        "geometry":  "Five-membered ring in DNA",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "Ribonucleotide -\u003e deoxyribonucleotide (ribonucleotide reductase)",
+        "state":  "solid",
+        "meltingPointC":  91,
+        "boilingPointC":  null,
+        "occurrence":  "DNA.",
+        "uses":  [
+                     "Backbone sugar of DNA"
+                 ],
+        "facts":  [
+                      "\u0027Deoxy\u0027 means \u0027missing an oxygen\u0027."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Deoxyribose is the \u0027D\u0027 in DNA."
+    },
+    {
+        "id":  "glycine",
+        "name":  "Glycine",
+        "formula":  "C2H5NO2",
+        "aka":  [
+                    "Gly",
+                    "G"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  750,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 750)",
+                          "atomCount":  10,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "The simplest amino acid: an amino group and an acid group on one carbon.",
+                        "electronSharing":  "In water the acid gives its H+ to the amino group, making a zwitterion with + and − ends.",
+                        "geometry":  "Tetrahedral alpha carbon",
+                        "bondLengths":  "C–N 147 pm, C=O 125 pm"
+                    },
+        "formation":  "Made in the body from serine; found in comets",
+        "state":  "solid",
+        "meltingPointC":  233,
+        "boilingPointC":  null,
+        "occurrence":  "In proteins; detected in comet 67P by Rosetta.",
+        "uses":  [
+                     "Protein building block",
+                     "Neurotransmitter",
+                     "Food additive"
+                 ],
+        "facts":  [
+                      "Glycine was found in samples from comet Wild 2 returned by NASA\u0027s Stardust mission."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Glycine is the smallest amino acid and has been found in comets."
+    },
+    {
+        "id":  "alanine",
+        "name":  "Alanine",
+        "formula":  "C3H7NO2",
+        "aka":  [
+                    "Ala",
+                    "A"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  5950,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5950)",
+                          "atomCount":  13,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Glycine with a methyl side chain.",
+                        "electronSharing":  "Shared pairs; the central carbon has four different groups, so alanine has left- and right-handed forms.",
+                        "geometry":  "Tetrahedral, chiral",
+                        "bondLengths":  "C–C 153 pm"
+                    },
+        "formation":  "Pyruvate + glutamate -\u003e alanine + α-ketoglutarate",
+        "state":  "solid",
+        "meltingPointC":  258,
+        "boilingPointC":  null,
+        "occurrence":  "Proteins.",
+        "uses":  [
+                     "Protein building block"
+                 ],
+        "facts":  [
+                      "Life uses almost only the L-form; meteorites contain both forms."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Alanine is the simplest chiral amino acid."
+    },
+    {
+        "id":  "cysteine",
+        "name":  "Cysteine",
+        "formula":  "C3H7NO2S",
+        "aka":  [
+                    "Cys",
+                    "C"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O",
+                         "S"
+                     ],
+        "pubchemCid":  5862,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 5862)",
+                          "atomCount":  14,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "An amino acid with an SH (thiol) side chain.",
+                        "electronSharing":  "Two cysteines can each give up an H and share electrons in an S–S bond, a disulfide bridge that holds proteins in shape.",
+                        "geometry":  "Tetrahedral, chiral",
+                        "bondLengths":  "C–S 182 pm"
+                    },
+        "formation":  "Made from serine and methionine in the body",
+        "state":  "solid",
+        "meltingPointC":  240,
+        "boilingPointC":  null,
+        "occurrence":  "Proteins, especially hair and skin keratin.",
+        "uses":  [
+                     "Protein building block",
+                     "Food flavoring and dough conditioner"
+                 ],
+        "facts":  [
+                      "Perms work by breaking and re-forming disulfide bonds in hair."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Cysteine\u0027s sulfur forms the disulfide bridges that shape proteins."
+    },
+    {
+        "id":  "tryptophan",
+        "name":  "Tryptophan",
+        "formula":  "C11H12N2O2",
+        "aka":  [
+                    "Trp",
+                    "W"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  6305,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 6305)",
+                          "atomCount":  27,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "An amino acid with a large indole ring side chain.",
+                        "electronSharing":  "The indole ring\u0027s ten π electrons are delocalized; it absorbs UV light, which is how proteins are measured.",
+                        "geometry":  "Planar indole ring",
+                        "bondLengths":  "C–C 140 pm in ring"
+                    },
+        "formation":  "Essential: obtained from food",
+        "state":  "solid",
+        "meltingPointC":  290,
+        "boilingPointC":  null,
+        "occurrence":  "Proteins; turkey, cheese, nuts.",
+        "uses":  [
+                     "Protein building block",
+                     "Precursor of serotonin and melatonin"
+                 ],
+        "facts":  [
+                      "Turkey has no more tryptophan than most protein foods, so it is not why you feel sleepy after a holiday meal."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Tryptophan is the body\u0027s raw material for serotonin."
+    },
+    {
+        "id":  "adenine",
+        "name":  "Adenine",
+        "formula":  "C5H5N5",
+        "aka":  [
+                    "A"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N"
+                     ],
+        "pubchemCid":  190,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 190)",
+                          "atomCount":  15,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A double ring (purine) of carbon and nitrogen.",
+                        "electronSharing":  "π electrons are shared over both rings. Adenine pairs with thymine (or uracil) through two hydrogen bonds.",
+                        "geometry":  "Planar purine",
+                        "bondLengths":  "C–N 133–138 pm"
+                    },
+        "formation":  "5 HCN -\u003e C5H5N5 (possible prebiotic route)",
+        "state":  "solid",
+        "meltingPointC":  360,
+        "boilingPointC":  null,
+        "occurrence":  "DNA, RNA, ATP; found in meteorites.",
+        "uses":  [
+                     "Genetic code letter A",
+                     "Part of ATP, NAD and coenzyme A"
+                 ],
+        "facts":  [
+                      "Adenine is literally a pentamer of HCN: five HCN units have the same atoms."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Adenine is the \u0027A\u0027 in DNA and the core of the energy molecule ATP."
+    },
+    {
+        "id":  "guanine",
+        "name":  "Guanine",
+        "formula":  "C5H5N5O",
+        "aka":  [
+                    "G"
+                ],
+        "category":  "Molecules of life",
+        "elements":  [
+                         "C",
+                         "H",
+                         "N",
+                         "O"
+                     ],
+        "pubchemCid":  135398634,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 135398634)",
+                          "atomCount":  16,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A purine with a C=O and an NH2 group.",
+                        "electronSharing":  "Delocalized π electrons over both rings; guanine pairs with cytosine through three hydrogen bonds.",
+                        "geometry":  "Planar purine",
+                        "bondLengths":  "C=O 124 pm"
+                    },
+        "formation":  "Made in cells from simpler molecules",
+        "state":  "solid",
+        "meltingPointC":  360,
+        "boilingPointC":  null,
+        "occurrence":  "DNA and RNA; fish scales.",
+        "uses":  [
+                     "Genetic code letter G",
+                     "Pearly shimmer in cosmetics (from fish scales)"
+                 ],
+        "facts":  [
+                      "Guanine crystals make fish scales and spider bodies shimmer."
+                  ],
+        "hazards":  "Harmless.",
+        "summary":  "Guanine pairs with cytosine through three hydrogen bonds."
+    }
+]

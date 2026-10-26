@@ -1,0 +1,152 @@
+[
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "La",
+        "field":  "electronAffinity",
+        "current":  "0.5",
+        "corrected":  "0.558",
+        "why":  "The precise modern measurement is 0.557546(20) eV (Walter et al.; Blondel 2020, Phys. Rev. A 101, 016501; Wikipedia data page and recent CRC). 0.5 is about 10% low, well beyond the 2% tolerance. The older 0.47 eV value is superseded."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Ce",
+        "field":  "electronAffinity",
+        "current":  "0.5",
+        "corrected":  "0.6",
+        "why":  "Cerium\u0027s measured electron affinity is 0.600160(27) eV (Fu et al. 2020, Chin. Phys. B 29, 073201). Earlier measurements gave 0.628-0.65 eV and 0.955 eV. 0.5 lies below every experimental value, about 17% under the best one."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Nd",
+        "field":  "elementalForm.description",
+        "current":  "\"Neodymium shares three valence electrons; its four unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\"",
+        "corrected":  "\"Neodymium shares three valence electrons; its three remaining unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\"",
+        "why":  "The free Nd atom is 4f4 6s2 (Wikipedia). Forming Nd3+, or the trivalent metal, removes both 6s electrons and one 4f electron, leaving 4f3, the same configuration as Nd in Nd2Fe14B. Sharing 3 electrons while keeping 4 unpaired 4f electrons would require 7 electrons beyond the Xe core, but Nd has only 6. The sentence contradicts itself."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Xe",
+        "field":  "isotopes.radioactive[0].halfLife",
+        "current":  "\"1.8×10^22 years\"",
+        "corrected":  "\"1.1×10^22 years\"",
+        "why":  "The 2019 XENON1T value of 1.8×10^22 y covered only K-shell double electron capture, a partial half-life. The 2022 XENON1T/XENONnT analysis (Aprile et al., Phys. Rev. C 106, 024328) included captures from the K to N shells and gave the total two-neutrino double electron capture half-life as (1.1 ± 0.2 stat ± 0.1 sys)×10^22 y at 7σ. Wikipedia\u0027s Isotopes of xenon now lists 1.1(2)×10^22 y."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Pr",
+        "field":  "facts[0]",
+        "current":  "Praseodymium-doped glass slows light dramatically in research experiments.",
+        "corrected":  "\"Praseodymium-doped crystals have slowed light to about 45 meters per second in research experiments.\"",
+        "why":  "The well-known experiment, Turukhin et al. 2002 (Phys. Rev. Lett. 88, 023602), used a Pr-doped Y2SiO5 crystal, not glass, and reached group velocities as low as 45 m/s, even briefly stopping the light. Wikipedia likewise names \u0027silicate crystals doped with praseodymium ions\u0027. The proposed \u0027a few hundred meters per second\u0027 understates the published 45 m/s, so the corrected text uses the measured figure."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "La",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+        "why":  "Wikipedia\u0027s Lanthanum article says it \u0027has no biological role in humans but is used by some bacteria\u0027. Lanthanum is a cofactor of the methanol dehydrogenase (XoxF) of Methylacidiphilum fumariolicum SolV (Pol et al. 2014), a microbe from a volcanic mud pot. \u0027None known\u0027 is outdated. The wording says \u0027use it\u0027 rather than \u0027need it\u0027 because Ce, Pr or Nd can substitute."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Ce",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+        "why":  "Wikipedia (Cerium and Praseodymium, Biological role) says the early lanthanides La, Ce, Pr and Nd are essential to methanotrophs such as M. fumariolicum SolV and are about equally effective as XoxF methanol dehydrogenase cofactors (Pol et al. 2014). \u0027None known\u0027 is false. \u0027Use it\u0027 is chosen over \u0027need it\u0027 because the elements are interchangeable."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Pr",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+        "why":  "Wikipedia\u0027s Praseodymium article says the early lanthanides \u0027have been found to be essential to some methanotrophic bacteria living in volcanic mudpots\u0027, with La, Ce, Pr and Nd about equally effective. \u0027None known\u0027 is out of date."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Nd",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans, but some bacteria, such as ones from volcanic mud pots, use it in an enzyme that breaks down methanol.\"",
+        "why":  "Wikipedia\u0027s Neodymium lead says \u0027Neodymium can serve as an enzyme cofactor in certain bacteria\u0027. Nd is one of the four early lanthanides that support XoxF methanol dehydrogenase in M. fumariolicum SolV (Pol et al. 2014). \u0027None known\u0027 is false."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Te",
+        "field":  "origin",
+        "current":  "[\"merging neutron stars\"]",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+        "why":  "Tellurium has a substantial s-process (dying low-mass star) share. The s-only isotopes 122Te, 123Te and 124Te make up about 8% of Te, and published estimates put the s-share at 17-20%. The Johnson-based Commons chart (Nucleosynthesis_periodic_table.svg) even gives 57% to dying low-mass stars. The dataset lists this category for Cs at only 15%, so omitting it for Te is inconsistent."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-06.json",
+        "id":  "Te",
+        "field":  "originNote",
+        "current":  "Made almost entirely by rapid neutron capture.",
+        "corrected":  "\"Made mostly by rapid neutron capture, with some slow capture in aging stars.\"",
+        "why":  "\u0027Almost entirely\u0027 overstates the r-process share. About 17-20% of solar-system Te is s-process, including all of the s-only isotopes 122, 123 and 124, and Johnson\u0027s chart data shows an even larger low-mass-star share. The r-only isotopes 128Te and 130Te make up about 66% of Te, so \u0027mostly rapid\u0027 is safely true and \u0027with some slow capture\u0027 is accurate."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Tm",
+        "field":  "facts[0]",
+        "current":  "\"Thulium is rarer in the crust than silver or iodine.\"",
+        "corrected":  "\"Thulium is rare, yet it is more common in the crust than silver or iodine.\"",
+        "why":  "CRC crustal abundances give Tm 0.52 mg/kg, I 0.45 mg/kg and Ag 0.075 mg/kg, and the entry\u0027s own crustAbundancePpm is 0.52. Thulium is more abundant than both, so the sentence has it backwards. The proposed wording is true."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Sm",
+        "field":  "isotopes.radioactive[2].halfLife",
+        "current":  "\"over 10^16 years\"",
+        "corrected":  "\"over 2×10^15 years (never observed to decay)\"",
+        "why":  "Wikipedia \u0027Isotopes of samarium\u0027 (NUBASE-based) footnote: Sm-149 is observationally stable, with expected alpha decay to Nd-145 at a half-life over 2×10^15 years. KAERI nuclear data also gives \u003e2E+15 y. I found no reputable source giving a limit above 10^16 y, so the current value overstates the experimental bound. The corrected wording matches the dataset\u0027s style for W-180m."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Eu",
+        "field":  "isotopes.stable",
+        "current":  "[{\"A\":151,\"abundance\":47.81},{\"A\":153,\"abundance\":52.19}]",
+        "corrected":  "[{\"A\":153,\"abundance\":52.19}]",
+        "why":  "Wikipedia \u0027Isotopes of europium\u0027 marks Eu-151 as a primordial radionuclide (alpha decay, 4.6(12)×10^18 y). Belli et al. 2007 (Nucl. Phys. A 789, 15) gave the first indication and Casali et al. 2013/14 gave the first compelling bolometer observation. The convention puts long-lived naturally occurring radioactive isotopes under radioactive, and the dataset does this even for much longer-lived nuclides (Te-128 at 2.2×10^24 y, W-180 at 1.8×10^18 y, Gd-152). Eu-153 is observationally stable and stays in the stable list."
+    },
+    {
+        "kind":  "element",
+        "batch":  "elements 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\elements-07.json",
+        "id":  "Eu",
+        "field":  "isotopes.radioactive",
+        "current":  "[{\"A\":152,\"halfLife\":\"13.5 years\",\"note\":\"\"}]",
+        "corrected":  "[{\"A\":151,\"halfLife\":\"4.6×10^18 years\",\"note\":\"47.81% of natural europium; its extremely slow alpha decay was first reported in 2007 and confirmed in 2014.\"},{\"A\":152,\"halfLife\":\"13.5 years\",\"note\":\"\"}]",
+        "why":  "This goes with moving Eu-151 out of the stable list. Wikipedia lists its half-life as 4.6(12)×10^18 y, and IUPAC gives its abundance as 47.81%. I changed the note: Belli et al. 2007 reported only a \u0027first indication\u0027 (T1/2 = 5+11-3 ×10^18 y), and the bolometer measurement by Casali et al. (J. Phys. G, 2014) is described as the first compelling observation. Saying \u0027first reported in 2007 and confirmed in 2014\u0027 is accurate."
+    }
+]

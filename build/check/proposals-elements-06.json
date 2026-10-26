@@ -1,0 +1,281 @@
+[
+    {
+        "id":  "Ba",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.145",
+        "confidence":  "high",
+        "source":  "Wikipedia Electron affinity (data page): Ba 0.14462(6) eV (13.954 kJ/mol), from laser photodetachment measurements",
+        "reason":  "Barium has a small but measured positive electron affinity, so null leaves out a well-established value."
+    },
+    {
+        "id":  "La",
+        "field":  "bulk.cPm",
+        "current":  "608.6",
+        "corrected":  "1217.1",
+        "confidence":  "high",
+        "source":  "Wikipedia Lanthanum infobox: dhcp a = 0.37742 nm, c = 1.2171 nm at 20 °C; WebElements",
+        "reason":  "608.6 pm is half of the real double-hcp c axis, as if La were simple hcp. cPm is meant to be c of the real structure; renderAs already covers the simpler drawing."
+    },
+    {
+        "id":  "Pr",
+        "field":  "bulk.cPm",
+        "current":  "591.7",
+        "corrected":  "1183.3",
+        "confidence":  "high",
+        "source":  "Wikipedia Praseodymium infobox: dhcp a = 0.36723 nm, c = 1.18328 nm at 20 °C",
+        "reason":  "591.7 pm is half of the real double-hcp c axis. cPm should be c of the real dhcp structure."
+    },
+    {
+        "id":  "Nd",
+        "field":  "bulk.cPm",
+        "current":  "590.0",
+        "corrected":  "1179.7",
+        "confidence":  "high",
+        "source":  "Wikipedia Neodymium infobox: dhcp a = 0.36583 nm, c = 1.17968 nm at 20 °C",
+        "reason":  "590.0 pm is half of the real double-hcp c axis. cPm should be c of the real dhcp structure."
+    },
+    {
+        "id":  "La",
+        "field":  "atomicMass",
+        "current":  "138.9055",
+        "corrected":  "\"138.91\"",
+        "confidence":  "medium",
+        "source":  "CIAAW/IUPAC abridged standard atomic weights: La 138.91(1); full standard value 138.90547(7)",
+        "reason":  "The convention asks for the abridged value. 138.9055 is an old unabridged figure, neither the abridged value nor the current full one."
+    },
+    {
+        "id":  "Ce",
+        "field":  "atomicMass",
+        "current":  "140.116",
+        "corrected":  "\"140.12\"",
+        "confidence":  "medium",
+        "source":  "CIAAW/IUPAC abridged standard atomic weights: Ce 140.12(1) (Wikipedia Cerium infobox also gives abridged 140.12)",
+        "reason":  "This is the full standard atomic weight, not the abridged value the convention asks for. Other entries such as Cs (132.91) and Nd (144.24) use abridged values."
+    },
+    {
+        "id":  "Pr",
+        "field":  "atomicMass",
+        "current":  "140.90766",
+        "corrected":  "\"140.91\"",
+        "confidence":  "medium",
+        "source":  "CIAAW/IUPAC abridged standard atomic weights: Pr 140.91(1)",
+        "reason":  "This is the full standard atomic weight, not the abridged value the convention asks for."
+    },
+    {
+        "id":  "Te",
+        "field":  "atomicMass",
+        "current":  "127.6",
+        "corrected":  "\"127.60\"",
+        "confidence":  "medium",
+        "source":  "CIAAW/IUPAC abridged standard atomic weights: Te 127.60(3)",
+        "reason":  "The abridged value is 127.60. The trailing zero was dropped, which is inconsistent with I (\"126.90\")."
+    },
+    {
+        "id":  "Sb",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "1127.4",
+        "confidence":  "medium",
+        "source":  "Wikipedia Antimony infobox: a_h = 0.43084 nm, c_h = 1.12736 nm at 20 °C (rhombohedral cell a = 0.45066 nm, alpha = 57.112 deg); WebElements a = 430.7, c = 1127.3 pm",
+        "reason":  "latticeConstantPm = 431 is the hexagonal-setting a, so the matching hexagonal c (1127 pm) is a well-known value. Without it the rhombohedral cell is not defined."
+    },
+    {
+        "id":  "I",
+        "field":  "bulk.cPm",
+        "current":  "null",
+        "corrected":  "982.4",
+        "confidence":  "medium",
+        "source":  "Wikipedia Iodine infobox: base-centred orthorhombic oS8, a = 725.79 pm, b = 478.28 pm, c = 982.38 pm at 20 °C",
+        "reason":  "Solid iodine is orthorhombic with a well-known c axis, which is missing here; a = 726.8 is given but c is not."
+    },
+    {
+        "id":  "I",
+        "field":  "bulk.lattice",
+        "current":  "\"molecular\"",
+        "corrected":  "\"orthorhombic\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia Iodine infobox: base-centred orthorhombic (oS8, Cmca)",
+        "reason":  "bulk.lattice should name the real crystal lattice, as with Sb (\"rhombohedral\") and Te (\"hexagonal\"). \"Molecular\" describes the bonding, not the lattice; renderAs can stay \"molecular\"."
+    },
+    {
+        "id":  "La",
+        "field":  "electronAffinity",
+        "current":  "0.5",
+        "corrected":  "0.558",
+        "confidence":  "medium",
+        "source":  "Wikipedia Electron affinity (data page): La 0.557546(20) eV (53.795 kJ/mol)",
+        "reason":  "The measured value is 0.558 eV, so 0.5 is about 10% low, well outside the 2% tolerance."
+    },
+    {
+        "id":  "Ce",
+        "field":  "electronAffinity",
+        "current":  "0.5",
+        "corrected":  "0.6",
+        "confidence":  "medium",
+        "source":  "Wikipedia Electron affinity (data page): Ce 0.600160(27) eV (57.907 kJ/mol); earlier measurements 0.63-0.66 eV",
+        "reason":  "All modern measurements give about 0.60-0.66 eV, so 0.5 is roughly 17% low."
+    },
+    {
+        "id":  "Pr",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.109",
+        "confidence":  "medium",
+        "source":  "Wikipedia Electron affinity (data page): Pr 0.10923(46) eV (10.539 kJ/mol)",
+        "reason":  "A measured positive electron affinity exists. The data page notes this velocity-map-imaging value may be revised slightly, but null is still less accurate than ~0.11 eV."
+    },
+    {
+        "id":  "Nd",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.097",
+        "confidence":  "medium",
+        "source":  "Wikipedia Electron affinity (data page): Nd 0.09749(33) eV (9.406 kJ/mol)",
+        "reason":  "A measured positive electron affinity exists, so null leaves out a known value. The measurement carries the same possible-revision caveat as Pr."
+    },
+    {
+        "id":  "Nd",
+        "field":  "elementalForm.description",
+        "current":  "\"Neodymium shares three valence electrons; its four unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\"",
+        "corrected":  "\"Neodymium shares three valence electrons; its three remaining unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\"",
+        "confidence":  "medium",
+        "source":  "Standard lanthanide metal bonding: Nd metal is trivalent, 4f3 (5d6s)3, the same 4f3 core as Nd3+ in Nd2Fe14B",
+        "reason":  "The free atom is 4f4 6s2. Sharing three valence electrons moves one 4f electron into the bonding band, so only three localized 4f electrons remain, not four. The sentence contradicts itself."
+    },
+    {
+        "id":  "Cs",
+        "field":  "isotopes.radioactive[1].halfLife",
+        "current":  "\"2.3 million years\"",
+        "corrected":  "\"1.33 million years\"",
+        "confidence":  "medium",
+        "source":  "NUBASE2020; Wikipedia Isotopes of caesium: Cs-135 T1/2 = 1.33(19)x10^6 y",
+        "reason":  "2.3 Myr is the older value. The current evaluated half-life, based on a 2019 measurement, is 1.33 Myr, about 40% shorter."
+    },
+    {
+        "id":  "Xe",
+        "field":  "isotopes.radioactive[0].halfLife",
+        "current":  "\"1.8×10^22 years\"",
+        "corrected":  "\"1.1×10^22 years\"",
+        "confidence":  "medium",
+        "source":  "XENONnT 2022 (Phys. Rev. C 106, 024328); Wikipedia Xenon infobox: Xe-124 1.1x10^22 y",
+        "reason":  "1.8x10^22 y is the first XENON1T 2019 result. The more precise 2022 measurement gives (1.1 +/- 0.2)x10^22 y, and that is now the value usually cited."
+    },
+    {
+        "id":  "Nd",
+        "field":  "elementalForm.description",
+        "current":  "Neodymium shares three valence electrons; its four unpaired 4f electrons stay on each atom and give strong magnetism in compounds.",
+        "corrected":  "\"Neodymium shares three valence electrons; its three remaining unpaired 4f electrons stay on each atom and give strong magnetism in compounds.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia Neodymium (Nd3+ is [Xe]4f3); standard lanthanide chemistry",
+        "reason":  "Nd is [Xe]4f4 6s2. If three electrons go into metallic bonding (as in Nd3+ and in Nd2Fe14B), three 4f electrons stay on each atom, not four. The sentence contradicts itself: 3 shared plus 4 kept would be 7 electrons beyond the Xe core, but Nd has only 6."
+    },
+    {
+        "id":  "Pr",
+        "field":  "facts[0]",
+        "current":  "Praseodymium-doped glass slows light dramatically in research experiments.",
+        "corrected":  "\"Praseodymium-doped silicate crystals have slowed light to a few hundred meters per second in experiments.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia Praseodymium (applications); Turukhin et al., Phys. Rev. Lett. 2002 (Pr:Y2SiO5)",
+        "reason":  "The slow-light experiments used a praseodymium-doped yttrium orthosilicate crystal, not glass. Wikipedia names \u0027silicate crystals doped with praseodymium ions\u0027."
+    },
+    {
+        "id":  "La",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans; some bacteria from volcanic mud pools need it for an enzyme that uses methanol.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia Cerium (Biological role); Pol et al., Environ. Microbiol. 2014 (Methylacidiphilum fumariolicum SolV)",
+        "reason":  "The early lanthanides are essential to some methanotrophic bacteria. Wikipedia says lanthanum, cerium, praseodymium and neodymium are \u0027about equally effective\u0027 as cofactors of XoxF methanol dehydrogenase. \u0027None known\u0027 is out of date."
+    },
+    {
+        "id":  "Ce",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans; some bacteria from volcanic mud pools need it for an enzyme that uses methanol.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia Cerium (Biological role); Pol et al. 2014",
+        "reason":  "Wikipedia\u0027s Cerium article says the early lanthanides are essential to some methanotrophic bacteria such as Methylacidiphilum fumariolicum. \u0027None known\u0027 is false."
+    },
+    {
+        "id":  "Pr",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans; some bacteria from volcanic mud pools need it for an enzyme that uses methanol.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia Praseodymium and Cerium (Biological role)",
+        "reason":  "Wikipedia\u0027s Praseodymium article says the early lanthanides \u0027have been found to be essential to some methanotrophic bacteria living in volcanic mudpots\u0027."
+    },
+    {
+        "id":  "Nd",
+        "field":  "biology",
+        "current":  "None known.",
+        "corrected":  "\"None in humans; some bacteria from volcanic mud pools need it for an enzyme that uses methanol.\"",
+        "confidence":  "high",
+        "source":  "Wikipedia Neodymium (\u0027Neodymium can serve as an enzyme cofactor in certain bacteria\u0027)",
+        "reason":  "Neodymium is a known enzyme cofactor in some methanotrophic bacteria, so \u0027None known\u0027 is false."
+    },
+    {
+        "id":  "I",
+        "field":  "summary",
+        "current":  "Iodine is a dark solid halogen that turns straight into violet vapor when warmed. Your thyroid needs it to make the hormones that control metabolism.",
+        "corrected":  "\"Iodine is a dark solid halogen that gives off violet vapor when warmed and melts at 114 °C. Your thyroid needs it to make the hormones that control metabolism.\"",
+        "confidence":  "medium",
+        "source":  "Wikipedia Iodine (sublimation demonstrations give rise to \u0027a misconception that it does not melt in atmospheric pressure\u0027); triple point 386.65 K at 12.1 kPa",
+        "reason":  "At 1 atm, iodine melts at 113.7 °C and boils at 184 °C, matching this entry\u0027s own meltingPoint and boilingPoint. Saying it \u0027turns straight into\u0027 vapor repeats a well-known misconception. It sublimes appreciably below its melting point, but it does not skip the liquid phase."
+    },
+    {
+        "id":  "Sb",
+        "field":  "summary",
+        "current":  "Antimony is a brittle metalloid that, like water, expands slightly as it freezes, which made it valuable for casting sharp printing type.",
+        "corrected":  "\"Antimony is a brittle metalloid that, added to lead, reduces shrinkage as the alloy freezes, which made it valuable for casting sharp printing type.\"",
+        "confidence":  "medium",
+        "source":  "CRC/Wikipedia infobox densities (solid 6.69 g/cm3 near r.t., liquid 6.53 g/cm3 at m.p.); Wikipedia Type metal (antimony \u0027reduces shrinkage\u0027); not in lists of substances that expand on freezing (water, Si, Ge, Ga, Bi, Pu)",
+        "reason":  "Antimony expanding on freezing is a popular claim, but the density data does not support it: liquid Sb at its melting point is less dense than the solid, so it most likely contracts slightly. The authoritative account of type metal is that antimony reduces the alloy\u0027s shrinkage, not that the element itself expands like water."
+    },
+    {
+        "id":  "Te",
+        "field":  "origin",
+        "current":  "[\"merging neutron stars\"]",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+        "confidence":  "medium",
+        "source":  "Johnson chart as encoded in Wikimedia Commons Nucleosynthesis_periodic_table.svg (Te: 57% dying low-mass stars, 43% merging neutron stars); s-only isotopes Te-122/123/124",
+        "reason":  "Johnson\u0027s chart gives Te a large dying-low-mass-star (s-process) share. Even residual-method estimates put s-process Te at about 20%, since Te-122, 123 and 124 are s-only. The category should be listed, as it is for Cs (15%) and Ce (24%)."
+    },
+    {
+        "id":  "Te",
+        "field":  "originNote",
+        "current":  "Made almost entirely by rapid neutron capture.",
+        "corrected":  "\"Made mostly by rapid neutron capture, with some slow capture in aging stars.\"",
+        "confidence":  "medium",
+        "source":  "Johnson chart (Commons SVG tooltip: 57% low-mass stars / 43% neutron star mergers); Arlandini et al. 1999 s-process fractions",
+        "reason":  "\u0027Almost entirely\u0027 overstates the r-process share. The s-only isotopes Te-122, 123 and 124, plus part of Te-125 and Te-126, come from slow capture in AGB stars."
+    },
+    {
+        "id":  "Xe",
+        "field":  "origin",
+        "current":  "[\"merging neutron stars\"]",
+        "corrected":  "[\"merging neutron stars\", \"dying low-mass stars\"]",
+        "confidence":  "medium",
+        "source":  "Johnson chart as encoded in Wikimedia Commons Nucleosynthesis_periodic_table.svg (Xe: 17% dying low-mass stars, 83% merging neutron stars)",
+        "reason":  "Xenon has a clear s-process share (Xe-128 and Xe-130 are s-only). Johnson\u0027s chart shows about 17% from dying low-mass stars, more than the 15% for which this dataset lists that category for Cs."
+    },
+    {
+        "id":  "Ba",
+        "field":  "origin",
+        "current":  "[\"dying low-mass stars\"]",
+        "corrected":  "[\"dying low-mass stars\", \"merging neutron stars\"]",
+        "confidence":  "medium",
+        "source":  "Johnson chart as encoded in Wikimedia Commons Nucleosynthesis_periodic_table.svg (Ba: 82% dying low-mass stars, 18% merging neutron stars)",
+        "reason":  "Johnson\u0027s chart gives about 18% of barium to merging neutron stars (r-process). Smaller minority shares are listed elsewhere in this dataset, for example Cs at 15% and Ce at 24%. The originNote already says \u0027mostly\u0027 slow capture."
+    },
+    {
+        "id":  "Cs",
+        "field":  "summary",
+        "current":  "Caesium is the most reactive stable metal. The second is defined by the vibrations of caesium-133 atoms: exactly 9,192,631,770 cycles.",
+        "corrected":  "\"Caesium is the most reactive stable metal. The second is defined by microwaves that caesium-133 atoms absorb: exactly 9,192,631,770 cycles.\"",
+        "confidence":  "medium",
+        "source":  "BIPM SI Brochure, definition of the second (ground-state hyperfine transition frequency of Cs-133)",
+        "reason":  "The second is defined by the frequency of the radiation from caesium-133\u0027s hyperfine transition, not by any physical vibration of the atoms. \u0027Vibrations of atoms\u0027 would mislead students into picturing atoms shaking."
+    }
+]

@@ -1,0 +1,459 @@
+[
+    {
+        "id":  "naphthalene",
+        "name":  "Naphthalene",
+        "formula":  "C10H8",
+        "aka":  [
+                    "mothballs"
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  931,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 931)",
+                          "atomCount":  18,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent",
+                                      "delocalized (aromatic or resonance)"
+                                  ],
+                        "summary":  "Two benzene rings fused along one edge.",
+                        "electronSharing":  "Ten π electrons are delocalized over both rings.",
+                        "geometry":  "Planar, two fused hexagons",
+                        "bondLengths":  "C–C 136–142 pm"
+                    },
+        "formation":  "Distilled from coal tar",
+        "state":  "solid",
+        "meltingPointC":  80.3,
+        "boilingPointC":  218,
+        "occurrence":  "Coal tar and crude oil; detected in interstellar space.",
+        "uses":  [
+                     "Making phthalic anhydride for plastics",
+                     "Mothballs (historically)"
+                 ],
+        "facts":  [
+                      "It sublimes slowly at room temperature, which is why mothballs shrink."
+                  ],
+        "hazards":  "Toxic; possible carcinogen.",
+        "summary":  "Naphthalene is two benzene rings fused together."
+    },
+    {
+        "id":  "cyclohexane",
+        "name":  "Cyclohexane",
+        "formula":  "C6H12",
+        "aka":  [
+
+                ],
+        "category":  "Hydrocarbons \u0026 fuels",
+        "elements":  [
+                         "C",
+                         "H"
+                     ],
+        "pubchemCid":  8078,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 8078)",
+                          "atomCount":  18,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "A ring of six carbons with single bonds only.",
+                        "electronSharing":  "Only single shared pairs, so the ring puckers into a \u0027chair\u0027 that keeps every bond angle near the ideal 109.5°.",
+                        "geometry":  "Chair conformation",
+                        "bondLengths":  "C–C 153 pm"
+                    },
+        "formation":  "C6H6 + 3 H2 -\u003e C6H12 (hydrogenation of benzene)",
+        "state":  "liquid",
+        "meltingPointC":  6.5,
+        "boilingPointC":  80.7,
+        "occurrence":  "Crude oil.",
+        "uses":  [
+                     "Making nylon",
+                     "Solvent"
+                 ],
+        "facts":  [
+                      "Its chair shape is free of strain, unlike flat rings."
+                  ],
+        "hazards":  "Flammable.",
+        "summary":  "Cyclohexane shows how rings of single bonds pucker into chairs."
+    },
+    {
+        "id":  "methanol",
+        "name":  "Methanol",
+        "formula":  "CH3OH",
+        "aka":  [
+                    "methyl alcohol",
+                    "wood alcohol"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  887,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 887)",
+                          "atomCount":  6,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A methyl group attached to an OH group.",
+                        "electronSharing":  "Oxygen pulls electrons from both carbon and hydrogen; the polar O–H lets methanol hydrogen-bond like water.",
+                        "geometry":  "Tetrahedral carbon, bent C–O–H",
+                        "bondLengths":  "C–O 142.7 pm, O–H 95.6 pm"
+                    },
+        "formation":  "CO + 2 H2 -\u003e CH3OH (copper-zinc catalyst)",
+        "state":  "liquid",
+        "meltingPointC":  -97.6,
+        "boilingPointC":  64.7,
+        "occurrence":  "Made from natural gas; found in interstellar clouds.",
+        "uses":  [
+                     "Making formaldehyde and acetic acid",
+                     "Fuel and antifreeze",
+                     "Biodiesel production"
+                 ],
+        "facts":  [
+                      "As little as 10 mL of methanol can cause blindness."
+                  ],
+        "hazards":  "Highly toxic and flammable.",
+        "summary":  "Methanol is the simplest alcohol and a key industrial chemical."
+    },
+    {
+        "id":  "ethanol",
+        "name":  "Ethanol",
+        "formula":  "C2H5OH",
+        "aka":  [
+                    "ethyl alcohol",
+                    "alcohol"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  702,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 702)",
+                          "atomCount":  9,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "An ethyl group attached to an OH group.",
+                        "electronSharing":  "The polar O–H group hydrogen-bonds with water, so ethanol mixes with water completely; the ethyl part dissolves oils.",
+                        "geometry":  "Tetrahedral carbons, bent C–O–H",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "C6H12O6 -\u003e 2 C2H5OH + 2 CO2 (yeast fermentation)",
+        "state":  "liquid",
+        "meltingPointC":  -114.1,
+        "boilingPointC":  78.4,
+        "occurrence":  "Fermentation; found in interstellar clouds.",
+        "uses":  [
+                     "Alcoholic drinks",
+                     "Fuel (bioethanol)",
+                     "Disinfectant and solvent"
+                 ],
+        "facts":  [
+                      "A cloud near the center of the Milky Way contains enough ethanol for billions of billions of drinks."
+                  ],
+        "hazards":  "Flammable; intoxicating and toxic in excess.",
+        "summary":  "Ethanol is made by yeast and used in drinks, fuels and disinfectants."
+    },
+    {
+        "id":  "glycerol",
+        "name":  "Glycerol",
+        "formula":  "C3H8O3",
+        "aka":  [
+                    "glycerin"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  753,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 753)",
+                          "atomCount":  14,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A three-carbon chain with an OH on each carbon.",
+                        "electronSharing":  "Three O–H groups hydrogen-bond strongly, making glycerol thick, sweet and water-loving.",
+                        "geometry":  "Flexible chain",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "Fat + 3 NaOH -\u003e glycerol + 3 soap (saponification)",
+        "state":  "liquid",
+        "meltingPointC":  17.8,
+        "boilingPointC":  290,
+        "occurrence":  "The backbone of fats and oils.",
+        "uses":  [
+                     "Moisturizer in cosmetics",
+                     "Sweetener and food humectant",
+                     "Making nitroglycerin"
+                 ],
+        "facts":  [
+                      "Every molecule of fat is glycerol joined to three fatty acids."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Glycerol is the backbone of fats, sweet and syrupy."
+    },
+    {
+        "id":  "ethylene-glycol",
+        "name":  "Ethylene glycol",
+        "formula":  "C2H6O2",
+        "aka":  [
+                    "antifreeze"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  174,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 174)",
+                          "atomCount":  10,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "Two carbons each carrying an OH group.",
+                        "electronSharing":  "Its two O–H groups hydrogen-bond with water, disrupting ice formation.",
+                        "geometry":  "Gauche chain",
+                        "bondLengths":  "C–O 143 pm"
+                    },
+        "formation":  "C2H4O + H2O -\u003e C2H6O2 (from ethylene oxide)",
+        "state":  "liquid",
+        "meltingPointC":  -12.9,
+        "boilingPointC":  197.3,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Car antifreeze",
+                     "Making PET plastic bottles and polyester"
+                 ],
+        "facts":  [
+                      "A 50:50 mix with water freezes only at about −37 °C."
+                  ],
+        "hazards":  "Toxic if swallowed, despite its sweet taste.",
+        "summary":  "Ethylene glycol keeps engines from freezing and makes PET plastic."
+    },
+    {
+        "id":  "phenol",
+        "name":  "Phenol",
+        "formula":  "C6H5OH",
+        "aka":  [
+                    "carbolic acid"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  996,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 996)",
+                          "atomCount":  13,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "delocalized (aromatic or resonance)",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "An OH group attached to a benzene ring.",
+                        "electronSharing":  "Oxygen\u0027s lone pair partly joins the ring\u0027s π electrons, which makes the O–H more acidic than in alcohols.",
+                        "geometry":  "Planar ring",
+                        "bondLengths":  "C–O 136 pm"
+                    },
+        "formation":  "C6H5CH(CH3)2 + O2 -\u003e C6H5OH + (CH3)2CO (cumene process)",
+        "state":  "solid",
+        "meltingPointC":  40.5,
+        "boilingPointC":  181.7,
+        "occurrence":  "Coal tar; made from cumene.",
+        "uses":  [
+                     "Making plastics (bisphenol A, phenolic resins)",
+                     "Making nylon",
+                     "Antiseptics (historically)"
+                 ],
+        "facts":  [
+                      "Joseph Lister pioneered antiseptic surgery in 1867 using carbolic acid."
+                  ],
+        "hazards":  "Toxic and corrosive.",
+        "summary":  "Phenol launched antiseptic surgery and is a key plastics feedstock."
+    },
+    {
+        "id":  "acetone",
+        "name":  "Acetone",
+        "formula":  "C3H6O",
+        "aka":  [
+                    "propanone"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  180,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 180)",
+                          "atomCount":  10,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A C=O group flanked by two methyl groups.",
+                        "electronSharing":  "Oxygen pulls the two shared pairs of the C=O bond toward itself, making acetone polar and a good solvent.",
+                        "geometry":  "Trigonal planar carbonyl carbon",
+                        "bondLengths":  "C=O 121 pm"
+                    },
+        "formation":  "Co-product of the cumene process (with phenol)",
+        "state":  "liquid",
+        "meltingPointC":  -94.7,
+        "boilingPointC":  56.1,
+        "occurrence":  "Synthetic; small amounts made in the body.",
+        "uses":  [
+                     "Nail-polish remover",
+                     "Solvent for plastics and paints",
+                     "Making acrylic plastic"
+                 ],
+        "facts":  [
+                      "The body makes acetone when burning fat, and it can be smelled on the breath during fasting."
+                  ],
+        "hazards":  "Flammable.",
+        "summary":  "Acetone is the simplest ketone and a powerful solvent."
+    },
+    {
+        "id":  "acetic-acid",
+        "name":  "Acetic acid",
+        "formula":  "CH3COOH",
+        "aka":  [
+                    "ethanoic acid",
+                    "vinegar (dilute)"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "C",
+                         "H",
+                         "O"
+                     ],
+        "pubchemCid":  176,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 176)",
+                          "atomCount":  8,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "A methyl group attached to a carboxyl group, COOH.",
+                        "electronSharing":  "The C=O pulls electrons from the O–H, letting it release H+; the resulting acetate ion spreads the negative charge over both oxygens.",
+                        "geometry":  "Planar carboxyl group",
+                        "bondLengths":  "C=O 121 pm, C–O 136 pm"
+                    },
+        "formation":  "CH3OH + CO -\u003e CH3COOH (Monsanto/Cativa process)",
+        "state":  "liquid",
+        "meltingPointC":  16.6,
+        "boilingPointC":  118.1,
+        "occurrence":  "Vinegar is about 4–8% acetic acid.",
+        "uses":  [
+                     "Vinegar",
+                     "Making vinyl acetate for paints and glues",
+                     "Making cellulose acetate and PET"
+                 ],
+        "facts":  [
+                      "Pure acetic acid freezes at 16.6 °C, forming ice-like crystals: \u0027glacial\u0027 acetic acid."
+                  ],
+        "hazards":  "Corrosive when concentrated.",
+        "summary":  "Acetic acid gives vinegar its sour taste."
+    },
+    {
+        "id":  "formic-acid",
+        "name":  "Formic acid",
+        "formula":  "HCOOH",
+        "aka":  [
+                    "methanoic acid"
+                ],
+        "category":  "Organic essentials",
+        "elements":  [
+                         "H",
+                         "C",
+                         "O"
+                     ],
+        "pubchemCid":  284,
+        "structure":  {
+                          "mode":  "xyz",
+                          "source":  "PubChem 3D conformer (CID 284)",
+                          "atomCount":  5,
+                          "note":  "coordinates taken directly from PubChem; not shown"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "hydrogen bonds between molecules"
+                                  ],
+                        "summary":  "The simplest carboxylic acid: H attached to COOH.",
+                        "electronSharing":  "The C=O pulls electrons from the O–H, so it releases H+ fairly easily.",
+                        "geometry":  "Planar",
+                        "bondLengths":  "C=O 120 pm, C–O 134 pm"
+                    },
+        "formation":  "CO + CH3OH -\u003e HCOOCH3, then hydrolysis",
+        "state":  "liquid",
+        "meltingPointC":  8.4,
+        "boilingPointC":  100.8,
+        "occurrence":  "Ant and bee stings, nettles.",
+        "uses":  [
+                     "Livestock feed preservative",
+                     "Leather tanning",
+                     "Hydrogen storage research"
+                 ],
+        "facts":  [
+                      "Its name comes from Latin formica, ant, because it was first distilled from ants."
+                  ],
+        "hazards":  "Corrosive.",
+        "summary":  "Formic acid is the sting in ant bites."
+    }
+]

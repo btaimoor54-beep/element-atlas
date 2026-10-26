@@ -1,0 +1,1021 @@
+[
+    {
+        "z":  21,
+        "symbol":  "Sc",
+        "name":  "Scandium",
+        "altName":  null,
+        "atomicMass":  "44.95591",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  3,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d1 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.36,
+        "ionizationEnergy":  6.561,
+        "electronAffinity":  0.188,
+        "covalentRadius":  170,
+        "vdwRadius":  211,
+        "meltingPoint":  1814,
+        "boilingPoint":  3109,
+        "density":  2.985,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1879",
+                          "by":  "Lars Fredrik Nilson",
+                          "note":  "Found in euxenite and gadolinite; Mendeleev had predicted it as \u0027eka-boron\u0027."
+                      },
+        "nameOrigin":  "Latin Scandia, Scandinavia.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  45,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  46,
+                                                 "halfLife":  "83.8 days",
+                                                 "note":  "Used as a tracer in oil refineries."
+                                             }
+                                         ],
+                         "displayA":  45
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Sc",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Scandium atoms pool their three outer electrons (4s2 3d1) in a shared electron sea.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  330.9,
+                     "cPm":  527.3,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made in the final burning stages of massive stars.",
+        "crustAbundancePpm":  22,
+        "appearance":  "Soft, silvery-white metal with a slight yellow tint in air.",
+        "summary":  "Scandium is a light transition metal, scattered thinly through many minerals. Small additions make aluminium alloys much stronger.",
+        "uses":  [
+                     "Aluminium-scandium alloys for sports equipment and aircraft",
+                     "Metal-halide stadium lamps",
+                     "Solid oxide fuel cells"
+                 ],
+        "facts":  [
+                      "Its existence and properties were predicted by Mendeleev eight years before it was found."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; dust is flammable.",
+        "color":  "#E6E6E6"
+    },
+    {
+        "z":  22,
+        "symbol":  "Ti",
+        "name":  "Titanium",
+        "altName":  null,
+        "atomicMass":  "47.867",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  4,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d2 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.54,
+        "ionizationEnergy":  6.828,
+        "electronAffinity":  0.079,
+        "covalentRadius":  160,
+        "vdwRadius":  187,
+        "meltingPoint":  1941,
+        "boilingPoint":  3560,
+        "density":  4.506,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4
+                            ],
+        "otherOxidationStates":  [
+                                     3,
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1791",
+                          "by":  "William Gregor",
+                          "note":  "Found in ilmenite sand in Cornwall; named by Martin Klaproth in 1795. Pure metal was first made in 1910."
+                      },
+        "nameOrigin":  "The Titans of Greek mythology.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  46,
+                                            "abundance":  8.25
+                                        },
+                                        {
+                                            "A":  47,
+                                            "abundance":  7.44
+                                        },
+                                        {
+                                            "A":  48,
+                                            "abundance":  73.72
+                                        },
+                                        {
+                                            "A":  49,
+                                            "abundance":  5.41
+                                        },
+                                        {
+                                            "A":  50,
+                                            "abundance":  5.18
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  44,
+                                                 "halfLife":  "59 years",
+                                                 "note":  "Made in supernovae; seen in the Cassiopeia A remnant."
+                                             }
+                                         ],
+                         "displayA":  48
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ti",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Titanium\u0027s four outer electrons (4s2 3d2) join a shared electron sea; partly filled d orbitals add strong, slightly directional bonding.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Alpha titanium",
+                                                     "note":  "Hexagonal, stable below 882 °C."
+                                                 },
+                                                 {
+                                                     "name":  "Beta titanium",
+                                                     "note":  "Body-centered cubic, above 882 °C."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed (alpha)",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  295.1,
+                     "cPm":  468.6,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "exploding white dwarfs"
+                   ],
+        "originNote":  "Made in supernovae of both main kinds.",
+        "crustAbundancePpm":  5650,
+        "appearance":  "Lustrous silver-grey metal.",
+        "summary":  "Titanium is as strong as steel but about 45% lighter, and it resists corrosion. Most of it is used as titanium dioxide, the bright white pigment in paint and sunscreen.",
+        "uses":  [
+                     "Aircraft and spacecraft parts",
+                     "Medical implants and joint replacements",
+                     "Titanium dioxide white pigment and sunscreen",
+                     "Corrosion-proof chemical plants"
+                 ],
+        "facts":  [
+                      "Bone grows onto titanium implants, a process called osseointegration."
+                  ],
+        "biology":  "None known; the body tolerates it extremely well.",
+        "hazards":  "Low toxicity; fine powder can burn.",
+        "color":  "#BFC2C7"
+    },
+    {
+        "z":  23,
+        "symbol":  "V",
+        "name":  "Vanadium",
+        "altName":  null,
+        "atomicMass":  "50.9415",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  5,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d3 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.63,
+        "ionizationEnergy":  6.746,
+        "electronAffinity":  0.525,
+        "covalentRadius":  153,
+        "vdwRadius":  179,
+        "meltingPoint":  2183,
+        "boilingPoint":  3680,
+        "density":  6.11,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                5,
+                                4,
+                                3,
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1801",
+                          "by":  "Andrés Manuel del Río",
+                          "note":  "Del Río found it in Mexico but was persuaded it was chromium; Nils Sefström rediscovered it in 1830."
+                      },
+        "nameOrigin":  "Vanadís, a Norse goddess of beauty, for its colorful compounds.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  51,
+                                            "abundance":  99.75
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  50,
+                                                 "halfLife":  "2.7×10^17 years",
+                                                 "note":  "0.25% of natural vanadium."
+                                             }
+                                         ],
+                         "displayA":  51
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "V",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Vanadium contributes five valence electrons (4s2 3d3) to strong metallic bonding.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  303.0,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding white dwarfs",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made mainly in white-dwarf (type Ia) supernovae.",
+        "crustAbundancePpm":  120,
+        "appearance":  "Hard, steel-grey metal.",
+        "summary":  "Vanadium is a hard metal mostly added to steel for toughness. Its ions show four different colors in solution, one for each oxidation state.",
+        "uses":  [
+                     "High-strength and tool steels",
+                     "Vanadium redox-flow batteries for grid storage",
+                     "Vanadium pentoxide catalyst for sulfuric acid"
+                 ],
+        "facts":  [
+                      "Some sea squirts concentrate vanadium in their blood cells a million-fold."
+                  ],
+        "biology":  "Used by some organisms; possibly beneficial in trace amounts for humans.",
+        "hazards":  "Vanadium compounds, especially the pentoxide, are toxic.",
+        "color":  "#A6A6AB"
+    },
+    {
+        "z":  24,
+        "symbol":  "Cr",
+        "name":  "Chromium",
+        "altName":  null,
+        "atomicMass":  "51.996",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  6,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d5 4s1",
+        "configPredicted":  false,
+        "electronegativity":  1.66,
+        "ionizationEnergy":  6.767,
+        "electronAffinity":  0.666,
+        "covalentRadius":  139,
+        "vdwRadius":  189,
+        "meltingPoint":  2180,
+        "boilingPoint":  2944,
+        "density":  7.19,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                6,
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1797",
+                          "by":  "Louis-Nicolas Vauquelin",
+                          "note":  "Found in the red mineral crocoite (lead chromate)."
+                      },
+        "nameOrigin":  "Greek chroma, color, for its brightly colored compounds.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  50,
+                                            "abundance":  4.345
+                                        },
+                                        {
+                                            "A":  52,
+                                            "abundance":  83.789
+                                        },
+                                        {
+                                            "A":  53,
+                                            "abundance":  9.501
+                                        },
+                                        {
+                                            "A":  54,
+                                            "abundance":  2.365
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  51,
+                                                 "halfLife":  "27.7 days",
+                                                 "note":  "Used to label red blood cells."
+                                             }
+                                         ],
+                         "displayA":  52
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Cr",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Chromium has six valence electrons (3d5 4s1, an exception to the usual filling order). Its half-filled d shell gives strong metallic bonding and a high melting point.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  291.0,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding white dwarfs",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made mostly in white-dwarf supernovae.",
+        "crustAbundancePpm":  102,
+        "appearance":  "Very hard, lustrous, silvery-blue metal.",
+        "summary":  "Chromium is a hard, shiny metal that resists tarnish. Adding it to iron makes stainless steel, and traces of it make rubies red and emeralds green.",
+        "uses":  [
+                     "Stainless steel (at least 10.5% chromium)",
+                     "Chrome plating",
+                     "Pigments such as chrome green and chrome yellow",
+                     "Leather tanning"
+                 ],
+        "facts":  [
+                      "Rubies are red because of a little chromium in aluminium oxide."
+                  ],
+        "biology":  "Trivalent chromium was long thought essential; this is now doubted.",
+        "hazards":  "Hexavalent chromium compounds are toxic and carcinogenic.",
+        "color":  "#8A99C7"
+    },
+    {
+        "z":  25,
+        "symbol":  "Mn",
+        "name":  "Manganese",
+        "altName":  null,
+        "atomicMass":  "54.93804",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  7,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d5 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.55,
+        "ionizationEnergy":  7.434,
+        "electronAffinity":  null,
+        "covalentRadius":  139,
+        "vdwRadius":  197,
+        "meltingPoint":  1519,
+        "boilingPoint":  2334,
+        "density":  7.21,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2,
+                                4,
+                                7
+                            ],
+        "otherOxidationStates":  [
+                                     3,
+                                     6
+                                 ],
+        "discovery":  {
+                          "year":  "1774",
+                          "by":  "Johan Gottlieb Gahn",
+                          "note":  "Isolated by reducing manganese dioxide with carbon."
+                      },
+        "nameOrigin":  "From magnesia nigra (black magnesia), via Italian manganese.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  55,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  53,
+                                                 "halfLife":  "3.7 million years",
+                                                 "note":  "Made in supernovae and by cosmic rays."
+                                             }
+                                         ],
+                         "displayA":  55
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Mn",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Manganese contributes seven valence electrons, but its half-filled d shell holds them unusually tightly, giving a complex, brittle crystal.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Alpha manganese",
+                                                     "note":  "Complex cubic cell with 58 atoms, stable at room temperature."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Complex cubic (alpha-Mn, 58 atoms per cell)",
+                     "lattice":  "cubic-complex",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  891.2,
+                     "cPm":  null,
+                     "note":  "The real cell is very complex; the viewer shows a simplified body-centered cubic packing."
+                 },
+        "origin":  [
+                       "exploding white dwarfs"
+                   ],
+        "originNote":  "Made mainly in white-dwarf (type Ia) supernovae.",
+        "crustAbundancePpm":  950,
+        "appearance":  "Hard, brittle, silvery-grey metal.",
+        "summary":  "Manganese is essential to steelmaking and to life. Its compounds include the deep purple oxidizer potassium permanganate.",
+        "uses":  [
+                     "Steel and aluminium alloys",
+                     "Dry-cell and lithium batteries (manganese dioxide)",
+                     "Potassium permanganate disinfectant"
+                 ],
+        "facts":  [
+                      "Photosynthesis splits water using a cluster of four manganese atoms."
+                  ],
+        "biology":  "Essential: needed by many enzymes, including the water-splitting center of photosynthesis.",
+        "hazards":  "Long-term inhalation of manganese dust or fumes damages the nervous system.",
+        "color":  "#9C7AC7"
+    },
+    {
+        "z":  26,
+        "symbol":  "Fe",
+        "name":  "Iron",
+        "altName":  null,
+        "atomicMass":  "55.845",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  8,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d6 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.83,
+        "ionizationEnergy":  7.902,
+        "electronAffinity":  0.163,
+        "covalentRadius":  132,
+        "vdwRadius":  194,
+        "meltingPoint":  1811,
+        "boilingPoint":  3134,
+        "density":  7.874,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3,
+                                2
+                            ],
+        "otherOxidationStates":  [
+                                     6
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Iron from meteorites was used before 3000 BCE; smelting began around 1200 BCE (the Iron Age)."
+                      },
+        "nameOrigin":  "Anglo-Saxon iren; the symbol Fe is from Latin ferrum.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  54,
+                                            "abundance":  5.845
+                                        },
+                                        {
+                                            "A":  56,
+                                            "abundance":  91.754
+                                        },
+                                        {
+                                            "A":  57,
+                                            "abundance":  2.119
+                                        },
+                                        {
+                                            "A":  58,
+                                            "abundance":  0.282
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  60,
+                                                 "halfLife":  "2.6 million years",
+                                                 "note":  "Made in supernovae; found in deep-sea crusts."
+                                             },
+                                             {
+                                                 "A":  55,
+                                                 "halfLife":  "2.74 years",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  56
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Fe",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Iron atoms share 4s and some 3d electrons in a metallic sea. Its unpaired d electrons line up in domains, which makes iron ferromagnetic.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Alpha iron (ferrite)",
+                                                     "note":  "Body-centered cubic, magnetic, stable below 912 °C."
+                                                 },
+                                                 {
+                                                     "name":  "Gamma iron (austenite)",
+                                                     "note":  "Face-centered cubic, 912–1394 °C."
+                                                 },
+                                                 {
+                                                     "name":  "Delta iron",
+                                                     "note":  "Body-centered cubic again above 1394 °C."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic (alpha iron)",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  286.65,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding white dwarfs",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made as radioactive nickel-56 in supernovae, which decays to iron-56.",
+        "crustAbundancePpm":  56300,
+        "appearance":  "Lustrous grey metal that rusts in moist air.",
+        "summary":  "Iron is the most used metal and, by mass, the most common element on Earth as a whole, since it fills the core. Iron-56 sits near the peak of nuclear stability, so stars cannot gain energy by fusing beyond it.",
+        "uses":  [
+                     "Steel for buildings, vehicles and tools",
+                     "Cast iron",
+                     "Magnets and transformer cores",
+                     "Catalyst for making ammonia"
+                 ],
+        "facts":  [
+                      "The red color of blood and of Mars both come from iron.",
+                      "When a massive star\u0027s core turns to iron, it collapses and explodes as a supernova."
+                  ],
+        "biology":  "Essential: carries oxygen in hemoglobin and is used by many enzymes.",
+        "hazards":  "Iron overdose is dangerous, especially for children taking iron tablets.",
+        "color":  "#E06633"
+    },
+    {
+        "z":  27,
+        "symbol":  "Co",
+        "name":  "Cobalt",
+        "altName":  null,
+        "atomicMass":  "58.93319",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  9,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d7 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.88,
+        "ionizationEnergy":  7.881,
+        "electronAffinity":  0.661,
+        "covalentRadius":  126,
+        "vdwRadius":  192,
+        "meltingPoint":  1768,
+        "boilingPoint":  3200,
+        "density":  8.9,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2,
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1735",
+                          "by":  "Georg Brandt",
+                          "note":  "Showed that the blue color in glass came from a new metal, not bismuth."
+                      },
+        "nameOrigin":  "German Kobold, a goblin: miners blamed goblins for ores that gave off poisonous arsenic fumes.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  59,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  60,
+                                                 "halfLife":  "5.27 years",
+                                                 "note":  "Gamma source for radiotherapy and sterilizing food and equipment."
+                                             }
+                                         ],
+                         "displayA":  59
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Co",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Cobalt atoms share 4s and 3d electrons in a metallic sea; unpaired d electrons make it ferromagnetic.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  250.7,
+                     "cPm":  406.9,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding white dwarfs",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made in supernovae.",
+        "crustAbundancePpm":  25,
+        "appearance":  "Hard, lustrous, silver-grey metal.",
+        "summary":  "Cobalt is a hard, magnetic metal used in batteries, superalloys and blue pigments. It sits at the center of vitamin B12.",
+        "uses":  [
+                     "Lithium-ion battery cathodes",
+                     "Superalloys for jet engines",
+                     "Cobalt-blue pigments",
+                     "Cobalt-60 radiotherapy"
+                 ],
+        "facts":  [
+                      "Cobalt blue glass and ceramics have been made for thousands of years."
+                  ],
+        "biology":  "Essential as part of vitamin B12.",
+        "hazards":  "Cobalt dust and some compounds are toxic and possibly carcinogenic.",
+        "color":  "#F090A0"
+    },
+    {
+        "z":  28,
+        "symbol":  "Ni",
+        "name":  "Nickel",
+        "altName":  null,
+        "atomicMass":  "58.693",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  10,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d8 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.91,
+        "ionizationEnergy":  7.64,
+        "electronAffinity":  1.156,
+        "covalentRadius":  124,
+        "vdwRadius":  163,
+        "meltingPoint":  1728,
+        "boilingPoint":  3186,
+        "density":  8.908,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+                                     3
+                                 ],
+        "discovery":  {
+                          "year":  "1751",
+                          "by":  "Axel Fredrik Cronstedt",
+                          "note":  "Isolated from a mineral miners called kupfernickel, \u0027Old Nick\u0027s copper\u0027."
+                      },
+        "nameOrigin":  "German Nickel, a mischievous sprite, from the ore that looked like copper but gave none.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  58,
+                                            "abundance":  68.077
+                                        },
+                                        {
+                                            "A":  60,
+                                            "abundance":  26.223
+                                        },
+                                        {
+                                            "A":  61,
+                                            "abundance":  1.14
+                                        },
+                                        {
+                                            "A":  62,
+                                            "abundance":  3.635
+                                        },
+                                        {
+                                            "A":  64,
+                                            "abundance":  0.926
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  63,
+                                                 "halfLife":  "101 years",
+                                                 "note":  "Used in electron-capture detectors."
+                                             },
+                                             {
+                                                 "A":  56,
+                                                 "halfLife":  "6.1 days",
+                                                 "note":  "Made in supernovae; decays to iron-56."
+                                             }
+                                         ],
+                         "displayA":  58
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ni",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Nickel atoms share electrons in a metallic sea; partly filled 3d orbitals make it ferromagnetic.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  352.4,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding white dwarfs",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made in supernovae.",
+        "crustAbundancePpm":  84,
+        "appearance":  "Silvery-white, hard, slightly golden metal.",
+        "summary":  "Nickel is a tough, corrosion-resistant metal used in stainless steel, coins and batteries. Iron meteorites are mostly iron-nickel alloy.",
+        "uses":  [
+                     "Stainless steel",
+                     "Nickel-based superalloys",
+                     "Batteries (NiMH and lithium-ion cathodes)",
+                     "Coins and plating"
+                 ],
+        "facts":  [
+                      "Earth\u0027s core is thought to be about 5% nickel."
+                  ],
+        "biology":  "Used by some plant and microbial enzymes; not shown essential for humans.",
+        "hazards":  "A common cause of skin allergy; some compounds are carcinogenic.",
+        "color":  "#50D050"
+    },
+    {
+        "z":  29,
+        "symbol":  "Cu",
+        "name":  "Copper",
+        "altName":  null,
+        "atomicMass":  "63.546",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  11,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d10 4s1",
+        "configPredicted":  false,
+        "electronegativity":  1.9,
+        "ionizationEnergy":  7.726,
+        "electronAffinity":  1.228,
+        "covalentRadius":  132,
+        "vdwRadius":  140,
+        "meltingPoint":  1357.77,
+        "boilingPoint":  2835,
+        "density":  8.96,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2,
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Prehistoric",
+                          "note":  "Used for at least 10,000 years; smelted from ores by about 5000 BCE."
+                      },
+        "nameOrigin":  "Latin cyprium, \u0027metal of Cyprus\u0027; symbol Cu from cuprum.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  63,
+                                            "abundance":  69.15
+                                        },
+                                        {
+                                            "A":  65,
+                                            "abundance":  30.85
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  64,
+                                                 "halfLife":  "12.7 hours",
+                                                 "note":  "Used in PET imaging."
+                                             },
+                                             {
+                                                 "A":  67,
+                                                 "halfLife":  "61.8 hours",
+                                                 "note":  "Studied for cancer therapy."
+                                             }
+                                         ],
+                         "displayA":  63
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Cu",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Copper (3d10 4s1, an exception) shares its 4s electron in a free-flowing electron sea, which makes it an excellent conductor of electricity and heat.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  361.5,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by neutron capture in massive stars.",
+        "crustAbundancePpm":  60,
+        "appearance":  "Reddish-orange, shiny metal that turns green over time.",
+        "summary":  "Copper was one of the first metals people used. It conducts electricity better than any metal except silver, so it wires our world.",
+        "uses":  [
+                     "Electrical wiring and motors",
+                     "Plumbing",
+                     "Brass and bronze alloys",
+                     "Coins and antimicrobial surfaces"
+                 ],
+        "facts":  [
+                      "The Statue of Liberty is green because its copper skin has formed a patina.",
+                      "Copper is one of only two metals that are not grey or silvery; gold is the other."
+                  ],
+        "biology":  "Essential: used by enzymes; octopus and horseshoe-crab blood uses copper instead of iron.",
+        "hazards":  "Excess copper is toxic; copper salts can poison fish.",
+        "color":  "#C88033"
+    },
+    {
+        "z":  30,
+        "symbol":  "Zn",
+        "name":  "Zinc",
+        "altName":  null,
+        "atomicMass":  "65.38",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  12,
+        "period":  4,
+        "block":  "d",
+        "electronConfiguration":  "[Ar] 3d10 4s2",
+        "configPredicted":  false,
+        "electronegativity":  1.65,
+        "ionizationEnergy":  9.394,
+        "electronAffinity":  null,
+        "covalentRadius":  122,
+        "vdwRadius":  139,
+        "meltingPoint":  692.68,
+        "boilingPoint":  1180,
+        "density":  7.134,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1746",
+                          "by":  "Andreas Sigismund Marggraf",
+                          "note":  "Marggraf isolated it in Europe; zinc was smelted in India from about the 12th century."
+                      },
+        "nameOrigin":  "German Zink, perhaps from Zinke (prong), for its spiky crystals.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  64,
+                                            "abundance":  49.17
+                                        },
+                                        {
+                                            "A":  66,
+                                            "abundance":  27.73
+                                        },
+                                        {
+                                            "A":  67,
+                                            "abundance":  4.04
+                                        },
+                                        {
+                                            "A":  68,
+                                            "abundance":  18.45
+                                        },
+                                        {
+                                            "A":  70,
+                                            "abundance":  0.61
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  65,
+                                                 "halfLife":  "244 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  64
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Zn",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Zinc shares its two 4s electrons in a metallic sea; its full 3d shell does not take part, so bonding is weaker and zinc melts at only 420 °C.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed (stretched along c)",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  266.5,
+                     "cPm":  494.7,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made in massive stars and their supernovae.",
+        "crustAbundancePpm":  70,
+        "appearance":  "Bluish-silver metal.",
+        "summary":  "Zinc protects steel from rust by galvanizing and is a key part of brass. It is essential for life, used by hundreds of enzymes.",
+        "uses":  [
+                     "Galvanizing steel",
+                     "Brass (copper-zinc alloy)",
+                     "Zinc-carbon and zinc-air batteries",
+                     "Zinc oxide sunscreen and rubber"
+                 ],
+        "facts":  [
+                      "Zinc ions help hold together \u0027zinc finger\u0027 proteins that read DNA."
+                  ],
+        "biology":  "Essential: in hundreds of enzymes and DNA-binding proteins.",
+        "hazards":  "Breathing zinc oxide fumes causes \u0027metal fume fever\u0027.",
+        "color":  "#7D80B0"
+    }
+]

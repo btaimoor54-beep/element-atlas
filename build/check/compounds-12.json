@@ -1,0 +1,512 @@
+[
+    {
+        "id":  "ytterbia",
+        "name":  "Ytterbium(III) oxide",
+        "formula":  "Yb2O3",
+        "aka":  [
+                    "ytterbia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Yb",
+                         "O"
+                     ],
+        "pubchemCid":  159375,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Yb3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Yb"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Yb3+ and O2− ions in the bixbyite structure.",
+                        "electronSharing":  "Ytterbium gives three electrons to oxygen.",
+                        "geometry":  "Bixbyite",
+                        "bondLengths":  "Yb–O about 224 pm"
+                    },
+        "formation":  "4 Yb + 3 O2 -\u003e 2 Yb2O3",
+        "state":  "solid",
+        "meltingPointC":  2355,
+        "boilingPointC":  4070,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Doping fiber and disk lasers",
+                     "Thermal barrier coatings",
+                     "Stress gauges"
+                 ],
+        "facts":  [
+                      "Ytterbium-doped fiber lasers are among the most efficient high-power lasers."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Ytterbia is the raw material for ytterbium laser crystals and fibers."
+    },
+    {
+        "id":  "lutetia",
+        "name":  "Lutetium(III) oxide",
+        "formula":  "Lu2O3",
+        "aka":  [
+                    "lutetia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Lu",
+                         "O"
+                     ],
+        "pubchemCid":  4323797,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Lu3+",
+                                            "charge":  3,
+                                            "count":  2,
+                                            "el":  "Lu"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  3,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic"
+                                  ],
+                        "summary":  "Lu3+ and O2− ions in the bixbyite structure.",
+                        "electronSharing":  "Lutetium gives three electrons, leaving a full 4f14 shell.",
+                        "geometry":  "Bixbyite",
+                        "bondLengths":  "Lu–O about 222 pm"
+                    },
+        "formation":  "4 Lu + 3 O2 -\u003e 2 Lu2O3",
+        "state":  "solid",
+        "meltingPointC":  2490,
+        "boilingPointC":  3980,
+        "occurrence":  "From rare-earth ores.",
+        "uses":  [
+                     "Making LYSO scintillator crystals for PET scanners",
+                     "Catalysts",
+                     "Laser hosts"
+                 ],
+        "facts":  [
+                      "Lutetium-based crystals detect the gamma rays in most modern PET scanners."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Lutetia is the basis of the scintillator crystals in PET scanners."
+    },
+    {
+        "id":  "hafnia",
+        "name":  "Hafnium dioxide",
+        "formula":  "HfO2",
+        "aka":  [
+                    "hafnia"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Hf",
+                         "O"
+                     ],
+        "pubchemCid":  292779,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Hf4+",
+                                            "charge":  4,
+                                            "count":  1,
+                                            "el":  "Hf"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  2,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; real hafnia is monoclinic like zirconia."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Hf4+ and O2− in a monoclinic structure, like zirconia.",
+                        "electronSharing":  "Hafnium gives four electrons toward oxygen; the highly polarizable bonds give it a high dielectric constant.",
+                        "geometry":  "Monoclinic (baddeleyite type)",
+                        "bondLengths":  "Hf–O 203–225 pm"
+                    },
+        "formation":  "HfCl4 + 2 H2O -\u003e HfO2 + 4 HCl (atomic layer deposition)",
+        "state":  "solid",
+        "meltingPointC":  2758,
+        "boilingPointC":  5400,
+        "occurrence":  "Made from zircon processing.",
+        "uses":  [
+                     "High-k gate insulator in modern transistors",
+                     "Ferroelectric memory",
+                     "Optical coatings"
+                 ],
+        "facts":  [
+                      "Since 2007, hafnium oxide has replaced silicon dioxide as the gate insulator in leading-edge chips."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Hafnia insulating layers only a few nanometers thick made modern transistors possible."
+    },
+    {
+        "id":  "tantalum-pentoxide",
+        "name":  "Tantalum pentoxide",
+        "formula":  "Ta2O5",
+        "aka":  [
+                    "tantala"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Ta",
+                         "O"
+                     ],
+        "pubchemCid":  62157,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Ta5+",
+                                            "charge":  5,
+                                            "count":  2,
+                                            "el":  "Ta"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  5,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "One formula unit; real solid has complex chains of TaO6/TaO7 polyhedra."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "ionic",
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ta5+ in oxygen polyhedra; highly insulating with a high dielectric constant.",
+                        "electronSharing":  "Tantalum gives all five valence electrons toward oxygen.",
+                        "geometry":  "Orthorhombic, complex",
+                        "bondLengths":  "Ta–O about 197 pm"
+                    },
+        "formation":  "4 Ta + 5 O2 -\u003e 2 Ta2O5 (anodizing tantalum)",
+        "state":  "solid",
+        "meltingPointC":  1872,
+        "boilingPointC":  null,
+        "occurrence":  "Made from tantalum ores (coltan).",
+        "uses":  [
+                     "Dielectric in tantalum capacitors",
+                     "High-index optical coatings",
+                     "Lens glass"
+                 ],
+        "facts":  [
+                      "The thin oxide grown on tantalum powder is what stores charge in a tantalum capacitor."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "Ta2O5 is the insulating film inside tantalum capacitors."
+    },
+    {
+        "id":  "rhenium-heptoxide",
+        "name":  "Rhenium(VII) oxide",
+        "formula":  "Re2O7",
+        "aka":  [
+                    "dirhenium heptoxide"
+                ],
+        "category":  "Rare-earth \u0026 refractory oxides",
+        "elements":  [
+                         "Re",
+                         "O"
+                     ],
+        "pubchemCid":  123106,
+        "structure":  {
+                          "mode":  "ions",
+                          "units":  [
+                                        {
+                                            "label":  "Re7+",
+                                            "charge":  7,
+                                            "count":  2,
+                                            "el":  "Re"
+                                        },
+                                        {
+                                            "label":  "O2-",
+                                            "charge":  -2,
+                                            "count":  7,
+                                            "el":  "O"
+                                        }
+                                    ],
+                          "note":  "Formal charges; the gas is O3Re–O–ReO3 molecules and the solid a polymer of linked ReO4 and ReO6 units."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "In the gas, two ReO4 tetrahedra share one oxygen.",
+                        "electronSharing":  "Rhenium shares all seven valence electrons with oxygen in strong, largely covalent bonds.",
+                        "geometry":  "Corner-sharing tetrahedra (gas)",
+                        "bondLengths":  "Re–O about 170–180 pm"
+                    },
+        "formation":  "4 Re + 7 O2 -\u003e 2 Re2O7",
+        "state":  "solid",
+        "meltingPointC":  360,
+        "boilingPointC":  360,
+        "occurrence":  "Made by burning rhenium.",
+        "uses":  [
+                     "Catalyst for olefin metathesis",
+                     "Making perrhenic acid and rhenium catalysts"
+                 ],
+        "facts":  [
+                      "It sublimes at about 360 °C, so it can be purified by vapor transport."
+                  ],
+        "hazards":  "Corrosive; forms acid with water.",
+        "summary":  "Re2O7 is a volatile yellow oxide used to make rhenium catalysts."
+    },
+    {
+        "id":  "silicon-carbide",
+        "name":  "Silicon carbide",
+        "formula":  "SiC",
+        "aka":  [
+                    "carborundum",
+                    "moissanite"
+                ],
+        "category":  "Semiconductors \u0026 tech",
+        "elements":  [
+                         "Si",
+                         "C"
+                     ],
+        "pubchemCid":  9863,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "zincblende",
+                          "a":  435.9,
+                          "cation":  "Si",
+                          "anion":  "C",
+                          "note":  "Cubic 3C-SiC; many other stacking forms exist."
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Every Si bonded to four C and every C to four Si: a diamond-like network of two elements.",
+                        "electronSharing":  "Silicon and carbon share electron pairs in four tetrahedral bonds, pulled toward carbon (Δχ 0.65).",
+                        "geometry":  "Zincblende (tetrahedral)",
+                        "bondLengths":  "Si–C 189 pm"
+                    },
+        "formation":  "SiO2 + 3 C -\u003e SiC + 2 CO (Acheson process, about 2,500 °C)",
+        "state":  "solid",
+        "meltingPointC":  2830,
+        "boilingPointC":  null,
+        "occurrence":  "Rare natural mineral moissanite; found in meteorites as grains older than the Sun.",
+        "uses":  [
+                     "Power electronics in electric cars",
+                     "Abrasives and cutting discs",
+                     "Armor plates",
+                     "Moissanite gemstones"
+                 ],
+        "facts":  [
+                      "Some SiC grains in meteorites formed around stars that died before the Sun was born."
+                  ],
+        "hazards":  "Dust is harmful to lungs.",
+        "summary":  "Silicon carbide is a hard semiconductor that handles high voltages in electric vehicles."
+    },
+    {
+        "id":  "gallium-arsenide",
+        "name":  "Gallium arsenide",
+        "formula":  "GaAs",
+        "aka":  [
+
+                ],
+        "category":  "Semiconductors \u0026 tech",
+        "elements":  [
+                         "Ga",
+                         "As"
+                     ],
+        "pubchemCid":  14770,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "zincblende",
+                          "a":  565.3,
+                          "cation":  "Ga",
+                          "anion":  "As"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Ga and As each bonded to four of the other in a zincblende lattice.",
+                        "electronSharing":  "Gallium brings three valence electrons and arsenic five; together they make four shared pairs per atom (Δχ 0.37).",
+                        "geometry":  "Zincblende (tetrahedral)",
+                        "bondLengths":  "Ga–As 245 pm"
+                    },
+        "formation":  "Ga + As -\u003e GaAs (grown as single crystals)",
+        "state":  "solid",
+        "meltingPointC":  1238,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Radio-frequency chips in phones",
+                     "High-efficiency solar cells for satellites",
+                     "Infrared LEDs and lasers"
+                 ],
+        "facts":  [
+                      "Electrons move about five times faster in GaAs than in silicon."
+                  ],
+        "hazards":  "Toxic (arsenic).",
+        "summary":  "GaAs is a fast semiconductor used in phones and space solar panels."
+    },
+    {
+        "id":  "gallium-nitride",
+        "name":  "Gallium nitride",
+        "formula":  "GaN",
+        "aka":  [
+
+                ],
+        "category":  "Semiconductors \u0026 tech",
+        "elements":  [
+                         "Ga",
+                         "N"
+                     ],
+        "pubchemCid":  117559,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "wurtzite",
+                          "a":  318.9,
+                          "c":  518.5,
+                          "u":  0.377,
+                          "cation":  "Ga",
+                          "anion":  "N"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent",
+                                      "ionic"
+                                  ],
+                        "summary":  "Each Ga bonded to four N in a hexagonal wurtzite lattice.",
+                        "electronSharing":  "Gallium and nitrogen share pairs strongly pulled toward nitrogen (Δχ 1.23), giving a wide band gap that emits blue light.",
+                        "geometry":  "Wurtzite (tetrahedral, hexagonal)",
+                        "bondLengths":  "Ga–N 195 pm"
+                    },
+        "formation":  "Ga(CH3)3 + NH3 -\u003e GaN + 3 CH4 (vapor deposition)",
+        "state":  "solid",
+        "meltingPointC":  2500,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Blue and white LEDs",
+                     "Blu-ray lasers",
+                     "Fast chargers and power transistors"
+                 ],
+        "facts":  [
+                      "The 2014 Nobel Prize in Physics honored the invention of efficient blue GaN LEDs."
+                  ],
+        "hazards":  "Low toxicity.",
+        "summary":  "GaN made blue LEDs, and therefore white LED lighting, possible."
+    },
+    {
+        "id":  "indium-phosphide",
+        "name":  "Indium phosphide",
+        "formula":  "InP",
+        "aka":  [
+
+                ],
+        "category":  "Semiconductors \u0026 tech",
+        "elements":  [
+                         "In",
+                         "P"
+                     ],
+        "pubchemCid":  31170,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "zincblende",
+                          "a":  586.9,
+                          "cation":  "In",
+                          "anion":  "P"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Zincblende lattice of In and P.",
+                        "electronSharing":  "Indium\u0027s three and phosphorus\u0027s five valence electrons form four shared pairs per atom.",
+                        "geometry":  "Zincblende",
+                        "bondLengths":  "In–P 254 pm"
+                    },
+        "formation":  "In + P -\u003e InP",
+        "state":  "solid",
+        "meltingPointC":  1062,
+        "boilingPointC":  null,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Lasers and detectors for fiber-optic communication",
+                     "High-frequency electronics"
+                 ],
+        "facts":  [
+                      "InP lasers emit at 1.3 and 1.55 µm, the wavelengths that travel farthest in glass fiber."
+                  ],
+        "hazards":  "Toxic; possible carcinogen.",
+        "summary":  "InP lasers send light down the internet\u0027s fiber-optic cables."
+    },
+    {
+        "id":  "cadmium-telluride",
+        "name":  "Cadmium telluride",
+        "formula":  "CdTe",
+        "aka":  [
+
+                ],
+        "category":  "Semiconductors \u0026 tech",
+        "elements":  [
+                         "Cd",
+                         "Te"
+                     ],
+        "pubchemCid":  91501,
+        "structure":  {
+                          "mode":  "lattice",
+                          "type":  "zincblende",
+                          "a":  648.1,
+                          "cation":  "Cd",
+                          "anion":  "Te"
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Zincblende lattice of Cd and Te.",
+                        "electronSharing":  "Cadmium and tellurium share pairs fairly evenly (Δχ 0.41); the band gap of 1.5 eV suits sunlight.",
+                        "geometry":  "Zincblende",
+                        "bondLengths":  "Cd–Te 281 pm"
+                    },
+        "formation":  "Cd + Te -\u003e CdTe",
+        "state":  "solid",
+        "meltingPointC":  1041,
+        "boilingPointC":  1130,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Thin-film solar panels",
+                     "Infrared and X-ray detectors"
+                 ],
+        "facts":  [
+                      "CdTe panels are the second most common solar technology after silicon."
+                  ],
+        "hazards":  "Toxic.",
+        "summary":  "CdTe thin films make low-cost solar panels."
+    }
+]

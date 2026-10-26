@@ -1,0 +1,1038 @@
+[
+    {
+        "z":  31,
+        "symbol":  "Ga",
+        "name":  "Gallium",
+        "altName":  null,
+        "atomicMass":  "69.723",
+        "category":  "post-transition metal",
+        "categoryPredicted":  false,
+        "group":  13,
+        "period":  4,
+        "block":  "p",
+        "electronConfiguration":  "[Ar] 3d10 4s2 4p1",
+        "configPredicted":  false,
+        "electronegativity":  1.81,
+        "ionizationEnergy":  5.999,
+        "electronAffinity":  0.3,
+        "covalentRadius":  122,
+        "vdwRadius":  187,
+        "meltingPoint":  302.91,
+        "boilingPoint":  2673,
+        "density":  5.91,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+                                     1
+                                 ],
+        "discovery":  {
+                          "year":  "1875",
+                          "by":  "Paul-Émile Lecoq de Boisbaudran",
+                          "note":  "Seen as new violet lines in a zinc ore spectrum; Mendeleev had predicted it as \u0027eka-aluminium\u0027."
+                      },
+        "nameOrigin":  "Latin Gallia, France.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  69,
+                                            "abundance":  60.108
+                                        },
+                                        {
+                                            "A":  71,
+                                            "abundance":  39.892
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  67,
+                                                 "halfLife":  "3.26 days",
+                                                 "note":  "Used in medical imaging."
+                                             },
+                                             {
+                                                 "A":  68,
+                                                 "halfLife":  "67.7 minutes",
+                                                 "note":  "Used in PET scans."
+                                             }
+                                         ],
+                         "displayA":  69
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Ga",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Solid gallium is unusual: pairs of atoms share a covalent bond (Ga2 units) inside a metallic framework. This weak packing is why it melts in your hand.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Orthorhombic (alpha-Ga, with Ga2 pairs)",
+                     "lattice":  "orthorhombic",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  452,
+                     "cPm":  766,
+                     "note":  "The viewer shows a simplified close-packed lattice."
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by neutron capture in massive and aging stars.",
+        "crustAbundancePpm":  19,
+        "appearance":  "Soft, silvery metal that melts at 29.8 °C.",
+        "summary":  "Gallium melts just above room temperature but boils only above 2,400 °C, giving it one of the longest liquid ranges of any element. Gallium compounds power LEDs and fast electronics.",
+        "uses":  [
+                     "Gallium nitride blue and white LEDs",
+                     "Gallium arsenide chips and solar cells",
+                     "Liquid-metal thermometers and alloys (galinstan)"
+                 ],
+        "facts":  [
+                      "Gallium expands when it freezes, like water.",
+                      "Mendeleev predicted its density before it was measured, and then corrected its discoverer."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; it attacks and weakens aluminium.",
+        "color":  "#C28F8F"
+    },
+    {
+        "z":  32,
+        "symbol":  "Ge",
+        "name":  "Germanium",
+        "altName":  null,
+        "atomicMass":  "72.63",
+        "category":  "metalloid",
+        "categoryPredicted":  false,
+        "group":  14,
+        "period":  4,
+        "block":  "p",
+        "electronConfiguration":  "[Ar] 3d10 4s2 4p2",
+        "configPredicted":  false,
+        "electronegativity":  2.01,
+        "ionizationEnergy":  7.9,
+        "electronAffinity":  1.35,
+        "covalentRadius":  120,
+        "vdwRadius":  211,
+        "meltingPoint":  1211.4,
+        "boilingPoint":  3106,
+        "density":  5.323,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4,
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1886",
+                          "by":  "Clemens Winkler",
+                          "note":  "Found in the mineral argyrodite; Mendeleev had predicted it as \u0027eka-silicon\u0027."
+                      },
+        "nameOrigin":  "Latin Germania, Germany.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  70,
+                                            "abundance":  20.52
+                                        },
+                                        {
+                                            "A":  72,
+                                            "abundance":  27.45
+                                        },
+                                        {
+                                            "A":  73,
+                                            "abundance":  7.76
+                                        },
+                                        {
+                                            "A":  74,
+                                            "abundance":  36.52
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  76,
+                                                 "halfLife":  "1.8×10^21 years",
+                                                 "note":  "7.75% of natural germanium; decays by rare double beta decay."
+                                             },
+                                             {
+                                                 "A":  68,
+                                                 "halfLife":  "271 days",
+                                                 "note":  "Parent of gallium-68 for PET."
+                                             }
+                                         ],
+                         "displayA":  74
+                     },
+        "elementalForm":  {
+                              "kind":  "network",
+                              "formula":  "Ge (diamond structure)",
+                              "bondOrder":  1,
+                              "bondLengthPm":  245,
+                              "description":  "Each germanium atom shares one electron pair with each of four neighbors, forming a diamond-like covalent network. The bonds are weaker than silicon\u0027s, making germanium a semiconductor with a smaller band gap.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Diamond cubic",
+                     "lattice":  "diamond",
+                     "renderAs":  "diamond",
+                     "latticeConstantPm":  565.8,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by neutron capture in stars.",
+        "crustAbundancePpm":  1.5,
+        "appearance":  "Hard, lustrous, grey-white metalloid.",
+        "summary":  "Germanium is a semiconductor that made the first transistors in 1947. Today it is used in fiber optics, infrared lenses and radiation detectors.",
+        "uses":  [
+                     "Fiber-optic glass",
+                     "Infrared night-vision lenses",
+                     "Silicon-germanium chips",
+                     "Gamma-ray detectors"
+                 ],
+        "facts":  [
+                      "The first transistor (Bell Labs, 1947) was made of germanium."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; some compounds are harmful.",
+        "color":  "#668F8F"
+    },
+    {
+        "z":  33,
+        "symbol":  "As",
+        "name":  "Arsenic",
+        "altName":  null,
+        "atomicMass":  "74.92159",
+        "category":  "metalloid",
+        "categoryPredicted":  false,
+        "group":  15,
+        "period":  4,
+        "block":  "p",
+        "electronConfiguration":  "[Ar] 3d10 4s2 4p3",
+        "configPredicted":  false,
+        "electronegativity":  2.18,
+        "ionizationEnergy":  9.815,
+        "electronAffinity":  0.81,
+        "covalentRadius":  119,
+        "vdwRadius":  185,
+        "meltingPoint":  null,
+        "boilingPoint":  887,
+        "density":  5.776,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -3,
+                                3,
+                                5
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "Ancient",
+                          "by":  "Known in antiquity; Albertus Magnus (c. 1250)",
+                          "note":  "Arsenic compounds were known in antiquity; Albertus Magnus is credited with isolating the element."
+                      },
+        "nameOrigin":  "Greek arsenikon, yellow orpiment (from Persian zarnikh, gold-colored).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  75,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  73,
+                                                 "halfLife":  "80.3 days",
+                                                 "note":  ""
+                                             }
+                                         ],
+                         "displayA":  75
+                     },
+        "elementalForm":  {
+                              "kind":  "network",
+                              "formula":  "As (grey, layered)",
+                              "bondOrder":  1,
+                              "bondLengthPm":  252,
+                              "description":  "In grey arsenic each atom shares one pair with each of three neighbors, making puckered layers, and keeps one lone pair. Weak links between layers give it a metallic shine.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Grey arsenic",
+                                                     "note":  "Layered, metallic-looking; the stable form."
+                                                 },
+                                                 {
+                                                     "name":  "Yellow arsenic",
+                                                     "note":  "Made of As4 tetrahedra like white phosphorus; unstable."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Rhombohedral (layered, A7 type)",
+                     "lattice":  "rhombohedral",
+                     "renderAs":  "simple-cubic",
+                     "latticeConstantPm":  413,
+                     "cPm":  null,
+                     "note":  "Sublimes at 887 K; melts only under pressure (1,090 K at 36 atm). Drawn as a simplified distorted cubic net."
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by neutron capture in massive stars.",
+        "crustAbundancePpm":  1.8,
+        "appearance":  "Brittle, steel-grey metalloid with a metallic shine.",
+        "summary":  "Arsenic is a metalloid notorious as a poison, yet it is also used in semiconductors and, as arsenic trioxide, to treat a form of leukemia.",
+        "uses":  [
+                     "Gallium arsenide semiconductors",
+                     "Hardening lead in batteries and ammunition",
+                     "Arsenic trioxide cancer drug",
+                     "Wood preservatives (now restricted)"
+                 ],
+        "facts":  [
+                      "Arsenic sublimes: solid turns straight to vapor at 615 °C."
+                  ],
+        "biology":  "Toxic to humans; some microbes use arsenic compounds.",
+        "hazards":  "Highly toxic and carcinogenic.",
+        "color":  "#BD80E3"
+    },
+    {
+        "z":  34,
+        "symbol":  "Se",
+        "name":  "Selenium",
+        "altName":  null,
+        "atomicMass":  "78.97",
+        "category":  "nonmetal",
+        "categoryPredicted":  false,
+        "group":  16,
+        "period":  4,
+        "block":  "p",
+        "electronConfiguration":  "[Ar] 3d10 4s2 4p4",
+        "configPredicted":  false,
+        "electronegativity":  2.55,
+        "ionizationEnergy":  9.752,
+        "electronAffinity":  2.021,
+        "covalentRadius":  120,
+        "vdwRadius":  190,
+        "meltingPoint":  493.65,
+        "boilingPoint":  958,
+        "density":  4.809,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -2,
+                                4,
+                                6
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1817",
+                          "by":  "Jöns Jacob Berzelius; Johan Gottlieb Gahn",
+                          "note":  "Found in residue from a sulfuric acid plant."
+                      },
+        "nameOrigin":  "Greek selene, the Moon (it resembles tellurium, named after Earth).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  74,
+                                            "abundance":  0.86
+                                        },
+                                        {
+                                            "A":  76,
+                                            "abundance":  9.23
+                                        },
+                                        {
+                                            "A":  77,
+                                            "abundance":  7.60
+                                        },
+                                        {
+                                            "A":  78,
+                                            "abundance":  23.69
+                                        },
+                                        {
+                                            "A":  80,
+                                            "abundance":  49.80
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  82,
+                                                 "halfLife":  "about 10^20 years",
+                                                 "note":  "8.82% of natural selenium."
+                                             },
+                                             {
+                                                 "A":  75,
+                                                 "halfLife":  "120 days",
+                                                 "note":  "Used in industrial radiography."
+                                             }
+                                         ],
+                         "displayA":  80
+                     },
+        "elementalForm":  {
+                              "kind":  "polyatomic",
+                              "formula":  "Se (helical chains)",
+                              "bondOrder":  1,
+                              "bondLengthPm":  237,
+                              "description":  "Grey selenium is made of endless spiral chains: each atom shares one pair with each of its two neighbors along the chain and keeps two lone pairs.",
+                              "allotropes":  [
+                                                 {
+                                                     "name":  "Grey (trigonal) selenium",
+                                                     "note":  "Helical chains; the stable form, a photoconductor."
+                                                 },
+                                                 {
+                                                     "name":  "Red selenium",
+                                                     "note":  "Se8 rings like sulfur."
+                                                 },
+                                                 {
+                                                     "name":  "Black amorphous selenium",
+                                                     "note":  "Glassy."
+                                                 }
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal (helical chains)",
+                     "lattice":  "hexagonal",
+                     "renderAs":  "chain",
+                     "latticeConstantPm":  436.6,
+                     "cPm":  495.4,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by neutron capture in massive stars.",
+        "crustAbundancePpm":  0.05,
+        "appearance":  "Grey metallic crystals, red powder or black glass, depending on form.",
+        "summary":  "Selenium conducts electricity far better in light than in the dark, which made it useful in early photocopiers and light meters. It is essential in tiny amounts but toxic in larger ones.",
+        "uses":  [
+                     "Decolorizing and coloring glass",
+                     "Photoconductors and X-ray detectors",
+                     "Selenium dietary supplements",
+                     "CIGS thin-film solar cells"
+                 ],
+        "facts":  [
+                      "Brazil nuts are among the richest food sources of selenium."
+                  ],
+        "biology":  "Essential: part of the amino acid selenocysteine in antioxidant enzymes.",
+        "hazards":  "Toxic in excess; hydrogen selenide gas is very poisonous.",
+        "color":  "#FFA100"
+    },
+    {
+        "z":  35,
+        "symbol":  "Br",
+        "name":  "Bromine",
+        "altName":  null,
+        "atomicMass":  "79.904",
+        "category":  "halogen",
+        "categoryPredicted":  false,
+        "group":  17,
+        "period":  4,
+        "block":  "p",
+        "electronConfiguration":  "[Ar] 3d10 4s2 4p5",
+        "configPredicted":  false,
+        "electronegativity":  2.96,
+        "ionizationEnergy":  11.814,
+        "electronAffinity":  3.365,
+        "covalentRadius":  120,
+        "vdwRadius":  185,
+        "meltingPoint":  265.8,
+        "boilingPoint":  332,
+        "density":  3.1028,
+        "state":  "liquid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                -1,
+                                5,
+                                1
+                            ],
+        "otherOxidationStates":  [
+                                     3,
+                                     7
+                                 ],
+        "discovery":  {
+                          "year":  "1826",
+                          "by":  "Antoine-Jérôme Balard",
+                          "note":  "Balard found it in salt-marsh brine; Carl Löwig isolated it independently in 1825."
+                      },
+        "nameOrigin":  "Greek bromos, stench.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  79,
+                                            "abundance":  50.69
+                                        },
+                                        {
+                                            "A":  81,
+                                            "abundance":  49.31
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  82,
+                                                 "halfLife":  "35.3 hours",
+                                                 "note":  "Used as an industrial tracer."
+                                             }
+                                         ],
+                         "displayA":  79
+                     },
+        "elementalForm":  {
+                              "kind":  "diatomic",
+                              "formula":  "Br2",
+                              "bondOrder":  1,
+                              "bondLengthPm":  228,
+                              "description":  "Two bromine atoms share one electron pair, and each keeps three lone pairs. Br2 molecules attract each other strongly enough to make bromine a liquid at room temperature.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Orthorhombic (solid below 266 K)",
+                     "lattice":  "molecular",
+                     "renderAs":  "molecular",
+                     "latticeConstantPm":  668,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made by neutron capture in massive stars.",
+        "crustAbundancePpm":  2.4,
+        "appearance":  "Dark red-brown liquid giving off orange vapor.",
+        "summary":  "Bromine is one of only two elements that are liquid at room temperature; the other is mercury. It is collected from salty brines and the Dead Sea.",
+        "uses":  [
+                     "Flame retardants",
+                     "Drilling fluids (calcium bromide brines)",
+                     "Water treatment",
+                     "Medicines and dyes"
+                 ],
+        "facts":  [
+                      "Tyrian purple, the ancient dye of emperors, is a bromine compound made by sea snails."
+                  ],
+        "biology":  "Possibly needed for collagen in animals; studies are ongoing.",
+        "hazards":  "Toxic, corrosive liquid; its vapor burns eyes and lungs.",
+        "color":  "#A62929"
+    },
+    {
+        "z":  36,
+        "symbol":  "Kr",
+        "name":  "Krypton",
+        "altName":  null,
+        "atomicMass":  "83.798",
+        "category":  "noble gas",
+        "categoryPredicted":  false,
+        "group":  18,
+        "period":  4,
+        "block":  "p",
+        "electronConfiguration":  "[Ar] 3d10 4s2 4p6",
+        "configPredicted":  false,
+        "electronegativity":  3,
+        "ionizationEnergy":  14,
+        "electronAffinity":  null,
+        "covalentRadius":  116,
+        "vdwRadius":  202,
+        "meltingPoint":  115.78,
+        "boilingPoint":  119.93,
+        "density":  0.003733,
+        "state":  "gas",
+        "statePredicted":  false,
+        "oxidationStates":  [
+
+                            ],
+        "otherOxidationStates":  [
+                                     2
+                                 ],
+        "discovery":  {
+                          "year":  "1898",
+                          "by":  "William Ramsay; Morris Travers",
+                          "note":  "Found in the residue left after liquid air boiled away."
+                      },
+        "nameOrigin":  "Greek kryptos, hidden.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  78,
+                                            "abundance":  0.355
+                                        },
+                                        {
+                                            "A":  80,
+                                            "abundance":  2.286
+                                        },
+                                        {
+                                            "A":  82,
+                                            "abundance":  11.593
+                                        },
+                                        {
+                                            "A":  83,
+                                            "abundance":  11.500
+                                        },
+                                        {
+                                            "A":  84,
+                                            "abundance":  56.987
+                                        },
+                                        {
+                                            "A":  86,
+                                            "abundance":  17.279
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  85,
+                                                 "halfLife":  "10.7 years",
+                                                 "note":  "Released by nuclear fuel reprocessing."
+                                             },
+                                             {
+                                                 "A":  81,
+                                                 "halfLife":  "229,000 years",
+                                                 "note":  "Used to date old groundwater and ice."
+                                             }
+                                         ],
+                         "displayA":  84
+                     },
+        "elementalForm":  {
+                              "kind":  "monatomic",
+                              "formula":  "Kr",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Krypton has a full octet and normally stays as single atoms. With fluorine, the most electron-hungry element, it forms krypton difluoride, KrF2.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic (solid below 116 K)",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  581,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by neutron capture in stars.",
+        "crustAbundancePpm":  0.0001,
+        "appearance":  "Colorless gas; glows white-violet in a discharge.",
+        "summary":  "Krypton is a rare noble gas. From 1960 to 1983 the meter was defined by the wavelength of light from krypton-86.",
+        "uses":  [
+                     "High-performance light bulbs and flash lamps",
+                     "Insulating gas in windows",
+                     "Excimer lasers (krypton fluoride)"
+                 ],
+        "facts":  [
+                      "Superman\u0027s Kryptonite is fictional; real krypton is a harmless gas."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Can displace oxygen; otherwise harmless.",
+        "color":  "#5CB8D1"
+    },
+    {
+        "z":  37,
+        "symbol":  "Rb",
+        "name":  "Rubidium",
+        "altName":  null,
+        "atomicMass":  "85.468",
+        "category":  "alkali metal",
+        "categoryPredicted":  false,
+        "group":  1,
+        "period":  5,
+        "block":  "s",
+        "electronConfiguration":  "[Kr] 5s1",
+        "configPredicted":  false,
+        "electronegativity":  0.82,
+        "ionizationEnergy":  4.177,
+        "electronAffinity":  0.468,
+        "covalentRadius":  220,
+        "vdwRadius":  303,
+        "meltingPoint":  312.46,
+        "boilingPoint":  961,
+        "density":  1.532,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                1
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1861",
+                          "by":  "Robert Bunsen; Gustav Kirchhoff",
+                          "note":  "Discovered with the new spectroscope from two deep red lines in mineral water and lepidolite."
+                      },
+        "nameOrigin":  "Latin rubidus, deep red, for its spectral lines.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  85,
+                                            "abundance":  72.17
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  87,
+                                                 "halfLife":  "48.8 billion years",
+                                                 "note":  "27.83% of natural rubidium; used in rubidium-strontium dating of rocks."
+                                             },
+                                             {
+                                                 "A":  82,
+                                                 "halfLife":  "75 seconds",
+                                                 "note":  "Used in PET heart scans."
+                                             }
+                                         ],
+                         "displayA":  85
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Rb",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Each rubidium atom gives its single 5s electron to a very weak metallic electron sea; the metal melts at 39 °C.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Body-centered cubic",
+                     "lattice":  "bcc",
+                     "renderAs":  "bcc",
+                     "latticeConstantPm":  558.5,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "exploding massive stars",
+                       "dying low-mass stars"
+                   ],
+        "originNote":  "Made by neutron capture in stars.",
+        "crustAbundancePpm":  90,
+        "appearance":  "Very soft, silvery-white metal that ignites in air.",
+        "summary":  "Rubidium is a very reactive alkali metal. Its atoms are the workhorses of atomic clocks and the first Bose-Einstein condensate.",
+        "uses":  [
+                     "Rubidium atomic clocks (in GPS and phone networks)",
+                     "Research on ultracold atoms",
+                     "Photocells and vacuum tubes"
+                 ],
+        "facts":  [
+                      "The first Bose-Einstein condensate, in 1995, was made from rubidium-87 atoms."
+                  ],
+        "biology":  "None known; the body treats it much like potassium.",
+        "hazards":  "Ignites in air and reacts explosively with water.",
+        "color":  "#702EB0"
+    },
+    {
+        "z":  38,
+        "symbol":  "Sr",
+        "name":  "Strontium",
+        "altName":  null,
+        "atomicMass":  "87.62",
+        "category":  "alkaline earth metal",
+        "categoryPredicted":  false,
+        "group":  2,
+        "period":  5,
+        "block":  "s",
+        "electronConfiguration":  "[Kr] 5s2",
+        "configPredicted":  false,
+        "electronegativity":  0.95,
+        "ionizationEnergy":  5.695,
+        "electronAffinity":  null,
+        "covalentRadius":  195,
+        "vdwRadius":  249,
+        "meltingPoint":  1050,
+        "boilingPoint":  1655,
+        "density":  2.64,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                2
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1790",
+                          "by":  "Adair Crawford; William Cruickshank",
+                          "note":  "Recognized in the mineral strontianite; isolated by Humphry Davy in 1808."
+                      },
+        "nameOrigin":  "Strontian, a village in Scotland where its ore was found.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  84,
+                                            "abundance":  0.56
+                                        },
+                                        {
+                                            "A":  86,
+                                            "abundance":  9.86
+                                        },
+                                        {
+                                            "A":  87,
+                                            "abundance":  7.00
+                                        },
+                                        {
+                                            "A":  88,
+                                            "abundance":  82.58
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  90,
+                                                 "halfLife":  "28.9 years",
+                                                 "note":  "A dangerous fission product that collects in bones."
+                                             },
+                                             {
+                                                 "A":  89,
+                                                 "halfLife":  "50.6 days",
+                                                 "note":  "Used to relieve bone-cancer pain."
+                                             }
+                                         ],
+                         "displayA":  88
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Sr",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Strontium atoms share two 5s electrons each in a metallic electron sea.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Face-centered cubic",
+                     "lattice":  "fcc",
+                     "renderAs":  "fcc",
+                     "latticeConstantPm":  608.5,
+                     "cPm":  null,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Mostly made by slow neutron capture in aging stars.",
+        "crustAbundancePpm":  370,
+        "appearance":  "Soft, silvery metal that yellows in air.",
+        "summary":  "Strontium is a reactive alkaline-earth metal best known for the brilliant red of fireworks. Strontium optical lattice clocks are among the most precise instruments ever built.",
+        "uses":  [
+                     "Red fireworks and flares",
+                     "Ferrite magnets",
+                     "Optical atomic clocks",
+                     "Strontium-89 for bone-cancer pain"
+                 ],
+        "facts":  [
+                      "Strontium clocks would lose less than a second in the age of the universe."
+                  ],
+        "biology":  "Not essential; it can replace calcium in bones.",
+        "hazards":  "Stable strontium is of low toxicity; radioactive Sr-90 is dangerous.",
+        "color":  "#00FF00"
+    },
+    {
+        "z":  39,
+        "symbol":  "Y",
+        "name":  "Yttrium",
+        "altName":  null,
+        "atomicMass":  "88.90584",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  3,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d1 5s2",
+        "configPredicted":  false,
+        "electronegativity":  1.22,
+        "ionizationEnergy":  6.217,
+        "electronAffinity":  0.307,
+        "covalentRadius":  190,
+        "vdwRadius":  219,
+        "meltingPoint":  1795,
+        "boilingPoint":  3618,
+        "density":  4.47,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                3
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1794",
+                          "by":  "Johan Gadolin",
+                          "note":  "Found in a black mineral from the Ytterby quarry in Sweden."
+                      },
+        "nameOrigin":  "Ytterby, Sweden (which also gave names to ytterbium, terbium and erbium).",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  89,
+                                            "abundance":  100
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  90,
+                                                 "halfLife":  "64 hours",
+                                                 "note":  "Used in cancer radiotherapy."
+                                             }
+                                         ],
+                         "displayA":  89
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Y",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Yttrium contributes three valence electrons (5s2 4d1) to metallic bonding, like the lanthanides it resembles.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  364.7,
+                     "cPm":  573.1,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made mostly by slow neutron capture in aging stars.",
+        "crustAbundancePpm":  33,
+        "appearance":  "Silvery metal, fairly stable in air.",
+        "summary":  "Yttrium behaves much like the rare-earth elements. It is the Y in YBCO, a famous high-temperature superconductor, and in YAG lasers.",
+        "uses":  [
+                     "Phosphors for LEDs and screens",
+                     "YAG lasers",
+                     "Yttria-stabilized zirconia",
+                     "YBCO superconductors"
+                 ],
+        "facts":  [
+                      "Moon rocks brought back by Apollo were unusually rich in yttrium."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; dust is flammable.",
+        "color":  "#94FFFF"
+    },
+    {
+        "z":  40,
+        "symbol":  "Zr",
+        "name":  "Zirconium",
+        "altName":  null,
+        "atomicMass":  "91.224",
+        "category":  "transition metal",
+        "categoryPredicted":  false,
+        "group":  4,
+        "period":  5,
+        "block":  "d",
+        "electronConfiguration":  "[Kr] 4d2 5s2",
+        "configPredicted":  false,
+        "electronegativity":  1.33,
+        "ionizationEnergy":  6.634,
+        "electronAffinity":  0.426,
+        "covalentRadius":  175,
+        "vdwRadius":  186,
+        "meltingPoint":  2128,
+        "boilingPoint":  4682,
+        "density":  6.52,
+        "state":  "solid",
+        "statePredicted":  false,
+        "oxidationStates":  [
+                                4
+                            ],
+        "otherOxidationStates":  [
+
+                                 ],
+        "discovery":  {
+                          "year":  "1789",
+                          "by":  "Martin Heinrich Klaproth",
+                          "note":  "Found as an oxide in zircon; impure metal was isolated by Berzelius in 1824."
+                      },
+        "nameOrigin":  "From zircon, Persian zargun, gold-colored.",
+        "isotopes":  {
+                         "stable":  [
+                                        {
+                                            "A":  90,
+                                            "abundance":  51.45
+                                        },
+                                        {
+                                            "A":  91,
+                                            "abundance":  11.22
+                                        },
+                                        {
+                                            "A":  92,
+                                            "abundance":  17.15
+                                        },
+                                        {
+                                            "A":  94,
+                                            "abundance":  17.38
+                                        }
+                                    ],
+                         "radioactive":  [
+                                             {
+                                                 "A":  96,
+                                                 "halfLife":  "2.0×10^19 years",
+                                                 "note":  "2.80% of natural zirconium."
+                                             },
+                                             {
+                                                 "A":  93,
+                                                 "halfLife":  "1.6 million years",
+                                                 "note":  "A fission product."
+                                             }
+                                         ],
+                         "displayA":  90
+                     },
+        "elementalForm":  {
+                              "kind":  "metallic",
+                              "formula":  "Zr",
+                              "bondOrder":  null,
+                              "bondLengthPm":  null,
+                              "description":  "Zirconium contributes four valence electrons (5s2 4d2) to strong metallic bonding.",
+                              "allotropes":  [
+
+                                             ]
+                          },
+        "bulk":  {
+                     "structure":  "Hexagonal close-packed",
+                     "lattice":  "hcp",
+                     "renderAs":  "hcp",
+                     "latticeConstantPm":  323.2,
+                     "cPm":  514.7,
+                     "note":  ""
+                 },
+        "origin":  [
+                       "dying low-mass stars",
+                       "exploding massive stars"
+                   ],
+        "originNote":  "Made mostly by slow neutron capture in aging stars.",
+        "crustAbundancePpm":  165,
+        "appearance":  "Lustrous, grey-white metal.",
+        "summary":  "Zirconium barely absorbs neutrons and resists corrosion, so it clads the fuel rods in nuclear reactors. Zircon crystals are the oldest known pieces of Earth.",
+        "uses":  [
+                     "Nuclear fuel-rod cladding",
+                     "Cubic zirconia gemstones",
+                     "Ceramics and dental crowns",
+                     "Corrosion-resistant chemical equipment"
+                 ],
+        "facts":  [
+                      "Zircon crystals from Western Australia are about 4.4 billion years old."
+                  ],
+        "biology":  "None known.",
+        "hazards":  "Low toxicity; fine powder can ignite.",
+        "color":  "#94E0E0"
+    }
+]

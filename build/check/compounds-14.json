@@ -1,0 +1,589 @@
+[
+    {
+        "id":  "germane",
+        "name":  "Germane",
+        "formula":  "GeH4",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "Ge",
+                         "H"
+                     ],
+        "pubchemCid":  23984,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Ge",
+                          "shape":  "tetrahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "H",
+                                              "r":  1.525
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.525
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.525
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.525
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Germanium tetrahedrally bonded to four hydrogens.",
+                        "electronSharing":  "Germanium shares one pair with each H; the polarity is small (Δχ 0.19).",
+                        "geometry":  "Tetrahedral",
+                        "bondLengths":  "Ge–H 152.5 pm"
+                    },
+        "formation":  "GeO2 + NaBH4 -\u003e GeH4 (in acid)",
+        "state":  "gas",
+        "meltingPointC":  -165,
+        "boilingPointC":  -88,
+        "occurrence":  "Detected in Jupiter\u0027s atmosphere.",
+        "uses":  [
+                     "Depositing germanium and silicon-germanium films"
+                 ],
+        "facts":  [
+                      "Germane was detected in the atmospheres of Jupiter and Saturn."
+                  ],
+        "hazards":  "Toxic, flammable.",
+        "summary":  "Germane is germanium\u0027s methane, used to grow semiconductor films."
+    },
+    {
+        "id":  "arsine",
+        "name":  "Arsine",
+        "formula":  "AsH3",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "As",
+                         "H"
+                     ],
+        "pubchemCid":  23969,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "As",
+                          "shape":  "trigonal-pyramidal",
+                          "angle":  92.1,
+                          "ligands":  [
+                                          {
+                                              "el":  "H",
+                                              "r":  1.511
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.511
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.511
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A pyramid like ammonia, but much flatter at the top.",
+                        "electronSharing":  "Arsenic shares one pair with each H and keeps a lone pair in an s-rich orbital, so the H–As–H angle is only 92°.",
+                        "geometry":  "Trigonal pyramidal, 92.1°",
+                        "bondLengths":  "As–H 151.1 pm"
+                    },
+        "formation":  "Zn3As2 + 6 HCl -\u003e 2 AsH3 + 3 ZnCl2",
+        "state":  "gas",
+        "meltingPointC":  -111.2,
+        "boilingPointC":  -62.5,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Growing GaAs crystals",
+                     "Doping semiconductors"
+                 ],
+        "facts":  [
+                      "The Marsh test for arsenic poisoning (1836) turned arsenic into arsine and caught it as a mirror on glass."
+                  ],
+        "hazards":  "Extremely toxic.",
+        "summary":  "Arsine is a deadly gas vital to the semiconductor industry."
+    },
+    {
+        "id":  "hydrogen-selenide",
+        "name":  "Hydrogen selenide",
+        "formula":  "H2Se",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "H",
+                         "Se"
+                     ],
+        "pubchemCid":  533,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Se",
+                          "shape":  "bent",
+                          "angle":  90.6,
+                          "ligands":  [
+                                          {
+                                              "el":  "H",
+                                              "r":  1.460
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.460
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A bent molecule like H2S with an even smaller angle.",
+                        "electronSharing":  "Selenium shares one pair with each H and keeps two lone pairs; Δχ is 0.35.",
+                        "geometry":  "Bent, 90.6°",
+                        "bondLengths":  "Se–H 146.0 pm"
+                    },
+        "formation":  "Al2Se3 + 6 H2O -\u003e 2 Al(OH)3 + 3 H2Se",
+        "state":  "gas",
+        "meltingPointC":  -65.7,
+        "boilingPointC":  -41.3,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Making selenium semiconductors and solar cells"
+                 ],
+        "facts":  [
+                      "It is more acidic than H2S because the H–Se bond is weaker."
+                  ],
+        "hazards":  "Highly toxic.",
+        "summary":  "H2Se is the selenium cousin of water and hydrogen sulfide."
+    },
+    {
+        "id":  "phosphine",
+        "name":  "Phosphine",
+        "formula":  "PH3",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "P",
+                         "H"
+                     ],
+        "pubchemCid":  24404,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "P",
+                          "shape":  "trigonal-pyramidal",
+                          "angle":  93.5,
+                          "ligands":  [
+                                          {
+                                              "el":  "H",
+                                              "r":  1.42
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.42
+                                          },
+                                          {
+                                              "el":  "H",
+                                              "r":  1.42
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "nonpolar covalent"
+                                  ],
+                        "summary":  "A pyramid with a lone pair on phosphorus.",
+                        "electronSharing":  "Phosphorus and hydrogen have almost the same electronegativity (2.19 vs 2.20), so the pairs are shared evenly.",
+                        "geometry":  "Trigonal pyramidal, 93.5°",
+                        "bondLengths":  "P–H 142 pm"
+                    },
+        "formation":  "Ca3P2 + 6 H2O -\u003e 2 PH3 + 3 Ca(OH)2",
+        "state":  "gas",
+        "meltingPointC":  -132.8,
+        "boilingPointC":  -87.7,
+        "occurrence":  "Found in Jupiter and Saturn; traces from anaerobic decay.",
+        "uses":  [
+                     "Grain fumigant",
+                     "Doping semiconductors"
+                 ],
+        "facts":  [
+                      "A 2020 claim of phosphine in Venus\u0027s clouds sparked debate about possible life there."
+                  ],
+        "hazards":  "Extremely toxic.",
+        "summary":  "Phosphine is a toxic gas and a debated biosignature on Venus."
+    },
+    {
+        "id":  "phosphorus-trichloride",
+        "name":  "Phosphorus trichloride",
+        "formula":  "PCl3",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "P",
+                         "Cl"
+                     ],
+        "pubchemCid":  24387,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "P",
+                          "shape":  "trigonal-pyramidal",
+                          "angle":  100.3,
+                          "ligands":  [
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.043
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.043
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.043
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Phosphorus bonded to three chlorines with a lone pair on top.",
+                        "electronSharing":  "Phosphorus shares one pair with each chlorine (Δχ 0.97) and keeps one lone pair.",
+                        "geometry":  "Trigonal pyramidal, 100.3°",
+                        "bondLengths":  "P–Cl 204.3 pm"
+                    },
+        "formation":  "P4 + 6 Cl2 -\u003e 4 PCl3",
+        "state":  "liquid",
+        "meltingPointC":  -93.6,
+        "boilingPointC":  76.1,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Making herbicides (glyphosate), insecticides and flame retardants",
+                     "Making PCl5 and POCl3"
+                 ],
+        "facts":  [
+                      "It is one of the most important phosphorus intermediates, made in over a million tonnes a year."
+                  ],
+        "hazards":  "Toxic, reacts violently with water.",
+        "summary":  "PCl3 is the gateway to most organophosphorus chemicals."
+    },
+    {
+        "id":  "phosphorus-pentachloride",
+        "name":  "Phosphorus pentachloride",
+        "formula":  "PCl5",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "P",
+                         "Cl"
+                     ],
+        "pubchemCid":  24819,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "P",
+                          "shape":  "trigonal-bipyramidal",
+                          "ligands":  [
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.14
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.14
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.02
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.02
+                                          },
+                                          {
+                                              "el":  "Cl",
+                                              "r":  2.02
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Five P–Cl bonds: three around the middle and two longer ones at the poles.",
+                        "electronSharing":  "Phosphorus uses all five valence electrons to bond to five chlorines, going beyond an octet; the axial bonds are longer and weaker.",
+                        "geometry":  "Trigonal bipyramidal (gas)",
+                        "bondLengths":  "P–Cl axial 214 pm, equatorial 202 pm"
+                    },
+        "formation":  "PCl3 + Cl2 -\u003e PCl5",
+        "state":  "solid",
+        "meltingPointC":  160.5,
+        "boilingPointC":  166.8,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Chlorinating agent in organic synthesis",
+                     "Making lithium hexafluorophosphate for batteries"
+                 ],
+        "facts":  [
+                      "In the solid it rearranges into ions: [PCl4]+ [PCl6]−."
+                  ],
+        "hazards":  "Corrosive, reacts violently with water.",
+        "summary":  "PCl5 is the classic trigonal bipyramidal molecule."
+    },
+    {
+        "id":  "phosphorus-pentoxide",
+        "name":  "Phosphorus pentoxide",
+        "formula":  "P4O10",
+        "aka":  [
+                    "phosphoric anhydride"
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "P",
+                         "O"
+                     ],
+        "pubchemCid":  6326975,
+        "structure":  {
+                          "mode":  "cage",
+                          "x":  "P",
+                          "y":  "O",
+                          "ab":  1.60,
+                          "ang":  124,
+                          "terminal":  {
+                                           "el":  "O",
+                                           "r":  1.43,
+                                           "o":  2
+                                       }
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A P4O6 cage with one extra oxygen sticking out from each phosphorus.",
+                        "electronSharing":  "Each phosphorus shares pairs with three bridging oxygens and makes a short P=O bond to a terminal oxygen.",
+                        "geometry":  "Adamantane-like cage with four P=O",
+                        "bondLengths":  "P–O(bridge) 160 pm, P=O 143 pm"
+                    },
+        "formation":  "P4 + 5 O2 -\u003e P4O10",
+        "state":  "solid",
+        "meltingPointC":  340,
+        "boilingPointC":  360,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Powerful drying agent",
+                     "Making phosphoric acid"
+                 ],
+        "facts":  [
+                      "It grabs water so strongly it can pull H2O out of sulfuric and nitric acids."
+                  ],
+        "hazards":  "Corrosive; reacts violently with water.",
+        "summary":  "P4O10 is a cage molecule and one of the strongest drying agents known."
+    },
+    {
+        "id":  "sulfur-hexafluoride",
+        "name":  "Sulfur hexafluoride",
+        "formula":  "SF6",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "S",
+                         "F"
+                     ],
+        "pubchemCid":  17358,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "S",
+                          "shape":  "octahedral",
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.564
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.564
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.564
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.564
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.564
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.564
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Six fluorines around sulfur at the corners of an octahedron.",
+                        "electronSharing":  "Sulfur\u0027s six valence electrons each pair with a fluorine electron; the fluorines pull strongly, but the symmetric shape makes SF6 nonpolar and extremely inert.",
+                        "geometry":  "Octahedral, 90°",
+                        "bondLengths":  "S–F 156.4 pm"
+                    },
+        "formation":  "S8 + 24 F2 -\u003e 8 SF6",
+        "state":  "gas",
+        "meltingPointC":  -50.8,
+        "boilingPointC":  -63.8,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Electrical insulation in high-voltage switchgear",
+                     "Tracer gas",
+                     "Magnesium casting"
+                 ],
+        "facts":  [
+                      "It is about 23,500 times stronger than CO2 as a greenhouse gas over 100 years.",
+                      "Breathing it makes your voice sound very deep."
+                  ],
+        "hazards":  "Non-toxic but a potent greenhouse gas.",
+        "summary":  "SF6 is an extremely stable insulating gas and a powerful greenhouse gas."
+    },
+    {
+        "id":  "chlorine-trifluoride",
+        "name":  "Chlorine trifluoride",
+        "formula":  "ClF3",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "Cl",
+                         "F"
+                     ],
+        "pubchemCid":  24637,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Cl",
+                          "shape":  "T-shaped",
+                          "angle":  175,
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.698
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.698
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.598
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "A T-shaped molecule: three fluorines and two lone pairs around chlorine.",
+                        "electronSharing":  "Chlorine shares three of its seven electrons with fluorines and keeps two lone pairs, which take the equatorial positions and bend the long axial bonds slightly.",
+                        "geometry":  "T-shaped, F–Cl–F 87.5°",
+                        "bondLengths":  "Cl–F axial 169.8 pm, equatorial 159.8 pm"
+                    },
+        "formation":  "Cl2 + 3 F2 -\u003e 2 ClF3",
+        "state":  "gas",
+        "meltingPointC":  -76.3,
+        "boilingPointC":  11.8,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Cleaning semiconductor equipment",
+                     "Nuclear fuel processing"
+                 ],
+        "facts":  [
+                      "It sets fire to sand, asbestos and glass, and it famously burned through a concrete floor in a 1950s spill."
+                  ],
+        "hazards":  "Extremely reactive and toxic.",
+        "summary":  "ClF3 is one of the most aggressive fluorinating agents known."
+    },
+    {
+        "id":  "bromine-pentafluoride",
+        "name":  "Bromine pentafluoride",
+        "formula":  "BrF5",
+        "aka":  [
+
+                ],
+        "category":  "Molecular inorganic",
+        "elements":  [
+                         "Br",
+                         "F"
+                     ],
+        "pubchemCid":  24606,
+        "structure":  {
+                          "mode":  "vsepr",
+                          "center":  "Br",
+                          "shape":  "square-pyramidal",
+                          "angle":  84.8,
+                          "ligands":  [
+                                          {
+                                              "el":  "F",
+                                              "r":  1.689
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.774
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.774
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.774
+                                          },
+                                          {
+                                              "el":  "F",
+                                              "r":  1.774
+                                          }
+                                      ]
+                      },
+        "bonding":  {
+                        "types":  [
+                                      "polar covalent"
+                                  ],
+                        "summary":  "Five fluorines form a square pyramid; a lone pair sits under the base.",
+                        "electronSharing":  "Bromine shares five electrons with fluorines and keeps one lone pair, which pushes the four base fluorines slightly up.",
+                        "geometry":  "Square pyramidal",
+                        "bondLengths":  "Br–F apical 168.9 pm, basal 177.4 pm"
+                    },
+        "formation":  "Br2 + 5 F2 -\u003e 2 BrF5",
+        "state":  "liquid",
+        "meltingPointC":  -61.3,
+        "boilingPointC":  40.25,
+        "occurrence":  "Synthetic.",
+        "uses":  [
+                     "Fluorinating agent",
+                     "Oxygen isotope analysis of rocks"
+                 ],
+        "facts":  [
+                      "Geologists use BrF5 to release oxygen from minerals to measure isotopes."
+                  ],
+        "hazards":  "Extremely reactive and toxic.",
+        "summary":  "BrF5 shows the square-pyramidal shape predicted by VSEPR."
+    }
+]

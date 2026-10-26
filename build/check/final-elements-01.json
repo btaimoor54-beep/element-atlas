@@ -1,0 +1,39 @@
+[
+    {
+        "kind":  "element",
+        "id":  "F",
+        "field":  "electronAffinity",
+        "corrected":  "3.401",
+        "note":  "precise value 3.4011898 eV; both referees agree on the value"
+    },
+    {
+        "kind":  "element",
+        "id":  "F",
+        "field":  "bulk.structure",
+        "corrected":  "\"Monoclinic (solid alpha-F2 below 45 K)\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Li",
+        "field":  "discovery.note",
+        "corrected":  "\"Found in the mineral petalite; William Brande first isolated the metal by electrolysis of lithium oxide in 1821, and Bunsen and Matthiessen made larger amounts in 1855.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "O",
+        "field":  "discovery.note",
+        "corrected":  "\"Scheele made it around 1771–72 but published only in 1777; Priestley made it in 1774 and published in 1775.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "Ne",
+        "field":  "facts[0]",
+        "corrected":  "\"Pure neon glows red-orange; most other sign colors come from other gases, mercury vapor, colored glass or coatings.\""
+    },
+    {
+        "kind":  "element",
+        "id":  "He",
+        "field":  "elementalForm.description",
+        "corrected":  "\"Helium\u0027s two electrons completely fill its only shell, so its atoms have no reason to share or exchange electrons. It forms no stable compounds under ordinary conditions and exists as single atoms.\""
+    }
+]

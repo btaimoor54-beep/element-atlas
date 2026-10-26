@@ -1,0 +1,167 @@
+[
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "thoria",
+        "field":  "summary",
+        "current":  "\"Thoria is the highest-melting oxide known and glows brightly in lantern mantles.\"",
+        "corrected":  "\"Thoria is the highest-melting oxide known; mixed with 1% ceria it glows brightly in lantern mantles.\"",
+        "reason":  "Pure thoria emits poorly in the visible. The bright mantle glow comes from the small cerium oxide addition, so the current sentence is misleading.",
+        "source":  "Welsbach mantle chemistry (99% ThO2 + 1% CeO2); Ivey 1974 and standard texts"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 06",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-06.json",
+        "id":  "ceria",
+        "field":  "pubchemCid",
+        "current":  "9905479",
+        "corrected":  "73963",
+        "reason":  "CID 9905479 is cerium(III) oxide (Ce2O3), not cerium(IV) oxide CeO2.",
+        "source":  "PubChem PUG REST: CID 9905479 = Ce2O3 \u0027Cerium oxide\u0027; CID 73963 = CeO2 \u0027Ceria\u0027"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-07.json",
+        "id":  "strontium-titanate",
+        "field":  "facts[0]",
+        "current":  "SrTiO3 becomes a superconductor below about 0.3 K.",
+        "corrected":  "\"Lightly electron-doped SrTiO3 becomes a superconductor below about 0.3 K.\"",
+        "reason":  "Pure, stoichiometric SrTiO3 is an insulator. It superconducts (Tc about 0.1–0.4 K) only when electron-doped, for example by oxygen vacancies or Nb or La substitution.",
+        "source":  "Schooley et al., Phys. Rev. Lett. 12, 474 (1964); Collignon et al., Annu. Rev. Condens. Matter Phys. 10, 25 (2019)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 07",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-07.json",
+        "id":  "cassiterite",
+        "field":  "facts[0]",
+        "current":  "Bronze Age traders shipped tin ore across Europe from Cornwall.",
+        "corrected":  "\"Bronze Age traders carried Cornish tin across Europe, often as smelted ingots.\"",
+        "reason":  "The evidence for long-distance tin trade is mostly smelted tin ingots, not raw ore, and a Cornish origin for much of it is still debated. Saying ore was shipped overstates the evidence.",
+        "source":  "Archaeometallurgical studies of Bronze Age tin ingots (e.g. Salcombe, Uluburun; Berger et al., PLoS ONE 2019)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-08.json",
+        "id":  "epsom-salt",
+        "field":  "facts[0]",
+        "current":  "Magnesium sulfate is one of the main salts in seawater after sodium chloride.",
+        "corrected":  "\"Magnesium sulfate is one of the main salts in seawater, after sodium chloride and magnesium chloride.\"",
+        "reason":  "As written, the sentence implies MgSO4 is the second most abundant salt. Magnesium chloride actually comes second and MgSO4 third, so the ranking is misleading.",
+        "source":  "Standard sea-salt composition (e.g. CRC Handbook / oceanography texts): NaCl ~78%, MgCl2 ~11%, MgSO4 ~5%, CaSO4 ~4% by mass"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 08",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-08.json",
+        "id":  "potassium-dichromate",
+        "field":  "structure.units[1].bonds[2]",
+        "current":  "[1, 3, 1.5]",
+        "corrected":  "[1, 3, 1.67]",
+        "reason":  "Terminal Cr–O bond order in dichromate averages 5/3 (about 1.67), not 1.5. The same correction applies to the other five terminal bonds, bonds[3] through bonds[7], each [x, y, 1.5] -\u003e [x, y, 1.67]. The coordinates themselves check out: Cr–O(bridge) is 1.79 Å, Cr–O(terminal) is 1.63 Å, Cr–O–Cr is 126° and the angles are tetrahedral.",
+        "source":  "Formal bond-order count for Cr2O7 2- (Cr(VI): 1 bridging single bond + 5 bonding pairs shared over 3 terminal O = 5/3); file convention elsewhere uses exact averages (NO3- 1.33, CO3 2- 1.33, MnO4- 1.75)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-09.json",
+        "id":  "radium-chloride",
+        "field":  "formation",
+        "current":  "RaSO4 -\u003e ... -\u003e RaCl2 (Curie\u0027s refining of pitchblende)",
+        "corrected":  "\"RaCO3 + 2 HCl -\u003e RaCl2 + CO2 + H2O (Curie turned radium-bearing sulfates into carbonates, dissolved them in HCl, then purified the chloride by fractional crystallization)\"",
+        "reason":  "The current value has no actual reaction (an ellipsis) and cannot be checked for balance. The convention requires a real, balanced equation.",
+        "source":  "Curie\u0027s thesis (1903); Wikipedia \u0027Radium chloride\u0027"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-09.json",
+        "id":  "promethium-chloride",
+        "field":  "bonding.electronSharing",
+        "current":  "Promethium gives three electrons, like all lanthanides.",
+        "corrected":  "\"Promethium gives three electrons, like most lanthanides.\"",
+        "reason":  "Not every lanthanide behaves this way: Eu and Yb commonly form +2 ions and Ce forms +4, so \u0027all\u0027 is misleading.",
+        "source":  "Greenwood \u0026 Earnshaw, Chemistry of the Elements (lanthanide oxidation states)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-09.json",
+        "id":  "promethium-chloride",
+        "field":  "summary",
+        "current":  "Promethium chloride is a rare glowing salt of the only radioactive lanthanide.",
+        "corrected":  "\"Promethium chloride is a rare glowing salt of the only lanthanide with no stable isotopes.\"",
+        "reason":  "Other lanthanides also have radioactive isotopes, including naturally occurring ones such as Sm-147 and Lu-176. What sets Pm apart is that it has no stable isotope.",
+        "source":  "IUPAC/NUBASE isotope data; Wikipedia \u0027Promethium\u0027"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-09.json",
+        "id":  "cobalt-chloride",
+        "field":  "facts[0]",
+        "current":  "Dry blue CoCl2 turns pink as it absorbs water and becomes [Co(H2O)6]2+.",
+        "corrected":  "\"Dry blue CoCl2 turns pink as it absorbs water, forming the hydrate CoCl2·6H2O.\"",
+        "reason":  "The pink solid hexahydrate contains trans-[CoCl2(H2O)4] units plus two lattice waters, not [Co(H2O)6]2+. The hexaaqua ion forms only in solution.",
+        "source":  "Wikipedia \u0027Cobalt(II) chloride\u0027; Greenwood \u0026 Earnshaw"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-09.json",
+        "id":  "magnetite",
+        "field":  "facts[1]",
+        "current":  "Some bacteria and birds use magnetite crystals to sense Earth\u0027s magnetic field.",
+        "corrected":  "\"Some bacteria use magnetite crystals to sense Earth\u0027s magnetic field, and some animals may too.\"",
+        "reason":  "Magnetotactic bacteria are well established. Magnetite-based magnetoreception in birds is unproven: the iron-rich cells found in pigeon beaks turned out to be macrophages.",
+        "source":  "Treiber et al., Nature 484, 367 (2012); Wikipedia \u0027Magnetoreception\u0027"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-09.json",
+        "id":  "sodium-pertechnetate",
+        "field":  "formation",
+        "current":  "99Mo -\u003e 99mTc (molybdenum-99 decays in a generator; eluted with saline as NaTcO4)",
+        "corrected":  "\"99MoO4 2- -\u003e 99mTcO4- + e- (beta decay of molybdate in a generator; eluted with saline as NaTcO4)\"",
+        "reason":  "As written, the equation is not balanced: it leaves out the beta electron and the charge change. Writing it as molybdate decaying to pertechnetate balances both the mass number and the charge.",
+        "source":  "Wikipedia \u0027Technetium-99m generator\u0027"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 09",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-09.json",
+        "id":  "cobalt-chloride",
+        "field":  "pubchemCid",
+        "current":  "null",
+        "corrected":  "3032536",
+        "reason":  "Anhydrous CoCl2 has a PubChem record (CID 3032536), so the field should not be null.",
+        "source":  "PubChem PUG REST: CID 3032536 = \u0027Cobalt chloride (CoCl2)\u0027, formula Cl2Co"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-10.json",
+        "id":  "silica",
+        "field":  "occurrence",
+        "current":  "The most abundant mineral family in Earth\u0027s crust: quartz, sand, flint, opal.",
+        "corrected":  "\"One of the most common minerals in Earth\u0027s crust: quartz, sand, flint, opal.\"",
+        "reason":  "Feldspars, not the silica minerals, are the most abundant mineral family in the crust. Quartz comes second.",
+        "source":  "USGS / standard mineralogy texts (feldspars make up roughly half the crust; quartz is about 12%)"
+    },
+    {
+        "kind":  "compound",
+        "batch":  "compounds 10",
+        "batchFile":  "C:\\Users\\taimo\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\9469f267-d56b-4adc-b14e-ee8e2b2b88f1\\cf759671-66fb-442c-921d-e722e57fb717\\scratch-2026-10-24-7e3bbd\\build\\check\\compounds-10.json",
+        "id":  "tungsten-carbide",
+        "field":  "occurrence",
+        "current":  "Synthetic.",
+        "corrected":  "\"Almost all synthetic; it also occurs as the very rare natural mineral qusongite.\"",
+        "reason":  "WC does occur in nature as the mineral qusongite. Calling it simply \u0027Synthetic\u0027 is incomplete and clashes with its \u0027Minerals \u0026 ores\u0027 category.",
+        "source":  "IMA mineral list (qusongite, WC, approved 2007)"
+    }
+]

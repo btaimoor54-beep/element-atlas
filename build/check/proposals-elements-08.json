@@ -1,0 +1,47 @@
+[
+    {
+        "id":  "Ta",
+        "field":  "ionizationEnergy",
+        "current":  "7.89",
+        "corrected":  "7.5496",
+        "confidence":  "high",
+        "source":  "NIST Atomic Spectra Database / CRC Handbook (Ta I ionization energy 7.549571 eV); Wikipedia \u0027Ionization energies of the elements (data page)\u0027, CRC row",
+        "reason":  "7.89 eV is the outdated 761 kJ/mol estimate. The measured first ionization energy of tantalum is 7.5496 eV, so the current value is about 4.5% too high."
+    },
+    {
+        "id":  "Os",
+        "field":  "ionizationEnergy",
+        "current":  "8.7",
+        "corrected":  "8.4382",
+        "confidence":  "medium",
+        "source":  "NIST Atomic Spectra Database / CRC Handbook (Os I ionization energy 8.43823 eV); Wikipedia \u0027Ionization energies of the elements (data page)\u0027, CRC row",
+        "reason":  "8.7 eV is the old 840 kJ/mol estimate. The measured value is 8.4382 eV, so the current value is about 3% too high. Some infoboxes still show 840 kJ/mol, so confidence is medium."
+    },
+    {
+        "id":  "Re",
+        "field":  "electronAffinity",
+        "current":  "0.15",
+        "corrected":  "0.0604",
+        "confidence":  "medium",
+        "source":  "Chen \u0026 Ning, laser photodetachment measurement of Re- (J. Chem. Phys., 2016/2017): 0.060396(64) eV; listed in Wikipedia \u0027Electron affinity (data page)\u0027",
+        "reason":  "0.15 eV is an old semi-empirical estimate. The measured electron affinity of rhenium is about 0.060 eV, less than half the stored value."
+    },
+    {
+        "id":  "Lu",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.239",
+        "confidence":  "medium",
+        "source":  "Fu et al. 2019, photodetachment of Lu-: 0.2388(7) eV; listed in Wikipedia \u0027Electron affinity (data page)\u0027",
+        "reason":  "Lutetium has a measured, positive electron affinity of about 0.239 eV, so null leaves out a value that has been measured. Medium confidence because the measurement is recent and many periodic tables still leave this blank."
+    },
+    {
+        "id":  "Hf",
+        "field":  "electronAffinity",
+        "current":  "null",
+        "corrected":  "0.178",
+        "confidence":  "medium",
+        "source":  "Tang et al. 2018, photodetachment of Hf-: 0.1780(7) eV; listed in Wikipedia \u0027Electron affinity (data page)\u0027",
+        "reason":  "Hafnium has a measured, positive electron affinity of about 0.178 eV, so null leaves out a value that has been measured. Medium confidence because older compilations list it as about 0 or unknown."
+    }
+]
